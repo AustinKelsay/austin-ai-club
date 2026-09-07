@@ -1,6 +1,21 @@
 # Sovereign AI Club Rebrand Slices
 
-Tracer-bullet tickets for the [PRD](./prd.md). Blockers first; the frontier is any slice whose blockers are done.
+Tracer-bullet tickets for the [PRD](./prd.md), published as sub-issues of spec [#43](https://github.com/AustinKelsay/austin-ai-club/issues/43). Blockers first; the frontier is any slice whose blockers are done.
+
+| Slice | Issue |
+| --- | --- |
+| 1 Theme Tokens Prefactor | [#44](https://github.com/AustinKelsay/austin-ai-club/issues/44) |
+| 2 Sovereign Identity in the App | [#45](https://github.com/AustinKelsay/austin-ai-club/issues/45) |
+| 3 Sage Light Theme and Archive Shell | [#50](https://github.com/AustinKelsay/austin-ai-club/issues/50) |
+| 4 Presentation Mode Light Pass | [#51](https://github.com/AustinKelsay/austin-ai-club/issues/51) |
+| 5 Calendar, Submission, and Reminder Light Pass | [#52](https://github.com/AustinKelsay/austin-ai-club/issues/52) |
+| 6 Wiki Explorer and Graph Light Pass | [#53](https://github.com/AustinKelsay/austin-ai-club/issues/53) |
+| 7 Next Meetup Event Metadata and Template | [#46](https://github.com/AustinKelsay/austin-ai-club/issues/46) |
+| 8 Meetup Data, Docs, and Test Fixture Rename | [#47](https://github.com/AustinKelsay/austin-ai-club/issues/47) |
+| 9 LLM Wiki Rename Sweep and Retired-Name Lint | [#48](https://github.com/AustinKelsay/austin-ai-club/issues/48) |
+| 10 Poster Hero Imagery | [#54](https://github.com/AustinKelsay/austin-ai-club/issues/54) |
+| 11 Curation Skill Rename and Polish | [#49](https://github.com/AustinKelsay/austin-ai-club/issues/49) |
+| 12 Designer Source Assets | [#55](https://github.com/AustinKelsay/austin-ai-club/issues/55) |
 
 ## Slice 1: Theme Tokens Prefactor
 

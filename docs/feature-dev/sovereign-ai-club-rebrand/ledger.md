@@ -9,7 +9,7 @@
 - Feature branch: feature/sovereign-ai-club-rebrand
 - Human owner: AustinKelsay
 - Started: 2026-09-07
-- Current status: Alignment complete; spec and tickets drafted, awaiting seam and breakdown confirmation before publication
+- Current status: Spec and tickets published; ready for implementation sessions on the unblocked frontier
 - Skill setup status: Existing `AGENTS.md`, issue tracker docs, triage label docs, and domain docs found. GitHub labels `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, and `wontfix` already exist.
 
 ## Goal
@@ -34,10 +34,22 @@ Resolved with the human on 2026-09-07:
 - ADRs: `docs/adr/0003-sovereign-ai-club-rebrand.md`
 - Brand Poster: `docs/brand/sovereign-ai-club-poster.jpg`
 - Prototype source branch, if any: None
-- Spec issue: Pending publication (draft at `./prd.md`)
-- Tickets: Pending publication (draft at `./slices.md`)
+- Spec issue: https://github.com/AustinKelsay/austin-ai-club/issues/43 (source: `./prd.md`)
+- Tickets (source: `./slices.md`), published as sub-issues of #43 with native blocked-by links:
+  - #44 Theme tokens prefactor
+  - #45 Sovereign identity in the app
+  - #46 Next Meetup event metadata and template
+  - #47 Meetup Data, docs, and test fixture rename
+  - #48 LLM Wiki rename sweep and retired-name lint
+  - #49 Curation skill rename and polish
+  - #50 Sage light theme and archive shell (blocked by #44, #45)
+  - #51 Presentation Mode light pass (blocked by #50)
+  - #52 Calendar, submission, and reminder light pass (blocked by #50)
+  - #53 Wiki Explorer and graph light pass (blocked by #50)
+  - #54 Poster hero imagery (blocked by #50)
+  - #55 Designer source assets (HITL, parked)
 - Ticket sessions: Pending
-- Agent briefs: Pending issue links
+- Agent briefs: Ticket bodies carry what-to-build, acceptance criteria, and blocking edges
 - Review packets: This ledger
 - Local CodeRabbit report: Pending
 - PR URL: Pending
@@ -65,24 +77,24 @@ No new seams; all four unit seams exist today.
 
 | Issue | Type | Status | Review thread | Fixes needed | Verified |
 | --- | --- | --- | --- | --- | --- |
-| Slice 1 Theme Tokens Prefactor | AFK | Drafted | | | |
-| Slice 2 Sovereign Identity in the App | AFK | Drafted | | | |
-| Slice 3 Sage Light Theme and Archive Shell | AFK | Drafted | | | |
-| Slice 4 Presentation Mode Light Pass | AFK | Drafted | | | |
-| Slice 5 Calendar, Submission, Reminder Light Pass | AFK | Drafted | | | |
-| Slice 6 Wiki Explorer and Graph Light Pass | AFK | Drafted | | | |
-| Slice 7 Next Meetup Event Metadata and Template | AFK | Drafted | | | |
-| Slice 8 Meetup Data, Docs, Test Fixture Rename | AFK | Drafted | | | |
-| Slice 9 LLM Wiki Rename Sweep and Retired-Name Lint | AFK | Drafted | | | |
-| Slice 10 Poster Hero Imagery | AFK | Drafted | | | |
-| Slice 11 Curation Skill Rename and Polish | AFK (out-of-repo) | Drafted | | | |
-| Slice 12 Designer Source Assets | HITL | Parked | | | |
+| #44 Theme Tokens Prefactor | AFK | Ready | | | |
+| #45 Sovereign Identity in the App | AFK | Ready | | | |
+| #50 Sage Light Theme and Archive Shell | AFK | Blocked by #44, #45 | | | |
+| #51 Presentation Mode Light Pass | AFK | Blocked by #50 | | | |
+| #52 Calendar, Submission, Reminder Light Pass | AFK | Blocked by #50 | | | |
+| #53 Wiki Explorer and Graph Light Pass | AFK | Blocked by #50 | | | |
+| #46 Next Meetup Event Metadata and Template | AFK | Ready | | | |
+| #47 Meetup Data, Docs, Test Fixture Rename | AFK | Ready | | | |
+| #48 LLM Wiki Rename Sweep and Retired-Name Lint | AFK | Ready | | | |
+| #54 Poster Hero Imagery | AFK | Blocked by #50 | | | |
+| #49 Curation Skill Rename and Polish | AFK (out-of-repo) | Ready | | | |
+| #55 Designer Source Assets | HITL | Parked | | | |
 
 ## Parked HITL Slices
 
 | Issue | Why parked | Blocks | Required human action | Final PR decision |
 | --- | --- | --- | --- | --- |
-| Slice 12 Designer Source Assets | Only the designer has the original ASCII text and layered art | Nothing; Slices 2 and 10 ship approximations | Supply originals or confirm approximations are final | Scope out of this PR if not supplied |
+| #55 Designer Source Assets | Only the designer has the original ASCII text and layered art | Nothing; #45 and #54 ship approximations | Supply originals or confirm approximations are final | Scope out of this PR if not supplied |
 
 ## Issue Session Ledger
 
@@ -97,7 +109,7 @@ No new seams; all four unit seams exist today.
 
 ## Open Questions
 
-- Testing seams and ticket breakdown await human confirmation before the spec issue and tickets are published.
+- None. Testing seams and ticket breakdown were approved by the human on 2026-09-07 before publication.
 
 ## Escalations
 
