@@ -13,7 +13,7 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 
 ## Mentioned In
 
-- [[Sovereign AI Club - September 9, 2026]]: **Rubin and Groq LPUs split the inference workload**.
+- [[Sovereign AI Club - September 9, 2026]]: **Rubin and Groq LPUs split the inference workload**, **Intel Crescent Island trades HBM for up to 480GB of LPDDR5X**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.
 - [[Sovereign AI Club - July 8, 2026]]: **Etched turns inference chips into rack-scale product**.
@@ -25,6 +25,8 @@ Compute Strategy covers how labs, cloud providers, and model teams secure the ha
 - [[Sovereign AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.
 
 ## Related
+
+- [[Intel]]
 
 - [[Anthropic]]
 - [[Apple]]

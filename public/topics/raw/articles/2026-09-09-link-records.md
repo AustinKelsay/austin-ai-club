@@ -264,6 +264,16 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
 - **How NVIDIA Groq 3 LPX Unlocks Ultrafast Interactivity at Long Context on NVIDIA Vera Rubin** — https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/
   Type: official technical blog. Accessed: 2026-09-08. Documents heterogeneous inference; workload-specific results do not establish universal speed ordering.
 
+### Intel Crescent Island trades HBM for up to 480GB of LPDDR5X
+
+- **Crescent Island: GPU Designed for Agentic AI Inference** — https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html
+  Type: official presentation. Accessed: 2026-09-08. Intel’s Hot Chips deck specifies 350W air-cooled PCIe, 160GB on its branded card and up to 480GB for partner designs. This is an architecture disclosure; capacity and efficiency goals are not independent performance results.
+- **Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026** — https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/
+  Type: original conference reporting. Accessed: 2026-09-08. Patrick Kennedy’s August 24 coverage reproduces the Intel slides and highlights unanswered bandwidth and real-workload questions. Organizer-supplied catch-up Link; not counted in the September model-release window.
+
+- **ServeTheHome shares its Crescent Island coverage** — https://x.com/ServeTheHome/status/2092062538603360368
+  Type: X post. Accessed: 2026-09-08. Publisher post dated August 25 UTC linking the submitted article; Intel’s deck supplies the branded-card versus ODM distinction. Found with local Grok and verified through the public FxTwitter mirror.
+
 ### Meta Muse puts a personal agent in a cloud VM
 
 - **Introducing Muse: The World’s First Personal AI Agent Built for Everyone** — https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/

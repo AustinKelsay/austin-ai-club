@@ -13,7 +13,7 @@ Big Tech Moves is the Sovereign AI Club track for major company strategy, comput
 
 ## Mentioned In
 
-- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**, **Meta Muse puts a personal agent in a cloud VM**.
+- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**, **Meta Muse puts a personal agent in a cloud VM**, **Intel Crescent Island trades HBM for up to 480GB of LPDDR5X**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.
 - [[Sovereign AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
@@ -28,6 +28,8 @@ Big Tech Moves is the Sovereign AI Club track for major company strategy, comput
 - [[Sovereign AI Club - March 18, 2026]]: **Meta's "Moltbook"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.
 
 ## Related
+
+- [[Intel]]
 
 - [[AMD]]
 - [[Genesis Mission]]
