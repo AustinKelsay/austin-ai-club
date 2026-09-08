@@ -264,7 +264,7 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
 - **How NVIDIA Groq 3 LPX Unlocks Ultrafast Interactivity at Long Context on NVIDIA Vera Rubin** — https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/
   Type: official technical blog. Accessed: 2026-09-08. Documents heterogeneous inference; workload-specific results do not establish universal speed ordering.
 
-### Intel Crescent Island trades HBM for up to 480GB of LPDDR5X
+### Intel Crescent Island: 160GB card, up to 480GB for partners
 
 - **Crescent Island: GPU Designed for Agentic AI Inference** — https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html
   Type: official presentation. Accessed: 2026-09-08. Intel’s Hot Chips deck specifies 350W air-cooled PCIe, 160GB on its branded card and up to 480GB for partner designs. This is an architecture disclosure; capacity and efficiency goals are not independent performance results.

@@ -13,7 +13,7 @@ Intel develops processors and accelerators. Its Crescent Island inference GPU ar
 
 ## Mentioned In
 
-- [[Sovereign AI Club - September 9, 2026]]: **Intel Crescent Island trades HBM for up to 480GB of LPDDR5X**.
+- [[Sovereign AI Club - September 9, 2026]]: **Intel Crescent Island: 160GB card, up to 480GB for partners**.
 
 ## Related
 

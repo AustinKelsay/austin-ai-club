@@ -402,7 +402,7 @@ export const meetups = [
             "notes": "Which workloads benefit from specialized inference hardware? The NVIDIA GTC session explains attention/FFN disaggregation. This slide makes no claim about an LPU-drafter configuration, universal performance ordering, or availability of every deployment mode."
           },
           {
-            "title": "Intel Crescent Island trades HBM for up to 480GB of LPDDR5X",
+            "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
             "description": "Intel detailed a 350W, air-cooled inference GPU at Hot Chips: 160GB on its own card, with partner designs allowed up to 480GB of LPDDR5X. The capacity could help keep larger models in one server, but the talk does not establish shipping availability or measured tokens per watt.",
             "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
             "linkPair": [
