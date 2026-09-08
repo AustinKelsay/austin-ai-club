@@ -1,18 +1,21 @@
 ---
 title: Microsoft
 created: 2026-05-05
-updated: 2026-08-25
+updated: 2026-09-08
 type: entity
 tags: [entity, company, agent-infrastructure, security]
-sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-09-09-link-records.md]
 ---
 
 # Microsoft
 
 Microsoft is a recurring Sovereign AI Club entity for agent frameworks, AI governance tooling, in-house model releases, cyber-defense agents, and its changing relationship to OpenAI.
 
+September 2026 downloadable releases include [[VibeVoice]] streaming ASR and SQuadGen’s quad-layout generation checkpoint. SQuadGen’s paper predates the new weight upload.
+
 ## Mentioned In
 
+- [[Sovereign AI Club - September 9, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - August 26, 2026]]: **CoSnitch turns Copilot memory into persistent attacker state**.
 - [[Sovereign AI Club - August 5, 2026]]: **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**.
 - [[Sovereign AI Club - July 22, 2026]]: **Vera Rubin racks move into production** and **Satya says enterprises pay for AI twice**.

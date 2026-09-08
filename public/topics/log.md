@@ -2,6 +2,12 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-09-08] curate | Complete September 9 model roundups
+
+- Expanded the two release Topics to 14 hosted and 18 downloadable families or material updates, with 56 primary artifact links and 25 verified X embeds across the two slides.
+- Added an evidence table covering dates, access, weight licenses, carryover deltas and exclusions; distinguished previews, restricted access, noncommercial weights, and official deployment packages.
+- Used local Grok for original X discovery and checked selected posts against their text and primary artifacts. Added five recurring entity pages, updated nine existing pages, and refreshed source records and reciprocal Meetup links.
+
 ## [2026-09-08] curate | September 9 board and host preparation
 
 - Curated 27 submitted links into 12 Topics across four Tracks after the organizer requested only supported material; retained 17 links and documented ten exclusions in the host guide.
