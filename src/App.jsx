@@ -5,7 +5,6 @@ import { buildMeetupPath, getAppRoute, setPathname } from "./app/routes.js";
 import ArchiveView from "./features/archive/ArchiveView.jsx";
 import MeetupDetailView from "./features/archive/MeetupDetailView.jsx";
 import {
-  buildCalendarEntries,
   buildCalendarTimelineEntries,
   getNextSubmissionTarget,
 } from "./features/calendar/calendar.js";
@@ -36,6 +35,8 @@ export default function App() {
   );
   const [route, setRoute] = useState(() => getAppRoute(window.location.pathname));
   const [wikiManifest, setWikiManifest] = useState(null);
+  const [wikiError, setWikiError] = useState(false);
+  const [wikiLoadAttempt, setWikiLoadAttempt] = useState(0);
   const calendarEntries = buildCalendarTimelineEntries(meetups);
   const wikiTopicLookup = useMemo(() => buildMeetupTopicLookup(wikiManifest), [wikiManifest]);
 
@@ -72,8 +73,17 @@ export default function App() {
   };
 
   const openRoute = (pathname, options = {}) => {
+    const nextRoute = getAppRoute(pathname);
+    const changesPage = nextRoute.name !== route.name ||
+      nextRoute.meetupSlug !== route.meetupSlug;
     setPathname(pathname, { hash: "", ...options });
     syncLocationState();
+    if (changesPage && !options.hash) {
+      window.requestAnimationFrame(() => {
+        window.scrollTo({ top: 0, behavior: "instant" });
+        document.querySelector("main")?.focus({ preventScroll: true });
+      });
+    }
   };
 
   const goHome = (options = {}) => {
@@ -116,8 +126,10 @@ export default function App() {
 
   useEffect(() => {
     let isActive = true;
+    const controller = new AbortController();
+    setWikiError(false);
 
-    fetch("/wiki-manifest.json")
+    fetch("/wiki-manifest.json", { signal: controller.signal })
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Unable to load wiki manifest: ${response.status}`);
@@ -130,17 +142,18 @@ export default function App() {
           setWikiManifest(manifest);
         }
       })
-      .catch((error) => {
-        console.error(error);
+      .catch(() => {
         if (isActive) {
+          setWikiError(true);
           setWikiManifest(null);
         }
       });
 
     return () => {
       isActive = false;
+      controller.abort();
     };
-  }, []);
+  }, [wikiLoadAttempt]);
 
   useEffect(() => {
     const syncFromLocation = () => {
@@ -166,7 +179,7 @@ export default function App() {
     }
 
     const handleKeydown = (event) => {
-      if (event.key === "Escape") {
+      if (event.key === "Escape" && !event.defaultPrevented) {
         goToNextMeetupOrHome({ replace: true });
       }
     };
@@ -283,6 +296,7 @@ export default function App() {
   if (route.name === APP_ROUTE.SUBMIT_LINK) {
     return (
       <SubmissionScreen
+        key="link"
         kind="link"
         target={nextSubmissionTarget}
         onBack={() => goToNextMeetupOrHome({ replace: true })}
@@ -294,6 +308,7 @@ export default function App() {
   if (route.name === APP_ROUTE.SUBMIT_SHOWCASE) {
     return (
       <SubmissionScreen
+        key="showcase"
         kind="showcase"
         target={nextSubmissionTarget}
         onBack={() => goToNextMeetupOrHome({ replace: true })}
@@ -306,6 +321,8 @@ export default function App() {
     return (
       <WikiExplorer
         manifest={wikiManifest}
+        error={wikiError}
+        onRetry={() => setWikiLoadAttempt((attempt) => attempt + 1)}
         focusedWikiId={route.wikiId}
         search={route.search ?? ""}
         onOpenRoute={openRoute}

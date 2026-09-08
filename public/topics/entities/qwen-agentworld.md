@@ -13,7 +13,7 @@ Qwen-AgentWorld is Qwen's language world model for simulating agent environments
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 
 ## Related
 

@@ -13,13 +13,13 @@ Claude Code is Anthropic's coding-agent product, recurring in the wiki as a prac
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.
-- [[Austin AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.
-- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.
-- [[Austin AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.
-- [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.
-- [[Austin AI Club - April 1, 2026]]: **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **DISTILL**.
-- [[Austin AI Club - March 18, 2026]]: **Claude Code + Codex updates roundup**.
+- [[Sovereign AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.
+- [[Sovereign AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.
+- [[Sovereign AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.
+- [[Sovereign AI Club - May 27, 2026]]: **Anthropic hits first profit at $10.9B quarterly revenue**.
+- [[Sovereign AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.
+- [[Sovereign AI Club - April 1, 2026]]: **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **DISTILL**.
+- [[Sovereign AI Club - March 18, 2026]]: **Claude Code + Codex updates roundup**.
 
 ## Related
 

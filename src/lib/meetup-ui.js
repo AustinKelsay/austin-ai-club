@@ -53,6 +53,33 @@ export function formatEventDate(event) {
   }).format(new Date(event.startAt));
 }
 
+/**
+ * Formats the weekday of an event in its own time zone, e.g. "Wednesday".
+ * Used next to a heading that already carries the full date.
+ */
+export function formatEventWeekday(event) {
+  return new Intl.DateTimeFormat("en-US", {
+    weekday: "long",
+    timeZone: event.timezone,
+  }).format(new Date(event.startAt));
+}
+
+/**
+ * Formats the weekday, month, and day of an event, e.g. "Wednesday, September 9".
+ */
+export function formatEventLongDate(event) {
+  return new Intl.DateTimeFormat("en-US", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    timeZone: event.timezone,
+  }).format(new Date(event.startAt));
+}
+
+/**
+ * Formats the start–end range once, e.g. "5:30 – 7:30 PM CDT".
+ * Shared day period and zone are collapsed instead of repeated on both ends.
+ */
 export function formatEventTime(event) {
   const formatter = new Intl.DateTimeFormat("en-US", {
     hour: "numeric",
@@ -61,7 +88,9 @@ export function formatEventTime(event) {
     timeZoneName: "short",
   });
 
-  return `${formatter.format(new Date(event.startAt))} - ${formatter.format(new Date(event.endAt))}`;
+  return formatter
+    .formatRange(new Date(event.startAt), new Date(event.endAt))
+    .replace(/[\u2009\u202f]/g, " ");
 }
 
 export function getLocationLabel(event) {
@@ -97,7 +126,7 @@ export function createInlineIcsHref(entry) {
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//Austin AI Club//Meetups//EN",
+    "PRODID:-//Sovereign AI Club//Meetups//EN",
     "CALSCALE:GREGORIAN",
     "BEGIN:VEVENT",
     `UID:${entry.id}@austinai.club`,

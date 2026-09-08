@@ -15,13 +15,13 @@ const selectedPage = {
       href: "https://example.com/agent-runtime",
       title: "OpenClaw becomes an agent runtime",
       section: "Agent Infrastructure",
-      sourcePageTitle: "Austin AI Club - May 13, 2026",
+      sourcePageTitle: "Sovereign AI Club - May 13, 2026",
     },
     {
       href: "https://example.com/security",
       title: "OpenClaw hardens tool permissions",
       section: "Security",
-      sourcePageTitle: "Austin AI Club - May 27, 2026",
+      sourcePageTitle: "Sovereign AI Club - May 27, 2026",
     },
   ],
 };
@@ -31,7 +31,7 @@ describe("Wiki source filters", () => {
     const items = buildWikiSourceItems(selectedPage);
 
     expect(buildWikiSourceFilterOptions(items)).toEqual({
-      meetups: ["Austin AI Club - May 13, 2026", "Austin AI Club - May 27, 2026"],
+      meetups: ["Sovereign AI Club - May 13, 2026", "Sovereign AI Club - May 27, 2026"],
       tracks: ["Agent Infrastructure", "Security"],
       topicTitles: ["OpenClaw becomes an agent runtime", "OpenClaw hardens tool permissions"],
     });
@@ -42,7 +42,7 @@ describe("Wiki source filters", () => {
     expect(
       filterWikiSourceItems(items, {
         provenance: "referenced",
-        meetup: "Austin AI Club - May 27, 2026",
+        meetup: "Sovereign AI Club - May 27, 2026",
         track: "Security",
         topicTitle: "OpenClaw hardens tool permissions",
       }).map((item) => item.href),

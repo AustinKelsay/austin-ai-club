@@ -43,7 +43,7 @@ To verify the full flow with a real inbox email:
    This updates your row so you become the most recently active subscriber.
 2. Copy the latest `sendSmokeTestReminder()` helpers from [Code.gs](Code.gs) into your Apps Script project and save
 3. In the Apps Script editor, run `sendSmokeTestReminder()`
-4. Check your inbox for a message with the subject `Austin AI Club Smoke Test today at ...`
+4. Check your inbox for a message with the subject `Sovereign AI Club Smoke Test today at ...`
 
 `sendSmokeTestReminder()` builds a temporary fake event one hour in the future and sends it to the most recently updated active subscriber in the sheet.
 

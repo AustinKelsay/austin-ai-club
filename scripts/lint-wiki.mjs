@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { meetups } from "../src/data.js";
+import { normalizeWikiId, stabilizeWikiPageId } from "../src/features/wiki/wikiIds.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -33,25 +34,12 @@ const standardRelatedPageIds = new Set([
   "security",
   "big-tech-moves",
 ]);
+const MEETUP_WIKILINK_PREFIX = "Sovereign AI Club - ";
+const RETIRED_CLUB_NAME = "Austin AI Club";
 const errors = [];
 
 function toPosix(value) {
   return value.split(path.sep).join("/");
-}
-
-function normalizeWikiId(value) {
-  return value
-    .trim()
-    .replace(/\.(md|markdown)$/i, "")
-    .replace(/^\.?\//, "")
-    .replace(/\\/g, "/")
-    .split("/")
-    .pop()
-    .toLowerCase()
-    .replace(/[_\s]+/g, "-")
-    .replace(/[^a-z0-9-]/g, "")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
 }
 
 function stripFrontmatter(content) {
@@ -534,6 +522,28 @@ export function checkMeetupRelatedPageSpine(
   return relatedErrors;
 }
 
+/**
+ * Fails when the retired club name appears anywhere in a wiki page, including frontmatter.
+ * @param {string} rel Repo-relative wiki path
+ * @param {string} content Full markdown including frontmatter
+ * @returns {string[]}
+ */
+export function checkRetiredClubName(rel, content) {
+  const retiredNameErrors = [];
+
+  for (const [index, line] of String(content ?? "").split("\n").entries()) {
+    if (!line.includes(RETIRED_CLUB_NAME)) {
+      continue;
+    }
+
+    retiredNameErrors.push(
+      `${rel}:${index + 1}: retired club name "${RETIRED_CLUB_NAME}" is not allowed in the LLM Wiki`,
+    );
+  }
+
+  return retiredNameErrors;
+}
+
 export function checkMentionedInTopicTitles(rel, body, type) {
   return checkMentionedInTopicReferences(rel, body, type);
 }
@@ -565,11 +575,11 @@ export function checkMentionedInSourceRecords(rel, body, type, sources, meetupSo
 
     const meetupLinkMatch = line.trimStart().match(/^-\s+\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/);
 
-    if (!meetupLinkMatch || !meetupLinkMatch[1].startsWith("Austin AI Club - ")) {
+    if (!meetupLinkMatch || !meetupLinkMatch[1].startsWith(MEETUP_WIKILINK_PREFIX)) {
       continue;
     }
 
-    const requiredSource = meetupSourceById.get(normalizeWikiId(meetupLinkMatch[1]));
+    const requiredSource = meetupSourceById.get(stabilizeWikiPageId(meetupLinkMatch[1]));
 
     if (requiredSource && !sourceSet.has(requiredSource)) {
       sourceRecordErrors.push(
@@ -607,7 +617,7 @@ export function checkMentionedInTopicReferences(rel, body, type, meetupTopicTitl
 
     const meetupLinkMatch = line.trimStart().match(/^-\s+\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/);
 
-    if (!meetupLinkMatch || !meetupLinkMatch[1].startsWith("Austin AI Club - ")) {
+    if (!meetupLinkMatch || !meetupLinkMatch[1].startsWith(MEETUP_WIKILINK_PREFIX)) {
       mentionedInErrors.push(
         `${rel}:${index + 1}: Mentioned In bullets for concept/entity pages must start with a meetup wikilink`,
       );
@@ -625,7 +635,7 @@ export function checkMentionedInTopicReferences(rel, body, type, meetupTopicTitl
       continue;
     }
 
-    const meetupTopicTitles = meetupTopicTitlesById.get(normalizeWikiId(meetupLinkMatch[1]));
+    const meetupTopicTitles = meetupTopicTitlesById.get(stabilizeWikiPageId(meetupLinkMatch[1]));
 
     if (!meetupTopicTitles) {
       mentionedInErrors.push(
@@ -706,6 +716,7 @@ async function main() {
 
     if (frontmatter) {
       wikiIds.add(normalizeWikiId(frontmatter.title ?? ""));
+      wikiIds.add(stabilizeWikiPageId(frontmatter.title ?? ""));
       wikiPages.push({
         rel,
         title: frontmatter.title ?? "",
@@ -716,11 +727,11 @@ async function main() {
         const date = relFromTopics.replace(/\.md$/, "");
 
         meetupTopicTitlesById.set(
-          normalizeWikiId(frontmatter.title ?? ""),
+          stabilizeWikiPageId(frontmatter.title ?? ""),
           collectMeetupTopicTitles(content),
         );
         meetupSourceById.set(
-          normalizeWikiId(frontmatter.title ?? ""),
+          stabilizeWikiPageId(frontmatter.title ?? ""),
           `raw/articles/${date}-link-records.md`,
         );
       }
@@ -767,8 +778,10 @@ async function main() {
   for (const [file, content] of fileContents) {
     const rel = toPosix(path.relative(repoRoot, file));
 
+    errors.push(...checkRetiredClubName(rel, content));
+
     for (const link of collectWikilinks(content)) {
-      if (!wikiIds.has(normalizeWikiId(link))) {
+      if (!wikiIds.has(stabilizeWikiPageId(link)) && !wikiIds.has(normalizeWikiId(link))) {
         errors.push(`${rel}: unresolved wikilink [[${link}]]`);
       }
     }

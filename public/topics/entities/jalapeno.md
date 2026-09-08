@@ -13,8 +13,8 @@ Jalapeno is OpenAI's first custom inference accelerator, first announced with Br
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**.
-- [[Austin AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.
+- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**.
+- [[Sovereign AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.
 
 ## Related
 

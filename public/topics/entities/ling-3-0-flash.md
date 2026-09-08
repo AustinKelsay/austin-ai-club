@@ -13,7 +13,7 @@ Ling-3.0-flash is Ant Group / InclusionAI's 124B hybrid-reasoning MoE with about
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - August 5, 2026]]: **Open model releases**.
 
 ## Related
 

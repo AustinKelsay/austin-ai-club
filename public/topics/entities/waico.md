@@ -13,7 +13,7 @@ The World Artificial Intelligence Cooperation Organization is a Shanghai-headqua
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **WAICO opens a China-centered lane for global AI governance**.
+- [[Sovereign AI Club - July 22, 2026]]: **WAICO opens a China-centered lane for global AI governance**.
 
 ## Related
 

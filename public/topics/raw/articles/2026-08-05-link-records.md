@@ -1,5 +1,5 @@
 ---
-title: Austin AI Club - August 5, 2026 - Source Link Records
+title: Sovereign AI Club - August 5, 2026 - Source Link Records
 created: 2026-08-04
 updated: 2026-08-05
 type: summary
@@ -7,7 +7,7 @@ tags: [source-record, meetup]
 sources: []
 ---
 
-# Austin AI Club - August 5, 2026 - Source Link Records
+# Sovereign AI Club - August 5, 2026 - Source Link Records
 
 ## Agent Infrastructure
 
@@ -620,7 +620,7 @@ sources: []
 
 ### Community Slot
 - Link: https://github.com/AustinKelsay/austin-ai-club
-  - Title: "Austin AI Club"
+  - Title: "Sovereign AI Club"
   - Type: Community repository
   - Access: 2026-08-04
   - Notes: Default Community Slot destination for open member shares at the upcoming Meetup.

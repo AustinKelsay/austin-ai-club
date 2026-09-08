@@ -13,7 +13,7 @@ Fish Audio is a voice-generation company whose S2.1 Pro launch and seed raise ap
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Fish Audio raises $52M and ships S2.1 Pro voice**.
+- [[Sovereign AI Club - August 5, 2026]]: **Fish Audio raises $52M and ships S2.1 Pro voice**.
 
 ## Related
 

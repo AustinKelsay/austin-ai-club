@@ -13,7 +13,7 @@ Cloudflare OS is an open-source agent workspace on Cloudflare Workers that pairs
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**.
+- [[Sovereign AI Club - August 5, 2026]]: **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**.
 
 ## Related
 

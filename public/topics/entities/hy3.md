@@ -13,7 +13,7 @@ Hy3 is Tencent's open 295B-total / 21B-active MoE model, tracked because the Jul
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 
 ## Related
 

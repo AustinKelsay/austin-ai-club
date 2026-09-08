@@ -9,14 +9,14 @@ sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-06-24-link-
 
 # Apple
 
-Apple is a recurring Austin AI Club entity for Apple Intelligence, Siri, privacy-first AI, device-integrated agents, and AI features built into consumer operating systems.
+Apple is a recurring Sovereign AI Club entity for Apple Intelligence, Siri, privacy-first AI, device-integrated agents, and AI features built into consumer operating systems.
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Apple says OpenAI's hardware team took trade secrets**.
-- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native**.
-- [[Austin AI Club - June 10, 2026]]: **Apple finally shows Siri AI** and **Apple stretches PCC onto Google/NVIDIA**.
-- [[Austin AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**.
+- [[Sovereign AI Club - July 22, 2026]]: **Apple says OpenAI's hardware team took trade secrets**.
+- [[Sovereign AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native**.
+- [[Sovereign AI Club - June 10, 2026]]: **Apple finally shows Siri AI** and **Apple stretches PCC onto Google/NVIDIA**.
+- [[Sovereign AI Club - March 18, 2026]]: **MacBook Pro M5 Max as a local inference laptop**.
 
 ## Related
 

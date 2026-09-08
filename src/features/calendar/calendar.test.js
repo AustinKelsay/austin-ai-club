@@ -1,8 +1,9 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
+import { meetups } from "../../data.js";
 import { buildCalendarEntries, getNextSubmissionTarget } from "./calendar.js";
 
 const baseEvent = {
-  title: "Austin AI Club",
+  title: "Sovereign AI Club",
   summary: "Quick AI news rundown, demos, and open discussion.",
   timezone: "America/Chicago",
   locationName: "Bitcoin Park Austin",
@@ -47,6 +48,18 @@ describe("buildCalendarEntries", () => {
       },
     });
   });
+
+  it("keeps upcoming authored dates and continues their cadence across daylight saving", () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-09-07T12:00:00-05:00"));
+    const entries = buildCalendarEntries(meetups, 6);
+    expect(entries.map((entry) => entry.slug)).toEqual([
+      "2026-09-09", "2026-09-23", "2026-10-07", "2026-10-21", "2026-11-04", "2026-11-18",
+    ]);
+    expect(entries[0].kind).toBe("authored");
+    expect(entries[4].event.startAt).toBe("2026-11-04T23:30:00.000Z");
+  });
+
 });
 
 describe("getNextSubmissionTarget", () => {
@@ -117,5 +130,52 @@ describe("getNextSubmissionTarget", () => {
       kind: "generated",
       slug: "2026-09-02",
     });
+  });
+});
+
+describe("authored Sovereign AI Club event metadata", () => {
+  afterEach(() => {
+    vi.useRealTimers();
+  });
+
+  it("puts 2026-09-09 at AI Freedom Lab at 5:30 PM and keeps past venues", () => {
+    const september = meetups.find((meetup) => meetup.slug === "2026-09-09");
+    const march = meetups.find((meetup) => meetup.slug === "2026-03-18");
+
+    expect(september.event).toMatchObject({
+      title: "Sovereign AI Club",
+      locationName: "AI Freedom Lab",
+      locationAddress: "Austin, TX",
+      startAt: "2026-09-09T17:30:00-05:00",
+      endAt: "2026-09-09T19:30:00-05:00",
+    });
+    expect(march.event).toMatchObject({
+      locationName: "Bitcoin Park Austin",
+      startAt: "2026-03-18T17:00:00-05:00",
+    });
+  });
+
+  it("lets later Meetup Slots inherit the 2026-09-09 venue and start time", () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-09-10T12:00:00-05:00"));
+
+    const entries = buildCalendarEntries(meetups, 2);
+
+    expect(entries[0]).toMatchObject({
+      kind: "generated",
+      slug: "2026-09-23",
+      event: {
+        title: "Sovereign AI Club",
+        locationName: "AI Freedom Lab",
+        startAt: "2026-09-23T22:30:00.000Z",
+        endAt: "2026-09-24T00:30:00.000Z",
+        summary: "Quick AI news rundown, demos, and open discussion.",
+      },
+    });
+    expect(entries[1].slug).toBe("2026-10-07");
+    expect(entries[1].event.summary).toBe(
+      "Biweekly Sovereign AI Club meetup. Full topic board and notes will land closer to the event.",
+    );
+    expect(entries[1].event.locationName).toBe("AI Freedom Lab");
   });
 });

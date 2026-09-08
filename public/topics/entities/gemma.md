@@ -9,18 +9,18 @@ sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-
 
 # Gemma
 
-Gemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Austin AI Club when open weights turn into runnable products.
+Gemma is Google's open model family for local, edge, multimodal, and agentic workflows, recurring in Sovereign AI Club when open weights turn into runnable products.
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX** and **Abliterlitics measures what abliteration actually changed**.
-- [[Austin AI Club - August 5, 2026]]: **Open model releases** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.
-- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.
-- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
-- [[Austin AI Club - June 10, 2026]]: **Open model releases**.
-- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.
-- [[Austin AI Club - May 13, 2026]]: **Open model releases**.
-- [[Austin AI Club - April 15, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - August 26, 2026]]: **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX** and **Abliterlitics measures what abliteration actually changed**.
+- [[Sovereign AI Club - August 5, 2026]]: **Open model releases** and **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.
+- [[Sovereign AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop** and **Should chat route local by default?**.
+- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
+- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.
+- [[Sovereign AI Club - May 13, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - April 15, 2026]]: **Open model releases**.
 
 ## Related
 

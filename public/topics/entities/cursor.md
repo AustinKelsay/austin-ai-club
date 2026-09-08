@@ -9,14 +9,14 @@ sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-
 
 # Cursor
 
-Cursor is a recurring Austin AI Club entity for coding agents, Composer models, and agent infrastructure.
+Cursor is a recurring Sovereign AI Club entity for coding agents, Composer models, and agent infrastructure.
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.
-- [[Austin AI Club - June 24, 2026]]: **Cursor previews Origin, a GitHub competitor**.
-- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **TrapDoor supply chain attack hijacks AI coding assistants**, and **SpaceX options Cursor for $60B**.
-- [[Austin AI Club - May 13, 2026]]: **Cursor + Claude deletes PocketOS production data**.
+- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.
+- [[Sovereign AI Club - June 24, 2026]]: **Cursor previews Origin, a GitHub competitor**.
+- [[Sovereign AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **TrapDoor supply chain attack hijacks AI coding assistants**, and **SpaceX options Cursor for $60B**.
+- [[Sovereign AI Club - May 13, 2026]]: **Cursor + Claude deletes PocketOS production data**.
 
 ## Related
 

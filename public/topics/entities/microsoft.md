@@ -9,17 +9,17 @@ sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-
 
 # Microsoft
 
-Microsoft is a recurring Austin AI Club entity for agent frameworks, AI governance tooling, in-house model releases, cyber-defense agents, and its changing relationship to OpenAI.
+Microsoft is a recurring Sovereign AI Club entity for agent frameworks, AI governance tooling, in-house model releases, cyber-defense agents, and its changing relationship to OpenAI.
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **CoSnitch turns Copilot memory into persistent attacker state**.
-- [[Austin AI Club - August 5, 2026]]: **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**.
-- [[Austin AI Club - July 22, 2026]]: **Vera Rubin racks move into production** and **Satya says enterprises pay for AI twice**.
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
-- [[Austin AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, and **Closed model releases**.
-- [[Austin AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane** and **Pentagon picks a classified AI stack**.
-- [[Austin AI Club - April 15, 2026]]: **Everybody wants an agent story now**, **Microsoft Agent Governance Toolkit**, and **Microsoft ships in-house MAI models**.
+- [[Sovereign AI Club - August 26, 2026]]: **CoSnitch turns Copilot memory into persistent attacker state**.
+- [[Sovereign AI Club - August 5, 2026]]: **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**.
+- [[Sovereign AI Club - July 22, 2026]]: **Vera Rubin racks move into production** and **Satya says enterprises pay for AI twice**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, and **Closed model releases**.
+- [[Sovereign AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane** and **Pentagon picks a classified AI stack**.
+- [[Sovereign AI Club - April 15, 2026]]: **Everybody wants an agent story now**, **Microsoft Agent Governance Toolkit**, and **Microsoft ships in-house MAI models**.
 
 ## Related
 

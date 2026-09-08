@@ -13,7 +13,7 @@ Genesis Mission is the U.S. federal AI-for-science program connecting agencies, 
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Genesis Mission turns AI-for-science into a federal portfolio**.
+- [[Sovereign AI Club - July 22, 2026]]: **Genesis Mission turns AI-for-science into a federal portfolio**.
 
 ## Related
 

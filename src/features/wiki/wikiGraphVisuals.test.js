@@ -50,19 +50,19 @@ describe("wikiGraphVisuals", () => {
     const colors = { entity: "#47d4f3" };
     expect(getNodeColor({ id: "a", type: "entity" }, null, colors)).toBe("rgba(71, 212, 243, 1)");
     expect(getNodeColor({ id: "a", type: "concept" }, null, colors)).toBe(
-      "rgba(159, 184, 176, 1)",
+      "rgba(159, 176, 166, 1)",
     );
   });
 
   it("overrides the node color when selected", () => {
-    expect(getNodeColor({ id: "a", type: "entity" }, "a", { entity: "#47d4f3" })).toBe("#ffffff");
+    expect(getNodeColor({ id: "a", type: "entity" }, "a", { entity: "#47d4f3" })).toBe("#f2f7f3");
   });
 
   it("fades non-neighbor nodes when a node is selected", () => {
     const colors = { entity: "#47d4f3", concept: "#c47df3" };
     const neighbors = new Set(["b"]);
 
-    expect(getNodeColor({ id: "a", type: "entity" }, "a", colors, neighbors)).toBe("#ffffff");
+    expect(getNodeColor({ id: "a", type: "entity" }, "a", colors, neighbors)).toBe("#f2f7f3");
     expect(getNodeColor({ id: "b", type: "concept" }, "a", colors, neighbors)).toBe(
       "rgba(196, 125, 243, 1)",
     );
@@ -113,8 +113,8 @@ describe("wikiGraphVisuals", () => {
   });
 
   it("styles topic links brighter and wider than wiki links", () => {
-    expect(getLinkColor({ kind: "topic" })).toContain("71, 212, 243");
-    expect(getLinkColor({ kind: "wiki" })).toContain("159, 184, 176");
+    expect(getLinkColor({ kind: "topic" })).toContain("127, 166, 255");
+    expect(getLinkColor({ kind: "wiki" })).toContain("159, 176, 166");
     expect(getLinkWidth({ kind: "topic" })).toBeGreaterThan(getLinkWidth({ kind: "wiki" }));
     expect(getLinkParticleCount({ kind: "topic" })).toBe(1);
     expect(getLinkParticleCount({ kind: "wiki" })).toBe(0);
@@ -126,7 +126,7 @@ describe("wikiGraphVisuals", () => {
     const wikiLink = { kind: "wiki", source: "b", target: "c" };
 
     expect(getLinkColor(topicLink, "a", neighbors)).toContain("0.85");
-    expect(getLinkColor(wikiLink, "a", neighbors)).toContain("0.06");
+    expect(getLinkColor(wikiLink, "a", neighbors)).toContain("0.08");
     expect(getLinkWidth(topicLink, "a", neighbors)).toBeGreaterThan(
       getLinkWidth(wikiLink, "a", neighbors),
     );

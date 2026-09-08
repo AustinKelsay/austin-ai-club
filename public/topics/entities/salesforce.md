@@ -13,7 +13,7 @@ Salesforce is the CRM company whose August 2026 Claudeforce partnership with Ant
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Claudeforce puts Claude on Salesforce**.
+- [[Sovereign AI Club - August 26, 2026]]: **Claudeforce puts Claude on Salesforce**.
 
 ## Related
 

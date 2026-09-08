@@ -13,7 +13,7 @@ TurboFieldfare is a Swift + Metal inference runtime that runs the instruction-tu
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.
+- [[Sovereign AI Club - August 5, 2026]]: **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**.
 
 ## Related
 

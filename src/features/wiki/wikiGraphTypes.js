@@ -1,11 +1,25 @@
-export const WIKI_GRAPH_TYPES = [
-  { type: "meetup", label: "Meetup", color: "#47f3aa" },
-  { type: "entity", label: "Entity", color: "#47d4f3" },
-  { type: "concept", label: "Concept", color: "#c47df3" },
-  { type: "comparison", label: "Comparison", color: "#f3a847" },
-  { type: "query", label: "Query", color: "#f37188" },
-];
+/**
+ * Wiki graph node types with their color tokens.
+ * DOM consumers use `cssColor` (a `var()` reference);
+ * canvas consumers resolve hex values through `getWikiGraphTypeColors()`.
+ */
+import { readThemeToken } from "./themeTokens.js";
 
-export const WIKI_GRAPH_TYPE_COLORS = Object.fromEntries(
-  WIKI_GRAPH_TYPES.map(({ type, color }) => [type, color]),
-);
+export const WIKI_GRAPH_TYPES = [
+  { type: "meetup", label: "Meetup", token: "--graph-meetup" },
+  { type: "entity", label: "Entity", token: "--graph-entity" },
+  { type: "concept", label: "Concept", token: "--graph-concept" },
+  { type: "comparison", label: "Comparison", token: "--graph-comparison" },
+  { type: "query", label: "Query", token: "--graph-query" },
+].map((graphType) => ({ ...graphType, cssColor: `var(${graphType.token})` }));
+
+/**
+ * Resolves the current computed color for every graph type.
+ * Resolve once when a graph mounts, then reuse the map in canvas callbacks.
+ * @returns {Record<string, string>} Type name to hex color
+ */
+export function getWikiGraphTypeColors() {
+  return Object.fromEntries(
+    WIKI_GRAPH_TYPES.map(({ type, token }) => [type, readThemeToken(token)]),
+  );
+}

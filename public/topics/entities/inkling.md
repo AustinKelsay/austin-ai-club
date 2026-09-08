@@ -13,7 +13,7 @@ Inkling is Thinking Machines' Apache-2.0 multimodal mixture-of-experts model wit
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 22, 2026]]: **Open model releases**.
 
 ## Related
 

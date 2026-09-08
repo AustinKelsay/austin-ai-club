@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Austin AI Club already has a Markdown Archive and LLM Wiki, but the public Wiki Explorer is still page-oriented. A meetup organizer can find the Cursor page or the SpaceX page, but cannot easily answer practical questions like "show every past Cursor Topic" or "show every past Topic that links both Cursor and SpaceX." The archive has the right foundations in `[[wikilinks]]`, source records, and generated wiki metadata, but Topics are not yet a first-class exploration unit in the front end.
+Sovereign AI Club already has a Markdown Archive and LLM Wiki, but the public Wiki Explorer is still page-oriented. A meetup organizer can find the Cursor page or the SpaceX page, but cannot easily answer practical questions like "show every past Cursor Topic" or "show every past Topic that links both Cursor and SpaceX." The archive has the right foundations in `[[wikilinks]]`, source records, and generated wiki metadata, but Topics are not yet a first-class exploration unit in the front end.
 
 ## Solution
 

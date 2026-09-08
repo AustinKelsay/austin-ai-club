@@ -9,11 +9,11 @@ sources: [raw/articles/2026-07-08-link-records.md]
 
 # Tencent
 
-Tencent is a recurring AI company/entity for Austin AI Club when its Hunyuan and Hy model releases affect open-model competition, agent workflows, and China-origin model distribution.
+Tencent is a recurring AI company/entity for Sovereign AI Club when its Hunyuan and Hy model releases affect open-model competition, agent workflows, and China-origin model distribution.
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 
 ## Related
 

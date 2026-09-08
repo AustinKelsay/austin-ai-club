@@ -13,12 +13,12 @@ Agent Payments covers payment rails, spend limits, API purchasing, subscription 
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats** and **Hermes Agent gets a Stripe wallet**.
-- [[Austin AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.
-- [[Austin AI Club - May 27, 2026]]: **Anthropic cuts the programmatic subsidy** and **Grok API gets X Premium OAuth integration**.
-- [[Austin AI Club - May 13, 2026]]: **HRF funds AI for individual rights**.
-- [[Austin AI Club - April 15, 2026]]: **OpenAgents: Pylon + Autopilot**.
-- [[Austin AI Club - April 1, 2026]]: **402 Index paid API loop demo** and **OpenAgents Autopilot**.
+- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats** and **Hermes Agent gets a Stripe wallet**.
+- [[Sovereign AI Club - June 10, 2026]]: **Claude gets its cloud-bill moment**.
+- [[Sovereign AI Club - May 27, 2026]]: **Anthropic cuts the programmatic subsidy** and **Grok API gets X Premium OAuth integration**.
+- [[Sovereign AI Club - May 13, 2026]]: **HRF funds AI for individual rights**.
+- [[Sovereign AI Club - April 15, 2026]]: **OpenAgents: Pylon + Autopilot**.
+- [[Sovereign AI Club - April 1, 2026]]: **402 Index paid API loop demo** and **OpenAgents Autopilot**.
 
 ## Related
 

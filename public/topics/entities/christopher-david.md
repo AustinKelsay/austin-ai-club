@@ -9,11 +9,11 @@ sources: [raw/articles/2026-06-24-link-records.md]
 
 # Christopher David
 
-Christopher David is the founder and CEO of OpenAgents and a local Austin AI Club source for Bitcoin-native agent and compute-market infrastructure.
+Christopher David is the founder and CEO of OpenAgents and a local Sovereign AI Club source for Bitcoin-native agent and compute-market infrastructure.
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**.
+- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**.
 
 ## Related
 

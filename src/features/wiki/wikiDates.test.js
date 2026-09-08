@@ -24,13 +24,13 @@ describe("wikiDates", () => {
   });
 
   it("extracts a YYYY-MM-DD date from a title when present in ISO form", () => {
-    expect(getMeetupDateFromTitle("Austin AI Club - 2026-06-10 - notes")).toBe("2026-06-10");
+    expect(getMeetupDateFromTitle("Sovereign AI Club - 2026-06-10 - notes")).toBe("2026-06-10");
     expect(getMeetupDateFromTitle("Q1 update — 2026-04-01 wrap")).toBe("2026-04-01");
   });
 
   it("returns null when no ISO date is present", () => {
     expect(getMeetupDateFromTitle("OpenAI")).toBeNull();
-    expect(getMeetupDateFromTitle("Austin AI Club - June 10, 2026")).toBeNull();
+    expect(getMeetupDateFromTitle("Sovereign AI Club - June 10, 2026")).toBeNull();
     expect(getMeetupDateFromTitle("")).toBeNull();
   });
 });

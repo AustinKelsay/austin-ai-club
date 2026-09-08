@@ -13,7 +13,7 @@ CWIP is NVIDIA's camera-to-world consistency evaluator for world-model outputs, 
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 
 ## Related
 

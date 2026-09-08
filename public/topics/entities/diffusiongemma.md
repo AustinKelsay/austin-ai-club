@@ -13,8 +13,8 @@ DiffusionGemma is Google's diffusion-language-model member of the Gemma ecosyste
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.
-- [[Austin AI Club - June 10, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.
+- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.
 
 ## Related
 

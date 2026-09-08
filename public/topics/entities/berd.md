@@ -13,7 +13,7 @@ Berd is Block's Apache-2.0 desktop workspace for working with AI agents. It sits
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.
+- [[Sovereign AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.
 
 ## Related
 

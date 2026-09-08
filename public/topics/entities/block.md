@@ -13,8 +13,8 @@ Block is a technology company whose open-source agent work includes goose, the s
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.
-- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.
+- [[Sovereign AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.
+- [[Sovereign AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.
 
 ## Related
 

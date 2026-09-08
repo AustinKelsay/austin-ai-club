@@ -13,9 +13,9 @@ Hermes Agent is Nous Research's agent product surface for skills, model provider
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider** and **Unbroker makes data-broker opt-outs agent-shaped**.
-- [[Austin AI Club - June 24, 2026]]: **Hermes Agent gets a Stripe wallet**.
-- [[Austin AI Club - March 18, 2026]]: **Agent Overload**.
+- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider** and **Unbroker makes data-broker opt-outs agent-shaped**.
+- [[Sovereign AI Club - June 24, 2026]]: **Hermes Agent gets a Stripe wallet**.
+- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**.
 
 ## Related
 

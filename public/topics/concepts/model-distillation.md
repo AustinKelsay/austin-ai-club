@@ -13,10 +13,10 @@ Model Distillation is the recurring theme of using one model's outputs, traces, 
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models**.
-- [[Austin AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.
-- [[Austin AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.
-- [[Austin AI Club - March 18, 2026]]: **Claude distillation claims**.
+- [[Sovereign AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models**.
+- [[Sovereign AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.
+- [[Sovereign AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.
+- [[Sovereign AI Club - March 18, 2026]]: **Claude distillation claims**.
 
 ## Related
 

@@ -2,7 +2,12 @@ import { useEffect, useMemo, useState } from "react";
 import { buildWikiPath } from "../../app/routes.js";
 import RouteLink from "../../components/RouteLink.jsx";
 import { formatRelativeDate } from "./wikiDates.js";
-import { WikiMarkdownBody } from "./WikiMarkdownBody.jsx";
+import {
+  getWikiLeadParagraph,
+  hasWikiHeading,
+  WikiInlineMarkdown,
+  WikiMarkdownBody,
+} from "./WikiMarkdownBody.jsx";
 import {
   buildWikiSourceFilterOptions,
   buildWikiSourceItems,
@@ -18,8 +23,17 @@ function getPageTypeLabel(type) {
   return type.replace(/-/g, " ");
 }
 
+/** Meetup boards open with a generated "Related wiki pages: …" line that a link list renders better. */
+const RELATED_EXCERPT_PATTERN = /^related wiki pages:/i;
+
 function getConnectedPages(manifest, ids) {
   return ids.map((id) => manifest.pagesById[id]).filter(Boolean);
+}
+
+/** Keeps the first occurrence of each page id, preserving order. */
+function dedupePages(pages) {
+  const seen = new Set();
+  return pages.filter((page) => (seen.has(page.id) ? false : seen.add(page.id)));
 }
 
 function PageLinkList({ title, pages, emptyLabel, onOpenRoute, className = "" }) {
@@ -113,7 +127,15 @@ function SourceReferenceLink({ item }) {
   );
 }
 
+/**
+ * One source filter. A select with a single choice cannot narrow anything, so it
+ * is not rendered unless a value is already applied (so it can still be cleared).
+ */
 function SourceFilterSelect({ label, value, options, onChange }) {
+  if (options.length < 2 && !value) {
+    return null;
+  }
+
   return (
     <label className="wiki-source-filter">
       <span>{label}</span>
@@ -209,31 +231,6 @@ function SourceFilters({ filters, options, onFilterChange }) {
   );
 }
 
-function MentionedInSection({ meetups, emptyLabel, onOpenRoute }) {
-  return (
-    <section className="wiki-detail-section wiki-detail-section--mentioned">
-      <h3>Mentioned In</h3>
-      {meetups.length > 0 ? (
-        <div className="wiki-link-list">
-          {meetups.map((meetup) => (
-            <RouteLink
-              key={meetup.id}
-              to={buildWikiPath(meetup.id)}
-              onOpenRoute={onOpenRoute}
-              className="wiki-relation-link"
-            >
-              <span className="wiki-link-label">{meetup.title}</span>
-              <small>{getPageTypeLabel(meetup.type)}</small>
-            </RouteLink>
-          ))}
-        </div>
-      ) : (
-        <p className="wiki-empty-copy">{emptyLabel}</p>
-      )}
-    </section>
-  );
-}
-
 function CopyLinkButton({ page }) {
   const [copied, setCopied] = useState(false);
 
@@ -325,28 +322,37 @@ export function WikiDetail({
     );
   }
 
-  const outgoingPages = getConnectedPages(manifest, selectedPage.outgoingIds);
+  const hasBody = Boolean(selectedPage.bodyMarkdown);
   const backlinkPages = getConnectedPages(manifest, selectedPage.backlinkIds);
   const meetupBacklinks = backlinkPages.filter((page) => page.type === "meetup");
   const updatedLabel = formatRelativeDate(selectedPage.updated || selectedPage.created);
+  // The authored body usually opens with a summary paragraph and carries its own
+  // "Mentioned In" and "Related" sections; show each once rather than in both the
+  // header/sidebar and the body.
+  const leadParagraph = getWikiLeadParagraph(selectedPage.bodyMarkdown, selectedPage.title);
+  const bodyListsMentions = hasWikiHeading(selectedPage.bodyMarkdown, "Mentioned In");
+  // Pages without an authored body (meetup boards, queries, source records) get one
+  // merged "Connected Pages" list instead of near-identical outgoing and backlink lists.
+  const connectedPages = hasBody
+    ? []
+    : dedupePages([...getConnectedPages(manifest, selectedPage.outgoingIds), ...backlinkPages]);
+  const excerptIsRelatedList = RELATED_EXCERPT_PATTERN.test(selectedPage.excerpt ?? "");
+  const summary = leadParagraph ? (
+    <WikiInlineMarkdown text={leadParagraph} pagesById={manifest.pagesById} onOpenRoute={onOpenRoute} />
+  ) : excerptIsRelatedList && connectedPages.length > 0 ? null : (
+    selectedPage.excerpt || "No excerpt is available yet."
+  );
 
   return (
     <aside className="wiki-detail">
       <div className="wiki-detail-summary">
-        <p className="eyebrow">{getPageTypeLabel(selectedPage.type)}</p>
         <h2>{selectedPage.title}</h2>
-        <p className="wiki-detail-copy">{selectedPage.excerpt || "No excerpt is available yet."}</p>
+        {summary ? <p className="wiki-detail-copy">{summary}</p> : null}
         {updatedLabel ? (
           <p className="wiki-detail-freshness" aria-label={`Last updated ${updatedLabel}`}>
             Updated {updatedLabel}
           </p>
         ) : null}
-      </div>
-
-      <div className="wiki-detail-meta">
-        <span>{pluralize(sourceItems.length, "source")}</span>
-        <span>{pluralize(outgoingPages.length, "wiki link")}</span>
-        <span>{pluralize(backlinkPages.length, "backlink")}</span>
       </div>
 
       <div className="wiki-tags" aria-label={`${selectedPage.title} tags`}>
@@ -383,6 +389,7 @@ export function WikiDetail({
         pageTitle={selectedPage.title}
         pagesById={manifest.pagesById}
         onOpenRoute={onOpenRoute}
+        omitLeadParagraph={Boolean(leadParagraph)}
       />
 
       <SourceReferenceList
@@ -397,25 +404,32 @@ export function WikiDetail({
       />
 
       <div className="wiki-detail-side">
-        <MentionedInSection
-          meetups={meetupBacklinks}
-          emptyLabel="Not mentioned in a meetup yet."
-          onOpenRoute={onOpenRoute}
-        />
-        <PageLinkList
-          title="Related Wiki Pages"
-          pages={outgoingPages}
-          emptyLabel="No related wiki pages yet."
-          onOpenRoute={onOpenRoute}
-          className="wiki-detail-section--related"
-        />
-        <PageLinkList
-          title="Backlinks"
-          pages={backlinkPages}
-          emptyLabel="No backlinks yet."
-          onOpenRoute={onOpenRoute}
-          className="wiki-detail-section--backlinks"
-        />
+        {!bodyListsMentions && meetupBacklinks.length > 0 ? (
+          <PageLinkList
+            title="Mentioned In"
+            pages={meetupBacklinks}
+            emptyLabel=""
+            onOpenRoute={onOpenRoute}
+            className="wiki-detail-section--mentioned"
+          />
+        ) : null}
+        {hasBody ? (
+          <PageLinkList
+            title="Backlinks"
+            pages={backlinkPages}
+            emptyLabel="No backlinks yet."
+            onOpenRoute={onOpenRoute}
+            className="wiki-detail-section--backlinks"
+          />
+        ) : (
+          <PageLinkList
+            title="Connected Pages"
+            pages={connectedPages}
+            emptyLabel="No connected pages yet."
+            onOpenRoute={onOpenRoute}
+            className="wiki-detail-section--backlinks"
+          />
+        )}
 
         {selectedPage.unresolvedLinks.length > 0 ? (
           <section className="wiki-detail-section wiki-detail-section--unresolved">

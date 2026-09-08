@@ -158,7 +158,7 @@ describe("wikiSearch", () => {
         title: "Agent Cost Controls",
         referencedTopicSources: [{ title: "SpaceX options Cursor for $60B" }],
       }),
-      page({ id: "june-24", title: "Austin AI Club - June 24, 2026", excerpt: "Cursor previews Origin" }),
+      page({ id: "june-24", title: "Sovereign AI Club - June 24, 2026", excerpt: "Cursor previews Origin" }),
       page({ id: "cursor", title: "Cursor", excerpt: "Cursor is a recurring entity." }),
       page({ id: "cursor-spacex", title: "Cursor and SpaceX", type: "query" }),
     ];

@@ -3,6 +3,7 @@ import RouteLink from "../../components/RouteLink.jsx";
 import { isUpcomingMeetup } from "../../lib/meetup-ui.js";
 import ArchiveShell from "./ArchiveShell.jsx";
 import {
+  formatMeetupCounts,
   getMeetupCounts,
   getShowcaseId,
   MeetupEventBar,
@@ -11,7 +12,14 @@ import {
   StaticTrackSection,
 } from "./meetupSections.jsx";
 
+/**
+ * In-page jump links, one per track. A single destination is not worth a nav.
+ */
 function TrackJumpNav({ meetup, showCommunitySlot }) {
+  if (meetup.tracks.length + (showCommunitySlot ? 1 : 0) < 2) {
+    return null;
+  }
+
   return (
     <nav className="track-nav" aria-label={`${meetup.date} tracks`}>
       {meetup.tracks.map((track) => (
@@ -31,7 +39,7 @@ function TrackJumpNav({ meetup, showCommunitySlot }) {
 function MeetupNotFound({ meetupSlug, onOpenRoute }) {
   return (
     <ArchiveShell onOpenRoute={onOpenRoute}>
-      <main className="archive archive--detail">
+      <main id="main-content" tabIndex={-1} className="archive archive--detail">
         <section className="meetup meetup-state">
           <div className="meetup-header meetup-detail-header meetup-state-header">
             <p className="eyebrow">Meetup not found</p>
@@ -66,13 +74,13 @@ export default function MeetupDetailView({
   const isUpcoming = isUpcomingMeetup(meetup);
   const acceptsShowcaseSubmissions = meetup.id === nextMeetupId;
   const showCommunitySlot = shouldShowCommunitySlot(meetup, acceptsShowcaseSubmissions);
-  const { totalTopicCount, totalTrackCount } = getMeetupCounts(meetup, {
-    acceptsSubmissions: acceptsShowcaseSubmissions,
-  });
+  const countsLabel = formatMeetupCounts(
+    getMeetupCounts(meetup, { acceptsSubmissions: acceptsShowcaseSubmissions }),
+  );
 
   return (
     <ArchiveShell onOpenRoute={onOpenRoute}>
-      <main className="archive archive--detail">
+      <main id="main-content" tabIndex={-1} className="archive archive--detail">
         <article className={`meetup meetup--detail ${isUpcoming ? "meetup--upcoming" : "meetup--past"}`}>
           <div className="meetup-header meetup-detail-header">
             <div className="meetup-detail-toolbar">
@@ -89,11 +97,9 @@ export default function MeetupDetailView({
             </div>
             <div className="meetup-detail-heading">
               <div>
-                <p className="eyebrow">{isUpcoming ? "Upcoming meetup" : "Meetup archive"}</p>
+                {isUpcoming ? <p className="eyebrow">Upcoming meetup</p> : null}
                 <h2>{meetup.date}</h2>
-                <p className="meetup-meta">
-                  {totalTopicCount} topics &middot; {totalTrackCount} tracks
-                </p>
+                {countsLabel ? <p className="meetup-meta">{countsLabel}</p> : null}
               </div>
             </div>
             <TrackJumpNav meetup={meetup} showCommunitySlot={showCommunitySlot} />

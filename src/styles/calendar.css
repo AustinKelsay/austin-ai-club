@@ -6,7 +6,7 @@
   padding: 0.55rem 0.75rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: rgba(7, 16, 24, 0.72);
+  background: var(--surface-panel-quiet);
   overflow-x: auto;
 }
 
@@ -22,7 +22,7 @@
   padding: 0 0.6rem;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(71, 243, 170, 0.03);
+  background: color-mix(in srgb, var(--accent) 3%, transparent);
   display: inline-flex;
   align-items: center;
   font-size: 0.78rem;
@@ -35,14 +35,15 @@
 
 .index-link:hover,
 .index-link:focus-visible {
-  background: rgba(71, 243, 170, 0.08);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
   border-color: var(--line-strong);
   color: var(--accent);
 }
 
 .index-link:focus-visible {
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(71, 243, 170, 0.14);
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 14%, transparent);
 }
 
 .index-link:active {
@@ -59,7 +60,7 @@
   align-items: center;
   gap: 0.8rem;
   margin: 0.15rem 0 0.1rem;
-  color: rgba(169, 190, 181, 0.82);
+  color: var(--muted);
   font-size: 0.72rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -70,18 +71,18 @@
   content: "";
   height: 1px;
   flex: 1;
-  background: linear-gradient(90deg, rgba(71, 243, 170, 0.06), rgba(71, 243, 170, 0.3));
+  background: linear-gradient(90deg, color-mix(in srgb, var(--accent) 6%, transparent), color-mix(in srgb, var(--accent) 30%, transparent));
 }
 
 .meetup-divider::after {
-  background: linear-gradient(90deg, rgba(71, 243, 170, 0.3), rgba(71, 243, 170, 0.06));
+  background: linear-gradient(90deg, color-mix(in srgb, var(--accent) 30%, transparent), color-mix(in srgb, var(--accent) 6%, transparent));
 }
 
 .meetup-divider span {
   padding: 0.3rem 0.7rem;
-  border: 1px solid rgba(71, 243, 170, 0.14);
+  border: 1px solid color-mix(in srgb, var(--accent) 14%, transparent);
   border-radius: 999px;
-  background: rgba(71, 243, 170, 0.04);
+  background: color-mix(in srgb, var(--accent) 4%, transparent);
 }
 
 .reminder-panel {
@@ -92,12 +93,11 @@
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background:
-    radial-gradient(circle at top right, rgba(71, 243, 170, 0.08), transparent 28%),
-    linear-gradient(180deg, rgba(8, 18, 28, 0.94), rgba(6, 14, 22, 0.9));
+    radial-gradient(circle at top right, color-mix(in srgb, var(--accent) 8%, transparent), transparent 28%),
+    var(--surface-panel-elevated);
   box-shadow: var(--shadow);
 }
 
-.reminder-eyebrow,
 .reminder-next span {
   color: var(--muted);
   font-size: 0.7rem;
@@ -140,14 +140,14 @@
 .reminder-form input,
 .reminder-form button {
   min-height: 3rem;
-  border-radius: 999px;
+  border-radius: var(--radius);
   font-family: var(--font-mono);
 }
 
 .reminder-form input {
   padding: 0 1rem;
   border: 1px solid var(--line);
-  background: rgba(4, 12, 20, 0.72);
+  background: var(--surface-panel-quiet);
   color: var(--text);
 }
 
@@ -159,9 +159,10 @@
 .reminder-form button:focus-visible,
 .meetup-event-actions a:focus-visible,
 .calendar-event-actions a:focus-visible {
-  outline: none;
-  border-color: rgba(71, 243, 170, 0.54);
-  box-shadow: 0 0 0 2px rgba(71, 243, 170, 0.2);
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+  border-color: color-mix(in srgb, var(--accent) 54%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 20%, transparent);
 }
 
 .reminder-form button,
@@ -170,8 +171,8 @@
   align-items: center;
   justify-content: center;
   padding: 0 1rem;
-  border: 1px solid rgba(71, 243, 170, 0.28);
-  background: linear-gradient(180deg, rgba(71, 243, 170, 0.16), rgba(71, 243, 170, 0.08));
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, transparent);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 16%, transparent), color-mix(in srgb, var(--accent) 8%, transparent));
   color: var(--accent);
   text-decoration: none;
   cursor: pointer;
@@ -192,8 +193,8 @@
 .reminder-form button:hover,
 .meetup-event-actions a:hover {
   transform: translateY(-1px);
-  background: linear-gradient(180deg, rgba(71, 243, 170, 0.22), rgba(71, 243, 170, 0.12));
-  border-color: rgba(71, 243, 170, 0.42);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 22%, transparent), color-mix(in srgb, var(--accent) 12%, transparent));
+  border-color: color-mix(in srgb, var(--accent) 42%, transparent);
 }
 
 .reminder-form button:active,
@@ -215,21 +216,12 @@
   gap: 0.45rem;
   align-self: start;
   padding: 1rem 1.05rem;
-  border: 1px solid rgba(71, 243, 170, 0.3);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
   border-radius: var(--radius-inner);
   background:
-    radial-gradient(circle at top left, rgba(71, 243, 170, 0.1), transparent 34%),
-    rgba(7, 19, 28, 0.92);
-  box-shadow: inset 0 0 0 1px rgba(71, 243, 170, 0.05);
-}
-
-.reminder-success-kicker {
-  margin: 0;
-  color: var(--accent);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+    radial-gradient(circle at top left, color-mix(in srgb, var(--accent) 10%, transparent), transparent 34%),
+    var(--surface-panel-quiet);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 5%, transparent);
 }
 
 .reminder-success h3 {
@@ -253,9 +245,9 @@
   min-height: 2.75rem;
   margin-top: 0.25rem;
   padding: 0 0.9rem;
-  border: 1px solid rgba(71, 243, 170, 0.28);
-  border-radius: 999px;
-  background: linear-gradient(180deg, rgba(71, 243, 170, 0.16), rgba(71, 243, 170, 0.08));
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, transparent);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 16%, transparent), color-mix(in srgb, var(--accent) 8%, transparent));
   color: var(--accent);
   font-family: var(--font-mono);
   font-size: 0.72rem;
@@ -267,8 +259,8 @@
 
 .reminder-reset-btn:hover {
   transform: translateY(-1px);
-  background: linear-gradient(180deg, rgba(71, 243, 170, 0.22), rgba(71, 243, 170, 0.12));
-  border-color: rgba(71, 243, 170, 0.42);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 22%, transparent), color-mix(in srgb, var(--accent) 12%, transparent));
+  border-color: color-mix(in srgb, var(--accent) 42%, transparent);
 }
 
 .reminder-reset-btn:active {
@@ -276,9 +268,10 @@
 }
 
 .reminder-reset-btn:focus-visible {
-  outline: none;
-  border-color: rgba(71, 243, 170, 0.54);
-  box-shadow: 0 0 0 2px rgba(71, 243, 170, 0.2);
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+  border-color: color-mix(in srgb, var(--accent) 54%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 20%, transparent);
 }
 
 .reminder-panel--screen {
@@ -293,9 +286,6 @@
 .calendar-screen {
   min-height: 100vh;
   padding: 1.2rem min(3vw, 1.5rem) 2rem;
-  background:
-    radial-gradient(circle at top left, rgba(71, 243, 170, 0.08), transparent 24%),
-    linear-gradient(180deg, rgba(9, 20, 31, 0.98), rgba(5, 13, 21, 0.98));
 }
 
 .calendar-screen-header {
@@ -312,27 +302,12 @@
   gap: 1rem;
 }
 
-.calendar-eyebrow {
-  margin: 0 0 0.2rem;
-  color: var(--muted);
-  font-size: 0.68rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.calendar-screen-header h2 {
+.calendar-screen-header h1 {
   margin: 0;
   font-family: var(--font-display);
   font-size: clamp(1.7rem, 3vw, 2.3rem);
   line-height: 1.02;
   letter-spacing: -0.04em;
-}
-
-.calendar-blurb {
-  margin: 0.45rem 0 0;
-  max-width: 34rem;
-  color: var(--text-sub);
-  line-height: 1.55;
 }
 
 .calendar-screen-body {
@@ -358,7 +333,7 @@
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background:
-    radial-gradient(circle at top right, rgba(71, 243, 170, 0.06), transparent 30%),
+    radial-gradient(circle at top right, color-mix(in srgb, var(--accent) 6%, transparent), transparent 30%),
     var(--surface-panel);
   box-shadow: var(--shadow);
 }
@@ -392,9 +367,9 @@
   justify-content: center;
   min-height: 2.5rem;
   padding: 0 0.75rem;
-  border: 1px solid rgba(71, 243, 170, 0.24);
-  border-radius: 999px;
-  background: rgba(71, 243, 170, 0.05);
+  border: 1px solid color-mix(in srgb, var(--accent) 24%, transparent);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
   color: var(--accent);
   font-family: var(--font-mono);
   font-size: 0.7rem;
@@ -411,13 +386,14 @@
 
 .calendar-month-actions button:hover,
 .calendar-month-actions button:focus-visible {
-  background: rgba(71, 243, 170, 0.1);
-  border-color: rgba(71, 243, 170, 0.4);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 40%, transparent);
 }
 
 .calendar-month-actions button:focus-visible {
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(71, 243, 170, 0.16);
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 16%, transparent);
 }
 
 .calendar-month-actions button:active {
@@ -450,9 +426,9 @@
   min-height: clamp(4.9rem, 5.6vw, 6.4rem);
   aspect-ratio: 1 / 0.68;
   padding: 0.55rem;
-  border: 1px solid rgba(71, 243, 170, 0.1);
+  border: 1px solid color-mix(in srgb, var(--accent) 10%, transparent);
   border-radius: var(--radius-inner);
-  background: rgba(4, 12, 20, 0.4);
+  background: var(--surface-panel-quiet);
   color: var(--text-sub);
   font-family: var(--font-mono);
   text-align: left;
@@ -474,9 +450,9 @@
 
 .calendar-day--has-event {
   background:
-    radial-gradient(circle at top right, rgba(71, 243, 170, 0.08), transparent 38%),
-    rgba(6, 15, 23, 0.88);
-  border-color: rgba(71, 243, 170, 0.24);
+    radial-gradient(circle at top right, color-mix(in srgb, var(--accent) 8%, transparent), transparent 38%),
+    var(--surface-panel-quiet);
+  border-color: color-mix(in srgb, var(--accent) 24%, transparent);
   color: var(--text);
   cursor: pointer;
 }
@@ -484,15 +460,16 @@
 .calendar-day--has-event:hover,
 .calendar-day--has-event:focus-visible {
   transform: translateY(-1px);
-  border-color: rgba(71, 243, 170, 0.42);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+  border-color: color-mix(in srgb, var(--accent) 42%, transparent);
+  box-shadow: var(--shadow-soft);
 }
 
 .calendar-day--has-event:focus-visible {
-  outline: none;
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
   box-shadow:
-    0 10px 28px rgba(0, 0, 0, 0.22),
-    0 0 0 2px rgba(71, 243, 170, 0.16);
+    var(--shadow-soft),
+    0 0 0 2px color-mix(in srgb, var(--accent) 16%, transparent);
 }
 
 .calendar-day--has-event:active {
@@ -500,13 +477,13 @@
 }
 
 .calendar-day--selected {
-  border-color: rgba(71, 243, 170, 0.58);
+  border-color: color-mix(in srgb, var(--accent) 58%, transparent);
   background:
-    radial-gradient(circle at top right, rgba(71, 243, 170, 0.14), transparent 42%),
-    rgba(8, 21, 28, 0.95);
+    radial-gradient(circle at top right, color-mix(in srgb, var(--accent) 14%, transparent), transparent 42%),
+    var(--surface-panel-quiet);
   box-shadow:
-    inset 0 0 0 1px rgba(71, 243, 170, 0.1),
-    0 0 24px rgba(71, 243, 170, 0.08);
+    inset 0 0 0 1px color-mix(in srgb, var(--accent) 10%, transparent),
+    0 0 24px color-mix(in srgb, var(--accent) 8%, transparent);
 }
 
 .calendar-day--today::after {
@@ -518,7 +495,7 @@
   height: 0.42rem;
   border-radius: 999px;
   background: var(--accent);
-  box-shadow: 0 0 12px rgba(71, 243, 170, 0.42);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--accent) 42%, transparent);
 }
 
 .calendar-day-number {
@@ -550,14 +527,14 @@
 
 .calendar-day-event--authored {
   color: var(--accent);
-  border-color: rgba(71, 243, 170, 0.24);
-  background: rgba(71, 243, 170, 0.08);
+  border-color: color-mix(in srgb, var(--accent) 24%, transparent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
 }
 
 .calendar-day-event--generated {
-  color: #ffd38d;
-  border-color: rgba(255, 185, 87, 0.28);
-  background: rgba(255, 185, 87, 0.1);
+  color: var(--warning);
+  border-color: color-mix(in srgb, var(--warning) 28%, transparent);
+  background: color-mix(in srgb, var(--warning) 10%, transparent);
 }
 
 .calendar-list {
@@ -574,7 +551,7 @@
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface-panel);
-  box-shadow: inset 0 0 0 1px rgba(71, 243, 170, 0.02);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 2%, transparent);
 }
 
 .calendar-event-card--selected,
@@ -587,25 +564,16 @@
 }
 
 .calendar-event-card:first-child {
-  border-color: rgba(71, 243, 170, 0.32);
+  border-color: color-mix(in srgb, var(--accent) 32%, transparent);
   background:
-    radial-gradient(circle at top left, rgba(71, 243, 170, 0.05), transparent 40%),
-    rgba(6, 15, 23, 0.92);
+    radial-gradient(circle at top left, color-mix(in srgb, var(--accent) 5%, transparent), transparent 40%),
+    var(--surface-panel-quiet);
 }
 
 .calendar-event-card[data-kind="generated"] {
   background:
-    linear-gradient(180deg, rgba(10, 22, 34, 0.94), rgba(6, 15, 23, 0.9));
+    var(--surface-panel-elevated);
   border-style: dashed;
-}
-
-.calendar-event-date {
-  margin: 0 0 0.4rem;
-  color: var(--accent);
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
 }
 
 .calendar-event-card h3 {
@@ -637,7 +605,7 @@
   padding: 0 0.52rem;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(71, 243, 170, 0.03);
+  background: color-mix(in srgb, var(--accent) 3%, transparent);
   color: var(--text-sub);
   display: inline-flex;
   align-items: center;
@@ -662,15 +630,15 @@
 
 .calendar-event-status--authored {
   color: var(--accent);
-  border-color: rgba(71, 243, 170, 0.24);
-  background: rgba(71, 243, 170, 0.08);
+  border-color: color-mix(in srgb, var(--accent) 24%, transparent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
 }
 
 .calendar-event-status--generated {
-  color: #ffd38d;
-  border-color: rgba(255, 185, 87, 0.34);
-  background: rgba(255, 185, 87, 0.12);
-  box-shadow: 0 0 0 1px rgba(255, 185, 87, 0.06);
+  color: var(--warning);
+  border-color: color-mix(in srgb, var(--warning) 34%, transparent);
+  background: color-mix(in srgb, var(--warning) 12%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--warning) 6%, transparent);
 }
 
 .calendar-event-actions {
@@ -684,9 +652,9 @@
   justify-content: center;
   min-height: 2.75rem;
   padding: 0 1rem;
-  border: 1px solid rgba(71, 243, 170, 0.24);
-  border-radius: 999px;
-  background: rgba(71, 243, 170, 0.05);
+  border: 1px solid color-mix(in srgb, var(--accent) 24%, transparent);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
   color: var(--accent);
   font-size: 0.72rem;
   letter-spacing: 0.06em;
@@ -696,8 +664,8 @@
 
 .calendar-event-actions a:hover {
   transform: translateY(-1px);
-  background: rgba(71, 243, 170, 0.1);
-  border-color: rgba(71, 243, 170, 0.4);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 40%, transparent);
 }
 
 .calendar-event-actions a:active {
@@ -744,7 +712,7 @@
 
   .calendar-day {
     min-height: 4.2rem;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: auto;
     padding: 0.4rem;
   }
 

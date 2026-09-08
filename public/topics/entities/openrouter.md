@@ -13,7 +13,7 @@ OpenRouter is a model routing and inference platform that gives builders a unifi
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.
+- [[Sovereign AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.
 
 ## Related
 

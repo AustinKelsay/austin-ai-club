@@ -18,12 +18,12 @@ function doPost(e) {
     pageUrl: e?.parameter?.pageUrl || "",
   });
 
-  return renderIframeResponse_("You are subscribed to Austin AI Club reminders.", "success");
+  return renderIframeResponse_("You are subscribed to Sovereign AI Club reminders.", "success");
 }
 
 function doGet(e) {
   if (e?.parameter?.unsubscribe !== "1") {
-    return renderPage_("Austin AI Club reminders are online.");
+    return renderPage_("Sovereign AI Club reminders are online.");
   }
 
   const email = normalizeEmail_(e?.parameter?.email);
@@ -40,7 +40,7 @@ function doGet(e) {
     pageUrl: "",
   });
 
-  return renderPage_("You have been unsubscribed from Austin AI Club reminders.");
+  return renderPage_("You have been unsubscribed from Sovereign AI Club reminders.");
 }
 
 function sendTodayReminders() {
@@ -240,8 +240,8 @@ function buildSmokeTestEvent_() {
 
   return {
     id: `smoke-test-${timestamp}`,
-    title: "Austin AI Club Smoke Test",
-    summary: "Temporary reminder email to verify the Austin AI Club reminder flow end-to-end.",
+    title: "Sovereign AI Club Smoke Test",
+    summary: "Temporary reminder email to verify the Sovereign AI Club reminder flow end-to-end.",
     startAt: start.toISOString(),
     endAt: end.toISOString(),
     locationName: "Bitcoin Park Austin",
@@ -255,9 +255,9 @@ function buildSmokeTestEvent_() {
 function buildGoogleCalendarUrl_(start, end) {
   return [
     "https://calendar.google.com/calendar/render?action=TEMPLATE",
-    `text=${encodeURIComponent("Austin AI Club Smoke Test")}`,
+    `text=${encodeURIComponent("Sovereign AI Club Smoke Test")}`,
     `dates=${encodeURIComponent(formatCalendarDate_(start) + "/" + formatCalendarDate_(end))}`,
-    `details=${encodeURIComponent("Temporary reminder email to verify the Austin AI Club reminder flow end-to-end.")}`,
+    `details=${encodeURIComponent("Temporary reminder email to verify the Sovereign AI Club reminder flow end-to-end.")}`,
     `location=${encodeURIComponent("Bitcoin Park Austin, Austin, TX")}`,
     `ctz=${encodeURIComponent(getTimezone_())}`,
   ].join("&");

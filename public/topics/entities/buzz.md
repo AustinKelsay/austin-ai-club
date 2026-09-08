@@ -13,8 +13,8 @@ Buzz is Block's self-hostable workspace for people and agents, built around Nost
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.
-- [[Austin AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.
+- [[Sovereign AI Club - August 26, 2026]]: **Berd sits above goose, Claude Code, and Codex**.
+- [[Sovereign AI Club - July 22, 2026]]: **Buzz puts humans and agents on one signed event log**.
 
 ## Related
 

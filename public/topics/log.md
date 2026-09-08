@@ -1,6 +1,21 @@
 # Wiki Log
 
-> Chronological record of Austin AI Club wiki actions.
+> Chronological record of Sovereign AI Club wiki actions.
+
+## [2026-09-08] curate | September 9 board and host preparation
+
+- Curated 27 submitted links into 12 Topics across four Tracks after the organizer requested only supported material; retained 17 links and documented ten exclusions in the host guide.
+- Mirrored the board into Meetup Data, preserved X embeds and both videos, and added room questions, benchmark caveats, and a two-hour run of show.
+- Gardened source descriptions, nine recurring entity pages and their related links, and reciprocal Meetup references; corrected Astra’s stale unreleased summary and removed a false privacy relationship for the proposed math proof. Distinguished announced releases and acquisitions, author benchmarks, and unresolved attribution from established facts.
+
+## [2026-09-07] add | September 9 Meetup scaffold
+
+- Scaffolded the September 9 Meetup at AI Freedom Lab, 5:30–7:30 PM Central. Topic board lands closer to the event.
+
+## [2026-09-07] update | Club rename sweep
+
+- Renamed Meetup titles, headings, wikilinks, and wiki prose to Sovereign AI Club.
+- Meetup page ids stay `austin-ai-club-*` so `/wiki/:id` URLs do not change.
 
 ## [2026-08-26] update | Claudeforce and fal H3 Max
 
@@ -591,7 +606,7 @@
 ## [2026-05-05] create | LLM Wiki scaffold initialized
 
 - Path: `public/topics/`
-- Domain: Austin AI Club Meetup Topic Boards, source Links, recurring AI concepts, and entities.
+- Domain: Sovereign AI Club Meetup Topic Boards, source Links, recurring AI concepts, and entities.
 - Files: `SCHEMA.md`, `index.md`, `log.md`, raw/source directories, entity pages, concept pages, and one sample Meetup migration.
 - Rendering decision: `src/data.js` remains the frontend Meetup Data contract.
 

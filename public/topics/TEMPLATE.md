@@ -1,5 +1,5 @@
 ---
-title: Austin AI Club - Month DD, YYYY
+title: Sovereign AI Club - Month DD, YYYY
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 type: meetup
@@ -7,9 +7,11 @@ tags: [meetup, topic-board]
 sources: [raw/articles/YYYY-MM-DD-link-records.md]
 ---
 
-# Austin AI Club
+# Sovereign AI Club
 
 ## Month DD, YYYY
+
+AI Freedom Lab, Austin, TX · 5:30–7:30 PM Central.
 
 Related wiki pages: [[Agent Infrastructure]], [[Open Models]], [[Local AI]], [[Coding Agents]].
 

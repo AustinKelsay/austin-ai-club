@@ -13,7 +13,7 @@ Venice is a privacy-positioned AI platform that matters to the wiki when private
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Venice raises VC on the privacy pitch**.
+- [[Sovereign AI Club - July 8, 2026]]: **Venice raises VC on the privacy pitch**.
 
 ## Related
 

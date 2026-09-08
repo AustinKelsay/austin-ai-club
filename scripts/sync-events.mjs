@@ -87,7 +87,7 @@ function buildIcsBody(event, detailsUrl, dtstamp) {
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//Austin AI Club//Meetups//EN",
+    "PRODID:-//Sovereign AI Club//Meetups//EN",
     "CALSCALE:GREGORIAN",
     "BEGIN:VEVENT",
     `UID:${event.id}@austinai.club`,

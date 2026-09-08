@@ -1,21 +1,26 @@
-# Austin AI Club Meetup List
+# Sovereign AI Club Meetup List
 
-This context describes the language for curating Austin AI Club meetups, topic boards, reminders, and the durable public archive.
+This context describes the language for curating Sovereign AI Club meetups, topic boards, reminders, and the durable public archive.
 
 ## Language
 
-**Austin AI Club**:
-The community gathering this website archives and supports.
+**Sovereign AI Club**:
+The Austin, TX community gathering this website archives and supports. Formerly Austin AI Club; the name is Sovereign AI Club everywhere, including the Markdown Archive.
+_Avoid_: Austin AI Club, the meetup
+
+**Brand Poster**:
+The Sovereign AI Club poster at `docs/brand/sovereign-ai-club-poster.jpg`: the de facto design guide for the website's palette, type, texture, imagery, panel style, and event facts.
+_Avoid_: Mockup, mood board
 
 **Member**:
-A person in or near the Austin AI Club community.
+A person in or near the Sovereign AI Club community.
 
 **Meetup**:
-A dated Austin AI Club gathering with a topic board, optional reminder metadata, and an archive page.
+A dated Sovereign AI Club gathering with a topic board, optional reminder metadata, and an archive page.
 _Avoid_: Session
 
 **Meetup Slot**:
-A tentative calendar placeholder for a likely Austin AI Club gathering.
+A tentative calendar placeholder for a likely Sovereign AI Club gathering.
 _Avoid_: Meetup
 
 **Event Metadata**:
@@ -45,7 +50,11 @@ The editorial standard for whether an AI item belongs on the meetup board.
 _Avoid_: Interestingness
 
 **Major AI Story**:
-An AI story with enough industry or cultural gravity that Austin AI Club would naturally discuss it.
+An AI story with enough industry or cultural gravity that Sovereign AI Club would naturally discuss it.
+
+**Sovereignty Lens**:
+The club's primary editorial lens for favoring topics that increase a builder's or user's control over their own models, data, compute, identity, and payments: local-first, self-hosted, open-weight, permissionless, and exit-capable AI.
+_Avoid_: Track, Sovereign Track, freedom tech Track
 
 **Open Source Lens**:
 An editorial lens for favoring topics with inspectable code, open weights, reproducible artifacts, or open ecosystem impact.
@@ -147,8 +156,10 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - A **Topic Board** has one **Community Slot**.
 - The **Community Slot** appears after all **Tracks**.
 - A **Meetup** can have optional **Event Metadata**.
-- **Austin AI Club** has recurring **Meetups**.
-- **Austin AI Club** tries to meet biweekly.
+- **Sovereign AI Club** has recurring **Meetups**.
+- **Sovereign AI Club** tries to meet biweekly.
+- The website's visual design follows the **Brand Poster**.
+- **Event Metadata** records where and when a **Meetup** actually happened; a venue or time change applies to the next **Meetup**, the template, and later **Meetup Slots**, never to past **Meetups**.
 - **Meetup Slots** follow the biweekly planning cadence by default.
 - A **Meetup Slot** can have template **Event Metadata** for calendar display.
 - A **Meetup Slot** does not have a **Topic Board**.
@@ -180,8 +191,10 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 - A **Topic** has one or more **Links**.
 - A **Topic** has exactly one **Topic Title**.
 - A **Topic** can have **Presenter Notes**.
-- A **Topic** must have **Discussion Fit** for Austin AI Club.
+- A **Topic** must have **Discussion Fit** for Sovereign AI Club.
 - A **Major AI Story** has **Discussion Fit** even when its builder angle is not yet obvious.
+- The **Sovereignty Lens** shapes **Discussion Fit** but is not a **Track**.
+- The **Open Source Lens** and **Privacy Lens** are facets of the **Sovereignty Lens**.
 - The **Open Source Lens** shapes **Discussion Fit** but is not a **Track**.
 - The **Privacy Lens** shapes **Discussion Fit** but is not a **Track**.
 - The **Security Lens** shapes **Discussion Fit** across **Tracks**.
@@ -250,6 +263,18 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 >
 > **Dev:** "Does a huge AI story need an immediate builder takeaway to belong?"
 > **Domain expert:** "No — a **Major AI Story** has **Discussion Fit** because the room will naturally need to talk about it."
+>
+> **Dev:** "The club is called Sovereign AI Club now. Should sovereignty be a **Track**?"
+> **Domain expert:** "No — the **Sovereignty Lens** shapes **Discussion Fit** across every **Track**. A self-hosted inference story still lands in **Agent Infrastructure** or **Models & Research** by its discussion angle."
+>
+> **Dev:** "Is the **Sovereignty Lens** just a new name for the **Open Source Lens** plus the **Privacy Lens**?"
+> **Domain expert:** "No — those two are facets of it. The **Sovereignty Lens** also covers compute, identity, payments, and the ability to exit a platform, which neither facet names on its own."
+>
+> **Dev:** "Should the March 2026 notes keep saying Austin AI Club, since that was the name at the time?"
+> **Domain expert:** "No — the club is **Sovereign AI Club** everywhere, including the Markdown Archive and the LLM Wiki. ADR 0003 records the former name."
+>
+> **Dev:** "Should past **Meetups** move to the new venue and start time too?"
+> **Domain expert:** "No — **Event Metadata** is a record of what happened. The new venue and time start with the next **Meetup**, the template, and later **Meetup Slots**."
 >
 > **Dev:** "Should open-source items have their own **Track**?"
 > **Domain expert:** "No — use the **Open Source Lens** when deciding what belongs, then place the **Topic** in the best existing **Track**."
@@ -321,7 +346,11 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 
 - "SHIPPED" was used as a temporary track name for launched work — resolved: launched member work belongs in **Local Builds & Projects**.
 - "local builds" was close to meaning any runnable project — resolved: **Local Builds & Projects** is for Austin/member/community-orbit work.
-- "session" was used for dated Austin AI Club gatherings — resolved: the canonical term is **Meetup** in docs, data, and UI code.
+- "Austin AI Club" was the club's name until September 2026 — resolved: the club is **Sovereign AI Club** everywhere, including past Meetup pages, wikilinks, Meetup Data, calendar artifacts, and docs; the `austinai.club` domain and the GitHub repo name stay until a separate rename.
+- "sovereign" was close to being branding only — resolved: it is both the club name and the **Sovereignty Lens**, the club's primary editorial lens.
+- "sovereignty" was close to becoming another **Track** — resolved: the **Sovereignty Lens** shapes **Discussion Fit** across existing **Tracks**.
+- "venue change" was close to rewriting past **Event Metadata** — resolved: past **Meetups** keep the venue and time they actually had; the new venue and time apply from the next **Meetup** forward.
+- "session" was used for dated Sovereign AI Club gatherings — resolved: the canonical term is **Meetup** in docs, data, and UI code.
 - "future meetup" was used for generated calendar placeholders — resolved: tentative generated dates are **Meetup Slots** until manually overridden by hand-authored **Meetups**.
 - "biweekly" was close to being a hard schedule guarantee — resolved: it is the default planning cadence, and authored **Meetups** can override it.
 - "source of truth" was split between Markdown and structured data — resolved: the **Markdown Archive** is the durable record; **Meetup Data** is the curated rendering model.

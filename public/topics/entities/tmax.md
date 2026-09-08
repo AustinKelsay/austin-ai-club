@@ -9,13 +9,13 @@ sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-
 
 # TMax
 
-TMax is an open model family and training recipe that Austin AI Club tracks as part of the open coding-agent and terminal-agent RL wave.
+TMax is an open model family and training recipe that Sovereign AI Club tracks as part of the open coding-agent and terminal-agent RL wave.
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
-- [[Austin AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.
-- [[Austin AI Club - June 10, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - June 24, 2026]]: **Open model releases** and **Research behind the open model wave**.
+- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.
 
 ## Related
 

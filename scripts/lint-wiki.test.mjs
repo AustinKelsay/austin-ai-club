@@ -9,6 +9,7 @@ import {
   checkMentionedInSourceRecords,
   checkMentionedInTopicReferences,
   checkMentionedInTopicTitles,
+  checkRetiredClubName,
   checkTopicWikilinkBacklinks,
 } from "./lint-wiki.mjs";
 
@@ -56,7 +57,7 @@ describe("checkDatedMeetupSourceRecordCoverage", () => {
   it("rejects dated meetup URLs that are missing from the matching source record", () => {
     const errors = checkDatedMeetupSourceRecordCoverage(
       "public/topics/2026-05-27.md",
-      `# Austin AI Club - May 27, 2026
+      `# Sovereign AI Club - May 27, 2026
 
 - **Cursor gets SpaceX compute** - The compute story gets very concrete.
   Source: https://cursor.com/blog/spacex-model-training
@@ -79,7 +80,7 @@ describe("checkDatedMeetupSourceRecordCoverage", () => {
   it("accepts dated meetup URLs captured in the matching source record", () => {
     const errors = checkDatedMeetupSourceRecordCoverage(
       "public/topics/2026-05-27.md",
-      `# Austin AI Club - May 27, 2026
+      `# Sovereign AI Club - May 27, 2026
 
 - **Cursor gets SpaceX compute** - The compute story gets very concrete.
   Source: https://cursor.com/blog/spacex-model-training
@@ -140,7 +141,7 @@ describe("checkDatedSourceRecordTopicUrlPlacement", () => {
   it("rejects Topic URLs that are only present under a different source-record group", () => {
     const errors = checkDatedSourceRecordTopicUrlPlacement(
       "public/topics/raw/articles/2026-04-01-link-records.md",
-      `# Austin AI Club - April 1, 2026
+      `# Sovereign AI Club - April 1, 2026
 
 ## Models & Research
 
@@ -171,7 +172,7 @@ describe("checkDatedSourceRecordTopicUrlPlacement", () => {
   it("accepts Topic URLs under the matching source-record group", () => {
     const errors = checkDatedSourceRecordTopicUrlPlacement(
       "public/topics/raw/articles/2026-04-01-link-records.md",
-      `# Austin AI Club - April 1, 2026
+      `# Sovereign AI Club - April 1, 2026
 
 ## Models & Research
 
@@ -201,7 +202,7 @@ describe("checkMentionedInTopicTitles", () => {
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: Sandcastle and SubQ.
+- [[Sovereign AI Club - May 13, 2026]]: Sandcastle and SubQ.
 `,
       "concept",
     );
@@ -235,7 +236,7 @@ describe("checkMentionedInTopicTitles", () => {
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: **Sandcastle** and **SubQ goes after 12M-token context**.
+- [[Sovereign AI Club - May 13, 2026]]: **Sandcastle** and **SubQ goes after 12M-token context**.
 `,
       "concept",
     );
@@ -253,14 +254,14 @@ describe("checkMentionedInTopicTitles", () => {
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: **SubQ goes after 12M-token context**.
+- [[Sovereign AI Club - May 13, 2026]]: **SubQ goes after 12M-token context**.
 `,
       "concept",
       meetupTopicTitlesById,
     );
 
     expect(errors).toEqual([
-      'public/topics/concepts/coding-agents.md:5: Mentioned In Topic Title "SubQ goes after 12M-token context" was not found on Austin AI Club - May 13, 2026',
+      'public/topics/concepts/coding-agents.md:5: Mentioned In Topic Title "SubQ goes after 12M-token context" was not found on Sovereign AI Club - May 13, 2026',
     ]);
   });
 
@@ -277,7 +278,7 @@ describe("checkMentionedInTopicTitles", () => {
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: **Sandcastle** and **SubQ goes after 12M-token context**.
+- [[Sovereign AI Club - May 13, 2026]]: **Sandcastle** and **SubQ goes after 12M-token context**.
 `,
       "concept",
       meetupTopicTitlesById,
@@ -295,7 +296,7 @@ describe("checkMentionedInSourceRecords", () => {
 
 ## Mentioned In
 
-- [[Austin AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.
+- [[Sovereign AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.
 `,
       "entity",
       ["raw/articles/2026-05-13-link-records.md"],
@@ -305,7 +306,7 @@ describe("checkMentionedInSourceRecords", () => {
     );
 
     expect(errors).toEqual([
-      "public/topics/entities/openai.md:5: Mentioned In meetup Austin AI Club - May 27, 2026 requires frontmatter source raw/articles/2026-05-27-link-records.md",
+      "public/topics/entities/openai.md:5: Mentioned In meetup Sovereign AI Club - May 27, 2026 requires frontmatter source raw/articles/2026-05-27-link-records.md",
     ]);
   });
 
@@ -316,7 +317,7 @@ describe("checkMentionedInSourceRecords", () => {
 
 ## Mentioned In
 
-- [[Austin AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.
+- [[Sovereign AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.
 `,
       "entity",
       ["raw/articles/2026-05-27-link-records.md"],
@@ -352,12 +353,12 @@ describe("checkIndexCompleteness", () => {
         },
         {
           rel: "public/topics/raw/articles/2026-05-27-link-records.md",
-          title: "Austin AI Club - May 27, 2026 - Source Link Records",
+          title: "Sovereign AI Club - May 27, 2026 - Source Link Records",
           type: "summary",
         },
         {
           rel: "public/topics/TEMPLATE.md",
-          title: "Austin AI Club - Month DD, YYYY",
+          title: "Sovereign AI Club - Month DD, YYYY",
           type: "meetup",
         },
       ],
@@ -394,7 +395,7 @@ describe("checkIndexCompleteness", () => {
         },
         {
           rel: "public/topics/raw/articles/2026-05-27-link-records.md",
-          title: "Austin AI Club - May 27, 2026 - Source Link Records",
+          title: "Sovereign AI Club - May 27, 2026 - Source Link Records",
           type: "summary",
         },
       ],
@@ -408,14 +409,14 @@ describe("checkTopicWikilinkBacklinks", () => {
   it("rejects topic wikilinks without reciprocal Mentioned In entries", () => {
     const errors = checkTopicWikilinkBacklinks(
       "public/topics/2026-05-27.md",
-      `# Austin AI Club - May 27, 2026
+      `# Sovereign AI Club - May 27, 2026
 
 ## Agent Infrastructure
 
 - **SpaceX options Cursor for $60B** - [[Cursor]] gets tied to [[SpaceX]] compute.
   Source: https://example.com/cursor-spacex
 `,
-      "Austin AI Club - May 27, 2026",
+      "Sovereign AI Club - May 27, 2026",
       new Map([
         [
           "cursor",
@@ -425,7 +426,7 @@ describe("checkTopicWikilinkBacklinks", () => {
 
 ## Mentioned In
 
-- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.
+- [[Sovereign AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.
 `,
           },
         ],
@@ -440,14 +441,14 @@ describe("checkTopicWikilinkBacklinks", () => {
   it("accepts topic wikilinks with reciprocal Mentioned In entries", () => {
     const errors = checkTopicWikilinkBacklinks(
       "public/topics/2026-05-27.md",
-      `# Austin AI Club - May 27, 2026
+      `# Sovereign AI Club - May 27, 2026
 
 ## Agent Infrastructure
 
 - **SpaceX options Cursor for $60B** - [[Cursor]] gets tied to [[SpaceX]] compute.
   Source: https://example.com/cursor-spacex
 `,
-      "Austin AI Club - May 27, 2026",
+      "Sovereign AI Club - May 27, 2026",
       new Map([
         [
           "cursor",
@@ -457,7 +458,7 @@ describe("checkTopicWikilinkBacklinks", () => {
 
 ## Mentioned In
 
-- [[Austin AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.
+- [[Sovereign AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.
 `,
           },
         ],
@@ -472,7 +473,7 @@ describe("checkMeetupRelatedPageSpine", () => {
   it("rejects Topic wikilinks missing from the meetup Related wiki pages line", () => {
     const errors = checkMeetupRelatedPageSpine(
       "public/topics/2026-05-27.md",
-      `# Austin AI Club
+      `# Sovereign AI Club
 
 ## May 27, 2026
 
@@ -493,7 +494,7 @@ Related wiki pages: [[Cursor]].
   it("accepts Topic wikilinks present in the meetup Related wiki pages line", () => {
     const errors = checkMeetupRelatedPageSpine(
       "public/topics/2026-05-27.md",
-      `# Austin AI Club
+      `# Sovereign AI Club
 
 ## May 27, 2026
 
@@ -512,7 +513,7 @@ Related wiki pages: [[Cursor]], [[Agent Cost Controls]].
   it("rejects implicit Related wiki pages without a reciprocal Mentioned In entry", () => {
     const errors = checkMeetupRelatedPageSpine(
       "public/topics/2026-05-27.md",
-      `# Austin AI Club
+      `# Sovereign AI Club
 
 ## May 27, 2026
 
@@ -523,7 +524,7 @@ Related wiki pages: [[Cursor]], [[Open Models]].
 - **Composer 2.5 = Opus at one tenth the cost??** - [[Cursor]] matters here.
   Source: https://example.com/composer
 `,
-      "Austin AI Club - May 27, 2026",
+      "Sovereign AI Club - May 27, 2026",
       new Map([
         [
           "open-models",
@@ -533,7 +534,7 @@ Related wiki pages: [[Cursor]], [[Open Models]].
 
 ## Mentioned In
 
-- [[Austin AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**.
+- [[Sovereign AI Club - June 10, 2026]]: **Open-weight release week turns into a firehose**.
 `,
           },
         ],
@@ -541,14 +542,14 @@ Related wiki pages: [[Cursor]], [[Open Models]].
     );
 
     expect(errors).toEqual([
-      "public/topics/2026-05-27.md: Related wiki page [[Open Models]] must be used by Topic prose or have a Mentioned In entry for [[Austin AI Club - May 27, 2026]] in public/topics/concepts/open-models.md",
+      "public/topics/2026-05-27.md: Related wiki page [[Open Models]] must be used by Topic prose or have a Mentioned In entry for [[Sovereign AI Club - May 27, 2026]] in public/topics/concepts/open-models.md",
     ]);
   });
 
   it("accepts implicit Related wiki pages backed by Mentioned In entries", () => {
     const errors = checkMeetupRelatedPageSpine(
       "public/topics/2026-05-27.md",
-      `# Austin AI Club
+      `# Sovereign AI Club
 
 ## May 27, 2026
 
@@ -559,7 +560,7 @@ Related wiki pages: [[Cursor]], [[Open Models]].
 - **Composer 2.5 = Opus at one tenth the cost??** - [[Cursor]] matters here.
   Source: https://example.com/composer
 `,
-      "Austin AI Club - May 27, 2026",
+      "Sovereign AI Club - May 27, 2026",
       new Map([
         [
           "open-models",
@@ -569,11 +570,61 @@ Related wiki pages: [[Cursor]], [[Open Models]].
 
 ## Mentioned In
 
-- [[Austin AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.
+- [[Sovereign AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream**.
 `,
           },
         ],
       ]),
+    );
+
+    expect(errors).toEqual([]);
+  });
+});
+
+describe("checkRetiredClubName", () => {
+  it("fails when a wiki page body or frontmatter contains Austin AI Club", () => {
+    const errors = checkRetiredClubName(
+      "public/topics/2026-05-13.md",
+      `---
+title: Austin AI Club - May 13, 2026
+---
+
+# Austin AI Club
+`,
+    );
+
+    expect(errors).toEqual([
+      'public/topics/2026-05-13.md:2: retired club name "Austin AI Club" is not allowed in the LLM Wiki',
+      'public/topics/2026-05-13.md:5: retired club name "Austin AI Club" is not allowed in the LLM Wiki',
+    ]);
+  });
+
+  it("passes on a renamed Sovereign fixture", () => {
+    const errors = checkRetiredClubName(
+      "public/topics/2026-05-13.md",
+      `---
+title: Sovereign AI Club - May 13, 2026
+---
+
+# Sovereign AI Club
+`,
+    );
+
+    expect(errors).toEqual([]);
+  });
+});
+
+describe("meetup title prefix", () => {
+  it("accepts Mentioned In meetup wikilinks with the Sovereign AI Club title prefix", () => {
+    const errors = checkMentionedInTopicReferences(
+      "public/topics/concepts/coding-agents.md",
+      `# Coding Agents
+
+## Mentioned In
+
+- [[Sovereign AI Club - May 13, 2026]]: **Sandcastle**.
+`,
+      "concept",
     );
 
     expect(errors).toEqual([]);

@@ -13,7 +13,7 @@ HARC is Microsoft's safety-aligned Qwen checkpoint from the July 8 open-model to
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 
 ## Related
 

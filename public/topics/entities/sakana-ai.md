@@ -13,7 +13,7 @@ Sakana AI is a Japanese AI research company whose Fugu product frames learned mu
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.
+- [[Sovereign AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.
 
 ## Related
 

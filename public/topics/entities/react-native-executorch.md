@@ -13,7 +13,7 @@ React Native ExecuTorch is a mobile and desktop local-inference project that mat
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop**.
+- [[Sovereign AI Club - July 8, 2026]]: **Gemma 4 gives React Native an offline agent loop**.
 
 ## Related
 

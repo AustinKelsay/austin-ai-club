@@ -13,7 +13,7 @@ Nemotron Puzzle is NVIDIA's compressed Nemotron-Labs model variant from the July
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 
 ## Related
 

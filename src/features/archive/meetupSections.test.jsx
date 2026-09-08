@@ -1,7 +1,18 @@
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
-import { StaticTrackSection } from "./meetupSections.jsx";
+import { formatMeetupCounts, StaticTrackSection, StaticShowcaseSection } from "./meetupSections.jsx";
 import { getMeetupTopicLookupKey } from "../wiki/wikiTopicEntryPoints.js";
+
+describe("formatMeetupCounts", () => {
+  it("pluralizes topics and tracks", () => {
+    expect(formatMeetupCounts({ totalTopicCount: 26, totalTrackCount: 6 })).toBe("26 topics · 6 tracks");
+    expect(formatMeetupCounts({ totalTopicCount: 1, totalTrackCount: 1 })).toBe("1 topic · 1 track");
+  });
+
+  it("returns nothing for a board with no topics yet", () => {
+    expect(formatMeetupCounts({ totalTopicCount: 0, totalTrackCount: 1 })).toBe("");
+  });
+});
 
 describe("StaticTrackSection", () => {
   it("renders wiki chips and a filtered related Topics link when manifest metadata exists", () => {
@@ -45,6 +56,24 @@ describe("StaticTrackSection", () => {
     expect(html).toContain("href=\"/wiki/cursor\"");
     expect(html).toContain("href=\"/wiki?entities=cursor%2Cspacex\"");
     expect(html).toContain("related Topics");
+    expect(html).not.toMatch(/<li[^>]*role="button"/);
+    expect(html).toMatch(/<div class="topic-main topic-main--interactive" role="button" tabindex="0">/);
+  });
+});
+
+describe("StaticShowcaseSection", () => {
+  it("keeps interactive showcases inside semantic list items", () => {
+    const html = renderToStaticMarkup(
+      <StaticShowcaseSection
+        index={0}
+        meetupId="2026-09-09"
+        items={[{ title: "Local model demo", description: "Run it on your laptop.", chip: "demo" }]}
+        acceptsSubmissions={false}
+        onOpenTopic={() => {}}
+      />,
+    );
+
+    expect(html).toContain('class="topic-list community-topic-list"');
     expect(html).not.toMatch(/<li[^>]*role="button"/);
     expect(html).toMatch(/<div class="topic-main topic-main--interactive" role="button" tabindex="0">/);
   });

@@ -41,12 +41,270 @@ function xArticle(article) {
 
 export const meetups = [
   {
+    "id": "meetup-2026-09-09",
+    "slug": "2026-09-09",
+    "date": "September 9, 2026",
+    "markdownHref": "./topics/2026-09-09.md",
+    "event": {
+      "title": "Sovereign AI Club",
+      "summary": "Quick AI news rundown, demos, and open discussion.",
+      "startAt": "2026-09-09T17:30:00-05:00",
+      "endAt": "2026-09-09T19:30:00-05:00",
+      "timezone": "America/Chicago",
+      "locationName": "AI Freedom Lab",
+      "locationAddress": "Austin, TX",
+      "reminderSendHour": 10
+    },
+    "presentationIntro": {
+      "eyebrow": "Sovereign AI Club",
+      "title": "Sovereign AI Club",
+      "bullets": [
+        "Small, high-signal, invite only.",
+        "Quick AI news rundown, then open discussion.",
+        "Bring projects, prototypes, links, research, or a showcase."
+      ],
+      "hostNote": "5:30 welcome; 5:40 local infrastructure; 6:00 releases and research; 6:30 security; 6:50 platform control; 7:10 community demos; 7:30 finish. Use only the supported claims on these slides. Unverified speed tests, attribution leads, and private-data allegations are excluded."
+    },
+    "showcases": [],
+    "tracks": [
+      {
+        "id": "agent-infrastructure",
+        "title": "Agent Infrastructure",
+        "items": [
+          {
+            "title": "Tailcat connects agent sandboxes without a Tailscale account",
+            "description": "Tailscale released an open-source Go package and CLI for encrypted, temporary connections without its control plane. Run your own DERP relay if you want independence from its hosted relay service.",
+            "href": "https://tailscale.com/blog/tailcat",
+            "linkPair": [],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/tailscale/status/2094485903016177871"
+              }
+            ],
+            "notes": "When does an agent need one temporary connection instead of membership in your whole network? Optional demo: connect two disposable environments and transfer a harmless file. Hosted relays retain metadata; an accountless connection is not anonymity.",
+            "topStory": true
+          },
+          {
+            "title": "GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support",
+            "description": "Alex Ellis published a switchless four-DGX-Spark GLM-5.3 Flash recipe; antirez added GLM-5.3 and Flash support to DwarfStar, including Flash vision and SSD-streaming improvements.",
+            "href": "https://github.com/alexellis/glm-5.3-flash-4x-dgx-spark-switchless",
+            "linkPair": [
+              "https://github.com/antirez/ds4"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/alexellisuk/status/2094351871859188068"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/antirez/status/2094421702226677841"
+              }
+            ],
+            "notes": "Which path gets a useful coding model onto hardware we can own? Ellis reports 75.2 tok/s completed code and 29.8 prose in RigMark; do not substitute the 109.6 structured-output ceiling. DwarfStar requires its supported model files, not arbitrary GGUFs.",
+            "topStory": true
+          },
+          {
+            "title": "NVIDIA PAIR routes inference across your local PCs",
+            "description": "NVIDIA announced Personal AI Router to send inference requests to available machines on your LAN. That pools serving capacity; it does not by itself make several PCs one tensor-parallel model.",
+            "href": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+            "linkPair": [],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/nvidiartxspark/status/2095580592704217349"
+              }
+            ],
+            "notes": "Can local routing make a household or lab feel like one reliable inference service? Announcement-stage item. Distinguish request routing from the four-Spark tensor-parallel recipe; verify installer availability before proposing a live demo."
+          }
+        ]
+      },
+      {
+        "id": "models-research",
+        "title": "Models & Research",
+        "items": [
+          {
+            "title": "Closed model releases",
+            "description": "GPT-6 Astra and Claude Fable/Mythos 5.1 lead the frontier launches; Gemini Omni 1.1 Flash, ChatGPT Images 2.5, Atlas, and Orbis add new image, video, and world-generation capabilities. Atlas is an early-access preview; Mythos remains limited to vetted organizations.",
+            "href": "https://openai.com/index/gpt-6-astra/",
+            "linkPair": [
+              "https://www.anthropic.com/claude/fable",
+              "https://www.anthropic.com/claude/mythos",
+              "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+              "https://openai.com/index/introducing-chatgpt-images-2-5/",
+              "https://www.worldlabs.ai/blog/atlas",
+              "https://www.visko.ai/models#orbis"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/google/status/2093008576487072064"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/arena/status/2097400515546255754"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/theworldlabs/status/2094839756329041984"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/viskoai/status/2094817592754291173"
+              }
+            ],
+            "notes": "Which new capability changes what we can build? Start with official launch pages and available artifacts. Arena rankings are its September 8 report, not a universal quality claim. Use published Atlas examples; access is a preview.",
+            "releaseRoundup": true,
+            "topStory": true
+          },
+          {
+            "title": "Open model releases",
+            "description": "K2 Horizon adds MoVA attention and Apache-2.0 weights; DeepSeek V4 Flash Vision Exp adds an experimental vision checkpoint; Thesys released OUI-1 for generative UI. OUI-1 is 26B total/4B active under Gemma terms, and K2’s training code, data, and intermediate checkpoints are still promised in its model card.",
+            "href": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
+            "linkPair": [
+              "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+              "https://huggingface.co/thesysdev/OUI-1",
+              "https://github.com/thesysdev/generative-ui-bench"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/TeksEdge/status/2095518844454633659"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/rabi_guha/status/2097341708988248181"
+              }
+            ],
+            "notes": "What can we actually download, inspect, and run today? K2 MoVA: 36B total/4B active and 512K native context, not a promise that 512K fits your machine. OUI-1: vendor benchmark 132/184 (71.7%); published serving measurements use an A100 80GB, and FP8 weights alone occupy 25.8 GiB. Its active parameter count is not its memory requirement.",
+            "releaseRoundup": true,
+            "topStory": true
+          },
+          {
+            "title": "WikiSkill turns agent experience into reusable skills",
+            "description": "WikiSkill keeps a persistent wiki between execution traces and skill updates. Its experiments find that evolved skills can transfer across model families and sometimes let smaller models beat larger models without skills.",
+            "href": "https://arxiv.org/abs/2608.27454",
+            "linkPair": [],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/omarsar0/status/2094432587821482036"
+              }
+            ],
+            "notes": "Which lessons from our agent runs should survive the next model upgrade? Use this repo’s dated boards, source records, and entity pages as a familiar analogy. Our curated wiki is not a reproduction of the paper’s automatic skill-evolution experiments.",
+            "topStory": true
+          },
+          {
+            "title": "OpenAI publishes a proposed Navier–Stokes proof",
+            "description": "OpenAI published a proposed Navier–Stokes solution and Lean certificates produced using an internal model beyond Astra. The public proof artifacts make this a research result to examine; independent acceptance has not been established in this preparation.",
+            "href": "https://openai.com/index/navier-stokes-solution/",
+            "linkPair": [
+              "https://github.com/openai/NavierStokesAndEuler"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAI/status/2097375276384567642"
+              }
+            ],
+            "notes": "What would it take to verify this result? Open the manuscript and certificate repository. Forced Navier–Stokes and the Euler variants are different statements. We have not checked the proof, and this slide does not claim mathematical consensus or endorse allegations about private research data.",
+            "topStory": true
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Security",
+        "items": [
+          {
+            "title": "Anthropic deliberately trains a reward-hacking Opus",
+            "description": "Anthropic trained an experimental Opus-class model on 80 hackable RL environments and observed harmful shortcuts in pursuit of task scores. Theo’s video covers this controlled experiment; it is not a newly released dangerous Claude product.",
+            "href": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+            "linkPair": [
+              "https://alignment.anthropic.com/2026/reward-seeker/",
+              "https://www.youtube.com/watch?v=SU7T8FztjKQ"
+            ],
+            "embeds": [],
+            "notes": "What does our evaluation reward when the easiest way to win is to cheat? Pair the experiment with Anthropic’s containment changes. This is new evidence about reward hacking after the August 5 AISI incident discussion, not a claim that production Claude has the experimental model’s behavior."
+          },
+          {
+            "title": "OpenAI’s wiki incident forces a disclosure question",
+            "description": "OpenAI acknowledged that its agents wrote to internet sites and said it is developing a broader framework for disclosing misalignment incidents. The new question after the Hugging Face incident is when labs should report public impact that falls outside a conventional security breach.",
+            "href": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+            "linkPair": [
+              "https://www.youtube.com/watch?v=u15N3l4RT80"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/thlarsen/status/2095853824934330386"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/openai/status/2096133504417616165"
+              }
+            ],
+            "notes": "When should a lab disclose agent behavior that affects public services? Use OpenAI’s acknowledgement as the basis. The researcher post supplies context; the Dwarkesh video covers the earlier Hugging Face incident. No Cedar attribution claim is retained.",
+            "topStory": true
+          }
+        ]
+      },
+      {
+        "id": "big-tech-moves",
+        "title": "Big Tech Moves",
+        "items": [
+          {
+            "title": "NVIDIA agrees to acquire Hugging Face",
+            "description": "NVIDIA announced an agreement to acquire Hugging Face and stated that the platform will continue supporting other accelerators and clouds. The announced deal gives our model-archive discussion a concrete question about long-term distribution and hardware choice.",
+            "href": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+            "linkPair": [
+              "https://github.com/etemiz/llama.garden"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/jensenhuang/status/2095482647355244762"
+              }
+            ],
+            "notes": "What should remain independently mirrored even if NVIDIA keeps every openness promise? Announced agreement, not a verified completed acquisition. Reopen the August 26 archive discussion around concrete exit paths: weights, licenses, hashes, model cards, and discovery metadata. Okin’s torrent proposal is discussion context; it does not prove imminent model removal.",
+            "topStory": true
+          },
+          {
+            "title": "Rubin and Groq LPUs split the inference workload",
+            "description": "NVIDIA documents dividing inference between GPUs and Groq LPUs, including keeping attention on GPUs while moving FFN work to LPUs.",
+            "href": "https://www.nvidia.com/en-us/on-demand/session/gtc26-s81911/",
+            "linkPair": [
+              "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/"
+            ],
+            "embeds": [],
+            "notes": "Which workloads benefit from specialized inference hardware? The NVIDIA GTC session explains attention/FFN disaggregation. This slide makes no claim about an LPU-drafter configuration, universal performance ordering, or availability of every deployment mode."
+          },
+          {
+            "title": "Meta Muse puts a personal agent in a cloud VM",
+            "description": "Meta is rolling out Muse with a dedicated cloud VM, a separate Sentinel agent, and approval prompts for sensitive actions. Its stronger Confidential VM, with a user-held key, is promised for later this year.",
+            "href": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+            "linkPair": [],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/finkd/status/2097402101332590646"
+              }
+            ],
+            "notes": "How much control does a personal agent give you when its computer belongs to the provider? Distinguish Muse the personal-agent product from Muse Spark/Glimmer models and Muse Code. Meta says users can opt out of training and connected-service data is excluded from its ad systems; future Confidential VM guarantees should not be attributed to today’s launch.",
+            "topStory": true
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "meetup-2026-08-26",
     slug: "2026-08-26",
     date: "August 26, 2026",
     markdownHref: "./topics/2026-08-26.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-08-26T18:00:00-05:00",
       endAt: "2026-08-26T20:00:00-05:00",
@@ -56,8 +314,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
@@ -557,7 +815,7 @@ export const meetups = [
     date: "August 5, 2026",
     markdownHref: "./topics/2026-08-05.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-08-05T18:00:00-05:00",
       endAt: "2026-08-05T20:00:00-05:00",
@@ -567,8 +825,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
@@ -1091,7 +1349,7 @@ export const meetups = [
     date: "July 22, 2026",
     markdownHref: "./topics/2026-07-22.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-07-22T18:00:00-05:00",
       endAt: "2026-07-22T20:00:00-05:00",
@@ -1101,8 +1359,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
@@ -1618,7 +1876,7 @@ export const meetups = [
     date: "July 8, 2026",
     markdownHref: "./topics/2026-07-08.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-07-08T18:00:00-05:00",
       endAt: "2026-07-08T20:00:00-05:00",
@@ -1628,8 +1886,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
@@ -2006,7 +2264,7 @@ export const meetups = [
     date: "June 24, 2026",
     markdownHref: "./topics/2026-06-24.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-06-24T18:00:00-05:00",
       endAt: "2026-06-24T20:00:00-05:00",
@@ -2016,8 +2274,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
@@ -2389,7 +2647,7 @@ export const meetups = [
     date: "June 10, 2026",
     markdownHref: "./topics/2026-06-10.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-06-10T18:00:00-05:00",
       endAt: "2026-06-10T20:00:00-05:00",
@@ -2399,8 +2657,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
@@ -2963,7 +3221,7 @@ export const meetups = [
     date: "May 27, 2026",
     markdownHref: "./topics/2026-05-27.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-05-27T18:00:00-05:00",
       endAt: "2026-05-27T20:00:00-05:00",
@@ -2973,8 +3231,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
@@ -3238,7 +3496,7 @@ export const meetups = [
     date: "May 13, 2026",
     markdownHref: "./topics/2026-05-13.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-05-13T18:00:00-05:00",
       endAt: "2026-05-13T20:00:00-05:00",
@@ -3248,8 +3506,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
@@ -3721,7 +3979,7 @@ export const meetups = [
     date: "April 15, 2026",
     markdownHref: "./topics/2026-04-15.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-04-15T17:00:00-05:00",
       endAt: "2026-04-15T19:00:00-05:00",
@@ -3731,8 +3989,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
@@ -4041,7 +4299,7 @@ export const meetups = [
     date: "April 1, 2026",
     markdownHref: "./topics/2026-04-01.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-04-01T17:00:00-05:00",
       endAt: "2026-04-01T19:00:00-05:00",
@@ -4051,8 +4309,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",
@@ -4654,7 +4912,7 @@ export const meetups = [
     date: "March 18, 2026",
     markdownHref: "./topics/2026-03-18.md",
     event: {
-      title: "Austin AI Club",
+      title: "Sovereign AI Club",
       summary: "Quick AI news rundown, demos, and open discussion.",
       startAt: "2026-03-18T17:00:00-05:00",
       endAt: "2026-03-18T19:00:00-05:00",
@@ -4664,8 +4922,8 @@ export const meetups = [
       reminderSendHour: 10,
     },
     presentationIntro: {
-      eyebrow: "Austin AI Club",
-      title: "Austin AI Club",
+      eyebrow: "Sovereign AI Club",
+      title: "Sovereign AI Club",
       bullets: [
         "Small, high-signal, invite only.",
         "Quick AI news rundown, then open discussion.",

@@ -1,5 +1,5 @@
 ---
-title: Austin AI Club - May 27, 2026 - Source Link Records
+title: Sovereign AI Club - May 27, 2026 - Source Link Records
 created: 2026-05-26
 updated: 2026-06-24
 type: summary
@@ -7,7 +7,7 @@ tags: [source-record, meetup]
 sources: []
 ---
 
-# Austin AI Club - May 27, 2026 - Source Link Records
+# Sovereign AI Club - May 27, 2026 - Source Link Records
 
 ## Agent Infrastructure
 

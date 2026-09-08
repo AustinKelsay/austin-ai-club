@@ -9,11 +9,11 @@ sources: [raw/articles/2026-06-24-link-records.md]
 
 # Midjourney
 
-Midjourney is an AI research lab and image-generation product company that became a June 24 Austin AI Club topic because its Midjourney Medical scanner announcement moved the lab into physical health hardware.
+Midjourney is an AI research lab and image-generation product company that became a June 24 Sovereign AI Club topic because its Midjourney Medical scanner announcement moved the lab into physical health hardware.
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **Midjourney turns image-gen into body hardware**.
+- [[Sovereign AI Club - June 24, 2026]]: **Midjourney turns image-gen into body hardware**.
 
 ## Related
 

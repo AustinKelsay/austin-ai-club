@@ -3,9 +3,8 @@ import { COMMUNITY_SLOT_LABEL } from "../../app/constants.js";
 export const submissionScreens = {
   link: {
     kind: "link",
-    eyebrow: "Submit a link",
-    title: "Add a meetup link",
-    description: "Share a link for the next meetup.",
+    title: "Submit a link",
+    description: null,
     fields: [
       {
         name: "title",
@@ -26,9 +25,8 @@ export const submissionScreens = {
   },
   showcase: {
     kind: "showcase",
-    eyebrow: COMMUNITY_SLOT_LABEL,
-    title: "Propose a showcase",
-    description: "Propose a 3-5 minute demo, build, or discussion.",
+    title: `Propose a ${COMMUNITY_SLOT_LABEL.toLowerCase()}`,
+    description: "A 3-5 minute demo, build, or discussion.",
     fields: [
       {
         name: "title",
