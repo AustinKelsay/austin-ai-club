@@ -13,7 +13,7 @@ Cognition is a coding-agent company tracked here for Devin and SWE model release
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.
 
 ## Related
 

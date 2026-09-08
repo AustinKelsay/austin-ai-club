@@ -13,7 +13,7 @@ Omarchy is DHH's opinionated Arch Linux distribution built on Hyprland and Quick
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**.
+- [[Sovereign AI Club - August 26, 2026]]: **Omarchy Quattro makes coding agents an OS default**.
 
 ## Related
 

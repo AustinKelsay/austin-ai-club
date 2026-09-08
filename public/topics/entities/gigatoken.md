@@ -13,7 +13,7 @@ Gigatoken is an MIT-licensed Rust tokenizer focused on high-throughput language-
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Gigatoken pushes tokenization into GB/s**.
+- [[Sovereign AI Club - July 22, 2026]]: **Gigatoken pushes tokenization into GB/s**.
 
 ## Related
 

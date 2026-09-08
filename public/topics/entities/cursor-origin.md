@@ -13,7 +13,7 @@ Cursor Origin is the leaked Cursor code-hosting and collaboration product direct
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **Cursor previews Origin, a GitHub competitor**.
+- [[Sovereign AI Club - June 24, 2026]]: **Cursor previews Origin, a GitHub competitor**.
 
 ## Related
 

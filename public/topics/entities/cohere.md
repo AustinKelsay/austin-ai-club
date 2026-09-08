@@ -9,13 +9,13 @@ sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-
 
 # Cohere
 
-Cohere is a recurring Austin AI Club entity for enterprise-focused open models, local and sovereign AI deployments, multilingual model work, speech recognition, and coding-agent model releases.
+Cohere is a recurring Sovereign AI Club entity for enterprise-focused open models, local and sovereign AI deployments, multilingual model work, speech recognition, and coding-agent model releases.
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
-- [[Austin AI Club - June 10, 2026]]: **Open model releases**.
-- [[Austin AI Club - April 1, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - April 1, 2026]]: **Open model releases**.
 
 ## Related
 

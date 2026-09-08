@@ -13,7 +13,7 @@ OpenAI Presence is a managed platform for production voice and chat agents, incl
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **OpenAI Presence productizes the agent contact center**.
+- [[Sovereign AI Club - July 22, 2026]]: **OpenAI Presence productizes the agent contact center**.
 
 ## Related
 

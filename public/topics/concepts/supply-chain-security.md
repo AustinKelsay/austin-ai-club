@@ -13,10 +13,10 @@ Supply Chain Security covers dependency compromise, leaked build artifacts, mali
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **Shai-Hulud hits keyv and 2B monthly npm installs**.
-- [[Austin AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.
-- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach** and **Mini Shai-Hulud hits the AI dev supply chain**.
-- [[Austin AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, and **Axios supply-chain attack**.
+- [[Sovereign AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **Shai-Hulud hits keyv and 2B monthly npm installs**.
+- [[Sovereign AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.
+- [[Sovereign AI Club - May 13, 2026]]: **Vercel's Context.ai breach** and **Mini Shai-Hulud hits the AI dev supply chain**.
+- [[Sovereign AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, and **Axios supply-chain attack**.
 
 ## Related
 

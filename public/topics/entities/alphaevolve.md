@@ -13,7 +13,7 @@ AlphaEvolve is Google's generate-evaluate-evolve agent for discovering and optim
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **AlphaEvolve turns algorithm discovery into a cloud product** and **AI math crosses from medals into new proofs**.
+- [[Sovereign AI Club - July 22, 2026]]: **AlphaEvolve turns algorithm discovery into a cloud product** and **AI math crosses from medals into new proofs**.
 
 ## Related
 

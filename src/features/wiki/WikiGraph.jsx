@@ -3,6 +3,7 @@
  * Defers the initial camera fit until the simulation settles with real node coordinates,
  * and never auto-refocuses on resize (Focus / All remain manual).
  */
+import { useModalFocus } from "../../lib/useModalFocus.js";
 import ForceGraph from "force-graph";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
@@ -10,7 +11,7 @@ import {
   isLinkVisible,
 } from "./wikiGraphFilters.js";
 import { updateLatestValueRef } from "./WikiGraphController.js";
-import { WIKI_GRAPH_TYPE_COLORS } from "./wikiGraphTypes.js";
+import { getWikiGraphTypeColors } from "./wikiGraphTypes.js";
 import {
   buildNeighborIds,
   buildNodeTooltip,
@@ -28,6 +29,10 @@ const SMALL_FOCUS_NODE_LIMIT = 6;
 const TINY_FOCUS_ZOOM = 1.2;
 const SMALL_FOCUS_ZOOM = 1.45;
 
+function getMotionDuration(duration) {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : duration;
+}
+
 /**
  * Fits the camera to nodes matching `nodeFilter`.
  * @param {object} instance ForceGraph instance
@@ -35,7 +40,7 @@ const SMALL_FOCUS_ZOOM = 1.45;
  * @param {(node: object) => boolean} [nodeFilter] Optional node predicate
  */
 function focusGraph(instance, duration = 450, nodeFilter) {
-  instance.zoomToFit(duration, FIT_PADDING, nodeFilter);
+  instance.zoomToFit(getMotionDuration(duration), FIT_PADDING, nodeFilter);
 }
 
 /**
@@ -81,6 +86,7 @@ function hasSettledVisibleNodes(instance, visibleTypes) {
  * @param {number} [duration=450] Animation duration in ms
  */
 function focusNeighborhood(instance, selectedId, neighborIds, visibleTypes, duration = 450) {
+  duration = getMotionDuration(duration);
   const nodeFilter = buildFocusNodeFilter(selectedId, neighborIds, visibleTypes);
   const graphData = instance.graphData();
   const focusNodes = graphData.nodes.filter(nodeFilter);
@@ -110,6 +116,7 @@ function focusNeighborhood(instance, selectedId, neighborIds, visibleTypes, dura
  * @param {{ graph: { nodes: object[], links: object[] }, selectedId: string | null, onSelectPage: (id: string) => void, visibleTypes?: Set<string> }} props
  */
 export default function WikiGraph({ graph, selectedId, onSelectPage, visibleTypes = getDefaultVisibleTypes() }) {
+  const frameRef = useRef(null);
   const containerRef = useRef(null);
   const graphRef = useRef(null);
   const resizeGraphRef = useRef(null);
@@ -119,7 +126,10 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
   const neighborIdsRef = useRef(new Set());
   const visibleNodeIdsRef = useRef(new Set());
   const hasSettledFitRef = useRef(false);
+  const reducedMotionRef = useRef(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const typeColors = useMemo(() => getWikiGraphTypeColors(), []);
+  useModalFocus(frameRef, isFullscreen, () => setIsFullscreen(false));
 
   const graphData = useMemo(() => {
     const nodes = graph.nodes
@@ -161,6 +171,20 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
   }, [visibleNodeIds]);
 
   useEffect(() => {
+    const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const syncMotion = () => {
+      reducedMotionRef.current = preference.matches;
+      graphRef.current?.linkDirectionalParticles((link) =>
+        reducedMotionRef.current ? 0 :
+          getLinkParticleCount(link, selectedIdRef.current, neighborIdsRef.current),
+      );
+    };
+    syncMotion();
+    preference.addEventListener("change", syncMotion);
+    return () => preference.removeEventListener("change", syncMotion);
+  }, []);
+
+  useEffect(() => {
     if (!containerRef.current) {
       return undefined;
     }
@@ -174,11 +198,11 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       .nodeVisibility((node) => visibleTypesRef.current.has(node.type))
       .linkVisibility((link) => isLinkVisible(link, visibleNodeIdsRef.current))
       .nodeColor((node) =>
-        getNodeColor(node, selectedIdRef.current, WIKI_GRAPH_TYPE_COLORS, neighborIdsRef.current),
+        getNodeColor(node, selectedIdRef.current, typeColors, neighborIdsRef.current),
       )
       .nodeCanvasObject((node, ctx, globalScale) => {
         if (shouldShowNodeLabel(node, selectedIdRef.current, neighborIdsRef.current)) {
-          drawNodeLabel(ctx, node, "#ffffff", globalScale);
+          drawNodeLabel(ctx, node, getNodeColor(node, selectedIdRef.current, typeColors, neighborIdsRef.current), globalScale);
         }
       })
       .nodeCanvasObjectMode(() => "after")
@@ -189,7 +213,8 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
         getLinkWidth(link, selectedIdRef.current, neighborIdsRef.current),
       )
       .linkDirectionalParticles((link) =>
-        getLinkParticleCount(link, selectedIdRef.current, neighborIdsRef.current),
+        reducedMotionRef.current ? 0 :
+          getLinkParticleCount(link, selectedIdRef.current, neighborIdsRef.current),
       )
       .linkDirectionalParticleWidth(1.4)
       .linkDirectionalParticleSpeed(0.004)
@@ -258,21 +283,10 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       return undefined;
     }
 
-    document.body.classList.add("wiki-graph-fullscreen-open");
-
-    const handleKeyDown = (event) => {
-      if (event.key === "Escape") {
-        setIsFullscreen(false);
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
     const animationFrame = window.requestAnimationFrame(() => resizeGraphRef.current?.());
     const settledResize = window.setTimeout(() => resizeGraphRef.current?.(), 180);
 
     return () => {
-      document.body.classList.remove("wiki-graph-fullscreen-open");
-      window.removeEventListener("keydown", handleKeyDown);
       window.cancelAnimationFrame(animationFrame);
       window.clearTimeout(settledResize);
       window.setTimeout(() => resizeGraphRef.current?.(), 80);
@@ -298,11 +312,13 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
       .nodeVisibility((node) => visibleTypesRef.current.has(node.type))
       .linkVisibility((link) => isLinkVisible(link, visibleNodeIdsRef.current))
       .nodeColor((node) =>
-        getNodeColor(node, selectedId, WIKI_GRAPH_TYPE_COLORS, neighborIds),
+        getNodeColor(node, selectedId, typeColors, neighborIds),
       )
       .linkColor((link) => getLinkColor(link, selectedId, neighborIds))
       .linkWidth((link) => getLinkWidth(link, selectedId, neighborIds))
-      .linkDirectionalParticles((link) => getLinkParticleCount(link, selectedId, neighborIds));
+      .linkDirectionalParticles((link) =>
+        reducedMotionRef.current ? 0 : getLinkParticleCount(link, selectedId, neighborIds),
+      );
 
     if (!hasSettledFitRef.current) {
       return;
@@ -322,6 +338,8 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
 
   return (
     <div
+      ref={frameRef}
+      tabIndex={isFullscreen ? -1 : undefined}
       className={frameClassName}
       role={isFullscreen ? "dialog" : undefined}
       aria-modal={isFullscreen ? "true" : undefined}
@@ -361,7 +379,7 @@ export default function WikiGraph({ graph, selectedId, onSelectPage, visibleType
           </button>
         </div>
       </div>
-      <div ref={containerRef} className="wiki-graph-canvas" aria-label="Wiki link graph" />
+      <div ref={containerRef} className="wiki-graph-canvas" role="img" aria-label="Wiki link graph" />
     </div>
   );
 }

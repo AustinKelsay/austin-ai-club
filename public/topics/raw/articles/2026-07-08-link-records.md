@@ -1,5 +1,5 @@
 ---
-title: Austin AI Club - July 8, 2026 - Source Link Records
+title: Sovereign AI Club - July 8, 2026 - Source Link Records
 created: 2026-07-07
 updated: 2026-07-08
 type: summary
@@ -7,7 +7,7 @@ tags: [source-record, meetup]
 sources: []
 ---
 
-# Austin AI Club - July 8, 2026 - Source Link Records
+# Sovereign AI Club - July 8, 2026 - Source Link Records
 
 ## Agent Infrastructure
 

@@ -11,9 +11,9 @@ import ArchiveShell from "../archive/ArchiveShell.jsx";
 import { groupPagesByType } from "./wikiCatalogGroups.js";
 import { getDefaultVisibleTypes, resolveGraphFocusId, toggleVisibleType, WIKI_GRAPH_TYPE_LIST } from "./wikiGraphFilters.js";
 import { WikiDetail } from "./WikiDetail.jsx";
-import WikiGraph from "./WikiGraph.jsx";
+import WikiGraphView from "./WikiGraphView.jsx";
 import { WikiGraphLegend } from "./WikiGraphLegend.jsx";
-import { WIKI_GRAPH_TYPE_COLORS } from "./wikiGraphTypes.js";
+import { WIKI_GRAPH_TYPES } from "./wikiGraphTypes.js";
 import { filterTopicsByExplorerState, getSelectedTopicFilterIds } from "./wikiTopicFilters.js";
 import { WikiTopicResults, WikiTopicSpotlight } from "./WikiTopicResults.jsx";
 import { filterPagesByQuery } from "./wikiSearch.js";
@@ -34,10 +34,6 @@ function getGroupLabel(type) {
 
 const ALL = WIKI_EXPLORER_TYPE_ALL;
 const SEARCH_INPUT_KEY = "/";
-
-function pluralize(count, singular) {
-  return `${count} ${singular}${count === 1 ? "" : "s"}`;
-}
 
 function getPageTypeLabel(type) {
   return type.replace(/-/g, " ");
@@ -112,13 +108,16 @@ function sortPages(pages, sort) {
   return copy;
 }
 
-function WikiLoading({ onOpenRoute }) {
+function WikiLoading({ onOpenRoute, error, onRetry }) {
   return (
-    <ArchiveShell onOpenRoute={onOpenRoute} shellClassName="shell--wiki">
-      <main className="wiki-shell">
+    <ArchiveShell onOpenRoute={onOpenRoute} shellClassName="shell--wiki" activePath="/wiki">
+      <main id="main-content" tabIndex={-1} className="wiki-shell">
         <section className="wiki-loading">
-          <p className="eyebrow">LLM Wiki</p>
-          <h2>Loading wiki explorer</h2>
+          <h2>{error ? "The Wiki couldn’t load." : "Loading wiki…"}</h2>
+          {error ? <>
+            <p>Check your connection and try again.</p>
+            <button className="wiki-retry" onClick={onRetry}>Try again</button>
+          </> : <p role="status">Gathering pages and connections.</p>}
         </section>
       </main>
     </ArchiveShell>
@@ -138,7 +137,6 @@ function WikiCatalogItem({ page, selected, onOpenRoute }) {
     >
       <span className="wiki-catalog-item-copy">
         <strong>{page.title}</strong>
-        <small>{getPageTypeLabel(page.type)}</small>
       </span>
       {metric ? (
         <span
@@ -191,7 +189,9 @@ function WikiIndexTabs({ pageTypes, activeType, pages, onSelectType }) {
 }
 
 function WikiCatalogSection({ group, selectedPageId, onOpenRoute }) {
-  const color = WIKI_GRAPH_TYPE_COLORS[group.type] ?? "#9fb8b0";
+  const color =
+    WIKI_GRAPH_TYPES.find((graphType) => graphType.type === group.type)?.cssColor ??
+    "var(--graph-node-default)";
 
   return (
     <section className="wiki-index-section" aria-labelledby={`wiki-index-${group.type}`}>
@@ -222,7 +222,7 @@ function getInitialStateFromSearch(search) {
   return parseWikiExplorerSearch(search);
 }
 
-export default function WikiExplorer({ manifest, focusedWikiId, search = "", onOpenRoute }) {
+export default function WikiExplorer({ manifest, error, onRetry, focusedWikiId, search = "", onOpenRoute }) {
   const initial = useMemo(() => getInitialStateFromSearch(search), [search]);
   const [query, setQuery] = useState(initial.query);
   const [typeFilter, setTypeFilter] = useState(initial.typeFilter);
@@ -362,10 +362,12 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
 
   useEffect(() => {
     const handler = (event) => {
+      if (event.defaultPrevented) return;
       if (
         event.key === "Escape" &&
         (query || typeFilter !== ALL || tagFilter !== ALL || activeTopicFilterIds.length > 0)
       ) {
+        event.preventDefault();
         clearFilters();
         return;
       }
@@ -377,12 +379,12 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
       }
     };
 
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
+    document.addEventListener("keydown", handler);
+    return () => document.removeEventListener("keydown", handler);
   }, [query, typeFilter, tagFilter, activeTopicFilterIds, clearFilters]);
 
   if (!manifest) {
-    return <WikiLoading onOpenRoute={onOpenRoute} />;
+    return <WikiLoading onOpenRoute={onOpenRoute} error={error} onRetry={onRetry} />;
   }
 
   const hasActiveFilters = Boolean(query) || typeFilter !== ALL || tagFilter !== ALL || activeTopicFilterIds.length > 0;
@@ -398,14 +400,13 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
   const graphSelectedId = resolveGraphFocusId(selectedPage, manifest.pagesById, visibleTypes);
 
   return (
-    <ArchiveShell onOpenRoute={onOpenRoute} shellClassName="shell--wiki">
-      <main className="wiki-shell">
+    <ArchiveShell onOpenRoute={onOpenRoute} shellClassName="shell--wiki" activePath="/wiki">
+      <main id="main-content" tabIndex={-1} className="wiki-shell">
         <section className="wiki-hero">
-          <p className="eyebrow">LLM Wiki</p>
-          <h2>Connected notes from Austin AI Club</h2>
+          <h2>LLM Wiki</h2>
           <p>
-            Browse Meetup topics through their source links, recurring entities, concepts, and
-            durable source records.
+            Meetup topics, the sources behind them, and the entities and concepts that keep
+            coming back.
           </p>
         </section>
 
@@ -462,13 +463,6 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
             ) : null}
 
             <div className="wiki-index-browser">
-              <div className="wiki-index-header">
-                <div>
-                  <p className="eyebrow">Index</p>
-                  <strong>{pluralize(filteredPages.length, "page")}</strong>
-                </div>
-                <span>{typeFilter === ALL ? "All types" : getGroupLabel(typeFilter)}</span>
-              </div>
               <WikiIndexTabs
                 pageTypes={pageTypes}
                 activeType={typeFilter}
@@ -494,17 +488,12 @@ export default function WikiExplorer({ manifest, focusedWikiId, search = "", onO
 
           <section className="wiki-graph-panel" aria-label="Wiki graph">
             <div className="wiki-panel-heading">
-              <strong className="wiki-panel-title">
-                {selectedPage?.title ?? "No page selected"}
-              </strong>
-              <div className="wiki-panel-actions">
-                <button type="button" className="wiki-surprise" onClick={handleSurprise}>
-                  Surprise
-                </button>
-                <WikiGraphLegend visibleTypes={visibleTypes} onToggle={handleToggleType} />
-              </div>
+              <WikiGraphLegend visibleTypes={visibleTypes} onToggle={handleToggleType} />
+              <button type="button" className="wiki-surprise" onClick={handleSurprise}>
+                Surprise
+              </button>
             </div>
-            <WikiGraph
+            <WikiGraphView
               graph={manifest.graph}
               selectedId={graphSelectedId}
               onSelectPage={selectPage}

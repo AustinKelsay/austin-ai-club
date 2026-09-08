@@ -9,16 +9,16 @@ sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-
 
 # AI Signal Discovery
 
-AI Signal Discovery covers the recurring Austin AI Club problem of finding, filtering, and ranking fast-moving AI sources: AI Twitter, Digg, live leaderboards, model-release firehoses, benchmark dashboards, and practitioner filter threads.
+AI Signal Discovery covers the recurring Sovereign AI Club problem of finding, filtering, and ranking fast-moving AI sources: AI Twitter, Digg, live leaderboards, model-release firehoses, benchmark dashboards, and practitioner filter threads.
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**, **Open model releases**, and **Research behind the open model wave**.
-- [[Austin AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, and **Open model releases**.
-- [[Austin AI Club - May 27, 2026]]: **Digg returns as AI signal detector** and **DeepSWE exposes the real coding model hierarchy**.
-- [[Austin AI Club - May 13, 2026]]: **12 models in 37 days** and **ProgramBench says agents still cannot rebuild software**.
-- [[Austin AI Club - April 1, 2026]]: **Local models getting glazed**.
-- [[Austin AI Club - March 18, 2026]]: **Frontier check**, **Open model releases**, and **plebdev-bench**.
+- [[Sovereign AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**, **Open model releases**, and **Research behind the open model wave**.
+- [[Sovereign AI Club - June 10, 2026]]: **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, and **Open model releases**.
+- [[Sovereign AI Club - May 27, 2026]]: **Digg returns as AI signal detector** and **DeepSWE exposes the real coding model hierarchy**.
+- [[Sovereign AI Club - May 13, 2026]]: **12 models in 37 days** and **ProgramBench says agents still cannot rebuild software**.
+- [[Sovereign AI Club - April 1, 2026]]: **Local models getting glazed**.
+- [[Sovereign AI Club - March 18, 2026]]: **Frontier check**, **Open model releases**, and **plebdev-bench**.
 
 ## Related
 

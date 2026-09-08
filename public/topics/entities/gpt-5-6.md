@@ -13,11 +13,11 @@ GPT-5.6 is the OpenAI model-release line tracked in the June 24 rumor/cadence to
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Closed model releases**, and **OpenAI writes up the Hugging Face eval as a warning shot**.
-- [[Austin AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
-- [[Austin AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**.
-- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.
-- [[Austin AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.
+- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Closed model releases**, and **OpenAI writes up the Hugging Face eval as a warning shot**.
+- [[Sovereign AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
+- [[Sovereign AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**.
+- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.
+- [[Sovereign AI Club - June 24, 2026]]: **AI Twitter's model-release calendar slips**.
 
 ## Related
 

@@ -1,7 +1,7 @@
 import { createElement } from "react";
 import { buildWikiPath } from "../../app/routes.js";
 import RouteLink from "../../components/RouteLink.jsx";
-import { normalizeWikiId } from "./wikiIds.js";
+import { normalizeWikiId, stabilizeWikiPageId } from "./wikiIds.js";
 
 function renderInline(text, onOpenRoute, pagesById) {
   const pattern = /(\[\[[^\]\n]+\]\]|\[[^\]\n]+\]\([^)\n]+\)|\*\*[^*\n]+\*\*|`[^`\n]+`)/g;
@@ -20,7 +20,8 @@ function renderInline(text, onOpenRoute, pagesById) {
     if (token.startsWith("[[")) {
       const [rawTarget, alias] = token.slice(2, -2).split("|");
       const target = rawTarget.trim();
-      const targetId = normalizeWikiId(target);
+      const stableId = stabilizeWikiPageId(target);
+      const targetId = pagesById[stableId] ? stableId : normalizeWikiId(target);
       const label = (alias || target).trim();
       if (pagesById[targetId]) {
         parts.push(
@@ -70,6 +71,22 @@ function renderInline(text, onOpenRoute, pagesById) {
   return parts;
 }
 
+/**
+ * Leading headings that only restate the page title (e.g. "# Sovereign AI Club"
+ * followed by "## April 1, 2026" on a page titled "Sovereign AI Club - April 1, 2026")
+ * are chrome, not content; the detail heading already shows the title.
+ */
+function isTitleHeading(text, pageTitle, blocks) {
+  if (blocks.length > 0) return false;
+  const title = pageTitle.toLowerCase();
+  const heading = text.toLowerCase();
+  if (heading === title) return true;
+
+  const meetupPrefix = "sovereign ai club - ";
+  return title.startsWith(meetupPrefix) &&
+    (heading === "sovereign ai club" || heading === title.slice(meetupPrefix.length));
+}
+
 function parseMarkdownBlocks(markdown, pageTitle) {
   const lines = markdown.split("\n");
   const blocks = [];
@@ -87,7 +104,7 @@ function parseMarkdownBlocks(markdown, pageTitle) {
     if (heading) {
       const level = heading[1].length;
       const text = heading[2].trim();
-      if (!(level === 1 && text === pageTitle)) {
+      if (!isTitleHeading(text, pageTitle, blocks)) {
         blocks.push({ type: "heading", level, text });
       }
       index += 1;
@@ -126,16 +143,72 @@ function parseMarkdownBlocks(markdown, pageTitle) {
   return blocks;
 }
 
-export function WikiMarkdownBody({ markdown, pageTitle, pagesById, onOpenRoute }) {
+/**
+ * Returns the raw Markdown of the page's opening paragraph, or null when the
+ * body does not start with one. The detail header renders this as the summary
+ * so the body can skip it instead of repeating it.
+ * @param {string | undefined} markdown
+ * @param {string} pageTitle
+ */
+export function getWikiLeadParagraph(markdown, pageTitle) {
   if (!markdown) {
     return null;
   }
 
-  const blocks = parseMarkdownBlocks(markdown, pageTitle);
+  const [first] = parseMarkdownBlocks(markdown, pageTitle);
+  return first?.type === "paragraph" ? first.text : null;
+}
+
+/**
+ * Reports whether the body contains a heading with the given text, so structured
+ * sidebars can skip sections the authored Markdown already covers.
+ * @param {string | undefined} markdown
+ * @param {string} headingText
+ */
+export function hasWikiHeading(markdown, headingText) {
+  if (!markdown) {
+    return false;
+  }
+
+  const wanted = headingText.toLowerCase();
+  return parseMarkdownBlocks(markdown, "").some(
+    (block) => block.type === "heading" && block.text.toLowerCase() === wanted,
+  );
+}
+
+/**
+ * Renders one line of wiki Markdown (wikilinks, links, bold, code) as inline React.
+ * @param {{ text: string, pagesById: Record<string, object>, onOpenRoute: Function }} props
+ */
+export function WikiInlineMarkdown({ text, pagesById, onOpenRoute }) {
+  return renderInline(text, onOpenRoute, pagesById);
+}
+
+/**
+ * Renders the authored wiki body. Pass `omitLeadParagraph` when the caller has
+ * already shown the opening paragraph via `getWikiLeadParagraph`.
+ */
+export function WikiMarkdownBody({
+  markdown,
+  pageTitle,
+  pagesById,
+  onOpenRoute,
+  omitLeadParagraph = false,
+}) {
+  if (!markdown) {
+    return null;
+  }
+
+  const parsed = parseMarkdownBlocks(markdown, pageTitle);
+  const blocks =
+    omitLeadParagraph && parsed[0]?.type === "paragraph" ? parsed.slice(1) : parsed;
+
+  if (blocks.length === 0) {
+    return null;
+  }
 
   return (
     <section className="wiki-markdown-reading" aria-label={`${pageTitle} Wiki page body`}>
-      <p className="eyebrow">Read Wiki Page</p>
       <div className="wiki-markdown-body">
         {blocks.map((block, index) => {
           if (block.type === "heading") {

@@ -1,82 +1,110 @@
+/*
+ * Token sheet. One dark theme: poster sage and wireframe green on charcoal.
+ * Surfaces, lines, and shadows derive from the base colors below.
+ */
 :root {
-  --bg: #061018;
-  --bg-alt: #09141f;
-  --panel: rgba(8, 17, 27, 0.92);
-  --panel-strong: rgba(5, 14, 22, 0.98);
-  --text: #d8efe6;
-  --text-sub: #9fb8b0;
-  --muted: #6f8f88;
-  --accent: #47f3aa;
-  --accent-dim: #2bc98b;
-  --accent-soft: rgba(71, 243, 170, 0.08);
-  --line: rgba(71, 243, 170, 0.16);
-  --line-strong: rgba(71, 243, 170, 0.32);
-  --glow: 0 0 30px rgba(71, 243, 170, 0.08);
-  --shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
-  --radius: 0.6rem;
-  --radius-inner: calc(var(--radius) - 0.15rem);
-  --surface-panel: rgba(6, 15, 23, 0.92);
-  --surface-panel-quiet: rgba(4, 12, 20, 0.45);
-  --surface-panel-elevated: linear-gradient(180deg, rgba(9, 20, 31, 0.94), rgba(6, 14, 22, 0.94));
-  --surface-panel-soft: linear-gradient(180deg, rgba(8, 18, 28, 0.92), rgba(6, 14, 22, 0.88));
-  --font-display: "Syne", "Helvetica Neue", sans-serif;
+  --backdrop-deep: #1f3d2d;
+  --backdrop-mid: #141d18;
+  --bg: #101713;
+  --media-backdrop: #000;
+  --bg-alt: #0d130f;
+  --bg-fade: #0a0e0c;
+  --panel: #171f1a;
+  --panel-strong: #1b241e;
+  --text: #e6ede8;
+  --text-sub: #b6c3ba;
+  --muted: #93a298;
+  --accent: #5ccb89;
+  --success: #5ccb89;
+  --error: #f08a8a;
+  --warning: #e3b94d;
+  --focus-ring: #8fb5ff;
+  --accent-dim: #4dbb7a;
+  --accent-soft: color-mix(in srgb, var(--accent) 8%, transparent);
+  --line: color-mix(in srgb, var(--text) 16%, transparent);
+  --line-strong: color-mix(in srgb, var(--text) 28%, transparent);
+  --glow: none;
+  --shadow-color: color-mix(in srgb, var(--text) 18%, transparent);
+  --shadow-color-soft: color-mix(in srgb, var(--text) 11%, transparent);
+  --shadow: 4px 4px 0 var(--shadow-color);
+  --shadow-soft: 3px 3px 0 var(--shadow-color-soft);
+  --image-outline: rgba(255, 255, 255, 0.1);
+  --radius: 0.15rem;
+  --radius-inner: 0.1rem;
+  --surface-panel: var(--panel);
+  --surface-panel-quiet: color-mix(in srgb, var(--bg) 70%, var(--panel));
+  --surface-panel-elevated: var(--panel-strong);
+  --surface-panel-soft: var(--panel);
+  --surface-past: color-mix(in srgb, var(--bg) 55%, var(--panel));
+  --surface-index: color-mix(in srgb, var(--panel) 88%, var(--bg));
+  --text-divider: color-mix(in srgb, var(--text-sub) 82%, transparent);
+  --grid-line: color-mix(in srgb, var(--text) 6%, transparent);
+  --font-display: "Fira Code", "SFMono-Regular", Menlo, Consolas, monospace;
   --font-mono: "Fira Code", "SFMono-Regular", Menlo, Consolas, monospace;
+  --graph-meetup: #5ccb89;
+  --graph-entity: #7fa6ff;
+  --graph-concept: #e3b94d;
+  --graph-comparison: #f08a8a;
+  --graph-query: #f2a566;
+  --graph-node-default: #9fb0a6;
+  --graph-node-selected: #f2f7f3;
+  --graph-topic-link: color-mix(in srgb, var(--graph-entity) 45%, transparent);
+  --graph-wiki-link: color-mix(in srgb, var(--graph-node-default) 22%, transparent);
+  --graph-topic-link-selected: color-mix(in srgb, var(--graph-entity) 85%, transparent);
+  --graph-wiki-link-selected: color-mix(in srgb, var(--graph-node-default) 85%, transparent);
+  --graph-topic-link-dim: color-mix(in srgb, var(--graph-entity) 8%, transparent);
+  --graph-wiki-link-dim: color-mix(in srgb, var(--graph-node-default) 8%, transparent);
+  --graph-label-bg: color-mix(in srgb, var(--panel) 90%, var(--text));
+  --page-backdrop:
+    radial-gradient(120% 85% at 0% 0%, var(--backdrop-deep) 0%, transparent 62%),
+    radial-gradient(65% 120% at 100% 55%, var(--backdrop-deep) 0%, transparent 60%),
+    linear-gradient(165deg, var(--backdrop-mid) 0%, var(--bg) 42%, var(--bg-fade) 100%);
+  --ascii-wallpaper-color: rgba(255, 255, 255, 0.05);
+  --pres-backdrop:
+    radial-gradient(115% 80% at 0% 0%, var(--backdrop-deep) 0%, transparent 54%),
+    radial-gradient(80% 95% at 100% 110%, color-mix(in srgb, var(--backdrop-deep) 70%, var(--bg)) 0%, transparent 52%),
+    linear-gradient(168deg, var(--backdrop-mid) 0%, var(--bg) 100%);
+  --pres-wallpaper: rgba(255, 255, 255, 0.1);
+  --pres-veil: var(--panel-strong);
 }
 
 /* Per-track color theming */
 
+[data-track] {
+  --t-soft: color-mix(in srgb, var(--t-accent) 8%, transparent);
+  --t-glow: transparent;
+  --t-line: color-mix(in srgb, var(--t-accent) 28%, transparent);
+  --t-bg-radial: color-mix(in srgb, var(--t-accent) 10%, transparent);
+}
+
 [data-track="local-builds"] {
-  --t-accent: #47f3aa;
-  --t-dim: #2bc98b;
-  --t-soft: rgba(71, 243, 170, 0.06);
-  --t-glow: rgba(71, 243, 170, 0.3);
-  --t-line: rgba(71, 243, 170, 0.18);
-  --t-bg-radial: rgba(71, 243, 170, 0.1);
+  --t-accent: #5ccb89;
+  --t-dim: #4dbb7a;
 }
 
 [data-track="agent-infra"] {
-  --t-accent: #47d4f3;
-  --t-dim: #2ba8c9;
-  --t-soft: rgba(71, 212, 243, 0.06);
-  --t-glow: rgba(71, 212, 243, 0.3);
-  --t-line: rgba(71, 212, 243, 0.18);
-  --t-bg-radial: rgba(71, 212, 243, 0.1);
+  --t-accent: #7fa6ff;
+  --t-dim: #6d95f0;
 }
 
 [data-track="models"] {
-  --t-accent: #c47df3;
-  --t-dim: #9b5fc9;
-  --t-soft: rgba(196, 125, 243, 0.06);
-  --t-glow: rgba(196, 125, 243, 0.3);
-  --t-line: rgba(196, 125, 243, 0.18);
-  --t-bg-radial: rgba(196, 125, 243, 0.1);
+  --t-accent: #e3b94d;
+  --t-dim: #d3a93f;
 }
 
 [data-track="security"] {
-  --t-accent: #f3a847;
-  --t-dim: #c98b2b;
-  --t-soft: rgba(243, 168, 71, 0.06);
-  --t-glow: rgba(243, 168, 71, 0.3);
-  --t-line: rgba(243, 168, 71, 0.18);
-  --t-bg-radial: rgba(243, 168, 71, 0.1);
+  --t-accent: #f08a8a;
+  --t-dim: #e27676;
 }
 
 [data-track="platform"] {
-  --t-accent: #f37188;
-  --t-dim: #c9475e;
-  --t-soft: rgba(243, 113, 136, 0.06);
-  --t-glow: rgba(243, 113, 136, 0.3);
-  --t-line: rgba(243, 113, 136, 0.18);
-  --t-bg-radial: rgba(243, 113, 136, 0.1);
+  --t-accent: #f2a566;
+  --t-dim: #e29455;
 }
 
 [data-track="community"] {
-  --t-accent: #7db7ff;
-  --t-dim: #5a92d8;
-  --t-soft: rgba(125, 183, 255, 0.08);
-  --t-glow: rgba(125, 183, 255, 0.3);
-  --t-line: rgba(125, 183, 255, 0.2);
-  --t-bg-radial: rgba(125, 183, 255, 0.12);
+  --t-accent: #62c6d8;
+  --t-dim: #52b4c6;
 }
 
 /* Base */
@@ -96,23 +124,55 @@ body {
   color: var(--text);
   font-family: var(--font-mono);
   -webkit-font-smoothing: antialiased;
-  background:
-    radial-gradient(circle at top left, rgba(71, 243, 170, 0.1), transparent 24%),
-    radial-gradient(circle at top right, rgba(71, 243, 170, 0.06), transparent 18%),
-    linear-gradient(180deg, var(--bg-alt) 0%, var(--bg) 100%);
+  background: var(--bg-fade);
   overflow-x: hidden;
 }
 
+/* Viewport-fixed poster backdrop; the wallpaper texture sits on top of it. */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
+  z-index: 0;
   pointer-events: none;
-  background:
-    linear-gradient(rgba(255, 255, 255, 0.016) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.012) 1px, transparent 1px);
-  background-size: 100% 38px, 38px 100%;
-  opacity: 0.5;
+  background: var(--page-backdrop);
+}
+
+/*
+ * Tiled ASCII wordmark, masked from the same text as the wordmark component
+ * (see src/features/brand/SovereignWallpaper.jsx). Drifts one tile per loop so
+ * the seam never shows; reduced motion disables the drift below.
+ */
+.ascii-wallpaper {
+  position: fixed;
+  inset: 0 0 calc(-1 * var(--wallpaper-tile-height, 0px)) 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: var(--ascii-wallpaper-color);
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+  -webkit-mask-position: 24px 12px;
+  mask-position: 24px 12px;
+  animation: ascii-wallpaper-drift 150s linear infinite;
+}
+
+@keyframes ascii-wallpaper-drift {
+  from { transform: translateY(0); }
+  to { transform: translateY(calc(-1 * var(--wallpaper-tile-height, 0px))); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 a {
@@ -134,10 +194,8 @@ h4 {
 
 p,
 li,
-.calendar-blurb,
 .calendar-event-summary,
 .community-slot-blurb,
-.footer-copy,
 .reminder-blurb,
 .reminder-help,
 .submission-blurb,
@@ -148,7 +206,6 @@ li,
 
 .meetup-meta,
 .meetup-event-meta,
-.calendar-event-date,
 .calendar-event-meta,
 .calendar-event-status,
 .reminder-next,
@@ -159,6 +216,8 @@ li,
 }
 
 #root {
+  position: relative;
+  z-index: 1;
   min-height: 100vh;
 }
 
@@ -200,7 +259,6 @@ li,
   position: sticky;
   top: 0.75rem;
   z-index: 10;
-  backdrop-filter: blur(16px);
 }
 
 .topbar-left,
@@ -208,6 +266,11 @@ li,
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  min-width: 0;
+}
+
+.brand .sovereign-wordmark {
+  flex-shrink: 0;
 }
 
 .brand-link {
@@ -221,14 +284,14 @@ li,
   cursor: inherit;
 }
 
-.brand-link:hover .brand-mark,
-.brand-link:focus-visible .brand-mark {
+.brand-link:hover .sovereign-wordmark,
+.brand-link:focus-visible .sovereign-wordmark {
   border-color: var(--line-strong);
-  box-shadow: inset 0 0 28px rgba(71, 243, 170, 0.12), 0 0 18px rgba(71, 243, 170, 0.08);
 }
 
 .brand-link:focus-visible {
-  outline: none;
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 5px;
 }
 
 .topbar-right {
@@ -237,20 +300,102 @@ li,
   gap: 0.6rem;
 }
 
-.brand-mark {
-  width: 2.35rem;
-  height: 2.35rem;
-  display: grid;
-  place-items: center;
+.sovereign-wordmark {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0.35rem 0.45rem 0.3rem;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius-inner);
-  color: var(--accent);
-  background: rgba(71, 243, 170, 0.06);
-  box-shadow: inset 0 0 24px rgba(71, 243, 170, 0.08);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  color: var(--text);
+}
+
+.sovereign-wordmark-ascii {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.28rem;
+  line-height: 1.05;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.sovereign-wordmark--compact .sovereign-wordmark-ascii {
+  font-size: 0.22rem;
+}
+
+.sovereign-wordmark-lockup {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sovereign-wordmark-ai {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+.sovereign-wordmark-club {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+
+.brand-hero {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 0.85fr);
+  align-items: center;
+  margin: 0 0 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-panel-quiet);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.brand-hero-copy {
+  padding: clamp(1.5rem, 4vw, 3.5rem);
+}
+
+.brand-hero-copy h2 {
+  margin: 0.65rem 0 1rem;
+  font-size: clamp(2rem, 4.5vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.06em;
+}
+
+.brand-hero-copy > p:last-child {
+  max-width: 34ch;
+  color: var(--text-sub);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.brand-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 34rem;
+  object-fit: contain;
+  outline: 1px solid var(--image-outline);
+  outline-offset: -1px;
+}
+
+@media (max-width: 720px) {
+  .brand-hero { grid-template-columns: 1fr; }
+  .brand-hero-copy { padding: 1.5rem; }
+  .brand-hero img { max-height: none; }
 }
 
 .eyebrow,
-.footer-label,
 .meetup-meta,
 .track-nav a,
 .video-caption,
@@ -265,14 +410,6 @@ li,
   font-size: 0.68rem;
 }
 
-.brand h1 {
-  margin: 0;
-  font-family: var(--font-display);
-  font-size: clamp(1.2rem, 2.2vw, 1.65rem);
-  line-height: 1;
-  letter-spacing: -0.04em;
-}
-
 .calendar-open-btn,
 .calendar-close-btn,
 .topbar-link {
@@ -280,6 +417,7 @@ li,
   align-items: center;
   justify-content: center;
   min-height: 2.5rem;
+  min-width: 2.5rem;
   padding: 0 0.2rem;
   border: none;
   border-bottom: 1px solid transparent;
@@ -309,7 +447,8 @@ li,
 .calendar-open-btn:focus-visible,
 .calendar-close-btn:focus-visible,
 .topbar-link:focus-visible {
-  outline: none;
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
   color: var(--text);
   border-bottom-color: var(--accent-dim);
 }
@@ -323,13 +462,23 @@ li,
   transform: scale(0.96);
 }
 
+/* Header action clusters on the calendar, submission, and presentation screens. */
+
+.screen-header-actions,
+.pres-topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
 .reminder-form button,
 .reminder-reset-btn,
 .meetup-event-actions a,
 .calendar-event-actions a,
 .submission-form button {
   min-height: 2.75rem;
-  border-radius: 999px;
+  border-radius: var(--radius);
   font-family: var(--font-mono);
   transition:
     transform 160ms ease,
@@ -348,3 +497,49 @@ li,
 }
 
 /* Meetup index */
+
+/* Keep keyboard navigation visible on the dark surfaces. */
+:where(a, button, input, textarea, select, summary):focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+@media (max-width: 720px) {
+  /* Readable fields also avoid automatic zoom on mobile Safari. */
+  input, textarea, select {
+    font-size: 1rem;
+  }
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 1rem;
+  z-index: 200;
+  padding: 0.8rem 1rem;
+  background: var(--panel-strong);
+  color: var(--text);
+  border: 1px solid var(--focus-ring);
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.topbar-link[aria-current="page"] {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* Programmatic destinations are containers; their controls retain focus rings. */
+main:focus,
+.pres-overlay:focus,
+.wiki-graph-frame:focus {
+  outline: none;
+}

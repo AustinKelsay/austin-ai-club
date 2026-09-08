@@ -13,7 +13,7 @@ Abliterlitics is Nathan Sapwell's open-source forensics toolkit for comparing ab
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Abliterlitics measures what abliteration actually changed**.
+- [[Sovereign AI Club - August 26, 2026]]: **Abliterlitics measures what abliteration actually changed**.
 
 ## Related
 

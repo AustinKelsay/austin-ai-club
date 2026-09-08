@@ -351,6 +351,7 @@ export function TopicEmbed({ embed }) {
   if (embed.type === "tweet") {
     return (
       <div className="embed-wrap" ref={containerRef}>
+        {/* Match the site's single dark palette inside the third-party embed. */}
         <blockquote className="twitter-tweet" data-theme="dark">
           {embed.quote ? (
             <p lang="en" dir="ltr">
@@ -484,9 +485,7 @@ export function TopicArticle({ article }) {
 
 export function Topic({ item, id, onActivate, children }) {
   const isInteractive = typeof onActivate === "function";
-  const hasExtra = Boolean(children);
-  const isCardInteractive = isInteractive && !hasExtra;
-  const isMainInteractive = isInteractive && hasExtra;
+  const isMainInteractive = isInteractive;
   const className = [
     "topic",
     isInteractive ? "topic--interactive" : "",
@@ -510,10 +509,6 @@ export function Topic({ item, id, onActivate, children }) {
     <li
       id={id}
       className={className}
-      role={isCardInteractive ? "button" : undefined}
-      tabIndex={isCardInteractive ? 0 : undefined}
-      onClick={isCardInteractive ? onActivate : undefined}
-      onKeyDown={isCardInteractive ? handleKeyDown : undefined}
     >
       <div
         className={["topic-main", isMainInteractive ? "topic-main--interactive" : ""]

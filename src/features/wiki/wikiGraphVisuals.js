@@ -1,20 +1,29 @@
+import { readThemeToken } from "./themeTokens.js";
+
 export const BASE_NODE_VAL = 2.5;
 export const SELECTED_NODE_VAL = 5.5;
 export const MAX_NODE_VAL = 7.5;
 export const MAX_NEIGHBOR_NODE_VAL = 5.2;
 export const DEGREE_VAL_MULTIPLIER = 0.18;
-export const TOPIC_LINK_COLOR = "rgba(71, 212, 243, 0.45)";
-export const WIKI_LINK_COLOR = "rgba(159, 184, 176, 0.22)";
-export const SELECTED_TOPIC_LINK_COLOR = "rgba(71, 212, 243, 0.85)";
-export const SELECTED_WIKI_LINK_COLOR = "rgba(159, 184, 176, 0.85)";
-export const NON_SELECTED_TOPIC_LINK_COLOR = "rgba(71, 212, 243, 0.06)";
-export const NON_SELECTED_WIKI_LINK_COLOR = "rgba(159, 184, 176, 0.06)";
 export const NEIGHBOR_NODE_ALPHA = 1;
 export const NON_NEIGHBOR_NODE_ALPHA = 0.16;
 export const DEFAULT_LABEL_DEGREE_THRESHOLD = 8;
 
-const DEFAULT_NODE_COLOR = "#9fb8b0";
-const SELECTED_NODE_COLOR = "#ffffff";
+/*
+ * Colors are read after the stylesheet loads and cached for the single palette.
+ */
+const LINK_COLOR_TOKENS = {
+  topic: {
+    idle: "--graph-topic-link",
+    selected: "--graph-topic-link-selected",
+    dim: "--graph-topic-link-dim",
+  },
+  wiki: {
+    idle: "--graph-wiki-link",
+    selected: "--graph-wiki-link-selected",
+    dim: "--graph-wiki-link-dim",
+  },
+};
 
 export function getNodeVal(node, selectedId, neighborIds = new Set()) {
   if (node.id === selectedId) {
@@ -56,10 +65,10 @@ function withAlpha(hex, alpha) {
 
 export function getNodeColor(node, selectedId, typeColors = {}, neighborIds = new Set()) {
   if (isSelectedNode(node, selectedId)) {
-    return SELECTED_NODE_COLOR;
+    return readThemeToken("--graph-node-selected");
   }
 
-  const baseColor = typeColors[node.type] ?? DEFAULT_NODE_COLOR;
+  const baseColor = typeColors[node.type] ?? readThemeToken("--graph-node-default");
 
   if (selectedId == null) {
     return withAlpha(baseColor, NEIGHBOR_NODE_ALPHA);
@@ -107,15 +116,17 @@ export function buildNeighborIds(links, selectedId) {
 }
 
 export function getLinkColor(link, selectedId = null, neighborIds = new Set()) {
+  const tokens = link.kind === "topic" ? LINK_COLOR_TOKENS.topic : LINK_COLOR_TOKENS.wiki;
+
   if (selectedId == null) {
-    return link.kind === "topic" ? TOPIC_LINK_COLOR : WIKI_LINK_COLOR;
+    return readThemeToken(tokens.idle);
   }
 
   if (isNeighborLink(link, selectedId, neighborIds)) {
-    return link.kind === "topic" ? SELECTED_TOPIC_LINK_COLOR : SELECTED_WIKI_LINK_COLOR;
+    return readThemeToken(tokens.selected);
   }
 
-  return link.kind === "topic" ? NON_SELECTED_TOPIC_LINK_COLOR : NON_SELECTED_WIKI_LINK_COLOR;
+  return readThemeToken(tokens.dim);
 }
 
 export function getLinkWidth(link, selectedId = null, neighborIds = new Set()) {
@@ -204,7 +215,7 @@ export function drawNodeLabel(ctx, node, color, globalScale = 1) {
   const height = fontSize + paddingY * 2;
   const x = node.x - width / 2;
 
-  ctx.fillStyle = "rgba(2, 8, 14, 0.78)";
+  ctx.fillStyle = readThemeToken("--graph-label-bg");
   drawRoundedRect(ctx, x, y - height / 2, width, height, Math.max(4, 5 / globalScale));
   ctx.fill();
   ctx.fillStyle = color;

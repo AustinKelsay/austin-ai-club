@@ -13,7 +13,7 @@ Signal is the encrypted messaging service whose private contact discovery runs i
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **V12 breaks Signal's SGX contact-discovery enclave**.
+- [[Sovereign AI Club - August 26, 2026]]: **V12 breaks Signal's SGX contact-discovery enclave**.
 
 ## Related
 

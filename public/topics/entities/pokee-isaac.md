@@ -13,7 +13,7 @@ Pokee-Isaac is Pokee's proprietary 28B agentic model line, marketed around nativ
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Closed model releases** and **Pokee-Isaac claims 10M context on a 28B single-GPU agent**.
+- [[Sovereign AI Club - August 5, 2026]]: **Closed model releases** and **Pokee-Isaac claims 10M context on a 28B single-GPU agent**.
 
 ## Related
 

@@ -13,8 +13,8 @@ AMD is a recurring compute-platform company whose Instinct accelerators matter w
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Open model releases**.
-- [[Austin AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**.
+- [[Sovereign AI Club - August 5, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**.
 
 ## Related
 

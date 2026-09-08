@@ -22,7 +22,7 @@ export function WikiGraphLegend({ visibleTypes = getDefaultVisibleTypes(), onTog
           >
             <span
               className="wiki-graph-legend-dot"
-              style={{ backgroundColor: graphType.color }}
+              style={{ backgroundColor: graphType.cssColor }}
               aria-hidden="true"
             />
             {graphType.label}

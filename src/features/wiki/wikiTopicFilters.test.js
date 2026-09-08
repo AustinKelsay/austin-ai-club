@@ -6,7 +6,7 @@ function topic(overrides) {
     id: "topic",
     title: "Topic",
     section: "Big Tech Moves",
-    meetupTitle: "Austin AI Club - May 27, 2026",
+    meetupTitle: "Sovereign AI Club - May 27, 2026",
     meetupSlug: "2026-05-27",
     sourceLinks: [],
     wikiIds: [],
@@ -44,7 +44,7 @@ describe("wikiTopicFilters", () => {
       topic({
         id: "cursor-spacex",
         title: "SpaceX options Cursor for $60B",
-        searchText: "SpaceX options Cursor for $60B Big Tech Moves Austin AI Club",
+        searchText: "SpaceX options Cursor for $60B Big Tech Moves Sovereign AI Club",
       }),
       topic({
         id: "google-spacex",

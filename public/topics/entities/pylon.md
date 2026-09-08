@@ -13,8 +13,8 @@ Pylon is OpenAgents' local compute-contribution runtime, tracked here as the pie
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**.
-- [[Austin AI Club - April 15, 2026]]: **OpenAgents: Pylon + Autopilot**.
+- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**.
+- [[Sovereign AI Club - April 15, 2026]]: **OpenAgents: Pylon + Autopilot**.
 
 ## Related
 

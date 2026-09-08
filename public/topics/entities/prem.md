@@ -13,7 +13,7 @@ Prem builds sovereign and confidential AI infrastructure, including encrypted in
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out**.
+- [[Sovereign AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out**.
 
 ## Related
 

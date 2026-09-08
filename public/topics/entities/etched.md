@@ -13,7 +13,7 @@ Etched is an inference-chip company tracked here as part of the race to own cost
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Etched turns inference chips into rack-scale product**.
+- [[Sovereign AI Club - July 8, 2026]]: **Etched turns inference chips into rack-scale product**.
 
 ## Related
 

@@ -1,8 +1,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { normalizeWikiId } from "../src/features/wiki/wikiIds.js";
+import { normalizeWikiId, stabilizeWikiPageId } from "../src/features/wiki/wikiIds.js";
 
-export { normalizeWikiId };
+export { normalizeWikiId, stabilizeWikiPageId };
 
 const PRIMARY_TYPES = new Set(["entity", "concept", "comparison", "query", "meetup"]);
 const EXCLUDED_MANIFEST_PATHS = new Set(["TEMPLATE.md"]);
@@ -389,9 +389,21 @@ async function collectMarkdownFiles(dir) {
   return files;
 }
 
+/**
+ * Resolves a title or wikilink against catalog aliases, including Sovereign titles
+ * that keep historical `austin-ai-club-*` ids.
+ * @param {Map<string, string>} titleToId
+ * @param {string} value
+ * @returns {string | undefined}
+ */
+function resolveWikiTargetId(titleToId, value) {
+  return titleToId.get(stabilizeWikiPageId(value)) ?? titleToId.get(normalizeWikiId(value));
+}
+
 function createPage({ content, file, frontmatter, topicsDir }) {
   const relativePath = toPosix(path.relative(topicsDir, file));
-  const id = normalizeWikiId(frontmatter.title || relativePath);
+  // Historical URL stability after the club rename: meetup ids stay austin-ai-club-*.
+  const id = stabilizeWikiPageId(frontmatter.title || relativePath);
   const sources = Array.isArray(frontmatter.sources) ? frontmatter.sources : [];
   const tags = Array.isArray(frontmatter.tags) ? frontmatter.tags : [];
   const sourceLinks = collectSourceLinks(content);
@@ -538,11 +550,14 @@ export async function buildWikiManifest({ topicsDir }) {
   const titleToId = new Map();
 
   for (const page of pages) {
-    for (const alias of [page.title, page.relativePath]) {
-      const normalizedAlias = normalizeWikiId(alias);
-
-      if (!titleToId.has(normalizedAlias)) {
-        titleToId.set(normalizedAlias, page.id);
+    for (const alias of [page.title, page.relativePath, page.id]) {
+      for (const normalizedAlias of new Set([
+        stabilizeWikiPageId(alias),
+        normalizeWikiId(alias),
+      ])) {
+        if (normalizedAlias && !titleToId.has(normalizedAlias)) {
+          titleToId.set(normalizedAlias, page.id);
+        }
       }
     }
   }
@@ -555,7 +570,7 @@ export async function buildWikiManifest({ topicsDir }) {
     const missingLinks = [];
 
     for (const wikilink of page.wikilinks) {
-      const targetId = titleToId.get(normalizeWikiId(wikilink));
+      const targetId = resolveWikiTargetId(titleToId, wikilink);
 
       if (!targetId) {
         missingLinks.push(wikilink);
@@ -631,7 +646,7 @@ export async function buildWikiManifest({ topicsDir }) {
     }
 
     for (const wikilink of reference.wikilinks) {
-      const targetId = titleToId.get(normalizeWikiId(wikilink));
+      const targetId = resolveWikiTargetId(titleToId, wikilink);
 
       if (targetId) {
         addTopicWikiId(topic, targetId);
@@ -657,7 +672,7 @@ export async function buildWikiManifest({ topicsDir }) {
       }
 
       for (const wikilink of reference.wikilinks) {
-        const targetPage = pagesById[titleToId.get(normalizeWikiId(wikilink))];
+        const targetPage = pagesById[resolveWikiTargetId(titleToId, wikilink)];
 
         if (targetPage) {
           addReferencedTopicSource(targetPage, reference, sourcePage);
@@ -668,7 +683,7 @@ export async function buildWikiManifest({ topicsDir }) {
 
   for (const page of pages.filter((candidate) => ["concept", "entity"].includes(candidate.type))) {
     for (const mention of page.mentionedInTopicReferences) {
-      const sourcePage = pagesById[titleToId.get(normalizeWikiId(mention.meetupTitle))];
+      const sourcePage = pagesById[resolveWikiTargetId(titleToId, mention.meetupTitle)];
 
       if (!sourcePage) {
         continue;

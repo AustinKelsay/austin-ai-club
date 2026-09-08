@@ -1,23 +1,32 @@
 # Wiki Index
 
-> Content catalog for the Austin AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-08-26 | Total pages: 156
+> Content catalog for the Sovereign AI Club Markdown Archive and LLM Wiki.
+> Last updated: 2026-09-08 | Total pages: 165
 
 ## Meetups
 
-- [[Austin AI Club - August 26, 2026]]
-- [[Austin AI Club - August 5, 2026]]
-- [[Austin AI Club - July 22, 2026]]
-- [[Austin AI Club - July 8, 2026]]
-- [[Austin AI Club - June 24, 2026]]
-- [[Austin AI Club - June 10, 2026]]
-- [[Austin AI Club - May 27, 2026]]
-- [[Austin AI Club - May 13, 2026]]
-- [[Austin AI Club - April 15, 2026]]
-- [[Austin AI Club - April 1, 2026]]
-- [[Austin AI Club - March 18, 2026]]
+- [[Sovereign AI Club - September 9, 2026]]
+- [[Sovereign AI Club - August 26, 2026]]
+- [[Sovereign AI Club - August 5, 2026]]
+- [[Sovereign AI Club - July 22, 2026]]
+- [[Sovereign AI Club - July 8, 2026]]
+- [[Sovereign AI Club - June 24, 2026]]
+- [[Sovereign AI Club - June 10, 2026]]
+- [[Sovereign AI Club - May 27, 2026]]
+- [[Sovereign AI Club - May 13, 2026]]
+- [[Sovereign AI Club - April 15, 2026]]
+- [[Sovereign AI Club - April 1, 2026]]
+- [[Sovereign AI Club - March 18, 2026]]
 
 ## Entities
+
+- [[Tailcat]]
+- [[DwarfStar]]
+- [[K2 Horizon]]
+- [[OUI-1]]
+- [[WikiSkill]]
+- [[World Labs]]
+- [[Hugging Face]]
 
 - [[Abliterlitics]]
 - [[AirLLM]]
@@ -86,6 +95,8 @@
 - [[Microsoft]]
 - [[Moonshot AI]]
 - [[Nous Research]]
+- [[Groq]]
+- [[NVIDIA PAIR]]
 - [[NVIDIA]]
 - [[Nemotron]]
 - [[Nemotron Puzzle]]
@@ -157,6 +168,8 @@
 - [[World Models]]
 
 ## Source Records
+
+- [September 9, 2026 source records](./raw/articles/2026-09-09-link-records.md)
 
 - [August 26, 2026 source records](./raw/articles/2026-08-26-link-records.md)
 - [August 5, 2026 source records](./raw/articles/2026-08-05-link-records.md)

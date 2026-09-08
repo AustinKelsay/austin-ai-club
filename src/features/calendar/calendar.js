@@ -113,26 +113,11 @@ function createGeneratedEntry(templateEvent, slotStartAt, index) {
       ...templateEvent,
       summary: index === 0
         ? templateEvent.summary
-        : "Biweekly Austin AI Club meetup. Full topic board and notes will land closer to the event.",
+        : "Biweekly Sovereign AI Club meetup. Full topic board and notes will land closer to the event.",
       startAt: startAt.toISOString(),
       endAt: endAt.toISOString(),
     },
   };
-}
-
-function getTemplateEventForSlot(authoredMeetups, slotStartAt) {
-  const slotTime = slotStartAt.getTime();
-  let templateEvent = authoredMeetups[0].event;
-
-  for (const meetup of authoredMeetups) {
-    if (new Date(meetup.event.startAt).getTime() > slotTime) {
-      break;
-    }
-
-    templateEvent = meetup.event;
-  }
-
-  return templateEvent;
 }
 
 export function buildCalendarEntries(meetupList, count = DEFAULT_CALENDAR_EVENT_COUNT) {
@@ -144,23 +129,23 @@ export function buildCalendarEntries(meetupList, count = DEFAULT_CALENDAR_EVENT_
     return [];
   }
 
-  const anchorEvent = authoredMeetups[0].event;
-  const timeZone = anchorEvent.timezone ?? "America/Chicago";
-  const authoredByDate = new Map(
-    authoredMeetups.map((meetup) => [formatDateKey(meetup.event.startAt, timeZone), createCalendarEntry(meetup)]),
-  );
+  const now = Date.now();
+  const entries = authoredMeetups
+    .filter((meetup) => new Date(meetup.event.endAt).getTime() >= now)
+    .slice(0, count)
+    .map(createCalendarEntry);
+  // Authored dates override the cadence. Future slots continue from the latest one.
+  const templateEvent = authoredMeetups.at(-1).event;
+  const timeZone = templateEvent.timezone ?? "America/Chicago";
+  const durationMs = new Date(templateEvent.endAt).getTime() - new Date(templateEvent.startAt).getTime();
+  let dateKey = formatDateKey(templateEvent.startAt, timeZone);
 
-  let cursor = new Date(anchorEvent.startAt);
-  while (new Date(cursor.getTime() + 1).getTime() < Date.now()) {
-    cursor = addDays(cursor, BIWEEKLY_INTERVAL_DAYS);
-  }
-
-  const entries = [];
   while (entries.length < count) {
-    const dateKey = formatDateKey(cursor, timeZone);
-    const templateEvent = getTemplateEventForSlot(authoredMeetups, cursor);
-    entries.push(authoredByDate.get(dateKey) ?? createGeneratedEntry(templateEvent, cursor, entries.length));
-    cursor = addDays(cursor, BIWEEKLY_INTERVAL_DAYS);
+    dateKey = addCalendarDaysToDateKey(dateKey, BIWEEKLY_INTERVAL_DAYS);
+    const startAt = createSlotStartForDateKey(dateKey, templateEvent);
+    if (startAt.getTime() + durationMs >= now) {
+      entries.push(createGeneratedEntry(templateEvent, startAt, entries.length));
+    }
   }
 
   return entries;

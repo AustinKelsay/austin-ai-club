@@ -13,7 +13,7 @@ Laguna S 2.1 is Poolside's open-weight 118B/8B-active MoE coding model with up t
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - August 5, 2026]]: **Open model releases**.
 
 ## Related
 

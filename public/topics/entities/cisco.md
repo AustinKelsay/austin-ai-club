@@ -13,7 +13,7 @@ Cisco is a networking and security company whose AI work includes open security 
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Antares makes vulnerability localization small and local**.
+- [[Sovereign AI Club - July 22, 2026]]: **Antares makes vulnerability localization small and local**.
 
 ## Related
 

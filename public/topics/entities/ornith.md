@@ -13,8 +13,8 @@ Ornith is an open-weight coding and agent model family built around self-generat
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Open model releases**.
-- [[Austin AI Club - July 22, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - August 26, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 22, 2026]]: **Open model releases**.
 
 ## Related
 

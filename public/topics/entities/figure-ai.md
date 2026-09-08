@@ -9,11 +9,11 @@ sources: [raw/articles/2026-05-27-link-records.md]
 
 # Figure AI
 
-Figure AI is a recurring Austin AI Club entity for humanoid robotics and autonomous industrial operations.
+Figure AI is a recurring Sovereign AI Club entity for humanoid robotics and autonomous industrial operations.
 
 ## Mentioned In
 
-- [[Austin AI Club - May 27, 2026]]: **Figure AI's 200-hour humanoid marathon**.
+- [[Sovereign AI Club - May 27, 2026]]: **Figure AI's 200-hour humanoid marathon**.
 
 ## Related
 

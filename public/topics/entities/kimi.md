@@ -9,18 +9,18 @@ sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-
 
 # Kimi
 
-Kimi is Moonshot AI's model family, recurring in Austin AI Club through open coding models, Cursor Composer lineage, and Chinese frontier-model comparisons.
+Kimi is Moonshot AI's model family, recurring in Sovereign AI Club through open coding models, Cursor Composer lineage, and Chinese frontier-model comparisons.
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Chinese frontier models converged on linear and sparse attention**.
-- [[Austin AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.
-- [[Austin AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
-- [[Austin AI Club - June 24, 2026]]: **Open model releases**.
-- [[Austin AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.
-- [[Austin AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.
-- [[Austin AI Club - March 18, 2026]]: **Closed model releases**.
+- [[Sovereign AI Club - August 26, 2026]]: **Chinese frontier models converged on linear and sparse attention**.
+- [[Sovereign AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.
+- [[Sovereign AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - June 24, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**.
+- [[Sovereign AI Club - April 1, 2026]]: **Zai launches AutoClaw** and **Composer 2 / Kimi K2.5 drama**.
+- [[Sovereign AI Club - March 18, 2026]]: **Closed model releases**.
 
 ## Related
 

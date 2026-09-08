@@ -13,7 +13,7 @@ BTL-3 is Bad Theory Labs' Qwen3.6-27B agentic coding and tool-use checkpoint. It
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 22, 2026]]: **Open model releases**.
 
 ## Related
 

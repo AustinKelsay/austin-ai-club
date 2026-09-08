@@ -1,7 +1,36 @@
 import { afterEach, describe, expect, it } from "vitest";
-import { createInlineIcsHref, escapeIcsText } from "./meetup-ui.js";
+import {
+  createInlineIcsHref,
+  escapeIcsText,
+  formatEventLongDate,
+  formatEventTime,
+  formatEventWeekday,
+} from "./meetup-ui.js";
 
 const originalWindow = globalThis.window;
+
+const eveningEvent = {
+  startAt: "2026-09-09T22:30:00.000Z",
+  endAt: "2026-09-10T00:30:00.000Z",
+  timezone: "America/Chicago",
+};
+
+describe("event formatters", () => {
+  it("collapses a shared day period and zone into one range", () => {
+    expect(formatEventTime(eveningEvent)).toBe("5:30 – 7:30 PM CDT");
+  });
+
+  it("keeps both day periods when the range crosses noon", () => {
+    expect(
+      formatEventTime({ ...eveningEvent, startAt: "2026-09-09T16:30:00.000Z", endAt: "2026-09-09T18:30:00.000Z" }),
+    ).toBe("11:30 AM – 1:30 PM CDT");
+  });
+
+  it("formats the weekday and long date in the event time zone", () => {
+    expect(formatEventWeekday(eveningEvent)).toBe("Wednesday");
+    expect(formatEventLongDate(eveningEvent)).toBe("Wednesday, September 9");
+  });
+});
 
 describe("escapeIcsText", () => {
   it("escapes text characters that have special meaning in ICS fields", () => {
@@ -37,6 +66,7 @@ describe("createInlineIcsHref", () => {
     });
     const body = decodeURIComponent(href.replace(/^data:text\/calendar;charset=utf-8,/, ""));
 
+    expect(body).toContain("PRODID:-//Sovereign AI Club//Meetups//EN");
     expect(body).toContain("SUMMARY:Austin\\, AI\\; Club");
     expect(body).toContain("DESCRIPTION:Quick AI news rundown\\,\\nwith demos\\; and back\\\\slashes.");
     expect(body).toContain("Details: https://austinai.club/calendar");

@@ -1,9 +1,6 @@
 .submission-screen {
   min-height: 100vh;
   padding: 1.2rem min(3vw, 1.5rem) 2rem;
-  background:
-    radial-gradient(circle at top left, rgba(125, 183, 255, 0.09), transparent 24%),
-    linear-gradient(180deg, rgba(9, 20, 31, 0.98), rgba(5, 13, 21, 0.98));
 }
 
 .submission-header,
@@ -25,7 +22,8 @@
   box-shadow: var(--shadow);
 }
 
-.submission-header h2 {
+.submission-header h1 {
+  margin: 0;
   font-size: clamp(1.8rem, 3vw, 2.4rem);
   line-height: 1.04;
 }
@@ -37,6 +35,8 @@
 }
 
 .submission-form {
+  display: grid;
+  gap: 0.95rem;
   padding: 1.15rem 1.2rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -44,10 +44,6 @@
   box-shadow: var(--shadow);
 }
 
-.submission-form {
-  display: grid;
-  gap: 0.95rem;
-}
 
 .submission-field {
   display: grid;
@@ -70,14 +66,14 @@
 
 .submission-form button {
   width: 100%;
-  border-radius: 999px;
+  border-radius: var(--radius);
 }
 
 .submission-field input,
 .submission-field textarea {
   padding: 0.95rem 1rem;
   border: 1px solid var(--line);
-  background: rgba(4, 12, 20, 0.72);
+  background: var(--surface-panel-quiet);
   color: var(--text);
   resize: vertical;
 }
@@ -90,16 +86,17 @@
 .submission-field input:focus-visible,
 .submission-field textarea:focus-visible,
 .submission-form button:focus-visible {
-  outline: none;
-  border-color: rgba(125, 183, 255, 0.48);
-  box-shadow: 0 0 0 2px rgba(125, 183, 255, 0.18);
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+  border-color: color-mix(in srgb, var(--accent) 48%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 18%, transparent);
 }
 
 .submission-form button {
   min-height: 3rem;
-  border: 1px solid rgba(125, 183, 255, 0.28);
-  background: linear-gradient(180deg, rgba(125, 183, 255, 0.18), rgba(125, 183, 255, 0.08));
-  color: #b7d5ff;
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, transparent);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 18%, transparent), color-mix(in srgb, var(--accent) 8%, transparent));
+  color: var(--accent-dim);
   font-family: var(--font-mono);
   font-size: 0.76rem;
   font-weight: 700;
@@ -108,10 +105,10 @@
   cursor: pointer;
 }
 
-.submission-form button:hover {
+.submission-form button:hover:not(:disabled) {
   transform: translateY(-1px);
-  background: linear-gradient(180deg, rgba(125, 183, 255, 0.24), rgba(125, 183, 255, 0.12));
-  border-color: rgba(125, 183, 255, 0.42);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 24%, transparent), color-mix(in srgb, var(--accent) 12%, transparent));
+  border-color: color-mix(in srgb, var(--accent) 42%, transparent);
 }
 
 .submission-form button:active {
@@ -129,11 +126,11 @@
 }
 
 .submission-status[data-status="success"] {
-  color: #9fe4c6;
+  color: var(--success);
 }
 
 .submission-status[data-status="error"] {
-  color: #ff9e9e;
+  color: var(--error);
 }
 
 .submission-form-switch {

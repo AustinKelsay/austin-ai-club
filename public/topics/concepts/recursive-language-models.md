@@ -13,7 +13,7 @@ Recursive Language Models (RLMs) are an inference pattern that treats long promp
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.
+- [[Sovereign AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.
 
 ## Related
 

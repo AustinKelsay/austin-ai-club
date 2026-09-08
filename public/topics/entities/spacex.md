@@ -9,13 +9,13 @@ sources: [raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-
 
 # SpaceX
 
-SpaceX is a recurring Austin AI Club entity for Colossus supercomputing clusters and AI infrastructure partnerships.
+SpaceX is a recurring Sovereign AI Club entity for Colossus supercomputing clusters and AI infrastructure partnerships.
 
 ## Mentioned In
 
-- [[Austin AI Club - June 10, 2026]]: **Google rents SpaceX's GPU bridge**.
-- [[Austin AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.
-- [[Austin AI Club - May 13, 2026]]: **Pentagon picks a classified AI stack**.
+- [[Sovereign AI Club - June 10, 2026]]: **Google rents SpaceX's GPU bridge**.
+- [[Sovereign AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.
+- [[Sovereign AI Club - May 13, 2026]]: **Pentagon picks a classified AI stack**.
 
 ## Related
 

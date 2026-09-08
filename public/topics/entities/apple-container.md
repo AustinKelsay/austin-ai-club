@@ -13,7 +13,7 @@ Apple Container is Apple's local container and Linux microVM stack, tracked here
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native**.
+- [[Sovereign AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native**.
 
 ## Related
 

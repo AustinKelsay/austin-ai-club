@@ -13,7 +13,7 @@ Unbroker is a Hermes Agent skill for finding exposed personal information and fi
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Unbroker makes data-broker opt-outs agent-shaped**.
+- [[Sovereign AI Club - July 8, 2026]]: **Unbroker makes data-broker opt-outs agent-shaped**.
 
 ## Related
 

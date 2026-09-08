@@ -9,8 +9,8 @@ import RouteLink from "../../components/RouteLink.jsx";
 import {
   buildGoogleCalendarUrl,
   buildIcsHref,
-  formatEventDate,
   formatEventTime,
+  formatEventWeekday,
   getLocationLabel,
   slugify,
 } from "../../lib/meetup-ui.js";
@@ -39,6 +39,21 @@ export function getMeetupCounts(meetup, options = {}) {
   };
 }
 
+/**
+ * Formats "N topics · M tracks" for a meetup header, or "" when nothing has
+ * been published yet so an empty board does not advertise "0 topics".
+ * @param {{ totalTopicCount: number, totalTrackCount: number }} counts
+ */
+export function formatMeetupCounts({ totalTopicCount, totalTrackCount }) {
+  if (totalTopicCount === 0) {
+    return "";
+  }
+
+  const topics = `${totalTopicCount} topic${totalTopicCount === 1 ? "" : "s"}`;
+  const tracks = `${totalTrackCount} track${totalTrackCount === 1 ? "" : "s"}`;
+  return `${topics} · ${tracks}`;
+}
+
 export function getShowcaseId(meetupId) {
   return `showcase-${meetupId}`;
 }
@@ -57,8 +72,9 @@ export function MeetupEventBar({ meetup }) {
   return (
     <div className="meetup-event">
       <div className="meetup-event-meta">
-        <span>{formatEventDate(event)}</span>
-        <span>{formatEventTime(event)}</span>
+        <span>
+          {formatEventWeekday(event)} &middot; {formatEventTime(event)}
+        </span>
         <span>{getLocationLabel(event)}</span>
       </div>
       <div className="meetup-event-actions">
@@ -196,9 +212,6 @@ export function StaticShowcaseSection({
           </p>
         )}
         <div className="community-track-footer">
-          <p className="community-slot-eyebrow">
-            {items.length ? "At the end of the meetup" : "Open slot at the end"}
-          </p>
           {acceptsSubmissions ? (
             <>
               <RouteLink to={SHOWCASE_SUBMISSION_PATH} onOpenRoute={onOpenRoute}>

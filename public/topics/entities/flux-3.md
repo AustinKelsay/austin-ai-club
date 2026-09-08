@@ -13,7 +13,7 @@ FLUX 3 is Black Forest Labs' multimodal flow model that jointly learns image, vi
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Closed model releases**.
+- [[Sovereign AI Club - August 5, 2026]]: **Closed model releases**.
 
 ## Related
 

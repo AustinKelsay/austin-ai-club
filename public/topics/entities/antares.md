@@ -13,7 +13,7 @@ Antares is Cisco Foundation AI's family of small, open-weight terminal agents tr
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Antares makes vulnerability localization small and local**.
+- [[Sovereign AI Club - July 22, 2026]]: **Antares makes vulnerability localization small and local**.
 
 ## Related
 

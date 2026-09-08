@@ -43,7 +43,7 @@ sources: [raw/articles/openai.md]
 
 # OpenAI
 
-OpenAI is a recurring Austin AI Club entity because its model releases shape builder discussions.
+OpenAI is a recurring Sovereign AI Club entity because its model releases shape builder discussions.
 
 Release notes: https://openai.com/release
 
@@ -106,13 +106,13 @@ Public link records for [[OpenAI]].
       sourceCount: 1,
       sourceLinks: ["https://openai.com/release"],
       excerpt:
-        "OpenAI is a recurring Austin AI Club entity because its model releases shape builder discussions.",
+        "OpenAI is a recurring Sovereign AI Club entity because its model releases shape builder discussions.",
       outgoingIds: ["coding-agents"],
       unresolvedLinks: ["Missing Page"],
       backlinkIds: ["coding-agents", "openai-source-records"],
       bodyMarkdown: `# OpenAI
 
-OpenAI is a recurring Austin AI Club entity because its model releases shape builder discussions.
+OpenAI is a recurring Sovereign AI Club entity because its model releases shape builder discussions.
 
 Release notes: https://openai.com/release
 
@@ -156,7 +156,7 @@ Duplicate reference: https://openai.com/release
   it("excludes authoring templates from the public manifest", async () => {
     const topicsDir = await createTopicsDir({
       "TEMPLATE.md": `---
-title: Austin AI Club - Month DD, YYYY
+title: Sovereign AI Club - Month DD, YYYY
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 type: meetup
@@ -164,10 +164,10 @@ tags: [meetup, topic-board]
 sources: [raw/articles/YYYY-MM-DD-link-records.md]
 ---
 
-# Austin AI Club
+# Sovereign AI Club
 `,
       "2026-05-13.md": `---
-title: Austin AI Club - May 13, 2026
+title: Sovereign AI Club - May 13, 2026
 created: 2026-05-05
 updated: 2026-05-11
 type: meetup
@@ -175,14 +175,14 @@ tags: [meetup, topic-board]
 sources: []
 ---
 
-# Austin AI Club
+# Sovereign AI Club
 `,
     });
 
     const manifest = await buildWikiManifest({ topicsDir });
 
     expect(manifest.pages.map((page) => page.title)).toEqual([
-      "Austin AI Club - May 13, 2026",
+      "Sovereign AI Club - May 13, 2026",
     ]);
     expect(manifest.pagesById).not.toHaveProperty("austin-ai-club-month-dd-yyyy");
     expect(manifest.graph.nodes.map((node) => node.id)).not.toContain(
@@ -190,10 +190,34 @@ sources: []
     );
   });
 
+  it("keeps meetup page ids on austin-ai-club slugs when titles use Sovereign AI Club", async () => {
+    const topicsDir = await createTopicsDir({
+      "2026-04-01.md": `---
+title: Sovereign AI Club - April 1, 2026
+created: 2026-05-05
+updated: 2026-05-05
+type: meetup
+tags: [meetup, topic-board]
+sources: []
+---
+
+# Sovereign AI Club
+`,
+    });
+
+    const manifest = await buildWikiManifest({ topicsDir });
+
+    expect(manifest.pagesById["austin-ai-club-april-1-2026"]).toMatchObject({
+      id: "austin-ai-club-april-1-2026",
+      title: "Sovereign AI Club - April 1, 2026",
+    });
+    expect(manifest.pagesById).not.toHaveProperty("sovereign-ai-club-april-1-2026");
+  });
+
   it("captures source link context from meetup topic titles", async () => {
     const topicsDir = await createTopicsDir({
       "2026-04-01.md": `---
-title: Austin AI Club - April 1, 2026
+title: Sovereign AI Club - April 1, 2026
 created: 2026-05-05
 updated: 2026-05-05
 type: meetup
@@ -201,7 +225,7 @@ tags: [meetup, topic-board]
 sources: [raw/articles/2026-04-01-link-records.md]
 ---
 
-# Austin AI Club
+# Sovereign AI Club
 
 ## April 1, 2026
 
@@ -275,7 +299,7 @@ sources: []
 Agent Infrastructure covers agent runtimes and protocols.
 `,
       "2026-04-01.md": `---
-title: Austin AI Club - April 1, 2026
+title: Sovereign AI Club - April 1, 2026
 created: 2026-05-05
 updated: 2026-05-05
 type: meetup
@@ -283,7 +307,7 @@ tags: [meetup, topic-board, agent-infrastructure]
 sources: [raw/articles/2026-04-01-link-records.md]
 ---
 
-# Austin AI Club
+# Sovereign AI Club
 
 ## April 1, 2026
 
@@ -316,7 +340,7 @@ sources: []
         title: "402 Index paid API loop demo",
         section: "Agent Infrastructure",
         sourcePageId: "austin-ai-club-april-1-2026",
-        sourcePageTitle: "Austin AI Club - April 1, 2026",
+        sourcePageTitle: "Sovereign AI Club - April 1, 2026",
       },
     ]);
   });
@@ -334,10 +358,10 @@ sources: []
 
 # OpenAI
 
-OpenAI is a recurring Austin AI Club entity.
+OpenAI is a recurring Sovereign AI Club entity.
 `,
       "2026-05-13.md": `---
-title: Austin AI Club - May 13, 2026
+title: Sovereign AI Club - May 13, 2026
 created: 2026-05-05
 updated: 2026-05-11
 type: meetup
@@ -345,7 +369,7 @@ tags: [meetup, topic-board, security]
 sources: []
 ---
 
-# Austin AI Club
+# Sovereign AI Club
 
 ## May 13, 2026
 
@@ -365,7 +389,7 @@ sources: []
         title: "[[OpenAI]] Privacy Filter gets inverted",
         section: "Security",
         sourcePageId: "austin-ai-club-may-13-2026",
-        sourcePageTitle: "Austin AI Club - May 13, 2026",
+        sourcePageTitle: "Sovereign AI Club - May 13, 2026",
       },
     ]);
   });
@@ -386,7 +410,7 @@ sources: []
 Coding Agents covers tools that let models work in codebases.
 `,
       "2026-05-13.md": `---
-title: Austin AI Club - May 13, 2026
+title: Sovereign AI Club - May 13, 2026
 created: 2026-05-05
 updated: 2026-05-11
 type: meetup
@@ -394,7 +418,7 @@ tags: [meetup, topic-board, models-research]
 sources: []
 ---
 
-# Austin AI Club
+# Sovereign AI Club
 
 ## May 13, 2026
 
@@ -419,7 +443,7 @@ sources: []
         title: "SubQ goes after 12M-token context",
         section: "Models & Research",
         sourcePageId: "austin-ai-club-may-13-2026",
-        sourcePageTitle: "Austin AI Club - May 13, 2026",
+        sourcePageTitle: "Sovereign AI Club - May 13, 2026",
       },
     ]);
   });
@@ -441,10 +465,10 @@ Coding Agents covers tools that let models work in codebases.
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: **SubQ goes after 12M-token context**.
+- [[Sovereign AI Club - May 13, 2026]]: **SubQ goes after 12M-token context**.
 `,
       "2026-05-13.md": `---
-title: Austin AI Club - May 13, 2026
+title: Sovereign AI Club - May 13, 2026
 created: 2026-05-05
 updated: 2026-05-11
 type: meetup
@@ -452,7 +476,7 @@ tags: [meetup, topic-board, models-research]
 sources: []
 ---
 
-# Austin AI Club
+# Sovereign AI Club
 
 ## May 13, 2026
 
@@ -472,7 +496,7 @@ sources: []
         title: "SubQ goes after 12M-token context",
         section: "Models & Research",
         sourcePageId: "austin-ai-club-may-13-2026",
-        sourcePageTitle: "Austin AI Club - May 13, 2026",
+        sourcePageTitle: "Sovereign AI Club - May 13, 2026",
       },
     ]);
     expect(manifest.graph.links).toContainEqual({
@@ -495,11 +519,11 @@ sources: []
 
 # Cursor
 
-Cursor is a recurring Austin AI Club entity.
+Cursor is a recurring Sovereign AI Club entity.
 
 ## Mentioned In
 
-- [[Austin AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.
+- [[Sovereign AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.
 `,
       "entities/spacex.md": `---
 title: SpaceX
@@ -512,14 +536,14 @@ sources: []
 
 # SpaceX
 
-SpaceX is a recurring Austin AI Club entity.
+SpaceX is a recurring Sovereign AI Club entity.
 
 ## Mentioned In
 
-- [[Austin AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.
+- [[Sovereign AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.
 `,
       "2026-05-27.md": `---
-title: Austin AI Club - May 27, 2026
+title: Sovereign AI Club - May 27, 2026
 created: 2026-05-05
 updated: 2026-05-27
 type: meetup
@@ -527,7 +551,7 @@ tags: [meetup, topic-board]
 sources: []
 ---
 
-# Austin AI Club
+# Sovereign AI Club
 
 ## May 27, 2026
 
@@ -552,7 +576,7 @@ sources: []
       normalizedTitle: "spacex options cursor for $60b",
       section: "Big Tech Moves",
       meetupId: "austin-ai-club-may-27-2026",
-      meetupTitle: "Austin AI Club - May 27, 2026",
+      meetupTitle: "Sovereign AI Club - May 27, 2026",
       meetupSlug: "2026-05-27",
       sourceLinks: [
         "https://siliconangle.com/2026/04/22/spacex-partners-cursor-ai-training-floats-potential-60b-acquisition/",
@@ -573,7 +597,7 @@ sources: []
   it("disambiguates Topic ids that collapse to the same slug", async () => {
     const topicsDir = await createTopicsDir({
       "2026-05-27.md": `---
-title: Austin AI Club - May 27, 2026
+title: Sovereign AI Club - May 27, 2026
 created: 2026-05-05
 updated: 2026-05-27
 type: meetup
@@ -581,7 +605,7 @@ tags: [meetup, topic-board]
 sources: []
 ---
 
-# Austin AI Club
+# Sovereign AI Club
 
 ## May 27, 2026
 

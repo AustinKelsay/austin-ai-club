@@ -18,6 +18,7 @@ import {
   buildIcsHref,
   createInlineIcsHref,
   formatEventDate,
+  formatEventLongDate,
   formatEventTime,
   getLocationLabel,
 } from "../../lib/meetup-ui.js";
@@ -26,10 +27,9 @@ function CalendarEventDetail({ entry, onOpenRoute }) {
   if (!entry) {
     return (
       <article className="calendar-event-card calendar-event-card--empty">
-        <p className="calendar-event-date">No meetup selected</p>
         <h3>Pick a marked day.</h3>
         <p className="calendar-event-summary">
-          Scheduled meetups and tentative biweekly slots appear on the month grid.
+          Marked days are scheduled meetups or tentative biweekly slots.
         </p>
       </article>
     );
@@ -41,8 +41,7 @@ function CalendarEventDetail({ entry, onOpenRoute }) {
   return (
     <article className="calendar-event-card calendar-event-card--selected" data-kind={entry.kind}>
       <div className="calendar-event-copy">
-        <p className="calendar-event-date">{formatEventDate(event)}</p>
-        <h3>{event.title}</h3>
+        <h3>{formatEventLongDate(event)}</h3>
         <p className="calendar-event-summary">{event.summary}</p>
         <div className="calendar-event-meta">
           <span>{formatEventTime(event)}</span>
@@ -71,9 +70,9 @@ function CalendarEventDetail({ entry, onOpenRoute }) {
 
 function CalendarGrid({ cells, selectedDateKey, visibleMonth, onSelectDate }) {
   return (
-    <div className="calendar-grid" role="grid" aria-label={`${getCalendarMonthLabel(visibleMonth)} meetups`}>
+    <div className="calendar-grid" role="group" aria-label={`${getCalendarMonthLabel(visibleMonth)} meetups`}>
       {WEEKDAY_LABELS.map((label) => (
-        <div key={label} className="calendar-weekday" role="columnheader">
+        <div key={label} className="calendar-weekday" aria-hidden="true">
           {label}
         </div>
       ))}
@@ -98,8 +97,8 @@ function CalendarGrid({ cells, selectedDateKey, visibleMonth, onSelectDate }) {
             className={className}
             disabled={!hasEntries}
             onClick={() => onSelectDate(cell.dateKey)}
-            role="gridcell"
-            aria-selected={isSelected}
+            aria-pressed={hasEntries ? isSelected : undefined}
+            aria-label={`${cell.dateKey}${hasEntries ? `, ${statusAriaLabel}` : ""}`}
           >
             <span className="calendar-day-number">{cell.dayNumber}</span>
             {hasEntries ? (
@@ -152,25 +151,20 @@ export default function CalendarView({ calendarEntries, nextMeetup, onClose, onO
     <section className="calendar-screen" aria-label="Calendar view">
       <header className="calendar-screen-header">
         <div className="calendar-screen-brand">
-          <p className="calendar-eyebrow">Calendar</p>
-          <h2>Austin AI Club every two weeks</h2>
-          <p className="calendar-blurb">
-            Confirmed dates and upcoming meetup slots, all in one place.
-          </p>
+          <h1>Sovereign AI Club every two weeks</h1>
         </div>
-        <button className="calendar-close-btn" onClick={onClose}>
-          back to meetup page
-        </button>
+        <div className="screen-header-actions">
+          <button className="calendar-close-btn" onClick={onClose}>
+            back to meetup page
+          </button>
+        </div>
       </header>
 
-      <main className="calendar-screen-body">
+      <main tabIndex={-1} className="calendar-screen-body">
         <div className="calendar-board">
           <section className="calendar-month-panel" aria-label="Monthly calendar">
             <div className="calendar-month-toolbar">
-              <div>
-                <p className="calendar-eyebrow">Month view</p>
-                <h3>{getCalendarMonthLabel(visibleMonth)}</h3>
-              </div>
+              <h3>{getCalendarMonthLabel(visibleMonth)}</h3>
               <div className="calendar-month-actions" aria-label="Calendar navigation">
                 <button type="button" onClick={() => moveToMonth(addCalendarMonths(visibleMonth, -1))}>
                   Prev

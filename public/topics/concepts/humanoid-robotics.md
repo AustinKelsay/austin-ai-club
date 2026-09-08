@@ -9,11 +9,11 @@ sources: [raw/articles/2026-05-27-link-records.md]
 
 # Humanoid Robotics
 
-Humanoid Robotics is a recurring Austin AI Club concept for autonomous physical agents and industrial automation.
+Humanoid Robotics is a recurring Sovereign AI Club concept for autonomous physical agents and industrial automation.
 
 ## Mentioned In
 
-- [[Austin AI Club - May 27, 2026]]: **Figure AI's 200-hour humanoid marathon**.
+- [[Sovereign AI Club - May 27, 2026]]: **Figure AI's 200-hour humanoid marathon**.
 
 ## Related
 

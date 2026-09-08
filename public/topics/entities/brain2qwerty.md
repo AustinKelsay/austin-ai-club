@@ -13,7 +13,7 @@ Brain2Qwerty is Meta's non-invasive brain-to-text research project, useful here 
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**.
+- [[Sovereign AI Club - July 8, 2026]]: **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**.
 
 ## Related
 

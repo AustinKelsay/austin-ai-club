@@ -1,6 +1,6 @@
-# Austin AI Club Meetup Notes
+# Sovereign AI Club Meetup Notes
 
-This folder is the durable Markdown Archive and open LLM Wiki for Austin AI Club.
+This folder is the durable Markdown Archive and open LLM Wiki for Sovereign AI Club.
 
 The Markdown Archive is the source of record for authored meetup notes. The LLM Wiki adds durable indexes, source link records, and interlinked entity/concept pages around those notes. The frontend still reads curated Meetup Data from `src/data.js`, and that data should mirror or intentionally curate from these standalone Markdown files.
 
@@ -12,17 +12,18 @@ Start with:
 
 ## Meetups
 
-- [2026-08-26](./2026-08-26.md) - Austin AI Club meetup notes
-- [2026-08-05](./2026-08-05.md) - Austin AI Club meetup notes
-- [2026-07-22](./2026-07-22.md) - Austin AI Club meetup notes
-- [2026-07-08](./2026-07-08.md) - Austin AI Club meetup notes
-- [2026-06-24](./2026-06-24.md) - Austin AI Club meetup notes
-- [2026-06-10](./2026-06-10.md) - Austin AI Club meetup notes
-- [2026-05-27](./2026-05-27.md) - Austin AI Club meetup notes
-- [2026-05-13](./2026-05-13.md) - Austin AI Club meetup notes
-- [2026-04-15](./2026-04-15.md) - Austin AI Club meetup notes
-- [2026-04-01](./2026-04-01.md) - Austin AI Club meetup notes
-- [2026-03-18](./2026-03-18.md) - Austin AI Club meetup notes
+- [2026-09-09](./2026-09-09.md) - Sovereign AI Club meetup notes
+- [2026-08-26](./2026-08-26.md) - Sovereign AI Club meetup notes
+- [2026-08-05](./2026-08-05.md) - Sovereign AI Club meetup notes
+- [2026-07-22](./2026-07-22.md) - Sovereign AI Club meetup notes
+- [2026-07-08](./2026-07-08.md) - Sovereign AI Club meetup notes
+- [2026-06-24](./2026-06-24.md) - Sovereign AI Club meetup notes
+- [2026-06-10](./2026-06-10.md) - Sovereign AI Club meetup notes
+- [2026-05-27](./2026-05-27.md) - Sovereign AI Club meetup notes
+- [2026-05-13](./2026-05-13.md) - Sovereign AI Club meetup notes
+- [2026-04-15](./2026-04-15.md) - Sovereign AI Club meetup notes
+- [2026-04-01](./2026-04-01.md) - Sovereign AI Club meetup notes
+- [2026-03-18](./2026-03-18.md) - Sovereign AI Club meetup notes
 
 ## Adding a new meetup
 

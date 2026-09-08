@@ -13,7 +13,7 @@ Vercel is a recurring platform entity for frontend deployment, AI application in
 
 ## Mentioned In
 
-- [[Austin AI Club - May 13, 2026]]: **Vercel's Context.ai breach**.
+- [[Sovereign AI Club - May 13, 2026]]: **Vercel's Context.ai breach**.
 
 ## Related
 

@@ -13,7 +13,7 @@ SWE-1.7 is Cognition's coding model release for Devin, tracked as part of the Ju
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.
 
 ## Related
 

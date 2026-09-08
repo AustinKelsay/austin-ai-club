@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef } from "react";
 import { COMMUNITY_SLOT_LABEL, TRACK_CATEGORY } from "../../app/constants.js";
+import { useModalFocus } from "../../lib/useModalFocus.js";
+import SovereignWallpaper from "../brand/SovereignWallpaper.jsx";
 import { buildSlides } from "./slides.js";
 import { TopicMedia } from "./content.jsx";
 
@@ -13,7 +15,9 @@ function PresentationSlide({ slide, isFinale }) {
   if (slide.type === "meetup-intro") {
     return (
       <div className="pres-slide pres-slide--meetup-intro" data-track={trackSlug}>
-        <span className="pres-intro-eyebrow">{slide.intro.eyebrow}</span>
+        {slide.intro.eyebrow && slide.intro.eyebrow !== slide.intro.title ? (
+          <span className="pres-intro-eyebrow">{slide.intro.eyebrow}</span>
+        ) : null}
         <h2 className="pres-intro-title">{slide.intro.title}</h2>
         {slide.intro.blurb ? <p className="pres-intro-blurb">{slide.intro.blurb}</p> : null}
         {slide.intro.ctaHref && slide.intro.ctaLabel ? (
@@ -34,9 +38,6 @@ function PresentationSlide({ slide, isFinale }) {
   if (slide.type === "track-title") {
     return (
       <div className="pres-slide pres-slide--track" data-track={trackSlug}>
-        <span className="pres-track-num">
-          Track {slide.trackIndex + 1} of {slide.trackTotal}
-        </span>
         <h2 className="pres-track-title">{slide.track.title}</h2>
         {slide.track.purpose ? <p className="pres-track-purpose">{slide.track.purpose}</p> : null}
         {slide.track.sectionNote ? <p className="pres-notes">{slide.track.sectionNote}</p> : null}
@@ -50,9 +51,6 @@ function PresentationSlide({ slide, isFinale }) {
   if (slide.type === "track-outro") {
     return (
       <div className="pres-slide pres-slide--track pres-slide--outro" data-track={trackSlug}>
-        <span className="pres-track-num">
-          Track {slide.trackIndex + 1} of {slide.trackTotal}
-        </span>
         <h2 className="pres-track-title">{slide.outro.title}</h2>
         <p className="pres-track-purpose">{slide.outro.body}</p>
         <span className="pres-topic-badge">discussion prompt</span>
@@ -63,7 +61,6 @@ function PresentationSlide({ slide, isFinale }) {
   if (slide.type === "community-title") {
     return (
       <div className="pres-slide pres-slide--track" data-track="community">
-        <span className="pres-track-num">Final track</span>
         <h2 className="pres-track-title">{COMMUNITY_SLOT_LABEL}</h2>
         <p className="pres-track-purpose">
           Short three to five minute shares at the end of the meetup.
@@ -71,29 +68,6 @@ function PresentationSlide({ slide, isFinale }) {
         <span className="pres-topic-badge">
           {slide.itemTotal ? `${slide.itemTotal} slot${slide.itemTotal !== 1 ? "s" : ""}` : "open"}
         </span>
-      </div>
-    );
-  }
-
-  if (slide.type === "community-topic") {
-    return (
-      <div className={`pres-slide pres-slide--topic${isFinale ? " pres-slide--finale" : ""}`} data-track="community">
-        <h3 className="pres-topic-title">
-          {slide.item.href ? (
-            <a href={slide.item.href} target="_blank" rel="noreferrer">
-              {slide.item.title}
-            </a>
-          ) : (
-            slide.item.title
-          )}
-        </h3>
-        <p className="pres-topic-desc">
-          {slide.item.presentationDescription ?? slide.item.description}
-        </p>
-        {(slide.item.presentationNotes ?? slide.item.notes) ? (
-          <p className="pres-notes">{slide.item.presentationNotes ?? slide.item.notes}</p>
-        ) : null}
-        <TopicMedia item={slide.item} />
       </div>
     );
   }
@@ -125,19 +99,16 @@ function PresentationSlide({ slide, isFinale }) {
   );
 }
 
-function PresentationProgress({ currentIndex, totalSlides, breadcrumb, slideLabel, trackSlug }) {
+function PresentationProgress({ currentIndex, totalSlides, slideLabel, trackSlug }) {
   const pct = ((currentIndex + 1) / totalSlides) * 100;
 
   return (
     <div className="pres-bottom" data-track={trackSlug}>
-      <div className="pres-bottom-meta">
-        <span className="pres-bottom-label">{slideLabel}</span>
-        <span className="pres-bottom-breadcrumb">{breadcrumb}</span>
-      </div>
+      <span className="pres-bottom-label">{slideLabel}</span>
       <div className="pres-progress-track">
         <div className="pres-progress-fill" style={{ width: `${pct}%` }} />
       </div>
-      <span className="pres-bottom-counter">
+      <span className="pres-bottom-counter" role="status" aria-live="polite" aria-atomic="true">
         {currentIndex + 1} / {totalSlides}
       </span>
     </div>
@@ -157,18 +128,17 @@ export default function PresentationMode({
   );
   const visitedRef = useRef(new Set());
   const touchStartRef = useRef(null);
+  const overlayRef = useRef(null);
   const slide = slides[currentIndex];
 
-  if (!slide) {
-    return null;
-  }
+  useModalFocus(overlayRef, Boolean(slide), onExit);
 
   const isFirstVisit = !visitedRef.current.has(currentIndex);
   visitedRef.current.add(currentIndex);
 
   const isFinale =
     isFirstVisit &&
-    slide.isLastInTrack &&
+    slide?.isLastInTrack &&
     slide.trackIndex === slide.trackTotal - 1;
 
   const isFirst = currentIndex === 0;
@@ -216,14 +186,16 @@ export default function PresentationMode({
 
   useEffect(() => {
     const handler = (event) => {
+      if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey ||
+          event.target.closest?.('input, textarea, select, [contenteditable="true"]')) return;
+      // Space activates a focused control; only the slide surface advances with it.
+      if (event.key === " " && event.target.closest?.("button, a[href]")) return;
       if (event.key === "ArrowRight" || event.key === " ") {
         event.preventDefault();
         goNext();
       } else if (event.key === "ArrowLeft") {
         event.preventDefault();
         goPrev();
-      } else if (event.key === "Escape") {
-        onExit();
       }
     };
 
@@ -238,22 +210,14 @@ export default function PresentationMode({
     }
   }, [currentIndex]);
 
-  useEffect(() => {
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, []);
+  if (!slide) return null;
 
-  const breadcrumb = slide.type === "topic"
-    ? `${meetup.date} › ${slide.track.title} › Topic ${slide.itemIndex + 1} of ${slide.itemTotal}`
-    : slide.type === "meetup-intro"
-      ? `${meetup.date} › Welcome`
-      : slide.type === "community-title"
-        ? `${meetup.date} › ${COMMUNITY_SLOT_LABEL}`
-        : slide.type === "community-topic"
-          ? `${meetup.date} › ${COMMUNITY_SLOT_LABEL} › ${slide.itemIndex + 1} of ${slide.itemTotal}`
-          : `${meetup.date} › ${slide.track.title}`;
+  // Where we are (date › track); the bottom bar's slide label carries "n of m".
+  const breadcrumb = slide.type === "meetup-intro"
+    ? `${meetup.date} › Welcome`
+    : slide.type === "community-title" || slide.type === "community-topic"
+      ? `${meetup.date} › ${COMMUNITY_SLOT_LABEL}`
+      : `${meetup.date} › ${slide.track.title}`;
 
   const slideLabel = slide.type === "meetup-intro"
     ? "Welcome"
@@ -263,9 +227,7 @@ export default function PresentationMode({
         ? `${COMMUNITY_SLOT_LABEL} ${slide.itemIndex + 1} of ${slide.itemTotal}`
         : slide.type === "community-title"
           ? `Track ${meetup.tracks.length + 1} of ${meetup.tracks.length + 1}`
-          : slide.type === "track-outro"
-            ? "Discussion prompt"
-            : `Track ${slide.trackIndex + 1} of ${slide.trackTotal}`;
+          : `Track ${slide.trackIndex + 1} of ${slide.trackTotal}`;
 
   const trackSlug = slide.type === "meetup-intro"
     ? "local-builds"
@@ -277,12 +239,16 @@ export default function PresentationMode({
     slide.type === "topic" && Boolean(slide.item.releaseRoundup);
 
   return (
-    <div className="pres-overlay" data-track={trackSlug}>
+    <div ref={overlayRef} className="pres-overlay" data-track={trackSlug}
+      role="dialog" aria-modal="true" aria-label="Presentation Mode" tabIndex={-1}>
+      <SovereignWallpaper />
       <div className="pres-topbar">
         <span className="pres-breadcrumb">{breadcrumb}</span>
-        <button className="pres-exit-btn" onClick={onExit}>
-          esc exit
-        </button>
+        <div className="pres-topbar-actions">
+          <button className="pres-exit-btn" onClick={onExit}>
+            esc exit
+          </button>
+        </div>
       </div>
 
       <div className="pres-content">
@@ -320,7 +286,6 @@ export default function PresentationMode({
       <PresentationProgress
         currentIndex={currentIndex}
         totalSlides={slides.length}
-        breadcrumb={breadcrumb}
         slideLabel={slideLabel}
         trackSlug={trackSlug}
       />

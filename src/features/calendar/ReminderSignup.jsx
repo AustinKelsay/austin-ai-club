@@ -98,7 +98,6 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
   return (
     <section className={`reminder-panel reminder-panel--${variant}`} aria-label="Meetup reminders">
       <div className="reminder-copy">
-        <p className="reminder-eyebrow">Meetup reminders</p>
         <h2>Get meetup reminders.</h2>
         <p className="reminder-blurb">
           One email on meetup days, around 10:00 AM CT.
@@ -111,7 +110,6 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
 
       {status === "success" ? (
         <div className="reminder-success" role="status" aria-live="polite">
-          <p className="reminder-success-kicker">Success</p>
           <h3>You&apos;re subscribed.</h3>
           <p>We&apos;ll send a reminder on meetup days around 10:00 AM CT.</p>
           <button
@@ -173,7 +171,7 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
                   ? import.meta.env.DEV
                     ? "Set VITE_REMINDER_SIGNUP_URL to connect the form to Apps Script."
                     : "Reminder signup is temporarily offline."
-                  : "One email on meetup days. Unsubscribe any time from the reminder email."}
+                  : "Unsubscribe any time from the email."}
           </p>
         </>
       )}

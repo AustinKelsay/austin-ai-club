@@ -1,19 +1,23 @@
 import { buildMeetupPath } from "../../app/routes.js";
 import RouteLink from "../../components/RouteLink.jsx";
 import {
-  formatEventDate,
   formatEventTime,
+  formatEventWeekday,
   getLocationLabel,
   isUpcomingMeetup,
 } from "../../lib/meetup-ui.js";
 import ArchiveShell from "./ArchiveShell.jsx";
-import { getMeetupCounts } from "./meetupSections.jsx";
+import { formatMeetupCounts, getMeetupCounts } from "./meetupSections.jsx";
 
+/**
+ * One meetup on the index. The whole card is the link; the heading carries the
+ * date, so event chips only add the weekday, time, and venue.
+ */
 function MeetupCard({ meetup, nextMeetupId, onOpenRoute }) {
   const isUpcoming = isUpcomingMeetup(meetup);
-  const { totalTopicCount, totalTrackCount } = getMeetupCounts(meetup, {
-    acceptsSubmissions: meetup.id === nextMeetupId,
-  });
+  const countsLabel = formatMeetupCounts(
+    getMeetupCounts(meetup, { acceptsSubmissions: meetup.id === nextMeetupId }),
+  );
 
   return (
     <article className={`meetup meetup-card ${isUpcoming ? "meetup--upcoming" : "meetup--past"}`}>
@@ -25,20 +29,16 @@ function MeetupCard({ meetup, nextMeetupId, onOpenRoute }) {
         <div className="meetup-header meetup-card-header">
           <div className="meetup-card-heading">
             <div>
-              <p className="eyebrow meetup-card-eyebrow">
-                {isUpcoming ? "Upcoming meetup" : "Past meetup"}
-              </p>
+              {isUpcoming ? <p className="eyebrow meetup-card-eyebrow">Upcoming meetup</p> : null}
               <h2>{meetup.date}</h2>
             </div>
-            <span className="meetup-card-open">open meetup</span>
           </div>
-          <p className="meetup-meta meetup-card-meta">
-            {totalTopicCount} topics &middot; {totalTrackCount} tracks
-          </p>
+          {countsLabel ? <p className="meetup-meta meetup-card-meta">{countsLabel}</p> : null}
           {meetup.event ? (
             <div className="meetup-event-meta meetup-card-event">
-              <span>{formatEventDate(meetup.event)}</span>
-              <span>{formatEventTime(meetup.event)}</span>
+              <span>
+                {formatEventWeekday(meetup.event)} &middot; {formatEventTime(meetup.event)}
+              </span>
               <span>{getLocationLabel(meetup.event)}</span>
             </div>
           ) : null}
@@ -54,7 +54,20 @@ export default function ArchiveView({ meetups, nextMeetupId, onOpenRoute }) {
 
   return (
     <ArchiveShell onOpenRoute={onOpenRoute}>
-      <main className="archive archive--index">
+      <main id="main-content" tabIndex={-1} className="archive archive--index">
+        <section className="brand-hero" aria-labelledby="brand-hero-title">
+          <div className="brand-hero-copy">
+            <p className="eyebrow">Austin, TX</p>
+            <h2 id="brand-hero-title">Own your AI.</h2>
+            <p>A community for local AI, open models, and building on your own terms. Meet the people, share your work, and explore what comes next.</p>
+          </div>
+          <img
+            src="/brand/hero.jpg"
+            alt="A wireframe hand meets a human hand at a starburst, the Sovereign AI Club poster mark."
+            width="1545"
+            height="1999"
+          />
+        </section>
         {upcomingMeetups.map((meetup) => (
           <MeetupCard
             key={meetup.id}

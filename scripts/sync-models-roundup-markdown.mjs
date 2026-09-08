@@ -146,7 +146,7 @@ function replaceModelsSection(markdown, items) {
  */
 function rewriteMentionsLine(line) {
   if (!line.includes("**")) return line;
-  const meetupMatch = line.match(/\[\[Austin AI Club - ([^\]]+)\]\]/);
+  const meetupMatch = line.match(/\[\[Sovereign AI Club - ([^\]]+)\]\]/);
   if (!meetupMatch) return line;
   const titleMap = MEETUP_TITLE_MAPS[meetupMatch[1]];
   if (!titleMap) return line;
@@ -219,7 +219,7 @@ function walk(dir) {
     if (!before.includes("## Mentioned In")) continue;
     const after = before
       .split("\n")
-      .map((line) => (line.trimStart().startsWith("- [[Austin AI Club") ? rewriteMentionsLine(line) : line))
+      .map((line) => (line.trimStart().startsWith("- [[Sovereign AI Club") ? rewriteMentionsLine(line) : line))
       .join("\n");
     if (after !== before) {
       fs.writeFileSync(full, after);

@@ -9,13 +9,13 @@ sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-04-15-link-
 
 # OpenAgents
 
-OpenAgents is a recurring Austin AI Club entity for sovereign agents, agent payments, Pylon compute contribution, and Bitcoin-settled agent infrastructure.
+OpenAgents is a recurring Sovereign AI Club entity for sovereign agents, agent payments, Pylon compute contribution, and Bitcoin-settled agent infrastructure.
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**.
-- [[Austin AI Club - April 15, 2026]]: **OpenAgents: Pylon + Autopilot**.
-- [[Austin AI Club - April 1, 2026]]: **OpenAgents Autopilot**.
+- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**.
+- [[Sovereign AI Club - April 15, 2026]]: **OpenAgents: Pylon + Autopilot**.
+- [[Sovereign AI Club - April 1, 2026]]: **OpenAgents Autopilot**.
 
 ## Related
 

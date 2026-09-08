@@ -13,7 +13,7 @@ Prime Agent is Prime Intellect's open-source coding and long-horizon agent harne
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.
+- [[Sovereign AI Club - August 5, 2026]]: **Prime Agent is an open RLM coding harness that can rewrite itself**.
 
 ## Related
 

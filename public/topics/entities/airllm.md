@@ -13,7 +13,7 @@ AirLLM is a local inference library that streams model layers—or routed MoE ex
 
 ## Mentioned In
 
-- [[Austin AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM**.
+- [[Sovereign AI Club - August 5, 2026]]: **AirLLM streams giant MoEs onto hobbyist VRAM**.
 
 ## Related
 

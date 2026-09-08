@@ -13,7 +13,7 @@ DeepSpec is DeepSeek's speculative-decoding training and evaluation framework, t
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 
 ## Related
 

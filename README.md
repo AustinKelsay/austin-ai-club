@@ -1,6 +1,6 @@
 # austin-ai-club
 
-A small Vite + React frontend for Austin AI Club meetups, topic boards, submissions, reminders, and presentation mode.
+A small Vite + React frontend for Sovereign AI Club meetups, topic boards, submissions, reminders, and presentation mode.
 
 This repo is optimized for clarity over abstraction. The goal is to make it easy for a human or agent to:
 
@@ -220,7 +220,7 @@ Do not skip the Markdown step. The Markdown Archive is the source of record.
 
 ## Meetup Slots
 
-Austin AI Club tries to meet biweekly. The calendar can generate tentative meetup slots from that cadence, and those slots can be manually overridden by authored meetups when the real date changes.
+Sovereign AI Club tries to meet biweekly. The calendar can generate tentative meetup slots from that cadence, and those slots can be manually overridden by authored meetups when the real date changes.
 
 Meetup slots are not authored meetups: they do not have topic boards, and reminders should not point at them. Submissions can still target the next meetup slot when no authored meetup exists yet, keeping the submission path low-friction. If the default biweekly slot has already passed unauthored, that submission target is the next Wednesday — the next time the club would actually meet — not the following date on the original biweekly grid.
 

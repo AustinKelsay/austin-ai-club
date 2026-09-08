@@ -30,6 +30,7 @@ export default function SubmissionScreen({ kind, target, onBack, onOpenRoute }) 
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    if (status === "submitting") return;
 
     if (!target?.slug || !target?.event) {
       setStatus("error");
@@ -59,20 +60,21 @@ export default function SubmissionScreen({ kind, target, onBack, onOpenRoute }) 
   };
 
   return (
-    <section className="submission-screen" aria-label={screen.title}>
+    <main tabIndex={-1} className="submission-screen" aria-label={screen.title}>
       <header className="submission-header">
         <div>
-          <p className="submission-eyebrow">{screen.eyebrow}</p>
-          <h2>{screen.title}</h2>
-          <p className="submission-blurb">{screen.description}</p>
+          <h1>{screen.title}</h1>
+          {screen.description ? <p className="submission-blurb">{screen.description}</p> : null}
         </div>
-        <button className="calendar-close-btn" onClick={onBack}>
-          back to meetup page
-        </button>
+        <div className="screen-header-actions">
+          <button className="calendar-close-btn" onClick={onBack}>
+            back to meetup page
+          </button>
+        </div>
       </header>
 
       <div className="submission-layout">
-        <form className="submission-form" onSubmit={handleSubmit}>
+        <form className="submission-form" onSubmit={handleSubmit} aria-busy={status === "submitting"}>
           <input
             type="text"
             name="website"
@@ -94,6 +96,7 @@ export default function SubmissionScreen({ kind, target, onBack, onOpenRoute }) 
                   value={values[field.name]}
                   onChange={(event) => setValue(field.name, event.target.value)}
                   required={field.required}
+                  disabled={status === "submitting"}
                   rows={field.rows ?? 5}
                 />
               ) : (
@@ -104,6 +107,7 @@ export default function SubmissionScreen({ kind, target, onBack, onOpenRoute }) 
                   value={values[field.name]}
                   onChange={(event) => setValue(field.name, event.target.value)}
                   required={field.required}
+                  disabled={status === "submitting"}
                   inputMode={field.inputMode}
                 />
               )}
@@ -135,6 +139,6 @@ export default function SubmissionScreen({ kind, target, onBack, onOpenRoute }) 
           </div>
         </form>
       </div>
-    </section>
+    </main>
   );
 }

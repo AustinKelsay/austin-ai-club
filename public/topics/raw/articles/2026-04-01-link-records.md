@@ -9,7 +9,7 @@ sources: []
 
 # April 1, 2026 Source Link Records
 
-Public link records for [[Austin AI Club - April 1, 2026]]. These records preserve source metadata and short curation notes without copying full third-party text into the public repo.
+Public link records for [[Sovereign AI Club - April 1, 2026]]. These records preserve source metadata and short curation notes without copying full third-party text into the public repo.
 
 ## Agent Infrastructure
 

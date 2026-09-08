@@ -9,14 +9,14 @@ sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-06-24-link-
 
 # Z.ai
 
-Z.ai is a recurring Austin AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.
+Z.ai is a recurring Sovereign AI Club entity for GLM model releases, coding-agent workflows, and local agent deployment tooling.
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Closed model releases** and **Open model releases**.
-- [[Austin AI Club - June 24, 2026]]: **Open model releases**.
-- [[Austin AI Club - April 15, 2026]]: **Open model releases**.
-- [[Austin AI Club - April 1, 2026]]: **Closed model releases**, **Zai launches AutoClaw**, and **Distillation hesitation**.
+- [[Sovereign AI Club - August 26, 2026]]: **Closed model releases** and **Open model releases**.
+- [[Sovereign AI Club - June 24, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - April 15, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - April 1, 2026]]: **Closed model releases**, **Zai launches AutoClaw**, and **Distillation hesitation**.
 
 ## Related
 

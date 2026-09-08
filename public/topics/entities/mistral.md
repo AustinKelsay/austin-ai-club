@@ -9,14 +9,14 @@ sources: [raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-
 
 # Mistral
 
-Mistral is a recurring open-model and developer-ecosystem entity for Austin AI Club, appearing through model releases, specialized research models, and supply-chain incidents around AI packages.
+Mistral is a recurring open-model and developer-ecosystem entity for Sovereign AI Club, appearing through model releases, specialized research models, and supply-chain incidents around AI packages.
 
 ## Mentioned In
 
-- [[Austin AI Club - July 22, 2026]]: **Open model releases**.
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
-- [[Austin AI Club - May 13, 2026]]: **Mini Shai-Hulud hits the AI dev supply chain**.
-- [[Austin AI Club - March 18, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 22, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - May 13, 2026]]: **Mini Shai-Hulud hits the AI dev supply chain**.
+- [[Sovereign AI Club - March 18, 2026]]: **Open model releases**.
 
 ## Related
 

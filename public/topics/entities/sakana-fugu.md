@@ -13,7 +13,7 @@ Sakana Fugu is Sakana AI's learned multi-agent orchestration model/API, tracked 
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.
+- [[Sovereign AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.
 
 ## Related
 

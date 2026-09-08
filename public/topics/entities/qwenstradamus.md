@@ -13,7 +13,7 @@ Qwenstradamus is Ben Carman's personal-voice model service built from Twitter ar
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus**.
+- [[Sovereign AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus**.
 
 ## Related
 

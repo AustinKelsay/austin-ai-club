@@ -13,8 +13,8 @@ vLLM is an open-source inference and serving stack for large language models, in
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
-- [[Austin AI Club - June 10, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.
+- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.
 
 ## Related
 

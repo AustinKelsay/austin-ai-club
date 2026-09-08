@@ -13,7 +13,7 @@ MiniMax M3 is the long-context MiniMax model covered on June 24 as both an open-
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.
+- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.
 
 ## Related
 

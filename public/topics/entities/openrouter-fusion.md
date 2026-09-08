@@ -13,7 +13,7 @@ OpenRouter Fusion is OpenRouter's model-panel API product, preserved separately 
 
 ## Mentioned In
 
-- [[Austin AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.
+- [[Sovereign AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.
 
 ## Related
 

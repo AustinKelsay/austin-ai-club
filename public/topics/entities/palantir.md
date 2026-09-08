@@ -9,11 +9,11 @@ sources: [raw/articles/2026-07-08-link-records.md]
 
 # Palantir
 
-Palantir is a recurring-watch company for Austin AI Club when institutional AI, data sovereignty, surveillance risk, and platform control collide.
+Palantir is a recurring-watch company for Sovereign AI Club when institutional AI, data sovereignty, surveillance risk, and platform control collide.
 
 ## Mentioned In
 
-- [[Austin AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**.
+- [[Sovereign AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**.
 
 ## Related
 

@@ -9,16 +9,16 @@ sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-
 
 # Nemotron
 
-Nemotron is NVIDIA's open model family, recurring in Austin AI Club through open-weight LLMs, speech models, reasoning/coding benchmarks, compression variants, and serving work.
+Nemotron is NVIDIA's open model family, recurring in Sovereign AI Club through open-weight LLMs, speech models, reasoning/coding benchmarks, compression variants, and serving work.
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Open model releases**.
-- [[Austin AI Club - July 8, 2026]]: **Open model releases**.
-- [[Austin AI Club - June 24, 2026]]: **Open model releases**.
-- [[Austin AI Club - June 10, 2026]]: **Open model releases**.
-- [[Austin AI Club - April 1, 2026]]: **Open model releases**.
-- [[Austin AI Club - March 18, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - August 26, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - June 24, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - April 1, 2026]]: **Open model releases**.
+- [[Sovereign AI Club - March 18, 2026]]: **Open model releases**.
 
 ## Related
 

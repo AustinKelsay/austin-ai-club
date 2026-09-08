@@ -2,7 +2,7 @@
 
 ## Domain
 
-This wiki covers Austin AI Club meetups, topic boards, source links, recurring AI concepts, organizations, products, models, and questions worth preserving across meetups.
+This wiki covers Sovereign AI Club meetups, topic boards, source links, recurring AI concepts, organizations, products, models, and questions worth preserving across meetups.
 
 The wiki is an organizational layer over the Markdown Archive. It is not the frontend rendering model.
 
@@ -31,7 +31,7 @@ sources: [raw/articles/example.md]
 
 ## Page Types
 
-- `meetup`: dated Austin AI Club Meetup notes and Topic Boards.
+- `meetup`: dated Sovereign AI Club Meetup notes and Topic Boards.
 - `entity`: people, organizations, projects, products, models, and platforms.
 - `concept`: recurring themes, lenses, technical ideas, and discussion patterns.
 - `comparison`: side-by-side analysis that should persist beyond one Meetup.

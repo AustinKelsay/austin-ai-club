@@ -9,16 +9,16 @@ sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-
 
 # xAI
 
-xAI is a recurring Austin AI Club entity for Grok models, API access, and X platform integration.
+xAI is a recurring Sovereign AI Club entity for Grok models, API access, and X platform integration.
 
 ## Mentioned In
 
-- [[Austin AI Club - August 26, 2026]]: **Closed model releases**.
-- [[Austin AI Club - July 22, 2026]]: **Closed model releases**, **Grok Build uploaded the repo, not just the context**, and **The AI safety leaderboard tops out at C+**.
-- [[Austin AI Club - July 8, 2026]]: **Closed model releases**.
-- [[Austin AI Club - June 10, 2026]]: **Closed model releases**.
-- [[Austin AI Club - May 27, 2026]]: **Grok API gets X Premium OAuth integration**.
-- [[Austin AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane**.
+- [[Sovereign AI Club - August 26, 2026]]: **Closed model releases**.
+- [[Sovereign AI Club - July 22, 2026]]: **Closed model releases**, **Grok Build uploaded the repo, not just the context**, and **The AI safety leaderboard tops out at C+**.
+- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.
+- [[Sovereign AI Club - June 10, 2026]]: **Closed model releases**.
+- [[Sovereign AI Club - May 27, 2026]]: **Grok API gets X Premium OAuth integration**.
+- [[Sovereign AI Club - May 13, 2026]]: **Frontier model testing gets a federal lane**.
 
 ## Related
 

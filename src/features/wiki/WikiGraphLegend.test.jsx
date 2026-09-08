@@ -15,9 +15,9 @@ describe("WikiGraphLegend", () => {
     expect(markup).toContain("Meetup");
     expect(markup).toContain("Entity");
     expect(markup).toContain("Concept");
-    expect(markup).toContain("background-color:#47f3aa");
-    expect(markup).toContain("background-color:#47d4f3");
-    expect(markup).toContain("background-color:#c47df3");
+    expect(markup).toContain("background-color:var(--graph-meetup)");
+    expect(markup).toContain("background-color:var(--graph-entity)");
+    expect(markup).toContain("background-color:var(--graph-concept)");
   });
 
   it("renders every type as a toggleable button", () => {
