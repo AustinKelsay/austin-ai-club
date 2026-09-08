@@ -2,6 +2,11 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-09-08] curate | Crescent Island and submission check
+
+- Added the organizer’s Crescent Island Link under Big Tech Moves, paired with Intel’s Hot Chips presentation; distinguished the 160GB branded card, 480GB partner ceiling, and announced architecture from available hardware.
+- Added Intel’s entity page and reciprocal Meetup/Track links. Checked all GitHub Issues: no pending Link or Showcase submissions; the latest submission, #56, was a closed example.com test.
+
 ## [2026-09-08] curate | Complete September 9 model roundups
 
 - Expanded the two release Topics to 14 hosted and 18 downloadable families or material updates, with 56 primary artifact links and 25 verified X embeds across the two slides.

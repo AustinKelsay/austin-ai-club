@@ -402,6 +402,21 @@ export const meetups = [
             "notes": "Which workloads benefit from specialized inference hardware? The NVIDIA GTC session explains attention/FFN disaggregation. This slide makes no claim about an LPU-drafter configuration, universal performance ordering, or availability of every deployment mode."
           },
           {
+            "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+            "description": "Intel detailed a 350W, air-cooled inference GPU at Hot Chips: 160GB on its own card, with partner designs allowed up to 480GB of LPDDR5X. The capacity could help keep larger models in one server, but the talk does not establish shipping availability or measured tokens per watt.",
+            "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+            "linkPair": [
+              "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/"
+            ],
+            "notes": "Hot Chips architecture disclosure: August 24. Room question: when would memory capacity and an open serving stack outweigh bandwidth? Memory bandwidth, pricing, real workload performance and software maturity still need evidence before a buying comparison.",
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/ServeTheHome/status/2092062538603360368"
+              }
+            ]
+          },
+          {
             "title": "Meta Muse puts a personal agent in a cloud VM",
             "description": "Meta is rolling out Muse with a dedicated cloud VM, a separate Sentinel agent, and approval prompts for sensitive actions. Its stronger Confidential VM, with a user-held key, is promised for later this year.",
             "href": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",

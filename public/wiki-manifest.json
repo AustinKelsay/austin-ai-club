@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T20:53:47.983Z",
+  "generatedAt": "2026-09-08T21:29:49.114Z",
   "pages": [
     {
       "id": "abliterlitics",
@@ -10556,6 +10556,7 @@
         "gemma",
         "genesis-mission",
         "google",
+        "intel",
         "jalapeno",
         "meta-muse",
         "microsoft",
@@ -10590,6 +10591,7 @@
         "gemini-omni-flash",
         "google",
         "hugging-face",
+        "intel",
         "meta-muse",
         "palantir",
         "salesforce",
@@ -11691,6 +11693,27 @@
           "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
         },
         {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
           "href": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
           "title": "Meta Muse puts a personal agent in a cloud VM",
           "section": "Big Tech Moves",
@@ -11705,7 +11728,7 @@
           "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
         }
       ],
-      "bodyMarkdown": "# Big Tech Moves\n\nBig Tech Moves is the Sovereign AI Club track for major company strategy, compute deals, hardware, product-platform shifts, acquisitions, policy, energy, and infrastructure moves that change the AI builder landscape.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**, **Meta Muse puts a personal agent in a cloud VM**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.\n- [[Sovereign AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Sovereign AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.\n- [[Sovereign AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.\n- [[Sovereign AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 27, 2026]]: **Digg returns as AI signal detector**, **SpaceX options Cursor for $60B**, **Anthropic cuts the programmatic subsidy**, **Grok API gets X Premium OAuth integration**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Sovereign AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**, **OpenAI acquires TBPN**, **Microsoft ships in-house MAI models**, **OpenAI pauses Stargate UK**, and **Two attacks on Sam Altman's home in one week**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **MK-Ultrathink**, **White House pushes a national AI framework**, **OpenAI to acquire Astral**, **Meta and Intel chip push**, and **Tesla dodges AV regulation**.\n- [[Sovereign AI Club - March 18, 2026]]: **Meta's \"Moltbook\"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[AMD]]\n- [[Genesis Mission]]\n- [[WAICO]]\n- [[Vera Rubin]]\n- [[Gemma]]\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Google]]\n- [[Microsoft]]\n- [[NVIDIA]]\n- [[SpaceX]]\n- [[Cursor]]\n- [[Palantir]]\n- [[Venice]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[Cursor Origin]]\n- [[Meta Muse]]\n- [[Salesforce]]"
+      "bodyMarkdown": "# Big Tech Moves\n\nBig Tech Moves is the Sovereign AI Club track for major company strategy, compute deals, hardware, product-platform shifts, acquisitions, policy, energy, and infrastructure moves that change the AI builder landscape.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**, **Meta Muse puts a personal agent in a cloud VM**, **Intel Crescent Island: 160GB card, up to 480GB for partners**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.\n- [[Sovereign AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Sovereign AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.\n- [[Sovereign AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.\n- [[Sovereign AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 27, 2026]]: **Digg returns as AI signal detector**, **SpaceX options Cursor for $60B**, **Anthropic cuts the programmatic subsidy**, **Grok API gets X Premium OAuth integration**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Sovereign AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**, **OpenAI acquires TBPN**, **Microsoft ships in-house MAI models**, **OpenAI pauses Stargate UK**, and **Two attacks on Sam Altman's home in one week**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **MK-Ultrathink**, **White House pushes a national AI framework**, **OpenAI to acquire Astral**, **Meta and Intel chip push**, and **Tesla dodges AV regulation**.\n- [[Sovereign AI Club - March 18, 2026]]: **Meta's \"Moltbook\"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Intel]]\n\n- [[AMD]]\n- [[Genesis Mission]]\n- [[WAICO]]\n- [[Vera Rubin]]\n- [[Gemma]]\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Google]]\n- [[Microsoft]]\n- [[NVIDIA]]\n- [[SpaceX]]\n- [[Cursor]]\n- [[Palantir]]\n- [[Venice]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[Cursor Origin]]\n- [[Meta Muse]]\n- [[Salesforce]]"
     },
     {
       "id": "block",
@@ -18166,6 +18189,7 @@
         "gemma",
         "google",
         "inference-optimization",
+        "intel",
         "jalapeno",
         "midjourney",
         "minimax-m3",
@@ -18203,6 +18227,7 @@
         "google",
         "groq",
         "inference-optimization",
+        "intel",
         "jalapeno",
         "local-ai",
         "meta",
@@ -18394,6 +18419,27 @@
         {
           "href": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
           "title": "Rubin and Groq LPUs split the inference workload",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-september-9-2026",
           "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
@@ -19743,7 +19789,7 @@
           "sourcePageTitle": "Sovereign AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Compute Strategy\n\nCompute Strategy covers how labs, cloud providers, and model teams secure the hardware, energy, inference efficiency, and deployment pathways needed to make AI systems viable.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **Rubin and Groq LPUs split the inference workload**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.\n- [[Sovereign AI Club - July 8, 2026]]: **Etched turns inference chips into rack-scale product**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **vLLM turns weird open models into runnable systems**, **Closed model releases**, **Open model releases**, **OpenAI gets its own inference chip**, and **Midjourney turns image-gen into body hardware**.\n- [[Sovereign AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.\n- [[Sovereign AI Club - May 13, 2026]]: **Open model releases**, **Anthropic buys the AWS compute runway**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models** and **OpenAI pauses Stargate UK**.\n- [[Sovereign AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n\n## Related\n\n- [[Anthropic]]\n- [[Apple]]\n- [[Broadcom]]\n- [[Jalapeno]]\n- [[Cursor]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Google]]\n- [[Midjourney]]\n- [[NVIDIA]]\n- [[Vera Rubin]]\n- [[Gemma]]\n- [[OpenAI]]\n- [[OpenAgents]]\n- [[Qwen]]\n- [[SpaceX]]\n- [[vLLM]]\n- [[Etched]]\n- [[MiniMax M3]]"
+      "bodyMarkdown": "# Compute Strategy\n\nCompute Strategy covers how labs, cloud providers, and model teams secure the hardware, energy, inference efficiency, and deployment pathways needed to make AI systems viable.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **Rubin and Groq LPUs split the inference workload**, **Intel Crescent Island: 160GB card, up to 480GB for partners**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.\n- [[Sovereign AI Club - July 8, 2026]]: **Etched turns inference chips into rack-scale product**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **vLLM turns weird open models into runnable systems**, **Closed model releases**, **Open model releases**, **OpenAI gets its own inference chip**, and **Midjourney turns image-gen into body hardware**.\n- [[Sovereign AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.\n- [[Sovereign AI Club - May 13, 2026]]: **Open model releases**, **Anthropic buys the AWS compute runway**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models** and **OpenAI pauses Stargate UK**.\n- [[Sovereign AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n\n## Related\n\n- [[Intel]]\n\n- [[Anthropic]]\n- [[Apple]]\n- [[Broadcom]]\n- [[Jalapeno]]\n- [[Cursor]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Google]]\n- [[Midjourney]]\n- [[NVIDIA]]\n- [[Vera Rubin]]\n- [[Gemma]]\n- [[OpenAI]]\n- [[OpenAgents]]\n- [[Qwen]]\n- [[SpaceX]]\n- [[vLLM]]\n- [[Etched]]\n- [[MiniMax M3]]"
     },
     {
       "id": "cursor",
@@ -33295,6 +33341,62 @@
         }
       ],
       "bodyMarkdown": "# Inkling\n\nInkling is Thinking Machines' Apache-2.0 multimodal mixture-of-experts model with 975B total parameters, 41B active parameters, and a million-token context window.\n\n## Mentioned In\n\n- [[Sovereign AI Club - July 22, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Models & Research]]\n- [[AI Benchmarks & Evals]]"
+    },
+    {
+      "id": "intel",
+      "title": "Intel",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-09-09-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "excerpt": "Intel develops processors and accelerators. Its Crescent Island inference GPU architecture uses LPDDR5X rather than HBM: Intel’s Hot Chips 2026 presentation specifies a 160GB branded PCIe card and a design ceiling of 480GB for partner cards, with a 350W air-cooled form factor. These specifications do not establish retail availability or measured workload efficiency.",
+      "rawHref": "/topics/entities/intel.md",
+      "relativePath": "entities/intel.md",
+      "outgoingIds": [
+        "austin-ai-club-september-9-2026",
+        "big-tech-moves",
+        "compute-strategy"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-september-9-2026",
+        "big-tech-moves",
+        "compute-strategy"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Intel\n\nIntel develops processors and accelerators. Its Crescent Island inference GPU architecture uses LPDDR5X rather than HBM: Intel’s Hot Chips 2026 presentation specifies a 160GB branded PCIe card and a design ceiling of 480GB for partner cards, with a 350W air-cooled form factor. These specifications do not establish retail availability or measured workload efficiency.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **Intel Crescent Island: 160GB card, up to 480GB for partners**.\n\n## Related\n\n- [[Big Tech Moves]]\n- [[Compute Strategy]]"
     },
     {
       "id": "jalapeno",
@@ -66469,6 +66571,9 @@
         "https://x.com/jensenhuang/status/2095482647355244762",
         "https://www.nvidia.com/en-us/on-demand/session/gtc26-s81911/",
         "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
+        "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+        "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+        "https://x.com/ServeTheHome/status/2092062538603360368",
         "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
         "https://x.com/finkd/status/2097402101332590646"
       ],
@@ -67001,6 +67106,21 @@
         {
           "href": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
           "title": "How NVIDIA Groq 3 LPX Unlocks Ultrafast Interactivity at Long Context on NVIDIA Vera Rubin",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Crescent Island: GPU Designed for Agentic AI Inference",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "ServeTheHome shares its Crescent Island coverage",
           "section": "Big Tech Moves"
         },
         {
@@ -79613,6 +79733,9 @@
         "https://x.com/jensenhuang/status/2095482647355244762",
         "https://www.nvidia.com/en-us/on-demand/session/gtc26-s81911/",
         "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
+        "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+        "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+        "https://x.com/ServeTheHome/status/2092062538603360368",
         "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
         "https://x.com/finkd/status/2097402101332590646"
       ],
@@ -80148,6 +80271,21 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
           "title": "Meta Muse puts a personal agent in a cloud VM",
           "section": "Big Tech Moves"
@@ -80184,6 +80322,7 @@
         "hugging-face",
         "inception",
         "inference-optimization",
+        "intel",
         "k2-horizon",
         "ling-30-flash",
         "llada",
@@ -80232,6 +80371,7 @@
         "hugging-face",
         "inception",
         "inference-optimization",
+        "intel",
         "k2-horizon",
         "ling-30-flash",
         "llada",
@@ -96575,6 +96715,7 @@
         "gemma",
         "genesis-mission",
         "google",
+        "intel",
         "jalapeno",
         "meta-muse",
         "microsoft",
@@ -96609,6 +96750,7 @@
         "gemini-omni-flash",
         "google",
         "hugging-face",
+        "intel",
         "meta-muse",
         "palantir",
         "salesforce",
@@ -97710,6 +97852,27 @@
           "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
         },
         {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
           "href": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
           "title": "Meta Muse puts a personal agent in a cloud VM",
           "section": "Big Tech Moves",
@@ -97724,7 +97887,7 @@
           "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
         }
       ],
-      "bodyMarkdown": "# Big Tech Moves\n\nBig Tech Moves is the Sovereign AI Club track for major company strategy, compute deals, hardware, product-platform shifts, acquisitions, policy, energy, and infrastructure moves that change the AI builder landscape.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**, **Meta Muse puts a personal agent in a cloud VM**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.\n- [[Sovereign AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Sovereign AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.\n- [[Sovereign AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.\n- [[Sovereign AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 27, 2026]]: **Digg returns as AI signal detector**, **SpaceX options Cursor for $60B**, **Anthropic cuts the programmatic subsidy**, **Grok API gets X Premium OAuth integration**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Sovereign AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**, **OpenAI acquires TBPN**, **Microsoft ships in-house MAI models**, **OpenAI pauses Stargate UK**, and **Two attacks on Sam Altman's home in one week**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **MK-Ultrathink**, **White House pushes a national AI framework**, **OpenAI to acquire Astral**, **Meta and Intel chip push**, and **Tesla dodges AV regulation**.\n- [[Sovereign AI Club - March 18, 2026]]: **Meta's \"Moltbook\"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[AMD]]\n- [[Genesis Mission]]\n- [[WAICO]]\n- [[Vera Rubin]]\n- [[Gemma]]\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Google]]\n- [[Microsoft]]\n- [[NVIDIA]]\n- [[SpaceX]]\n- [[Cursor]]\n- [[Palantir]]\n- [[Venice]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[Cursor Origin]]\n- [[Meta Muse]]\n- [[Salesforce]]"
+      "bodyMarkdown": "# Big Tech Moves\n\nBig Tech Moves is the Sovereign AI Club track for major company strategy, compute deals, hardware, product-platform shifts, acquisitions, policy, energy, and infrastructure moves that change the AI builder landscape.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**, **Meta Muse puts a personal agent in a cloud VM**, **Intel Crescent Island: 160GB card, up to 480GB for partners**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.\n- [[Sovereign AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Sovereign AI Club - July 22, 2026]]: **AMD buys a place in Anthropic's frontier stack**, **Genesis Mission turns AI-for-science into a federal portfolio**, **WAICO opens a China-centered lane for global AI governance**, **Vera Rubin racks move into production**, **Apple says OpenAI's hardware team took trade secrets**, **Anthropic's $1.5B copyright settlement gets final approval**, **Europe makes Android's AI layer contestable**, **Satya says enterprises pay for AI twice**, **White House says Kimi K3 distilled Fable**, and **Meta wants off the rented-GPU treadmill**.\n- [[Sovereign AI Club - July 8, 2026]]: **Palantir discovers AI sovereignty**, **Venice raises VC on the privacy pitch**, **China may hold frontier models at the border**, and **Etched turns inference chips into rack-scale product**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**, **Midjourney turns image-gen into body hardware**, and **Cursor previews Origin, a GitHub competitor**.\n- [[Sovereign AI Club - June 10, 2026]]: **Apple finally shows Siri AI**, **Apple stretches PCC onto Google/NVIDIA**, **OpenAI says AI research automation is the race**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 27, 2026]]: **Digg returns as AI signal detector**, **SpaceX options Cursor for $60B**, **Anthropic cuts the programmatic subsidy**, **Grok API gets X Premium OAuth integration**, **Anthropic hits first profit at $10.9B quarterly revenue**, and **Karpathy joins Anthropic for recursive AI research**.\n- [[Sovereign AI Club - May 13, 2026]]: **Anthropic buys the AWS compute runway**, **Frontier model testing gets a federal lane**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**, **OpenAI acquires TBPN**, **Microsoft ships in-house MAI models**, **OpenAI pauses Stargate UK**, and **Two attacks on Sam Altman's home in one week**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **MK-Ultrathink**, **White House pushes a national AI framework**, **OpenAI to acquire Astral**, **Meta and Intel chip push**, and **Tesla dodges AV regulation**.\n- [[Sovereign AI Club - March 18, 2026]]: **Meta's \"Moltbook\"**, **Claude Kill?**, **Niantic turns Pokemon Go city data into robot navigation**, **MacBook Pro M5 Max as a local inference laptop**, **Confer + Meta private AI**, and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Intel]]\n\n- [[AMD]]\n- [[Genesis Mission]]\n- [[WAICO]]\n- [[Vera Rubin]]\n- [[Gemma]]\n\n- [[Compute Strategy]]\n- [[AI Governance]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Google]]\n- [[Microsoft]]\n- [[NVIDIA]]\n- [[SpaceX]]\n- [[Cursor]]\n- [[Palantir]]\n- [[Venice]]\n- [[Etched]]\n- [[Jalapeno]]\n- [[Cursor Origin]]\n- [[Meta Muse]]\n- [[Salesforce]]"
     },
     "block": {
       "id": "block",
@@ -104185,6 +104348,7 @@
         "gemma",
         "google",
         "inference-optimization",
+        "intel",
         "jalapeno",
         "midjourney",
         "minimax-m3",
@@ -104222,6 +104386,7 @@
         "google",
         "groq",
         "inference-optimization",
+        "intel",
         "jalapeno",
         "local-ai",
         "meta",
@@ -104413,6 +104578,27 @@
         {
           "href": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
           "title": "Rubin and Groq LPUs split the inference workload",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-september-9-2026",
           "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
@@ -105762,7 +105948,7 @@
           "sourcePageTitle": "Sovereign AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Compute Strategy\n\nCompute Strategy covers how labs, cloud providers, and model teams secure the hardware, energy, inference efficiency, and deployment pathways needed to make AI systems viable.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **Rubin and Groq LPUs split the inference workload**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.\n- [[Sovereign AI Club - July 8, 2026]]: **Etched turns inference chips into rack-scale product**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **vLLM turns weird open models into runnable systems**, **Closed model releases**, **Open model releases**, **OpenAI gets its own inference chip**, and **Midjourney turns image-gen into body hardware**.\n- [[Sovereign AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.\n- [[Sovereign AI Club - May 13, 2026]]: **Open model releases**, **Anthropic buys the AWS compute runway**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models** and **OpenAI pauses Stargate UK**.\n- [[Sovereign AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n\n## Related\n\n- [[Anthropic]]\n- [[Apple]]\n- [[Broadcom]]\n- [[Jalapeno]]\n- [[Cursor]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Google]]\n- [[Midjourney]]\n- [[NVIDIA]]\n- [[Vera Rubin]]\n- [[Gemma]]\n- [[OpenAI]]\n- [[OpenAgents]]\n- [[Qwen]]\n- [[SpaceX]]\n- [[vLLM]]\n- [[Etched]]\n- [[MiniMax M3]]"
+      "bodyMarkdown": "# Compute Strategy\n\nCompute Strategy covers how labs, cloud providers, and model teams secure the hardware, energy, inference efficiency, and deployment pathways needed to make AI systems viable.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **Rubin and Groq LPUs split the inference workload**, **Intel Crescent Island: 160GB card, up to 480GB for partners**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.\n- [[Sovereign AI Club - July 8, 2026]]: **Etched turns inference chips into rack-scale product**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **vLLM turns weird open models into runnable systems**, **Closed model releases**, **Open model releases**, **OpenAI gets its own inference chip**, and **Midjourney turns image-gen into body hardware**.\n- [[Sovereign AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, **Anthropic enters IPO mode at $965B**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 27, 2026]]: **SpaceX options Cursor for $60B**.\n- [[Sovereign AI Club - May 13, 2026]]: **Open model releases**, **Anthropic buys the AWS compute runway**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models** and **OpenAI pauses Stargate UK**.\n- [[Sovereign AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **Google TurboQuant**, **Local models getting glazed**, and **Meta and Intel chip push**.\n\n## Related\n\n- [[Intel]]\n\n- [[Anthropic]]\n- [[Apple]]\n- [[Broadcom]]\n- [[Jalapeno]]\n- [[Cursor]]\n- [[Inference Optimization]]\n- [[Physical AI]]\n- [[Google]]\n- [[Midjourney]]\n- [[NVIDIA]]\n- [[Vera Rubin]]\n- [[Gemma]]\n- [[OpenAI]]\n- [[OpenAgents]]\n- [[Qwen]]\n- [[SpaceX]]\n- [[vLLM]]\n- [[Etched]]\n- [[MiniMax M3]]"
     },
     "cursor": {
       "id": "cursor",
@@ -119314,6 +119500,62 @@
         }
       ],
       "bodyMarkdown": "# Inkling\n\nInkling is Thinking Machines' Apache-2.0 multimodal mixture-of-experts model with 975B total parameters, 41B active parameters, and a million-token context window.\n\n## Mentioned In\n\n- [[Sovereign AI Club - July 22, 2026]]: **Open model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Models & Research]]\n- [[AI Benchmarks & Evals]]"
+    },
+    "intel": {
+      "id": "intel",
+      "title": "Intel",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "company",
+        "big-tech-moves"
+      ],
+      "sources": [
+        "raw/articles/2026-09-09-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "excerpt": "Intel develops processors and accelerators. Its Crescent Island inference GPU architecture uses LPDDR5X rather than HBM: Intel’s Hot Chips 2026 presentation specifies a 160GB branded PCIe card and a design ceiling of 480GB for partner cards, with a 350W air-cooled form factor. These specifications do not establish retail availability or measured workload efficiency.",
+      "rawHref": "/topics/entities/intel.md",
+      "relativePath": "entities/intel.md",
+      "outgoingIds": [
+        "austin-ai-club-september-9-2026",
+        "big-tech-moves",
+        "compute-strategy"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "austin-ai-club-september-9-2026",
+        "big-tech-moves",
+        "compute-strategy"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Intel\n\nIntel develops processors and accelerators. Its Crescent Island inference GPU architecture uses LPDDR5X rather than HBM: Intel’s Hot Chips 2026 presentation specifies a 160GB branded PCIe card and a design ceiling of 480GB for partner cards, with a 350W air-cooled form factor. These specifications do not establish retail availability or measured workload efficiency.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **Intel Crescent Island: 160GB card, up to 480GB for partners**.\n\n## Related\n\n- [[Big Tech Moves]]\n- [[Compute Strategy]]"
     },
     "jalapeno": {
       "id": "jalapeno",
@@ -152488,6 +152730,9 @@
         "https://x.com/jensenhuang/status/2095482647355244762",
         "https://www.nvidia.com/en-us/on-demand/session/gtc26-s81911/",
         "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
+        "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+        "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+        "https://x.com/ServeTheHome/status/2092062538603360368",
         "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
         "https://x.com/finkd/status/2097402101332590646"
       ],
@@ -153020,6 +153265,21 @@
         {
           "href": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
           "title": "How NVIDIA Groq 3 LPX Unlocks Ultrafast Interactivity at Long Context on NVIDIA Vera Rubin",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Crescent Island: GPU Designed for Agentic AI Inference",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "ServeTheHome shares its Crescent Island coverage",
           "section": "Big Tech Moves"
         },
         {
@@ -165632,6 +165892,9 @@
         "https://x.com/jensenhuang/status/2095482647355244762",
         "https://www.nvidia.com/en-us/on-demand/session/gtc26-s81911/",
         "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
+        "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+        "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+        "https://x.com/ServeTheHome/status/2092062538603360368",
         "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
         "https://x.com/finkd/status/2097402101332590646"
       ],
@@ -166167,6 +166430,21 @@
           "section": "Big Tech Moves"
         },
         {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        },
+        {
           "href": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
           "title": "Meta Muse puts a personal agent in a cloud VM",
           "section": "Big Tech Moves"
@@ -166203,6 +166481,7 @@
         "hugging-face",
         "inception",
         "inference-optimization",
+        "intel",
         "k2-horizon",
         "ling-30-flash",
         "llada",
@@ -166251,6 +166530,7 @@
         "hugging-face",
         "inception",
         "inference-optimization",
+        "intel",
         "k2-horizon",
         "ling-30-flash",
         "llada",
@@ -172173,6 +172453,51 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Tailcat connects agent sandboxes without a Tailscale account Agent Infrastructure Sovereign AI Club - September 9, 2026 2026-09-09 https://tailscale.com/blog/tailcat https://x.com/tailscale/status/2094485903016177871 Agent Infrastructure Privacy Tooling Tailcat"
+    },
+    {
+      "id": "austin-ai-club-september-9-2026-big-tech-moves-intel-crescent-island-160gb-card-up-to-480gb-for-partners",
+      "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+      "rawTitle": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+      "normalizedTitle": "intel crescent island: 160gb card, up to 480gb for partners",
+      "section": "Big Tech Moves",
+      "meetupId": "austin-ai-club-september-9-2026",
+      "meetupTitle": "Sovereign AI Club - September 9, 2026",
+      "meetupSlug": "2026-09-09",
+      "meetupHref": "/topics/2026-09-09.md",
+      "sourceLinks": [
+        "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+        "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+        "https://x.com/ServeTheHome/status/2092062538603360368"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        }
+      ],
+      "wikiIds": [
+        "big-tech-moves",
+        "compute-strategy",
+        "intel"
+      ],
+      "wikiTitles": [
+        "Big Tech Moves",
+        "Compute Strategy",
+        "Intel"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Intel Crescent Island: 160GB card, up to 480GB for partners Big Tech Moves Sovereign AI Club - September 9, 2026 2026-09-09 https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/ https://x.com/ServeTheHome/status/2092062538603360368 Big Tech Moves Compute Strategy Intel"
     },
     {
       "id": "austin-ai-club-september-9-2026-big-tech-moves-meta-muse-puts-a-personal-agent-in-a-cloud-vm",
@@ -186677,6 +187002,51 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Tailcat connects agent sandboxes without a Tailscale account Agent Infrastructure Sovereign AI Club - September 9, 2026 2026-09-09 https://tailscale.com/blog/tailcat https://x.com/tailscale/status/2094485903016177871 Agent Infrastructure Privacy Tooling Tailcat"
+    },
+    "austin-ai-club-september-9-2026-big-tech-moves-intel-crescent-island-160gb-card-up-to-480gb-for-partners": {
+      "id": "austin-ai-club-september-9-2026-big-tech-moves-intel-crescent-island-160gb-card-up-to-480gb-for-partners",
+      "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+      "rawTitle": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+      "normalizedTitle": "intel crescent island: 160gb card, up to 480gb for partners",
+      "section": "Big Tech Moves",
+      "meetupId": "austin-ai-club-september-9-2026",
+      "meetupTitle": "Sovereign AI Club - September 9, 2026",
+      "meetupSlug": "2026-09-09",
+      "meetupHref": "/topics/2026-09-09.md",
+      "sourceLinks": [
+        "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+        "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+        "https://x.com/ServeTheHome/status/2092062538603360368"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        },
+        {
+          "href": "https://x.com/ServeTheHome/status/2092062538603360368",
+          "title": "Intel Crescent Island: 160GB card, up to 480GB for partners",
+          "section": "Big Tech Moves"
+        }
+      ],
+      "wikiIds": [
+        "big-tech-moves",
+        "compute-strategy",
+        "intel"
+      ],
+      "wikiTitles": [
+        "Big Tech Moves",
+        "Compute Strategy",
+        "Intel"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Intel Crescent Island: 160GB card, up to 480GB for partners Big Tech Moves Sovereign AI Club - September 9, 2026 2026-09-09 https://www.intel.com/content/www/us/en/content-details/926893/crescent-island-gpu-designed-for-agentic-ai-inference.html https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/ https://x.com/ServeTheHome/status/2092062538603360368 Big Tech Moves Compute Strategy Intel"
     },
     "austin-ai-club-september-9-2026-big-tech-moves-meta-muse-puts-a-personal-agent-in-a-cloud-vm": {
       "id": "austin-ai-club-september-9-2026-big-tech-moves-meta-muse-puts-a-personal-agent-in-a-cloud-vm",
@@ -202154,6 +202524,10 @@
     },
     {
       "source": "big-tech-moves",
+      "target": "intel"
+    },
+    {
+      "source": "big-tech-moves",
       "target": "amd"
     },
     {
@@ -202851,6 +203225,10 @@
     {
       "source": "compute-strategy",
       "target": "austin-ai-club-april-1-2026"
+    },
+    {
+      "source": "compute-strategy",
+      "target": "intel"
     },
     {
       "source": "compute-strategy",
@@ -204011,6 +204389,18 @@
     {
       "source": "inkling",
       "target": "ai-benchmarks-evals"
+    },
+    {
+      "source": "intel",
+      "target": "austin-ai-club-september-9-2026"
+    },
+    {
+      "source": "intel",
+      "target": "big-tech-moves"
+    },
+    {
+      "source": "intel",
+      "target": "compute-strategy"
     },
     {
       "source": "jalapeno",
@@ -208326,6 +208716,10 @@
     },
     {
       "source": "austin-ai-club-september-9-2026",
+      "target": "intel"
+    },
+    {
+      "source": "austin-ai-club-september-9-2026",
       "target": "meta"
     },
     {
@@ -209201,7 +209595,7 @@
           "track",
           "big-tech-moves"
         ],
-        "degree": 60,
+        "degree": 62,
         "updated": "2026-09-08"
       },
       {
@@ -209443,7 +209837,7 @@
           "big-tech-moves",
           "models-research"
         ],
-        "degree": 69,
+        "degree": 71,
         "updated": "2026-09-08"
       },
       {
@@ -209848,6 +210242,18 @@
         ],
         "degree": 7,
         "updated": "2026-07-22"
+      },
+      {
+        "id": "intel",
+        "label": "Intel",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "company",
+          "big-tech-moves"
+        ],
+        "degree": 6,
+        "updated": "2026-09-08"
       },
       {
         "id": "jalapeno",
@@ -210813,7 +211219,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 91,
+        "degree": 93,
         "updated": "2026-09-08"
       },
       {
@@ -212453,6 +212859,11 @@
       },
       {
         "source": "big-tech-moves",
+        "target": "intel",
+        "kind": "wiki"
+      },
+      {
+        "source": "big-tech-moves",
         "target": "amd",
         "kind": "wiki"
       },
@@ -213325,6 +213736,11 @@
         "source": "compute-strategy",
         "target": "austin-ai-club-april-1-2026",
         "kind": "topic"
+      },
+      {
+        "source": "compute-strategy",
+        "target": "intel",
+        "kind": "wiki"
       },
       {
         "source": "compute-strategy",
@@ -214774,6 +215190,21 @@
       {
         "source": "inkling",
         "target": "ai-benchmarks-evals",
+        "kind": "wiki"
+      },
+      {
+        "source": "intel",
+        "target": "austin-ai-club-september-9-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "intel",
+        "target": "big-tech-moves",
+        "kind": "wiki"
+      },
+      {
+        "source": "intel",
+        "target": "compute-strategy",
         "kind": "wiki"
       },
       {
@@ -220168,6 +220599,11 @@
       },
       {
         "source": "austin-ai-club-september-9-2026",
+        "target": "intel",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-september-9-2026",
         "target": "meta",
         "kind": "topic"
       },
@@ -220874,12 +221310,12 @@
     ]
   },
   "stats": {
-    "pageCount": 172,
-    "topicCount": 250,
+    "pageCount": 173,
+    "topicCount": 251,
     "rawPageCount": 0,
-    "linkCount": 1960,
+    "linkCount": 1966,
     "sourceRecordCount": 12,
-    "sourceLinkCount": 1162,
+    "sourceLinkCount": 1165,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-09-08"
   }
