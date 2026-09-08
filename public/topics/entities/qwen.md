@@ -4,15 +4,18 @@ created: 2026-05-05
 updated: 2026-09-08
 type: entity
 tags: [entity, model, models-research, open-source]
-sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md, raw/articles/2026-09-09-link-records.md]
 ---
 
 # Qwen
 
 Qwen is a recurring model-family entity for open and API-accessible model releases, quantization stories, long-context updates, and local deployment discussion. Qwen3.8-Flash-Next is an August 26 experimental Qwen4-architecture preview: 125B parameters with 6B active, plus a 51B n-gram embedding table that can be offloaded to host memory, under the Qwen Community License 1.0. Same-day local follow-ups include adaptive DFlash on Qwen3.8-27B / Strix Halo and Unsloth GGUFs of Flash-Next run at 250k context on a 24GB 4090 with experts offloaded to host RAM.
 
+Qwen-Drive-1.0-4B supplies Apache-2.0 research artifacts for driving perception and planning. It is a specialized driving release, not a new general-chat Qwen generation.
+
 ## Mentioned In
 
+- [[Sovereign AI Club - September 9, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - August 26, 2026]]: **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, and **Open-model hype and adoption barely overlap**.
 - [[Sovereign AI Club - July 22, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.

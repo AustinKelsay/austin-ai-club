@@ -126,24 +126,60 @@ export const meetups = [
         "items": [
           {
             "title": "Closed model releases",
-            "description": "GPT-6 Astra and Claude Fable/Mythos 5.1 lead the frontier launches; Gemini Omni 1.1 Flash, ChatGPT Images 2.5, Atlas, and Orbis add new image, video, and world-generation capabilities. Atlas is an early-access preview; Mythos remains limited to vetted organizations.",
+            "description": "Astra, Fable/Mythos 5.1, Gemini 3.8 Flash, Muse Spark 1.3, and Mercury 2.5 lead a 14-family roundup spanning reasoning, image/video/world generation, speech, and document parsing. Check the access labels: Mythos and Flash Cyber are restricted, Atlas and Mercury Voice/Router are previews, and Mistral OCR 4.1 is a general-availability update.",
             "href": "https://openai.com/index/gpt-6-astra/",
             "linkPair": [
               "https://www.anthropic.com/claude/fable",
               "https://www.anthropic.com/claude/mythos",
+              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+              "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+              "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
               "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
               "https://openai.com/index/introducing-chatgpt-images-2-5/",
               "https://www.worldlabs.ai/blog/atlas",
-              "https://www.visko.ai/models#orbis"
+              "https://www.visko.ai/models#orbis",
+              "https://www.cartesia.ai/blog/sonic-3.6",
+              "https://docs.cohere.com/v1/changelog/parse",
+              "https://docs.mistral.ai/resources/changelogs",
+              "https://developers.deepgram.com/changelog/2026/9/3",
+              "https://research.meta.ai/blog/introducing-muse-voice-transcribe"
             ],
             "embeds": [
               {
                 "type": "tweet",
-                "href": "https://x.com/google/status/2093008576487072064"
+                "href": "https://x.com/OpenAI/status/2095595741528125780"
               },
               {
                 "type": "tweet",
-                "href": "https://x.com/arena/status/2097400515546255754"
+                "href": "https://x.com/claudeai/status/2094848572143407483"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/Google/status/2095175518068904380"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/Google/status/2095212784678256901"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/AIatMeta/status/2095234385129963666"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/AIatMeta/status/2095940043294847084"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/_inception_ai/status/2097365772289151417"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/Google/status/2093008576487072064"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAI/status/2097394956457623964"
               },
               {
                 "type": "tweet",
@@ -152,22 +188,91 @@ export const meetups = [
               {
                 "type": "tweet",
                 "href": "https://x.com/viskoai/status/2094817592754291173"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/cartesia/status/2093017207185821705"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/cohere/status/2092962399754055863"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/DeepgramAI/status/2095189283950809234"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/AIatMeta/status/2094839236016976028"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/arena/status/2097400515546255754"
               }
             ],
-            "notes": "Which new capability changes what we can build? Start with official launch pages and available artifacts. Arena rankings are its September 8 report, not a universal quality claim. Use published Atlas examples; access is a preview.",
+            "notes": "Window: August 27–September 8. Also covered: Gemini Omni 1.1 Flash (API preview), ChatGPT Images 2.5 Flare/Sunburst, Atlas, Orbis, Sonic-3.6, Muse Voice Transcribe, Cohere Parse, Mistral OCR 4.1 GA, and Nova-3 language updates. Fable is available; Mythos and Flash Cyber require approved access. Orbis offers a playground/API. Mercury speed and Arena image rankings are source-specific observations. Scroll for every launch post and official source.",
             "releaseRoundup": true,
             "topStory": true
           },
           {
             "title": "Open model releases",
-            "description": "K2 Horizon adds MoVA attention and Apache-2.0 weights; DeepSeek V4 Flash Vision Exp adds an experimental vision checkpoint; Thesys released OUI-1 for generative UI. OUI-1 is 26B total/4B active under Gemma terms, and K2’s training code, data, and intermediate checkpoints are still promised in its model card.",
-            "href": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
+            "description": "GLM-5.3 weights, Hy4 preview, DeepSeek vision, the six-size K2 Horizon fleet, and OUI-1 lead 18 families and updates spanning agents, images, speech, retrieval, driving, finance, and Apple Silicon deployment. Downloadable weights come with different permissions: GLM uses a custom license, OUI uses Gemma terms, EXAONE Finance is noncommercial, and ContextPilot needs a per-checkpoint license check.",
+            "href": "https://huggingface.co/zai-org/GLM-5.3",
             "linkPair": [
+              "https://huggingface.co/tencent/Hy4-preview",
+              "https://huggingface.co/tencent/Hy4-preview-FP8",
               "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+              "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
+              "https://huggingface.co/collections/IFM/k2-horizon",
+              "https://huggingface.co/IFM/K2-Horizon-0.9B",
+              "https://huggingface.co/IFM/K2-Horizon-3.7B",
+              "https://huggingface.co/IFM/K2-Horizon-7B",
+              "https://huggingface.co/IFM/K2-Horizon-32B",
+              "https://huggingface.co/IFM/K2-Horizon-375B-A23B",
               "https://huggingface.co/thesysdev/OUI-1",
-              "https://github.com/thesysdev/generative-ui-bench"
+              "https://github.com/thesysdev/generative-ui-bench",
+              "https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin",
+              "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL",
+              "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL-fp8",
+              "https://huggingface.co/inclusionAI/LLaDA-Image",
+              "https://huggingface.co/inclusionAI/LLaDA-Image-Turbo",
+              "https://github.com/inclusionAI/LLaDA-Image",
+              "https://huggingface.co/inclusionAI/LLaDA2.2-mini",
+              "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-1.5B",
+              "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B",
+              "https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-asr-streaming.md",
+              "https://huggingface.co/tencent/EVIE-4.5B",
+              "https://huggingface.co/tencent/EVIE-8B",
+              "https://github.com/Tencent/EVIE",
+              "https://huggingface.co/tencent/ContextPilot-E4B",
+              "https://huggingface.co/tencent/ContextPilot-8B",
+              "https://huggingface.co/tencent/ContextPilot-14B",
+              "https://github.com/Tencent/ContextPilot",
+              "https://huggingface.co/ant-intl/O2-9b-preview",
+              "https://huggingface.co/ant-intl/O2-27b-preview",
+              "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B",
+              "https://github.com/QwenLM/Qwen-Drive-1.0",
+              "https://huggingface.co/LG-AI-Research/EXAONE-Finance-1.0",
+              "https://huggingface.co/microsoft/SQuadGen",
+              "https://github.com/microsoft/SQuadGen",
+              "https://huggingface.co/ibm-granite/granite-4.2-3b-q4-mlx",
+              "https://huggingface.co/ibm-granite/granite-4.2-8b-q4-mlx",
+              "https://huggingface.co/ibm-granite/granite-4.2-30b-q4-mlx",
+              "https://huggingface.co/pipecat-ai/phonellm-alpha-1"
             ],
             "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/Zai_org/status/2093354097122455713"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/TencentHunyuan/status/2093222928720761009"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/IFM_AI/status/2095497035806113861"
+              },
               {
                 "type": "tweet",
                 "href": "https://x.com/TeksEdge/status/2095518844454633659"
@@ -175,9 +280,25 @@ export const meetups = [
               {
                 "type": "tweet",
                 "href": "https://x.com/rabi_guha/status/2097341708988248181"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/AntLingAGI/status/2095533696808051001"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/AntLingAGI/status/2097359640233439299"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/TheInclusionAI/status/2095696902004293744"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/kwindla/status/2093014818647339026"
               }
             ],
-            "notes": "What can we actually download, inspect, and run today? K2 MoVA: 36B total/4B active and 512K native context, not a promise that 512K fits your machine. OUI-1: vendor benchmark 132/184 (71.7%); published serving measurements use an A100 80GB, and FP8 weights alone occupy 25.8 GiB. Its active parameter count is not its memory requirement.",
+            "notes": "Window: August 27–September 8. Also covered: Ling Flash Fin and VL/FP8; LLaDA-Image/Turbo and LLaDA2.2-mini; VibeVoice streaming ASR 1.5B/7B; EVIE 4.5B/8B; ContextPilot E4B/8B/14B; O2 9B/27B previews; Qwen-Drive 4B; EXAONE Finance; SQuadGen; Granite 4.2 MLX 3B/8B/30B; PhoneLLM Alpha 1. Granite MLX is packaging of an existing model. K2’s collection has datasets, but the MoVA card still promises training materials; the complete training release is not established. Parameter counts alone do not establish local memory needs. Scroll for model cards and verified X posts.",
             "releaseRoundup": true,
             "topStory": true
           },

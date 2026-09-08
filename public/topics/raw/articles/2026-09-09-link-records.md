@@ -42,43 +42,171 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
 
 ### Closed model releases
 
-- **GPT-6 Astra: A new generation of intelligence** — https://openai.com/index/gpt-6-astra/
-  Type: official announcement. Accessed: 2026-09-08. Establishes the September 3 rollout, superseding the earlier internal-only status.
-- **Claude Fable** — https://www.anthropic.com/claude/fable
-  Type: official product page. Accessed: 2026-09-08. Lists Fable 5.1 availability and the safeguards that distinguish it from Mythos.
-- **Claude Mythos** — https://www.anthropic.com/claude/mythos
-  Type: official product page. Accessed: 2026-09-08. Establishes vetted access and explains the relationship between Fable and Mythos 5.1.
-- **Gemini Omni 1.1 Flash lets you build with more control** — https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/
-  Type: official blog. Accessed: 2026-09-08. Documents the video-editing controls and developer availability.
-- **Introducing ChatGPT Images 2.5** — https://openai.com/index/introducing-chatgpt-images-2-5/
-  Type: official announcement. Accessed: 2026-09-08. Establishes the image release and the Flare/Sunburst variants.
-- **Atlas: A World Model for Spatial Intelligence** — https://www.worldlabs.ai/blog/atlas
-  Type: official research blog. Accessed: 2026-09-08. Provides camera-control and reconstruction examples and an early-access request, not general availability.
-- **Visko Orbis model page** — https://www.visko.ai/models#orbis
-  Type: official model page. Accessed: 2026-09-08. Provides the creator’s Orbis offering; physics and persistence remain vendor-described capabilities.
-- **Google announces Gemini Omni 1.1 Flash** — https://x.com/google/status/2093008576487072064
-  Type: X post. Accessed: 2026-09-08. Launch context for the official developer article.
-- **Arena reports Sunburst and Flare image rankings** — https://x.com/arena/status/2097400515546255754
-  Type: X post. Accessed: 2026-09-08. Arena’s own September 8 leaderboard observation, not a universal model-quality finding.
-- **World Labs introduces Atlas** — https://x.com/theworldlabs/status/2094839756329041984
-  Type: X post. Accessed: 2026-09-08. Creator launch clip; the official article establishes early-access status.
-- **Visko introduces Orbis 1.0** — https://x.com/viskoai/status/2094817592754291173
-  Type: X post. Accessed: 2026-09-08. Creator launch and demo links; claimed physical realism is not independently validated.
+- **GPT-6 Astra** — https://openai.com/index/gpt-6-astra/
+  Type: official release documentation. Accessed: 2026-09-08. Sep 3; Phased rollout. New coding, research and computer-use model; access is staged rather than universal. The internal math model is a different, unreleased system.
+- **GPT-6 Astra — @OpenAI post** — https://x.com/OpenAI/status/2095595741528125780
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for GPT-6 Astra; primary documentation establishes access and license limits.
+- **Claude Fable 5.1 / Mythos 5.1 — fable** — https://www.anthropic.com/claude/fable
+  Type: official release documentation. Accessed: 2026-09-08. Sep 1; Fable available; Mythos vetted access. Same underlying model with different safeguards. Fable serves paid plans/API; Mythos is limited to vetted organizations.
+- **Claude Fable 5.1 / Mythos 5.1 — mythos** — https://www.anthropic.com/claude/mythos
+  Type: official release documentation. Accessed: 2026-09-08. Sep 1; Fable available; Mythos vetted access. Same underlying model with different safeguards. Fable serves paid plans/API; Mythos is limited to vetted organizations.
+- **Claude Fable 5.1 / Mythos 5.1 — @claudeai post** — https://x.com/claudeai/status/2094848572143407483
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Claude Fable 5.1 / Mythos 5.1; primary documentation establishes access and license limits.
+- **Gemini 3.8 Flash / Flash Cyber** — https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/
+  Type: official release documentation. Accessed: 2026-09-08. Sep 2; Flash available; Cyber trusted access. Coding and reasoning update over 3.7; the Cyber variant is restricted through Fairwind.
+- **Gemini 3.8 Flash / Flash Cyber — @Google post** — https://x.com/Google/status/2095175518068904380
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Gemini 3.8 Flash / Flash Cyber; primary documentation establishes access and license limits.
+- **Gemini 3.8 Flash / Flash Cyber — @Google post** — https://x.com/Google/status/2095212784678256901
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Gemini 3.8 Flash / Flash Cyber; primary documentation establishes access and license limits.
+- **Muse Spark 1.3** — https://research.meta.ai/blog/introducing-muse-spark-1-3
+  Type: official release documentation. Accessed: 2026-09-08. Sep 2; Available; max reasoning added Sep 4. Updated multimodal coding model on Muse Code and Meta Model API; distinct from the Muse personal-agent product.
+- **Muse Spark 1.3 — @AIatMeta post** — https://x.com/AIatMeta/status/2095234385129963666
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Muse Spark 1.3; primary documentation establishes access and license limits.
+- **Muse Spark 1.3 — @AIatMeta post** — https://x.com/AIatMeta/status/2095940043294847084
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Muse Spark 1.3; primary documentation establishes access and license limits.
+- **Mercury 2.5 / Voice / Router** — https://www.inceptionlabs.ai/blog/introducing-mercury-2-5
+  Type: official release documentation. Accessed: 2026-09-08. Sep 8; 2.5 available; Voice/Router previews. Diffusion reasoning model, with voice-agent and routing previews announced alongside it. The 1,107 tok/s figure is provider-measured; preview access requires contacting Inception.
+- **Mercury 2.5 / Voice / Router — @_inception_ai post** — https://x.com/_inception_ai/status/2097365772289151417
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Mercury 2.5 / Voice / Router; primary documentation establishes access and license limits.
+- **Gemini Omni 1.1 Flash** — https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/
+  Type: official release documentation. Accessed: 2026-09-08. Aug 27; Developer API preview. Video generation and editing update with longer clips and more creative control.
+- **Gemini Omni 1.1 Flash — @Google post** — https://x.com/Google/status/2093008576487072064
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Gemini Omni 1.1 Flash; primary documentation establishes access and license limits.
+- **ChatGPT Images 2.5 / Flare / Sunburst** — https://openai.com/index/introducing-chatgpt-images-2-5/
+  Type: official release documentation. Accessed: 2026-09-08. Sep 8; Available. ChatGPT rollout plus two API models: GPT-Image-2.5 Flare and Sunburst. Image fidelity and editing improvements are documented in the launch.
+- **ChatGPT Images 2.5 / Flare / Sunburst — @OpenAI post** — https://x.com/OpenAI/status/2097394956457623964
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for ChatGPT Images 2.5 / Flare / Sunburst; primary documentation establishes access and license limits.
+- **Atlas** — https://www.worldlabs.ai/blog/atlas
+  Type: official release documentation. Accessed: 2026-09-08. Sep 1; Early-access preview. World Labs’ spatial model combines text, images, video and 3D; public examples and an access request are available, not downloadable weights.
+- **Atlas — @theworldlabs post** — https://x.com/theworldlabs/status/2094839756329041984
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Atlas; primary documentation establishes access and license limits.
+- **Orbis** — https://www.visko.ai/models#orbis
+  Type: official release documentation. Accessed: 2026-09-08. Sep 1; Hosted playground and API. Visko’s interactive world-generation model has a hosted playground and Reactor API. No public weights; throughput claims remain vendor demonstrations.
+- **Orbis — @viskoai post** — https://x.com/viskoai/status/2094817592754291173
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Orbis; primary documentation establishes access and license limits.
+- **Sonic-3.6** — https://www.cartesia.ai/blog/sonic-3.6
+  Type: official release documentation. Accessed: 2026-09-08. Aug 27; Available. Cartesia’s speech-synthesis update. Ink-2 is an older release and is not counted again.
+- **Sonic-3.6 — @cartesia post** — https://x.com/cartesia/status/2093017207185821705
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Sonic-3.6; primary documentation establishes access and license limits.
+- **Cohere Parse** — https://docs.cohere.com/v1/changelog/parse
+  Type: official release documentation. Accessed: 2026-09-08. Aug 27; Available. parse-v5.0 is a 2.3B document model that preserves text, tables and layout in structured output; hosted and private deployment do not mean open weights.
+- **Cohere Parse — @cohere post** — https://x.com/cohere/status/2092962399754055863
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Cohere Parse; primary documentation establishes access and license limits.
+- **Mistral OCR 4.1** — https://docs.mistral.ai/resources/changelogs
+  Type: official release documentation. Accessed: 2026-09-08. Aug 31; General availability delta. The checkpoint first appeared in July; this window’s material change is general availability, not a new model architecture.
+- **Deepgram Nova-3 language updates** — https://developers.deepgram.com/changelog/2026/9/3
+  Type: official release documentation. Accessed: 2026-09-08. Sep 3; Live model update. Kazakh joins batch/streaming transcription; seven existing languages receive improved models. This is a dated language-model update, not Nova-4. The September 2 X post describes a broader eight-language rollout; the September 3 changelog documents Kazakh and seven improvements specifically.
+- **Deepgram Nova-3 language updates — @DeepgramAI post** — https://x.com/DeepgramAI/status/2095189283950809234
+  Type: X post. Accessed: 2026-09-08. Publisher post covers the broader September 2 language rollout; the linked September 3 changelog is a separate, narrower update.
+- **Muse Voice Transcribe** — https://research.meta.ai/blog/introducing-muse-voice-transcribe
+  Type: official release documentation. Accessed: 2026-09-08. Sep 1; Hosted API. Meta’s streaming speech recognition, speaker diarization and endpointing model. This is distinct from Muse Spark and the personal-agent application.
+- **Muse Voice Transcribe — @AIatMeta post** — https://x.com/AIatMeta/status/2094839236016976028
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Muse Voice Transcribe; primary documentation establishes access and license limits.
+- **Arena image rankings** — https://x.com/arena/status/2097400515546255754
+  Type: X post. Accessed: 2026-09-08. Arena’s September 8 Flare/Sunburst leaderboard observation; not a universal quality ranking.
 
 ### Open model releases
 
-- **K2-Horizon-MoVA-36B-A4B model card** — https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B
-  Type: model card. Accessed: 2026-09-08. Confirms Apache-2.0 weights, active/total parameters, and that training materials are forthcoming.
-- **DeepSeek-V4-Flash-Vision-Exp model card** — https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
-  Type: model card. Accessed: 2026-09-08. Identifies the experimental vision checkpoint and published model files.
-- **OUI-1 model card** — https://huggingface.co/thesysdev/OUI-1
-  Type: model card. Accessed: 2026-09-08. Clarifies 26B total versus 4B active parameters, Gemma licensing, and benchmark/serving conditions.
-- **Generative UI Bench** — https://github.com/thesysdev/generative-ui-bench
-  Type: benchmark repository. Accessed: 2026-09-08. Provides the evaluation protocol and outputs behind OUI-1’s reported UI score.
-- **TeksEdge discusses K2 Horizon** — https://x.com/TeksEdge/status/2095518844454633659
-  Type: X post. Accessed: 2026-09-08. Builder reaction; the model card corrects the post’s implication that all training materials have shipped.
-- **Rabi Guha introduces OUI-1** — https://x.com/rabi_guha/status/2097341708988248181
-  Type: X post. Accessed: 2026-09-08. Creator launch; the model card clarifies that 4B is active, not total, parameters.
+- **GLM-5.3** — https://huggingface.co/zai-org/GLM-5.3
+  Type: model card. Accessed: 2026-09-08. Aug 28; Weights available; custom license. The previous meetup had an API launch and promised weights. The full checkpoint now has downloadable weights; its license is not the Flash model’s MIT license.
+- **GLM-5.3 — @Zai_org post** — https://x.com/Zai_org/status/2093354097122455713
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for GLM-5.3; primary documentation establishes access and license limits.
+- **Hy4 preview / FP8 — Hy4-preview** — https://huggingface.co/tencent/Hy4-preview
+  Type: model card. Accessed: 2026-09-08. Aug 28; Apache-2.0; preview. Tencent’s text MoE has a 770B/49B-active backbone plus a separate MTP layer. Preview status and substantial serving requirements remain.
+- **Hy4 preview / FP8 — Hy4-preview-FP8** — https://huggingface.co/tencent/Hy4-preview-FP8
+  Type: model card. Accessed: 2026-09-08. Aug 28; Apache-2.0; preview. Tencent’s text MoE has a 770B/49B-active backbone plus a separate MTP layer. Preview status and substantial serving requirements remain.
+- **Hy4 preview / FP8 — @TencentHunyuan post** — https://x.com/TencentHunyuan/status/2093222928720761009
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Hy4 preview / FP8; primary documentation establishes access and license limits.
+- **DeepSeek V4 Flash Vision Exp** — https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
+  Type: model card. Accessed: 2026-09-08. Aug 31; MIT; experimental. An experimental vision checkpoint extends the V4 Flash family; retain the Exp designation.
+- **K2 Horizon — K2-Horizon-MoVA-36B-A4B** — https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B
+  Type: model card. Accessed: 2026-09-08. Sep 3; Apache-2.0 weights. Six core sizes: 0.9B, 3.7B, 7B, 32B, MoVA-36B-A4B and 375B-A23B, plus Uno/quantized variants. The collection contains datasets, but the MoVA card still promises its training code/data/intermediate checkpoints; do not call the entire training release complete.
+- **K2 Horizon — k2-horizon** — https://huggingface.co/collections/IFM/k2-horizon
+  Type: official collection. Accessed: 2026-09-08. Sep 3; Apache-2.0 weights. Six core sizes: 0.9B, 3.7B, 7B, 32B, MoVA-36B-A4B and 375B-A23B, plus Uno/quantized variants. The collection contains datasets, but the MoVA card still promises its training code/data/intermediate checkpoints; do not call the entire training release complete.
+- **K2 Horizon — K2-Horizon-0.9B** — https://huggingface.co/IFM/K2-Horizon-0.9B
+  Type: model card. Accessed: 2026-09-08. Sep 3; Apache-2.0 weights. Six core sizes: 0.9B, 3.7B, 7B, 32B, MoVA-36B-A4B and 375B-A23B, plus Uno/quantized variants. The collection contains datasets, but the MoVA card still promises its training code/data/intermediate checkpoints; do not call the entire training release complete.
+- **K2 Horizon — K2-Horizon-3.7B** — https://huggingface.co/IFM/K2-Horizon-3.7B
+  Type: model card. Accessed: 2026-09-08. Sep 3; Apache-2.0 weights. Six core sizes: 0.9B, 3.7B, 7B, 32B, MoVA-36B-A4B and 375B-A23B, plus Uno/quantized variants. The collection contains datasets, but the MoVA card still promises its training code/data/intermediate checkpoints; do not call the entire training release complete.
+- **K2 Horizon — K2-Horizon-7B** — https://huggingface.co/IFM/K2-Horizon-7B
+  Type: model card. Accessed: 2026-09-08. Sep 3; Apache-2.0 weights. Six core sizes: 0.9B, 3.7B, 7B, 32B, MoVA-36B-A4B and 375B-A23B, plus Uno/quantized variants. The collection contains datasets, but the MoVA card still promises its training code/data/intermediate checkpoints; do not call the entire training release complete.
+- **K2 Horizon — K2-Horizon-32B** — https://huggingface.co/IFM/K2-Horizon-32B
+  Type: model card. Accessed: 2026-09-08. Sep 3; Apache-2.0 weights. Six core sizes: 0.9B, 3.7B, 7B, 32B, MoVA-36B-A4B and 375B-A23B, plus Uno/quantized variants. The collection contains datasets, but the MoVA card still promises its training code/data/intermediate checkpoints; do not call the entire training release complete.
+- **K2 Horizon — K2-Horizon-375B-A23B** — https://huggingface.co/IFM/K2-Horizon-375B-A23B
+  Type: model card. Accessed: 2026-09-08. Sep 3; Apache-2.0 weights. Six core sizes: 0.9B, 3.7B, 7B, 32B, MoVA-36B-A4B and 375B-A23B, plus Uno/quantized variants. The collection contains datasets, but the MoVA card still promises its training code/data/intermediate checkpoints; do not call the entire training release complete.
+- **K2 Horizon — @IFM_AI post** — https://x.com/IFM_AI/status/2095497035806113861
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for K2 Horizon; primary documentation establishes access and license limits.
+- **K2 Horizon — @TeksEdge post** — https://x.com/TeksEdge/status/2095518844454633659
+  Type: X post. Accessed: 2026-09-08. Builder commentary on K2; the model card controls artifact and license claims.
+- **OUI-1 — OUI-1** — https://huggingface.co/thesysdev/OUI-1
+  Type: model card. Accessed: 2026-09-08. Sep 8; Gemma terms; weights available. Thesys’ generative-UI model is 26B total/4B active. Active parameters are not the RAM requirement; published serving measurements use an A100 80GB.
+- **OUI-1 — generative-ui-bench** — https://github.com/thesysdev/generative-ui-bench
+  Type: GitHub artifact. Accessed: 2026-09-08. Sep 8; Gemma terms; weights available. Thesys’ generative-UI model is 26B total/4B active. Active parameters are not the RAM requirement; published serving measurements use an A100 80GB.
+- **OUI-1 — @rabi_guha post** — https://x.com/rabi_guha/status/2097341708988248181
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for OUI-1; primary documentation establishes access and license limits.
+- **Ling-3.0-flash-Fin** — https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin
+  Type: model card. Accessed: 2026-09-08. Sep 3; MIT. Finance-specialized continued training of Ling Flash: 124B/5.1B active in the card, with FinFIRST released for evaluation.
+- **Ling-3.0-flash-Fin — @AntLingAGI post** — https://x.com/AntLingAGI/status/2095533696808051001
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Ling-3.0-flash-Fin; primary documentation establishes access and license limits.
+- **Ling-3.0-flash-VL / FP8 — Ling-3.0-flash-VL** — https://huggingface.co/inclusionAI/Ling-3.0-flash-VL
+  Type: model card. Accessed: 2026-09-08. Sep 8 announcement; Sep 4 initial weights; MIT. Native image/video variant: 124B/5.5B active in the card. The advertised 1M ceiling differs from the concrete 256K serving recipe.
+- **Ling-3.0-flash-VL / FP8 — Ling-3.0-flash-VL-fp8** — https://huggingface.co/inclusionAI/Ling-3.0-flash-VL-fp8
+  Type: model card. Accessed: 2026-09-08. Sep 8 announcement; Sep 4 initial weights; MIT. Native image/video variant: 124B/5.5B active in the card. The advertised 1M ceiling differs from the concrete 256K serving recipe.
+- **Ling-3.0-flash-VL / FP8 — @AntLingAGI post** — https://x.com/AntLingAGI/status/2097359640233439299
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for Ling-3.0-flash-VL / FP8; primary documentation establishes access and license limits.
+- **LLaDA-Image / Turbo — LLaDA-Image** — https://huggingface.co/inclusionAI/LLaDA-Image
+  Type: model card. Accessed: 2026-09-08. Sep 4; Apache-2.0. Base and distilled Turbo image-generation checkpoints ship with inference code, plus FP8 variants. The release is documented in the repo news.
+- **LLaDA-Image / Turbo — LLaDA-Image-Turbo** — https://huggingface.co/inclusionAI/LLaDA-Image-Turbo
+  Type: model card. Accessed: 2026-09-08. Sep 4; Apache-2.0. Base and distilled Turbo image-generation checkpoints ship with inference code, plus FP8 variants. The release is documented in the repo news.
+- **LLaDA-Image / Turbo — LLaDA-Image** — https://github.com/inclusionAI/LLaDA-Image
+  Type: GitHub artifact. Accessed: 2026-09-08. Sep 4; Apache-2.0. Base and distilled Turbo image-generation checkpoints ship with inference code, plus FP8 variants. The release is documented in the repo news.
+- **LLaDA-Image / Turbo — @TheInclusionAI post** — https://x.com/TheInclusionAI/status/2095696902004293744
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for LLaDA-Image / Turbo; primary documentation establishes access and license limits.
+- **LLaDA2.2-mini** — https://huggingface.co/inclusionAI/LLaDA2.2-mini
+  Type: model card. Accessed: 2026-09-08. Sep 5 checkpoint upload; Apache-2.0. Smaller diffusion language-model checkpoint with insert/delete editing and 128K context. The family paper is older; the mini artifact is this window’s delta.
+- **VibeVoice-ASR-Streaming 1.5B / 7B — VibeVoice-ASR-Streaming-1.5B** — https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-1.5B
+  Type: model card. Accessed: 2026-09-08. Sep 3; MIT. Microsoft’s streaming speaker-attributed transcription models support ten languages and custom hotwords.
+- **VibeVoice-ASR-Streaming 1.5B / 7B — VibeVoice-ASR-Streaming-7B** — https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B
+  Type: model card. Accessed: 2026-09-08. Sep 3; MIT. Microsoft’s streaming speaker-attributed transcription models support ten languages and custom hotwords.
+- **VibeVoice-ASR-Streaming 1.5B / 7B — vibevoice-asr-streaming.md** — https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-asr-streaming.md
+  Type: GitHub artifact. Accessed: 2026-09-08. Sep 3; MIT. Microsoft’s streaming speaker-attributed transcription models support ten languages and custom hotwords.
+- **EVIE 4.5B / 8B — EVIE-4.5B** — https://huggingface.co/tencent/EVIE-4.5B
+  Type: model card. Accessed: 2026-09-08. Sep 7 weight upload; Apache-2.0. Tencent’s visual-document embedding models ship weights, inference and evaluation code. Benchmark claims depend on the documented retrieval protocol.
+- **EVIE 4.5B / 8B — EVIE-8B** — https://huggingface.co/tencent/EVIE-8B
+  Type: model card. Accessed: 2026-09-08. Sep 7 weight upload; Apache-2.0. Tencent’s visual-document embedding models ship weights, inference and evaluation code. Benchmark claims depend on the documented retrieval protocol.
+- **EVIE 4.5B / 8B — EVIE** — https://github.com/Tencent/EVIE
+  Type: GitHub artifact. Accessed: 2026-09-08. Sep 7 weight upload; Apache-2.0. Tencent’s visual-document embedding models ship weights, inference and evaluation code. Benchmark claims depend on the documented retrieval protocol.
+- **ContextPilot E4B / 8B / 14B — ContextPilot-E4B** — https://huggingface.co/tencent/ContextPilot-E4B
+  Type: model card. Accessed: 2026-09-08. Aug 28 weight upload; Research checkpoints; card license other. Agent checkpoints learn planning, memory and context offloading. Do not transfer the code license onto every weight variant.
+- **ContextPilot E4B / 8B / 14B — ContextPilot-8B** — https://huggingface.co/tencent/ContextPilot-8B
+  Type: model card. Accessed: 2026-09-08. Aug 28 weight upload; Research checkpoints; card license other. Agent checkpoints learn planning, memory and context offloading. Do not transfer the code license onto every weight variant.
+- **ContextPilot E4B / 8B / 14B — ContextPilot-14B** — https://huggingface.co/tencent/ContextPilot-14B
+  Type: model card. Accessed: 2026-09-08. Aug 28 weight upload; Research checkpoints; card license other. Agent checkpoints learn planning, memory and context offloading. Do not transfer the code license onto every weight variant.
+- **ContextPilot E4B / 8B / 14B — ContextPilot** — https://github.com/Tencent/ContextPilot
+  Type: GitHub artifact. Accessed: 2026-09-08. Aug 28 weight upload; Research checkpoints; card license other. Agent checkpoints learn planning, memory and context offloading. Do not transfer the code license onto every weight variant.
+- **O2 9B / 27B preview — O2-9b-preview** — https://huggingface.co/ant-intl/O2-9b-preview
+  Type: model card. Accessed: 2026-09-08. Sep 3 weight upload; Apache-2.0; preview. Ant International agentic checkpoints trained using runtime interactions. Their mixed-benchmark averages are preliminary author results.
+- **O2 9B / 27B preview — O2-27b-preview** — https://huggingface.co/ant-intl/O2-27b-preview
+  Type: model card. Accessed: 2026-09-08. Sep 3 weight upload; Apache-2.0; preview. Ant International agentic checkpoints trained using runtime interactions. Their mixed-benchmark averages are preliminary author results.
+- **Qwen-Drive-1.0-4B — Qwen-Drive-1.0-4B** — https://huggingface.co/Qwen/Qwen-Drive-1.0-4B
+  Type: model card. Accessed: 2026-09-08. Aug 28 weight upload; Apache-2.0; research. A Qwen3.5-based driving model with perception and planning modules, not a Qwen4 general-chat launch. Research artifacts are not road-safety validation.
+- **Qwen-Drive-1.0-4B — Qwen-Drive-1.0** — https://github.com/QwenLM/Qwen-Drive-1.0
+  Type: GitHub artifact. Accessed: 2026-09-08. Aug 28 weight upload; Apache-2.0; research. A Qwen3.5-based driving model with perception and planning modules, not a Qwen4 general-chat launch. Research artifacts are not road-safety validation.
+- **EXAONE Finance 1.0** — https://huggingface.co/LG-AI-Research/EXAONE-Finance-1.0
+  Type: model card. Accessed: 2026-09-08. Sep 4 weight upload; Noncommercial research/education weights. A 202M financial time-series model. The inference code permits commercial use separately; that does not grant commercial rights to these weights.
+- **SQuadGen — SQuadGen** — https://huggingface.co/microsoft/SQuadGen
+  Type: model card. Accessed: 2026-09-08. Aug 27 checkpoint upload; MIT; research. Microsoft’s diffusion model generates quad layouts for 3D shapes. The April paper is older; downloadable checkpoints are the new artifact.
+- **SQuadGen — SQuadGen** — https://github.com/microsoft/SQuadGen
+  Type: GitHub artifact. Accessed: 2026-09-08. Aug 27 checkpoint upload; MIT; research. Microsoft’s diffusion model generates quad layouts for 3D shapes. The April paper is older; downloadable checkpoints are the new artifact.
+- **Granite 4.2 official MLX packages — granite-4.2-3b-q4-mlx** — https://huggingface.co/ibm-granite/granite-4.2-3b-q4-mlx
+  Type: model card. Accessed: 2026-09-08. Sep 1–2 packaging update; Apache-2.0; distribution delta. IBM’s 3B/8B/30B MLX conversions bring existing Granite 4.2 models to Apple Silicon. These are official deployment packages, not a new foundation-model generation.
+- **Granite 4.2 official MLX packages — granite-4.2-8b-q4-mlx** — https://huggingface.co/ibm-granite/granite-4.2-8b-q4-mlx
+  Type: model card. Accessed: 2026-09-08. Sep 1–2 packaging update; Apache-2.0; distribution delta. IBM’s 3B/8B/30B MLX conversions bring existing Granite 4.2 models to Apple Silicon. These are official deployment packages, not a new foundation-model generation.
+- **Granite 4.2 official MLX packages — granite-4.2-30b-q4-mlx** — https://huggingface.co/ibm-granite/granite-4.2-30b-q4-mlx
+  Type: model card. Accessed: 2026-09-08. Sep 1–2 packaging update; Apache-2.0; distribution delta. IBM’s 3B/8B/30B MLX conversions bring existing Granite 4.2 models to Apple Silicon. These are official deployment packages, not a new foundation-model generation.
+- **PhoneLLM Alpha 1** — https://huggingface.co/pipecat-ai/phonellm-alpha-1
+  Type: model card. Accessed: 2026-09-08. Aug 27; BSD-2-Clause plus upstream Nemotron terms. Pipecat/Daily’s Nemotron 30B-A3B voice-agent finetune uses thinking-disabled inference. PhoneBench is the authors’ evaluation, not a universal claim of frontier parity.
+- **PhoneLLM Alpha 1 — @kwindla post** — https://x.com/kwindla/status/2093014818647339026
+  Type: X post. Accessed: 2026-09-08. Launch or availability context for PhoneLLM Alpha 1; primary documentation establishes access and license limits.
 
 ### WikiSkill turns agent experience into reusable skills
 

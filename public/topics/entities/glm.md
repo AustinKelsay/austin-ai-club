@@ -11,8 +11,11 @@ sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-
 
 GLM is Z.ai's model family, tracked here for coding-agent releases, vision/coding variants, long-context research, and its role in the Chinese open-frontier model wave. GLM-5.3 launched as an API-only post-training bump on the 5.2 base; GLM-5.3-Flash shipped MIT open weights on August 26 as a 320B/18B-active natively multimodal model previously tested as Ox Alpha.
 
+GLM-5.3 full weights became available after the August API announcement. The full checkpoint uses a custom license, distinct from GLM-5.3 Flash’s MIT terms.
+
 ## Mentioned In
 
+- [[Sovereign AI Club - September 9, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - September 9, 2026]]: **GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, and **Chinese frontier models converged on linear and sparse attention**.

@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Sovereign AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-09-08 | Total pages: 165
+> Last updated: 2026-09-08 | Total pages: 172
 
 ## Meetups
 
@@ -19,6 +19,12 @@
 - [[Sovereign AI Club - March 18, 2026]]
 
 ## Entities
+
+- [[Inception]]
+- [[Cartesia]]
+- [[Granite]]
+- [[LLaDA]]
+- [[VibeVoice]]
 
 - [[Tailcat]]
 - [[DwarfStar]]

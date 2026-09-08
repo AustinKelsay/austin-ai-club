@@ -13,8 +13,11 @@ Meta Muse collects Meta's Muse Spark / Muse Image media-model thread, the Muse C
 
 The September 2026 Muse personal-agent product runs in a dedicated cloud VM; it is distinct from the earlier Muse model and coding-agent releases. Its Confidential VM is a future commitment.
 
+September 2026 model updates include Muse Spark 1.3 with a subsequent max-reasoning option, and Muse Voice Transcribe for streaming recognition, diarization and endpointing. These models are distinct from the Muse personal-agent product.
+
 ## Mentioned In
 
+- [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**.
 - [[Sovereign AI Club - September 9, 2026]]: **Meta Muse puts a personal agent in a cloud VM**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **Open model releases**.
