@@ -59,7 +59,7 @@ export default function ArchiveView({ meetups, nextMeetupId, onOpenRoute }) {
           <div className="brand-hero-copy">
             <p className="eyebrow">Austin, TX</p>
             <h2 id="brand-hero-title">Own your AI.</h2>
-            <p>A community for local AI, open models, and building on your own terms. Meet the people, share your work, and explore what comes next.</p>
+            <p>A Socratic meetup about the latest AI news, with a focus on local and sovereign AI. We examine the claims, ask questions, and discuss what matters across the broader AI field.</p>
           </div>
           <img
             src="/brand/hero.jpg"

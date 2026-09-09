@@ -63,7 +63,7 @@ export const meetups = [
         "Quick AI news rundown, then open discussion.",
         "Bring projects, prototypes, links, research, or a showcase."
       ],
-      "hostNote": "5:30 welcome; 5:40 local infrastructure; 6:00 releases and research; 6:30 security; 6:50 platform control; 7:10 community demos; 7:30 finish. Use only the supported claims on these slides. Unverified speed tests, attribution leads, and private-data allegations are excluded."
+      "hostNote": "5:30 welcome; 5:40 local infrastructure; 6:00 releases and research; 6:30 security; 6:50 platform control; 7:10 community demos; 7:30 finish. Use only the supported claims on these slides. Treat disputed accounts as attributed claims, and distinguish direct data access from possible training contributions."
     },
     "showcases": [],
     "tracks": [
@@ -83,26 +83,6 @@ export const meetups = [
               }
             ],
             "notes": "When does an agent need one temporary connection instead of membership in your whole network? Optional demo: connect two disposable environments and transfer a harmless file. Hosted relays retain metadata; an accountless connection is not anonymity.",
-            "topStory": true
-          },
-          {
-            "title": "GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support",
-            "description": "Alex Ellis published a switchless four-DGX-Spark GLM-5.3 Flash recipe; antirez added GLM-5.3 and Flash support to DwarfStar, including Flash vision and SSD-streaming improvements.",
-            "href": "https://github.com/alexellis/glm-5.3-flash-4x-dgx-spark-switchless",
-            "linkPair": [
-              "https://github.com/antirez/ds4"
-            ],
-            "embeds": [
-              {
-                "type": "tweet",
-                "href": "https://x.com/alexellisuk/status/2094351871859188068"
-              },
-              {
-                "type": "tweet",
-                "href": "https://x.com/antirez/status/2094421702226677841"
-              }
-            ],
-            "notes": "Which path gets a useful coding model onto hardware we can own? Ellis reports 75.2 tok/s completed code and 29.8 prose in RigMark; do not substitute the 109.6 structured-output ceiling. DwarfStar requires its supported model files, not arbitrary GGUFs.",
             "topStory": true
           },
           {
@@ -216,9 +196,15 @@ export const meetups = [
           },
           {
             "title": "Open model releases",
-            "description": "GLM-5.3 weights, Hy4 preview, DeepSeek vision, the six-size K2 Horizon fleet, and OUI-1 lead 18 families and updates spanning agents, images, speech, retrieval, driving, finance, and Apple Silicon deployment. Downloadable weights come with different permissions: GLM uses a custom license, OUI uses Gemma terms, EXAONE Finance is noncommercial, and ContextPilot needs a per-checkpoint license check.",
+            "description": "Twenty model families and updates, including GLM-5.3, K2 Horizon, MiniCPM5-2B and Spark-X2.5, with links to weights and local runtimes. Check the license before building: GLM has custom terms, OUI-1 uses Gemma terms, EXAONE Finance is noncommercial, and ContextPilot permissions vary by checkpoint.",
             "href": "https://huggingface.co/zai-org/GLM-5.3",
             "linkPair": [
+              "https://huggingface.co/openbmb/MiniCPM5-2B",
+              "https://github.com/OpenBMB/MiniCPM",
+              "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
+              "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
+              "https://huggingface.co/XHToken/Spark-X2.5-4B",
+              "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
               "https://huggingface.co/tencent/Hy4-preview",
               "https://huggingface.co/tencent/Hy4-preview-FP8",
               "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
@@ -296,10 +282,52 @@ export const meetups = [
               {
                 "type": "tweet",
                 "href": "https://x.com/kwindla/status/2093014818647339026"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenBMB/status/2096970974247956501"
               }
             ],
-            "notes": "Window: August 27–September 8. Also covered: Ling Flash Fin and VL/FP8; LLaDA-Image/Turbo and LLaDA2.2-mini; VibeVoice streaming ASR 1.5B/7B; EVIE 4.5B/8B; ContextPilot E4B/8B/14B; O2 9B/27B previews; Qwen-Drive 4B; EXAONE Finance; SQuadGen; Granite 4.2 MLX 3B/8B/30B; PhoneLLM Alpha 1. Granite MLX is packaging of an existing model. K2’s collection has datasets, but the MoVA card still promises training materials; the complete training release is not established. Parameter counts alone do not establish local memory needs. Scroll for model cards and verified X posts.",
+            "notes": "MiniCPM5-2B (September 7): Apache-2.0, about 2.52B total parameters, 131K context, intermediate checkpoints and training datasets. Spark-X2.5 4B/1.7B (September 1): Apache-2.0, up to 1M native context; weight size does not establish memory or prompt-processing cost at that context. Window: August 27–September 8. Also covered: Ling Flash Fin and VL/FP8; LLaDA-Image/Turbo and LLaDA2.2-mini; VibeVoice streaming ASR 1.5B/7B; EVIE 4.5B/8B; ContextPilot E4B/8B/14B; O2 9B/27B previews; Qwen-Drive 4B; EXAONE Finance; SQuadGen; Granite 4.2 MLX 3B/8B/30B; PhoneLLM Alpha 1. Granite MLX is packaging of an existing model. K2’s collection has datasets, but the MoVA card still promises training materials; the complete training release is not established. Parameter counts alone do not establish local memory needs. Scroll for model cards and verified X posts.",
             "releaseRoundup": true,
+            "topStory": true
+          },
+          {
+            "title": "Desert Ant builds small models for on-device tasks",
+            "description": "Desert Ant released small audio, vision and text models with Swift, Kotlin and JavaScript SDKs. Which tasks could we move from a cloud model onto a phone?",
+            "href": "https://desertant.com/blog/introducing-desert-ant-labs/",
+            "linkPair": [
+              "https://desertant.com/blog/introducing-desert-ant-labs/",
+              "https://github.com/Desert-Ant-Labs"
+            ],
+            "notes": "Launched September 8. The launch and repository catalog differ on how many models are installable; some remain in beta. The repository describes free use up to 100,000 monthly active devices per SDK, so do not imply unrestricted licensing. Pick and check an individual SDK before a demo. The X post is Mervin Praison’s recap, not the lab’s announcement.",
+            "topStory": true,
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/MervinPraison/status/2097770010911400026"
+              }
+            ]
+          },
+          {
+            "title": "GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support",
+            "description": "Alex Ellis published a switchless four-DGX-Spark GLM-5.3 Flash recipe; antirez added GLM-5.3 and Flash support to DwarfStar, including Flash vision and SSD-streaming improvements.",
+            "href": "https://github.com/alexellis/glm-5.3-flash-4x-dgx-spark-switchless",
+            "linkPair": [
+              "https://github.com/alexellis/glm-5.3-flash-4x-dgx-spark-switchless",
+              "https://github.com/antirez/ds4"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/alexellisuk/status/2094351871859188068"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/antirez/status/2094421702226677841"
+              }
+            ],
+            "notes": "Which path gets a useful coding model onto hardware we can own? Ellis reports 75.2 tok/s completed code and 29.8 prose in RigMark; do not substitute the 109.6 structured-output ceiling. DwarfStar requires its supported model files, not arbitrary GGUFs.",
             "topStory": true
           },
           {
@@ -314,22 +342,6 @@ export const meetups = [
               }
             ],
             "notes": "Which lessons from our agent runs should survive the next model upgrade? Use this repo’s dated boards, source records, and entity pages as a familiar analogy. Our curated wiki is not a reproduction of the paper’s automatic skill-evolution experiments.",
-            "topStory": true
-          },
-          {
-            "title": "OpenAI publishes a proposed Navier–Stokes proof",
-            "description": "OpenAI published a proposed Navier–Stokes solution and Lean certificates produced using an internal model beyond Astra. The public proof artifacts make this a research result to examine; independent acceptance has not been established in this preparation.",
-            "href": "https://openai.com/index/navier-stokes-solution/",
-            "linkPair": [
-              "https://github.com/openai/NavierStokesAndEuler"
-            ],
-            "embeds": [
-              {
-                "type": "tweet",
-                "href": "https://x.com/OpenAI/status/2097375276384567642"
-              }
-            ],
-            "notes": "What would it take to verify this result? Open the manuscript and certificate repository. Forced Navier–Stokes and the Euler variants are different statements. We have not checked the proof, and this slide does not claim mathematical consensus or endorse allegations about private research data.",
             "topStory": true
           }
         ]
@@ -368,6 +380,37 @@ export const meetups = [
             ],
             "notes": "When should a lab disclose agent behavior that affects public services? Use OpenAI’s acknowledgement as the basis. The researcher post supplies context; the Dwarkesh video covers the earlier Hugging Face incident. No Cedar attribution claim is retained.",
             "topStory": true
+          },
+          {
+            "title": "Mini Shai-Hulud targets coding-agent settings",
+            "description": "Socket found ten malicious OpenAPI codegen releases that targeted secrets, CI workflows and coding-agent settings despite valid npm provenance. What can a package change in our agent settings without us noticing?",
+            "href": "https://socket.dev/blog/openapi-react-query-codegen-npm-compromise",
+            "linkPair": [
+              "https://socket.dev/blog/openapi-react-query-codegen-npm-compromise"
+            ],
+            "notes": "August 28 package compromise. August 5 already covered Shai-Hulud and keyv; the new delta is this package and its agent-configuration persistence. Provenance identifies the publishing path, not whether the code is safe. Package availability in the report is a dated snapshot, not a live npm check.",
+            "topStory": true
+          },
+          {
+            "title": "AWS Postgres MCP exceeded its read-only scope",
+            "description": "AWS patched a SQL-validation flaw that could let crafted input change data through its read-only Postgres MCP server. Should the database itself enforce the permissions we give an agent?",
+            "href": "https://aws.amazon.com/security/security-bulletins/2026-101-aws/",
+            "linkPair": [
+              "https://aws.amazon.com/security/security-bulletins/2026-101-aws/"
+            ],
+            "notes": "CVE-2026-85787 affects versions before 1.1.7. Bulletin published September 4 and updated September 8. AWS recommends the fixed version and a minimally privileged Postgres role. The flaw concerns this server implementation; it is not a claim about every AWS MCP service.",
+            "topStory": true
+          },
+          {
+            "title": "DeepSeek Harness could bypass its own sandbox controls",
+            "description": "DeepSeek patched a control-plane authentication flaw that could let an attacker change an agent’s permissions and access stored conversations. Can a sandbox protect us if the agent can reach the API that disables it?",
+            "href": "https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82533.json",
+            "linkPair": [
+              "https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82533.json",
+              "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.1"
+            ],
+            "notes": "The fixed release, 0.1.2-alpha.1, shipped August 27; CVE-2026-82533 was published September 8. Its record gives August 25 as the public date, so this is a patch and advisory update. The issue is in the harness, not evidence of malicious model behavior; active exploitation is not established.",
+            "topStory": true
           }
         ]
       },
@@ -376,10 +419,67 @@ export const meetups = [
         "title": "Big Tech Moves",
         "items": [
           {
+            "title": "OpenAI’s Navier–Stokes claim sparks a research-credit dispute",
+            "description": "Tristan Buckmaster says OpenAI raced his work with Levent Alpöge and pressured him to exclude Alpöge from a proposed writeup of OpenAI’s result. OpenAI denies accessing their private work to solve the problem, but calls any contribution from de-identified usage data unlikely rather than ruling it out.",
+            "href": "https://cims.nyu.edu/~tristanb/statement.pdf",
+            "linkPair": [
+              "https://cims.nyu.edu/~tristanb/statement.pdf",
+              "https://openai.com/index/navier-stokes-solution/",
+              "https://github.com/tristanbuckmaster/fluid_lean",
+              "https://github.com/openai/NavierStokesAndEuler"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/__alpoge__/status/2097383870773748190"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAI/status/2097375276384567642"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/SebastienBubeck/status/2097379411691516310"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/__alpoge__/status/2097548261666033993"
+              }
+            ],
+            "notes": "Who gets credit for a research direction, and what should a tool provider owe researchers using it? Buckmaster says he does not know whether their data was used. Bubeck says the authorship discussion concerned a rewrite of OpenAI’s proof, not removing Alpöge from his own work, and apologizes for his career-related wording. The published results differ; neither theft nor mathematical acceptance is established here.",
+            "topStory": true
+          },
+          {
+            "title": "Jacob Coxon quits Anthropic: AI risk and IPO incentives",
+            "description": "Jacob Coxon says he left Anthropic over the race to self-improving AI; both Anthropic and OpenAI have filed confidential IPO paperwork. Do warnings about powerful AI also help sell the companies building it?",
+            "href": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+            "linkPair": [
+              "https://www.anthropic.com/news/confidential-draft-s1-sec",
+              "https://openai.com/index/openai-submits-confidential-s-1/"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/hilbertspaess/status/2097476196791709843"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/hilbertspaess/status/2097476203863224394"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/hilbertspaess/status/2097476216139968662"
+              }
+            ],
+            "notes": "The financing backdrop is real: Anthropic announced its filing June 1 and OpenAI June 8. Those announcements do not establish firm listing dates. Coxon is a departing critic of both labs, not their spokesperson. He explicitly rejects the marketing-stunt interpretation and says leaders express fear privately. His thread also raises a possible temporary ban on improving model capabilities. Treat the idea that fear supports valuations or protects incumbents as a hypothesis to examine, not proof of coordinated promotion. What evidence would change our minds, and would proposed safeguards preserve the ability to run models independently?",
+            "topStory": true
+          },
+          {
             "title": "NVIDIA agrees to acquire Hugging Face",
-            "description": "NVIDIA announced an agreement to acquire Hugging Face and stated that the platform will continue supporting other accelerators and clouds. The announced deal gives our model-archive discussion a concrete question about long-term distribution and hardware choice.",
+            "description": "NVIDIA agreed to acquire Hugging Face and says the platform will keep supporting other accelerators and clouds. What should we keep independently mirrored when a hardware supplier owns the model hub?",
             "href": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
             "linkPair": [
+              "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
               "https://github.com/etemiz/llama.garden"
             ],
             "embeds": [
@@ -428,6 +528,49 @@ export const meetups = [
               }
             ],
             "notes": "How much control does a personal agent give you when its computer belongs to the provider? Distinguish Muse the personal-agent product from Muse Spark/Glimmer models and Muse Code. Meta says users can opt out of training and connected-service data is excluded from its ad systems; future Confidential VM guarantees should not be attributed to today’s launch.",
+            "topStory": true
+          },
+          {
+            "title": "OpenAI plans to end Cursor’s model supply",
+            "description": "OpenAI proposes cutting off Cursor’s direct model access on November 12 after its acquisition by SpaceX. What would we need to move if our editor lost access to the model we use?",
+            "href": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+            "linkPair": [
+              "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"
+            ],
+            "notes": "Announced August 28. November 12 is the proposed shutoff date, not evidence that existing access has ended. The contractual and compliance rationale is OpenAI’s account. Which prompts, tools, histories and model-specific behaviors would we need to move?",
+            "topStory": true,
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAI/status/2093515564786540695"
+              }
+            ]
+          },
+          {
+            "title": "Mistral raises €3B for sovereign AI",
+            "description": "Mistral raised €3B at a valuation above €21B, with Samsung leading the round. When a provider promises sovereign AI, who controls the weights, data and hardware?",
+            "href": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+            "linkPair": [
+              "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+              "https://presse.bpifrance.fr/mistral-leve-3-mdeur-pour-placer-lia-souveraine-et-ouverte-a-la-pointe-de-la-technologie/?lang=fra"
+            ],
+            "notes": "Announced September 8; Scaleup Europe Fund and PSG Equity co-led. Compare jurisdiction, ownership, model licenses, infrastructure control and exit paths. Funding establishes investment, not that every promised capability or sovereignty guarantee has been delivered.",
+            "topStory": true,
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/MistralAI/status/2097188835897586083"
+              }
+            ]
+          },
+          {
+            "title": "Apple brings on-device assessments to Health",
+            "description": "Apple announced camera-based movement assessments for Health, due later this year, that it says run on device without recording or sharing video. What else should we ask before trusting an AI feature with health data?",
+            "href": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence/",
+            "linkPair": [
+              "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence/"
+            ],
+            "notes": "September 9 announcement. The redesigned Health app is coming later this year. The on-device claim applies to movement assessments, not every Apple Intelligence feature. Discuss export, inspectability and model choice; the announcement is not independent validation of medical effectiveness.",
             "topStory": true
           }
         ]

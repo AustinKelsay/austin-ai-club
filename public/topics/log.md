@@ -2,6 +2,25 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-09-09] curate | Selected candidate additions
+
+- Added the seven approved company, on-device and security Topics; expanded Open model releases with MiniCPM5 and Spark-X2.5. Kept release, announcement, patch and disclosure dates distinct.
+- Mirrored the board, source records and host guide; added four recurring entities and reciprocal references. Preserved the earlier pending meetup edits.
+
+## [2026-09-09] curate | Coxon resignation and IPO incentives
+
+- Added Jacob Coxon’s resignation post as a Big Tech Moves discussion about risk evidence, financial incentives and independent control of AI. Read the full seven-post thread using local Grok and checked the retained X text. Included his marketing-stunt denial and possible capability-pause proposal alongside both companies’ official confidential-filing announcements; left motive and coordination as questions rather than facts.
+- Added Coxon’s entity and reciprocal company/Track/governance references. Searched recent boards for repeats: the resignation is new; the IPO filings are prior context rather than new September announcements.
+
+## [2026-09-09] curate | Navier–Stokes credit dispute
+
+- Moved the OpenAI proof Topic to Big Tech Moves and reframed it around research credit and trust in hosted tools. Paired Buckmaster’s statement and the researchers’ formalizations with OpenAI’s response and proof artifacts; kept unproven data-use allegations distinct from documented statements.
+- Added the two researchers’ entity pages and updated reciprocal Topic references. Used local Grok for principal X-post discovery and checked retained posts against their original text.
+
+## [2026-09-09] curate | GLM deployment Topic placement
+
+- Moved the four-Spark/DwarfStar GLM Topic from Agent Infrastructure to Models & Research, immediately after the two model release roundups. Mirrored its placement in source records, Track references, Meetup Data and the host run of show.
+
 ## [2026-09-08] curate | Crescent Island and submission check
 
 - Added the organizer’s Crescent Island Link under Big Tech Moves, paired with Intel’s Hot Chips presentation; distinguished the 160GB branded card, 480GB partner ceiling, and announced architecture from available hardware.

@@ -1,10 +1,10 @@
 ---
 title: Cursor
 created: 2026-05-27
-updated: 2026-07-08
+updated: 2026-09-09
 type: entity
 tags: [entity, company, coding-agents, agent-infrastructure]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md]
+sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md]
 ---
 
 # Cursor
@@ -12,6 +12,8 @@ sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-
 Cursor is a recurring Sovereign AI Club entity for coding agents, Composer models, and agent infrastructure.
 
 ## Mentioned In
+
+- [[Sovereign AI Club - September 9, 2026]]: **OpenAI plans to end Cursor’s model supply**.
 
 - [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.
 - [[Sovereign AI Club - June 24, 2026]]: **Cursor previews Origin, a GitHub competitor**.

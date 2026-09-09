@@ -1,7 +1,7 @@
 ---
 title: OpenAI
 created: 2026-05-05
-updated: 2026-09-08
+updated: 2026-09-09
 type: entity
 tags: [entity, company, model, privacy]
 sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -13,7 +13,9 @@ OpenAI is a recurring Sovereign AI Club entity because its model releases, platf
 
 ## Mentioned In
 
-- [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**, **OpenAI publishes a proposed Navier–Stokes proof**, **OpenAI’s wiki incident forces a disclosure question**.
+- [[Sovereign AI Club - September 9, 2026]]: **OpenAI plans to end Cursor’s model supply**.
+
+- [[Sovereign AI Club - September 9, 2026]]: **Jacob Coxon quits Anthropic: AI risk and IPO incentives**, **Closed model releases**, **OpenAI’s Navier–Stokes claim sparks a research-credit dispute**, **OpenAI’s wiki incident forces a disclosure question**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Closed model releases**, **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, and **Jalapeño posts its first silicon results**.
 - [[Sovereign AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.

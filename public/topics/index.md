@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the Sovereign AI Club Markdown Archive and LLM Wiki.
-> Last updated: 2026-09-08 | Total pages: 173
+> Last updated: 2026-09-09 | Total pages: 180
 
 ## Meetups
 
@@ -19,6 +19,16 @@
 - [[Sovereign AI Club - March 18, 2026]]
 
 ## Entities
+
+- [[Desert Ant Labs]]
+- [[MiniCPM5]]
+- [[Spark-X2.5]]
+- [[Socket]]
+
+- [[Jacob Coxon]]
+
+- [[Tristan Buckmaster]]
+- [[Levent Alpöge]]
 
 - [[Intel]]
 
