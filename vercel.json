@@ -61,6 +61,16 @@
       ],
       "destination": "https://sovereignai.club/:path*",
       "permanent": true
+    },
+    {
+      "source": "/brand/hero.jpg",
+      "destination": "/brand/hero.png",
+      "permanent": false
+    },
+    {
+      "source": "/og.jpg",
+      "destination": "/og.png",
+      "permanent": false
     }
   ]
 }

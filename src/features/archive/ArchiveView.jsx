@@ -62,7 +62,7 @@ export default function ArchiveView({ meetups, nextMeetupId, onOpenRoute }) {
             <p>A Socratic meetup about the latest AI news, with a focus on local and sovereign AI. We examine the claims, ask questions, and discuss what matters across the broader AI field.</p>
           </div>
           <img
-            src="/brand/hero.jpg?v=80b7d8a11070"
+            src="/brand/hero.png?v=4d43551b09ae"
             alt="A wireframe hand meets a human hand at a starburst, the Sovereign AI Club poster mark."
             width="1545"
             height="1999"

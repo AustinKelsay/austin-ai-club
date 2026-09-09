@@ -42,7 +42,7 @@ Revised with the human on 2026-09-07 after the verification pass:
 
 - CONTEXT updates: Renamed the club throughout; added **Sovereign AI Club** (Avoid: Austin AI Club), **Brand Poster**, **Sovereignty Lens**; added Event Metadata history rule; added example dialogue and flagged ambiguities for the rename, the lens, and the venue change.
 - ADRs: `docs/adr/0003-sovereign-ai-club-rebrand.md`
-- Brand Poster: `docs/brand/sovereign-ai-club-poster.jpg`
+- Brand Poster: `docs/brand/sovereign-ai-club-poster.png`
 - Prototype source branch, if any: None
 - Spec issue: https://github.com/AustinKelsay/austin-ai-club/issues/43 (source: `./prd.md`)
 - Tickets (source: `./slices.md`), published as sub-issues of #43 with native blocked-by links:

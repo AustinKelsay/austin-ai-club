@@ -40,7 +40,7 @@ The domain stays `austinai.club` and the repo stays `austin-ai-club` for now; bo
 
 ## Implementation Decisions
 
-- The Brand Poster at `docs/brand/sovereign-ai-club-poster.jpg` is the design reference for every visual decision in this spec.
+- The Brand Poster at `docs/brand/sovereign-ai-club-poster.png` is the design reference for every visual decision in this spec.
 - Theme tokens are prefactored before any visual change: every hardcoded accent, background, glow, shadow, and per-Track color in the stylesheets and the wiki graph visuals moves onto root design tokens, with no visible change. The theme swap then edits tokens only.
 - The light theme uses a sage-to-white gradient background, white panels, charcoal text, and the poster's wireframe green as the accent. Glows, blurred shadows, backdrop blur, and the faint grid texture are removed. Panels use a hard, unblurred offset shadow and small or square corners. The page carries a low-opacity repeating ASCII wallpaper layer derived from the wordmark.
 - The site uses a single monospace family for display and body. The display family is the one whose heavy weight best matches the poster's "AI / CLUB" lockup; the current mono is acceptable if no better match is found.

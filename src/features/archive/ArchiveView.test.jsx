@@ -8,7 +8,7 @@ describe("ArchiveView", () => {
       <ArchiveView meetups={[]} nextMeetupId={null} onOpenRoute={() => {}} />,
     );
 
-    expect(html).toContain('src="/brand/hero.jpg?v=80b7d8a11070"');
+    expect(html).toContain('src="/brand/hero.png?v=4d43551b09ae"');
     expect(html).toContain("wireframe hand meets a human hand");
     expect(html).toContain('aria-label="Sovereign AI Club"');
   });

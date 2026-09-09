@@ -9,7 +9,7 @@ The Austin, TX community gathering this website archives and supports. Formerly 
 _Avoid_: Austin AI Club, the meetup
 
 **Brand Poster**:
-The Sovereign AI Club poster at `docs/brand/sovereign-ai-club-poster.jpg`: the de facto design guide for the website's palette, type, texture, imagery, panel style, and event facts.
+The Sovereign AI Club poster at `docs/brand/sovereign-ai-club-poster.png`: the de facto design guide for the website's palette, type, texture, imagery, panel style, and event facts.
 _Avoid_: Mockup, mood board
 
 **Member**:
