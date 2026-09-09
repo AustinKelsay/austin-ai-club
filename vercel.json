@@ -27,5 +27,40 @@
       "source": "/submit-showcase",
       "destination": "/index.html"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "austinai.club"
+        }
+      ],
+      "destination": "https://sovereignai.club/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.austinai.club"
+        }
+      ],
+      "destination": "https://sovereignai.club/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.sovereignai.club"
+        }
+      ],
+      "destination": "https://sovereignai.club/:path*",
+      "permanent": true
+    }
   ]
 }

@@ -1,7 +1,7 @@
 const CONFIG = {
   subscribersSheet: "subscribers",
   deliveriesSheet: "deliveries",
-  defaultFeedUrl: "https://austinai.club/meetups.json",
+  defaultFeedUrl: "https://sovereignai.club/meetups.json",
   iframeMessageSource: "austin-ai-reminder-signup",
   reminderHour: 10,
 };
@@ -246,7 +246,7 @@ function buildSmokeTestEvent_() {
     endAt: end.toISOString(),
     locationName: "Bitcoin Park Austin",
     locationAddress: "Austin, TX",
-    detailsUrl: "https://austinai.club/calendar",
+    detailsUrl: "https://sovereignai.club/calendar",
     googleCalendarUrl: buildGoogleCalendarUrl_(start, end),
     icsUrl: "",
   };

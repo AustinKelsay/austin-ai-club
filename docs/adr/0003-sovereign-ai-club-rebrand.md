@@ -2,7 +2,7 @@
 
 Austin AI Club is renamed Sovereign AI Club as of September 2026. The rename applies everywhere the club is named: UI copy, page titles and metadata, Meetup Data, calendar and reminder artifacts, the Markdown Archive, LLM Wiki page titles and `[[wikilinks]]`, tests, and docs. Past Meetup pages are renamed too, so the archive reads as one club with one name rather than a club that changed names mid-history. The trade-off is historical accuracy in page titles for a consistent identity across every surface an agent or reader can land on; this ADR records the former name so that trade-off stays legible.
 
-Two things keep their old identity for now. The `austinai.club` domain stays until a new domain is added in a separate step, so ICS identifiers, the reminder feed URL, and the site URL do not change with this rebrand. The GitHub repo and package name stay `austin-ai-club` until a repo rename is decided.
+The original rebrand deferred the domain migration. In the separate September 9, 2026 domain update, `sovereignai.club` becomes the primary address and `austinai.club` remains attached to the same site, redirecting visitors to the corresponding path on the new domain. Site and reminder URLs use the new domain. ICS event UIDs retain `@austinai.club` because changing an event identifier can create duplicate calendar entries. The GitHub repo and package name remain `austin-ai-club`.
 
 Event Metadata is excluded from the rename: past Meetups keep the venue and time they actually had. The new venue (AI Freedom Lab, Austin, TX) and 5:30 PM start apply from the next Meetup, the Meetup template, and later generated Meetup Slots.
 

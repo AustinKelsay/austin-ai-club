@@ -1,12 +1,12 @@
 # Apps Script Reminder Backend
 
-This folder is the tiny backend for the inline Reminder signup on `austinai.club`.
+This folder is the tiny backend for the inline Reminder signup on `sovereignai.club`.
 
 It does four things:
 
 1. Accepts one global email signup from the site
 2. Stores subscribers in a Google Sheet
-3. Fetches the static meetup feed from `https://austinai.club/meetups.json`
+3. Fetches the static meetup feed from `https://sovereignai.club/meetups.json`
 4. Sends one Reminder email on actual planned Meetup days around 10:00 AM CT
 
 ## What to configure
@@ -16,7 +16,7 @@ Set these script properties before deploying:
 - `SHEET_ID`
   Google Sheet to store `subscribers` and `deliveries`
 - `EVENTS_FEED_URL`
-  Usually `https://austinai.club/meetups.json`
+  Usually `https://sovereignai.club/meetups.json`
 - `REMINDER_ENDPOINT_URL`
   The deployed web app URL ending in `/exec`
 - `UNSUBSCRIBE_SECRET`

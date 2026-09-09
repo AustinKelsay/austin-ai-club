@@ -9,7 +9,7 @@ const repoRoot = path.resolve(__dirname, "..");
 const publicDir = path.join(repoRoot, "public");
 const calendarDir = path.join(publicDir, "calendar");
 const outputPath = path.join(publicDir, "meetups.json");
-const siteUrl = (process.env.SITE_URL ?? "https://austinai.club").replace(/\/+$/, "");
+const siteUrl = (process.env.SITE_URL ?? "https://sovereignai.club").replace(/\/+$/, "");
 
 // Keep this path builder aligned with src/app/routes.js buildMeetupPath() and
 // the MEETUP_PATH_PREFIX route shape. scripts/ runs in plain Node, so it cannot
@@ -90,6 +90,7 @@ function buildIcsBody(event, detailsUrl, dtstamp) {
     "PRODID:-//Sovereign AI Club//Meetups//EN",
     "CALSCALE:GREGORIAN",
     "BEGIN:VEVENT",
+    // Keep legacy UIDs stable so the domain migration does not duplicate events.
     `UID:${event.id}@austinai.club`,
     `DTSTAMP:${dtstamp}`,
     `DTSTART:${formatTimestamp(new Date(event.startAt))}`,

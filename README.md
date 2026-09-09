@@ -68,7 +68,7 @@ Vercel deploy is intentionally simple:
 2. Use the `Vite` framework preset
 3. Build command: `npm run build`
 4. Output directory: `dist`
-5. Attach the `austinai.club` domain
+5. Attach `sovereignai.club` as the primary domain and keep `austinai.club` and `www.austinai.club` attached to the same project, redirecting to `https://sovereignai.club` while preserving paths. Configure `www.sovereignai.club` to redirect there too.
 
 This repo also includes [vercel.json](./vercel.json) so those settings are explicit in source control.
 

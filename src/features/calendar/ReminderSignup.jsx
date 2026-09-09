@@ -153,7 +153,7 @@ export default function ReminderSignup({ nextMeetup, variant = "default" }) {
               }}
               required
             />
-            <input type="hidden" name="source" value="austinai.club" />
+            <input type="hidden" name="source" value="sovereignai.club" />
             <input type="hidden" name="pageUrl" value={pageUrl} />
             <button type="submit" disabled={status === "submitting"}>
               {status === "submitting" ? "submitting..." : "notify me"}

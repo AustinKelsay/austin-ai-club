@@ -346,7 +346,7 @@ The track for major company moves, hardware launches, ecosystem shifts, acquisit
 
 - "SHIPPED" was used as a temporary track name for launched work — resolved: launched member work belongs in **Local Builds & Projects**.
 - "local builds" was close to meaning any runnable project — resolved: **Local Builds & Projects** is for Austin/member/community-orbit work.
-- "Austin AI Club" was the club's name until September 2026 — resolved: the club is **Sovereign AI Club** everywhere, including past Meetup pages, wikilinks, Meetup Data, calendar artifacts, and docs; the `austinai.club` domain and the GitHub repo name stay until a separate rename.
+- "Austin AI Club" was the club's name until September 2026 — resolved: the club is **Sovereign AI Club** everywhere, including past Meetup pages, wikilinks, Meetup Data, calendar artifacts, and docs; `sovereignai.club` is the primary domain, `austinai.club` remains an alias for the same site, and the GitHub repo name remains `austin-ai-club`.
 - "sovereign" was close to being branding only — resolved: it is both the club name and the **Sovereignty Lens**, the club's primary editorial lens.
 - "sovereignty" was close to becoming another **Track** — resolved: the **Sovereignty Lens** shapes **Discussion Fit** across existing **Tracks**.
 - "venue change" was close to rewriting past **Event Metadata** — resolved: past **Meetups** keep the venue and time they actually had; the new venue and time apply from the next **Meetup** forward.

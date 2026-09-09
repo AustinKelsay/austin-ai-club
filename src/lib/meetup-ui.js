@@ -129,6 +129,7 @@ export function createInlineIcsHref(entry) {
     "PRODID:-//Sovereign AI Club//Meetups//EN",
     "CALSCALE:GREGORIAN",
     "BEGIN:VEVENT",
+    // Keep legacy UIDs stable so the domain migration does not duplicate events.
     `UID:${entry.id}@austinai.club`,
     `DTSTAMP:${toGoogleCalendarTimestamp(revisionTimestamp)}`,
     `DTSTART:${toGoogleCalendarTimestamp(event.startAt)}`,
