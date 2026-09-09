@@ -1,7 +1,7 @@
 ---
 title: September 9, 2026 source links
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-09-09
 type: summary
 tags: [source-record]
 sources: []
@@ -19,17 +19,6 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
   Type: official blog. Accessed: 2026-09-08. Defines the accountless connection model and the limits of hosted DERP relays.
 - **Tailscale announces tailcat** — https://x.com/tailscale/status/2094485903016177871
   Type: X post. Accessed: 2026-09-08. Pairs the maker’s launch post with the technical blog.
-
-### GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support
-
-- **GLM-5.3 Flash four-DGX-Spark switchless recipe** — https://github.com/alexellis/glm-5.3-flash-4x-dgx-spark-switchless
-  Type: GitHub repository. Accessed: 2026-09-08. Provides topology, serving configuration, and reproducible benchmark receipts; measurements remain the author’s.
-- **DwarfStar inference engine** — https://github.com/antirez/ds4
-  Type: GitHub repository. Accessed: 2026-09-08. Documents supported models and hardware, including GLM-5.3 Flash and SSD streaming.
-- **Alex Ellis publishes the four-Spark recipe** — https://x.com/alexellisuk/status/2094351871859188068
-  Type: X post. Accessed: 2026-09-08. Points directly to the runnable deployment repository.
-- **antirez announces GLM-5.3 support in DwarfStar** — https://x.com/antirez/status/2094421702226677841
-  Type: X post. Accessed: 2026-09-08. Dates the new engine support; the repository documents supported models.
 
 ### NVIDIA PAIR routes inference across your local PCs
 
@@ -106,6 +95,9 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
   Type: X post. Accessed: 2026-09-08. Arena’s September 8 Flare/Sunburst leaderboard observation; not a universal quality ranking.
 
 ### Open model releases
+
+- **Original announcement post** — https://x.com/OpenBMB/status/2096970974247956501
+  Type: X primary source. Accessed: 2026-09-09. Author, date and text verified via the public post response.
 
 - **GLM-5.3** — https://huggingface.co/zai-org/GLM-5.3
   Type: model card. Accessed: 2026-09-08. Aug 28; Weights available; custom license. The previous meetup had an API launch and promised weights. The full checkpoint now has downloadable weights; its license is not the Flash model’s MIT license.
@@ -208,6 +200,39 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
 - **PhoneLLM Alpha 1 — @kwindla post** — https://x.com/kwindla/status/2093014818647339026
   Type: X post. Accessed: 2026-09-08. Launch or availability context for PhoneLLM Alpha 1; primary documentation establishes access and license limits.
 
+- **MiniCPM5-2B** — https://huggingface.co/openbmb/MiniCPM5-2B
+  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+- **MiniCPM** — https://github.com/OpenBMB/MiniCPM
+  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+- **MiniCPM5-2B-GGUF** — https://huggingface.co/openbmb/MiniCPM5-2B-GGUF
+  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+- **MiniCPM5-2B-MLX** — https://huggingface.co/openbmb/MiniCPM5-2B-MLX
+  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+- **Spark-X2.5-4B** — https://huggingface.co/XHToken/Spark-X2.5-4B
+  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+- **Spark-X2.5-1.7B** — https://huggingface.co/XHToken/Spark-X2.5-1.7B
+  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+
+### Desert Ant builds small models for on-device tasks
+
+- **Announcement / artifact** — https://desertant.com/blog/introducing-desert-ant-labs/
+  Type: primary source. Accessed: 2026-09-09. Desert Ant released small audio, vision and text models with Swift, Kotlin and JavaScript SDKs. Which tasks could we move from a cloud model onto a phone?
+- **Supporting artifact** — https://github.com/Desert-Ant-Labs
+  Type: primary source. Accessed: 2026-09-09. Supports the availability, implementation or company context described above.
+- **Mervin Praison’s Desert Ant recap** — https://x.com/MervinPraison/status/2097770010911400026
+  Type: X commentary. Accessed: 2026-09-09. Text checked; supplementary reaction, not the original announcement.
+
+### GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support
+
+- **GLM-5.3 Flash four-DGX-Spark switchless recipe** — https://github.com/alexellis/glm-5.3-flash-4x-dgx-spark-switchless
+  Type: GitHub repository. Accessed: 2026-09-08. Provides topology, serving configuration, and reproducible benchmark receipts; measurements remain the author’s.
+- **DwarfStar inference engine** — https://github.com/antirez/ds4
+  Type: GitHub repository. Accessed: 2026-09-08. Documents supported models and hardware, including GLM-5.3 Flash and SSD streaming.
+- **Alex Ellis publishes the four-Spark recipe** — https://x.com/alexellisuk/status/2094351871859188068
+  Type: X post. Accessed: 2026-09-08. Points directly to the runnable deployment repository.
+- **antirez announces GLM-5.3 support in DwarfStar** — https://x.com/antirez/status/2094421702226677841
+  Type: X post. Accessed: 2026-09-08. Dates the new engine support; the repository documents supported models.
+
 ### WikiSkill turns agent experience into reusable skills
 
 - **WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution** — https://arxiv.org/abs/2608.27454
@@ -215,14 +240,6 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
 - **omarsar0 discusses WikiSkill** — https://x.com/omarsar0/status/2094432587821482036
   Type: X post. Accessed: 2026-09-08. Practitioner interpretation paired with the actual paper.
 
-### OpenAI publishes a proposed Navier–Stokes proof
-
-- **On the Navier–Stokes Millennium Prize Problem** — https://openai.com/index/navier-stokes-solution/
-  Type: official research announcement. Accessed: 2026-09-08. Establishes publication of a proposed proof; does not establish independent mathematical acceptance.
-- **NavierStokesAndEuler Lean certificates** — https://github.com/openai/NavierStokesAndEuler
-  Type: proof repository. Accessed: 2026-09-08. Provides formal artifacts for inspection; this preparation did not independently verify them.
-- **OpenAI responds on concurrent mathematics work** — https://x.com/OpenAI/status/2097375276384567642
-  Type: X post. Accessed: 2026-09-08. Official response attached to its original proof announcement; no private-data allegation is adopted.
 
 ## Security
 
@@ -246,7 +263,60 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
 - **OpenAI acknowledges the wiki incident** — https://x.com/openai/status/2096133504417616165
   Type: X post. Accessed: 2026-09-08. Primary statement acknowledging internet writes and committing to a broader disclosure framework.
 
+### Mini Shai-Hulud targets coding-agent settings
+
+- **Announcement / artifact** — https://socket.dev/blog/openapi-react-query-codegen-npm-compromise
+  Type: primary source. Accessed: 2026-09-09. Socket found ten malicious OpenAPI codegen releases that targeted secrets, CI workflows and coding-agent settings despite valid npm provenance. What can a package change in our agent settings without us noticing?
+
+### AWS Postgres MCP exceeded its read-only scope
+
+- **Announcement / artifact** — https://aws.amazon.com/security/security-bulletins/2026-101-aws/
+  Type: primary source. Accessed: 2026-09-09. AWS patched a SQL-validation flaw that could let crafted input change data through its read-only Postgres MCP server. Should the database itself enforce the permissions we give an agent?
+
+### DeepSeek Harness could bypass its own sandbox controls
+
+- **Announcement / artifact** — https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82533.json
+  Type: primary source. Accessed: 2026-09-09. DeepSeek patched a control-plane authentication flaw that could let an attacker change an agent’s permissions and access stored conversations. Can a sandbox protect us if the agent can reach the API that disables it?
+- **Supporting artifact** — https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.1
+  Type: primary source. Accessed: 2026-09-09. Supports the availability, implementation or company context described above.
+
 ## Big Tech Moves
+
+### OpenAI’s Navier–Stokes claim sparks a research-credit dispute
+
+- **Tristan Buckmaster’s public statement** — https://cims.nyu.edu/~tristanb/statement.pdf
+  Type: researcher statement. Accessed: 2026-09-09. First-person account of the September 6 authorship discussions and data-use concerns; he explicitly says he does not know whether his data was used. His allegations are attributed, not established findings.
+- **On the Navier–Stokes Millennium Prize Problem: concurrent work** — https://openai.com/index/navier-stokes-solution/
+  Type: official research announcement and response. Accessed: 2026-09-09. OpenAI acknowledges the motivating rumor, denies accessing the researchers’ unpublished work for the proof, and leaves a caveat about de-identified usage data improving models. The announcement does not establish independent acceptance of the proof.
+- **Buckmaster and Alpöge’s fluid-equation formalizations** — https://github.com/tristanbuckmaster/fluid_lean
+  Type: proof repository. Accessed: 2026-09-09. The researchers’ public artifact includes Euler and Boussinesq formalizations. Its existence is verifiable; no proof audit was performed in this preparation.
+- **OpenAI’s NavierStokesAndEuler formalizations** — https://github.com/openai/NavierStokesAndEuler
+  Type: proof repository. Accessed: 2026-09-09. Retains the lab’s artifact for comparison. Different equations and forcing conditions must not be treated as identical theorems.
+- **OpenAI’s response on concurrent work** — https://x.com/OpenAI/status/2097375276384567642
+  Type: X post. Accessed: 2026-09-09. Preserves the organizer’s Link: direct-access denial and model-improvement caveat appear together in the original text.
+
+
+- **Alpöge responds to OpenAI’s data-use caveat** — https://x.com/__alpoge__/status/2097383870773748190
+  Type: X post. Accessed: 2026-09-09. The co-author disputes the treatment of his collaboration. His interpretation of the caveat is commentary, not independent evidence of data use.
+- **Bubeck responds on authorship and the calls** — https://x.com/SebastienBubeck/status/2097379411691516310
+  Type: X post. Accessed: 2026-09-09. Says the authorship remark concerned rewriting OpenAI’s result rather than removing Alpöge from his own paper; apologizes for career-related wording.
+- **Alpöge’s September 9 timeline response** — https://x.com/__alpoge__/status/2097548261666033993
+  Type: X post. Accessed: 2026-09-09. Says he contacted OpenAI on September 2 and emphasized a personal collaboration. This is his account of the contact timeline, not proof of training-data use.
+
+### Jacob Coxon quits Anthropic: AI risk and IPO incentives
+
+- **Jacob Coxon announces his resignation from Anthropic** — https://x.com/hilbertspaess/status/2097476196791709843
+  Type: first-person X statement. Accessed: 2026-09-09. The organizer’s submitted post criticizes both labs’ race toward self-improving AI. It establishes his public account; it does not independently establish his risk forecast or a company-sponsored promotional campaign.
+- **Coxon rejects the marketing-stunt interpretation** — https://x.com/hilbertspaess/status/2097476203863224394
+  Type: first-person X statement, third post in the submitted thread. Accessed: 2026-09-09. Says lab leaders express fear privately. This is his account of their beliefs, not independent evidence that resolves the incentive question.
+- **Coxon raises coordination and a possible capability pause** — https://x.com/hilbertspaess/status/2097476216139968662
+  Type: first-person X statement, sixth post in the submitted thread. Accessed: 2026-09-09. Raises a possible temporary ban on improving model capabilities, giving the discussion a concrete policy question for independent model builders.
+- **Anthropic announces its confidential draft S-1** — https://www.anthropic.com/news/confidential-draft-s1-sec
+  Type: official company announcement. Accessed: 2026-09-09. Dated June 1, 2026. Establishes IPO preparations subject to conditions; neither an offering date nor an explanation for Coxon’s resignation follows from it.
+- **OpenAI announces its confidential S-1 submission** — https://openai.com/index/openai-submits-confidential-s-1/
+  Type: official company announcement. Accessed: 2026-09-09. Dated June 8, 2026. Establishes the second company’s financing context and says timing was undecided. The IPO-incentive interpretation is a discussion hypothesis.
+- **Weight-sparse transformers have interpretable circuits** — https://arxiv.org/abs/2511.13653
+  Type: research paper. Accessed: 2026-09-09. The November 2025 author list includes Jacob Coxon, corroborating a published research record. This is background on the speaker, not a new paper for tonight’s research roundup.
 
 ### NVIDIA agrees to acquire Hugging Face
 
@@ -280,3 +350,26 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
   Type: official announcement. Accessed: 2026-09-08. Describes Secure VM and Sentinel while explicitly placing Confidential VM later in the year; the headline’s first claim is not adopted.
 - **Mark Zuckerberg introduces Muse** — https://x.com/finkd/status/2097402101332590646
   Type: X post. Accessed: 2026-09-08. Creator launch paired with Meta’s current and future VM distinctions.
+
+### OpenAI plans to end Cursor’s model supply
+
+- **Original announcement post** — https://x.com/OpenAI/status/2093515564786540695
+  Type: X primary source. Accessed: 2026-09-09. Author, date and text verified via the public post response.
+
+- **Announcement / artifact** — https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/
+  Type: primary source. Accessed: 2026-09-09. OpenAI proposes cutting off Cursor’s direct model access on November 12 after its acquisition by SpaceX. What would we need to move if our editor lost access to the model we use?
+
+### Mistral raises €3B for sovereign AI
+
+- **Original announcement post** — https://x.com/MistralAI/status/2097188835897586083
+  Type: X primary source. Accessed: 2026-09-09. Author, date and text verified via the public post response.
+
+- **Announcement / artifact** — https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/
+  Type: primary source. Accessed: 2026-09-09. Mistral raised €3B at a valuation above €21B, with Samsung leading the round. When a provider promises sovereign AI, who controls the weights, data and hardware?
+- **Supporting artifact** — https://presse.bpifrance.fr/mistral-leve-3-mdeur-pour-placer-lia-souveraine-et-ouverte-a-la-pointe-de-la-technologie/?lang=fra
+  Type: primary source. Accessed: 2026-09-09. Supports the availability, implementation or company context described above.
+
+### Apple brings on-device assessments to Health
+
+- **Announcement / artifact** — https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence/
+  Type: primary source. Accessed: 2026-09-09. Apple announced camera-based movement assessments for Health, due later this year, that it says run on device without recording or sharing video. What else should we ask before trusting an AI feature with health data?

@@ -1,7 +1,7 @@
 ---
 title: Big Tech Moves
 created: 2026-06-24
-updated: 2026-09-08
+updated: 2026-09-09
 type: concept
 tags: [concept, track, big-tech-moves]
 sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -13,7 +13,11 @@ Big Tech Moves is the Sovereign AI Club track for major company strategy, comput
 
 ## Mentioned In
 
-- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**, **Meta Muse puts a personal agent in a cloud VM**, **Intel Crescent Island: 160GB card, up to 480GB for partners**.
+- [[Sovereign AI Club - September 9, 2026]]: **OpenAI plans to end Cursor’s model supply**.
+- [[Sovereign AI Club - September 9, 2026]]: **Mistral raises €3B for sovereign AI**.
+- [[Sovereign AI Club - September 9, 2026]]: **Apple brings on-device assessments to Health**.
+
+- [[Sovereign AI Club - September 9, 2026]]: **Jacob Coxon quits Anthropic: AI risk and IPO incentives**, **OpenAI’s Navier–Stokes claim sparks a research-credit dispute**, **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**, **Meta Muse puts a personal agent in a cloud VM**, **Intel Crescent Island: 160GB card, up to 480GB for partners**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, **NVIDIA prints $96.2B and guides $108B**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.
 - [[Sovereign AI Club - August 5, 2026]]: **Trump advisers say open-weight models skip federal safety tests**, **Hassabis becomes Alphabet Chief Scientist as Koray takes GDM**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.
