@@ -9,3 +9,5 @@ Event Metadata is excluded from the rename: past Meetups keep the venue and time
 "Sovereign" is also an editorial commitment. The Sovereignty Lens becomes the club's primary lens for Discussion Fit, with the existing Open Source Lens and Privacy Lens as facets of it. It is not a Track.
 
 The Sovereign AI Club poster at `docs/brand/sovereign-ai-club-poster.jpg` is the de facto design guide for the website. Concretely: the poster's sage, wireframe green, monospace family, ASCII-art wordmark, brutalist panels with hard offset shadows, and repeating ASCII wallpaper. The site ships as a single dark theme (sage and green on charcoal) with no light-mode option: that palette still reads as the poster, and one theme keeps archive pages, wiki, and Presentation Mode on the same identity.
+
+The September 9 poster revision places “SOVEREIGN AI” on one banner. The brand reference, homepage image and social sharing image use the supplied artwork unchanged. Public image URLs include a content version so browsers and sharing services can fetch the revision.
