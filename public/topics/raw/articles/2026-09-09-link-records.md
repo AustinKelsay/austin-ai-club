@@ -201,17 +201,17 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
   Type: X post. Accessed: 2026-09-08. Launch or availability context for PhoneLLM Alpha 1; primary documentation establishes access and license limits.
 
 - **MiniCPM5-2B** — https://huggingface.co/openbmb/MiniCPM5-2B
-  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+  Type: model card / project. Accessed: 2026-09-09. MiniCPM5-2B model card: Apache-2.0, about 2.52B total parameters and 131,072-token context. Links to intermediate checkpoints and training datasets.
 - **MiniCPM** — https://github.com/OpenBMB/MiniCPM
-  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+  Type: model card / project. Accessed: 2026-09-09. OpenBMB MiniCPM project: September 7 MiniCPM5-2B release entry, training materials and deployment instructions.
 - **MiniCPM5-2B-GGUF** — https://huggingface.co/openbmb/MiniCPM5-2B-GGUF
-  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+  Type: model card / project. Accessed: 2026-09-09. MiniCPM5-2B GGUF repository: quantized files for compatible local runtimes. Choose a quantization that fits the available memory.
 - **MiniCPM5-2B-MLX** — https://huggingface.co/openbmb/MiniCPM5-2B-MLX
-  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+  Type: model card / project. Accessed: 2026-09-09. MiniCPM5-2B MLX repository: converted weights for Apple Silicon deployment.
 - **Spark-X2.5-4B** — https://huggingface.co/XHToken/Spark-X2.5-4B
-  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+  Type: model card / project. Accessed: 2026-09-09. Spark-X2.5-4B model card: Apache-2.0, hybrid attention and native context up to one million tokens. Runtime and hardware determine practical memory use.
 - **Spark-X2.5-1.7B** — https://huggingface.co/XHToken/Spark-X2.5-1.7B
-  Type: model card / project. Accessed: 2026-09-09. MiniCPM5 or Spark-X2.5 release artifact; inspect license, training materials and context limits.
+  Type: model card / project. Accessed: 2026-09-09. Spark-X2.5-1.7B model card: Apache-2.0, hybrid attention and native context up to one million tokens. This is a separate release from OpenBMB’s MiniCPM5.
 
 ### Desert Ant builds small models for on-device tasks
 
