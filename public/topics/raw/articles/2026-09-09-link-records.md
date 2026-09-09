@@ -213,6 +213,31 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
 - **Spark-X2.5-1.7B** — https://huggingface.co/XHToken/Spark-X2.5-1.7B
   Type: model card / project. Accessed: 2026-09-09. Spark-X2.5-1.7B model card: Apache-2.0, hybrid attention and native context up to one million tokens. This is a separate release from OpenBMB’s MiniCPM5.
 
+### Google's fly-brain map meets Beat Saber and Doom
+
+- **Source** - https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/
+  Accessed: 2026-09-09. Google’s September 3 announcement credits HHMI Janelia and collaborators; reports over 166,000 neurons in the male brain and central nervous system.
+- **Source** - https://doi.org/10.1016/j.cell.2026.08.015
+  Accessed: 2026-09-09. Cell paper linked by Google. Publisher full text was not accessible in this check; factual claims use the research team’s announcement and dataset pages.
+- **Source** - https://male-cns.janelia.org/
+  Accessed: 2026-09-09. Project chronology lists September 3 paper publication; explains the collaboration and CC-BY dataset license.
+- **Release** - https://male-cns.janelia.org/release/
+  Accessed: 2026-09-09. MaleCNS v1.0 released June 8, 2026. The September news is paper publication and subsequent experiments, not first dataset availability.
+- **Source** - https://male-cns.janelia.org/download/
+  Accessed: 2026-09-09. Bulk downloads and query interfaces for connectivity and annotations let builders inspect the underlying data.
+- **Repo** - https://github.com/nftechie/doomfly
+  Accessed: 2026-09-09. Doomfly connects simulated neural activity to engineered game controls. The reviewed README reports no demonstrated learned survival and failed v6 validation gates.
+- **Source** - https://github.com/nftechie/doomfly/blob/71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33/README.md
+  Accessed: 2026-09-09. Pinned README snapshot for the September 9 assessment; distinguishes biological wiring from chosen neural dynamics and controller assignments.
+- **Source** - https://www.sotwe.com/_lyraaaa_?lang=en
+  Accessed: 2026-09-09. Indexed mirror of the Beat Saber creator’s replies describes overfitting motor output to a replay and ongoing visual training. Original reply permalink was not recovered. Use this as qualified creator context, not independent reproduction.
+- **Original X post** - https://x.com/NewsFromGoogle/status/2095553014715093022
+  Accessed: 2026-09-09. Google announcement, September 3. Author, date and text verified through the public post response.
+- **Original X post** - https://x.com/_lyraaaa_/status/2097527368919470162
+  Accessed: 2026-09-09. Beat Saber creator demo, September 9 UTC. Original post exists; text and author verified. Does not establish general gameplay ability.
+- **Original X post** - https://x.com/nftechie_/status/2096409780961059119
+  Accessed: 2026-09-09. Alex Wormuth’s Doom experiment, September 6 UTC. Original post asks whether the model will learn to survive; it does not claim success.
+
 ### Desert Ant builds small models for on-device tasks
 
 - **Announcement / artifact** — https://desertant.com/blog/introducing-desert-ant-labs/

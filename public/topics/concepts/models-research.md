@@ -15,6 +15,8 @@ Biweekly model launches live under two official Release Roundup Topics titled ex
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 9, 2026]]: **Google's fly-brain map meets Beat Saber and Doom**.
+
 - [[Sovereign AI Club - September 9, 2026]]: **Desert Ant builds small models for on-device tasks**.
 
 - [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**, **Open model releases**, **GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support**, **WikiSkill turns agent experience into reusable skills**.

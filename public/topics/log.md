@@ -2,6 +2,11 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-09-09] curate | Fruit-fly connectome and game demos
+
+- Added one Models & Research Topic with Google’s announcement, MaleCNS release history, original Beat Saber and Doom posts, and Doomfly’s reported negative results. Recorded the limited access to the Beat Saber clarification.
+- Added MaleCNS and reciprocal references; mirrored the board and Presenter Notes.
+
 ## [2026-09-09] curate | Selected candidate additions
 
 - Added the seven approved company, on-device and security Topics; expanded Open model releases with MiniCPM5 and Spark-X2.5. Kept release, announcement, patch and disclosure dates distinct.

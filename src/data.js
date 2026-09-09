@@ -293,6 +293,37 @@ export const meetups = [
             "topStory": true
           },
           {
+            "title": "Google's fly-brain map meets Beat Saber and Doom",
+            "description": "Google and HHMI Janelia reported a map of more than 166,000 neurons in a male fruit fly’s brain and nerve cord; developers are now connecting fly-brain simulations to Beat Saber and Doom. The clips show experiments, but do they show learning?",
+            "href": "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+            "linkPair": [
+              "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+              "https://doi.org/10.1016/j.cell.2026.08.015",
+              "https://male-cns.janelia.org/",
+              "https://male-cns.janelia.org/release/",
+              "https://male-cns.janelia.org/download/",
+              "https://github.com/nftechie/doomfly",
+              "https://github.com/nftechie/doomfly/blob/71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33/README.md",
+              "https://www.sotwe.com/_lyraaaa_?lang=en"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/NewsFromGoogle/status/2095553014715093022"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/_lyraaaa_/status/2097527368919470162"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/nftechie_/status/2096409780961059119"
+              }
+            ],
+            "notes": "September 3 brought the Cell paper and Google announcement; MaleCNS v1.0 was already available June 8. A connectome maps wiring, while a simulation adds assumptions about neural activity and game controls. Doomfly’s September 9 README reports failed learning checks, not demonstrated learned survival. The Beat Saber post is real; an indexed mirror of the creator’s replies describes fitting motor output to a replay while visual training continues. That reply could not be retrieved at its original URL, and no reproducible Beat Saber implementation was verified. Show the clips as developer experiments. What would a test on an unseen level tell us? The downloadable dataset is CC-BY; running a model from it does not establish consciousness or a faithful living-brain emulation.",
+            "topStory": true
+          },
+          {
             "title": "Desert Ant builds small models for on-device tasks",
             "description": "Desert Ant released small audio, vision and text models with Swift, Kotlin and JavaScript SDKs. Which tasks could we move from a cloud model onto a phone?",
             "href": "https://desertant.com/blog/introducing-desert-ant-labs/",
