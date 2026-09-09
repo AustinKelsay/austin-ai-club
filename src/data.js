@@ -293,6 +293,22 @@ export const meetups = [
             "topStory": true
           },
           {
+            "title": "H3 Max powers an endless Interdimensional Cable stream",
+            "description": "Rehan Sheikh connected fal’s MiniMax H3 Max to a Twitch livestream for Rick and Morty-style Interdimensional Cable, reporting that his setup generated video faster than playback. When the next clip is always ready, what makes an endless stream worth watching?",
+            "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+            "linkPair": [
+              "https://fal.ai/models/minimax/h3-max/text-to-video"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/rehan_shei/status/2093528415576211819"
+              }
+            ],
+            "notes": "Posted August 29 UTC, after the August 26 H3 Max model discussion. The new development is a continuously generated stream. fal identifies H3 Max as its post-trained MiniMax H3 variant. Faster-than-playback generation is Rehan’s claim about his setup; we have not reproduced its timing, cost or continuity. Use the embedded recording: current stream availability is unverified. An ongoing series of clips does not establish one coherent, uninterrupted episode. What would we need to run a similar stream ourselves?",
+            "topStory": true
+          },
+          {
             "title": "Google's fly-brain map meets Beat Saber and Doom",
             "description": "Google and HHMI Janelia reported a map of more than 166,000 neurons in a male fruit fly’s brain and nerve cord; developers are now connecting fly-brain simulations to Beat Saber and Doom. The clips show experiments, but do they show learning?",
             "href": "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",

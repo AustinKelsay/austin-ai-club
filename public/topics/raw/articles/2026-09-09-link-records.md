@@ -213,6 +213,13 @@ Links supporting [[Sovereign AI Club - September 9, 2026]]. Accessed September 8
 - **Spark-X2.5-1.7B** — https://huggingface.co/XHToken/Spark-X2.5-1.7B
   Type: model card / project. Accessed: 2026-09-09. Spark-X2.5-1.7B model card: Apache-2.0, hybrid attention and native context up to one million tokens. This is a separate release from OpenBMB’s MiniCPM5.
 
+### H3 Max powers an endless Interdimensional Cable stream
+
+- **Creator demo** - https://x.com/rehan_shei/status/2093528415576211819
+  Accessed: 2026-09-09. Original August 29 UTC post verified through the public post response. Rehan reports connecting H3 Max to Twitch for continuous Interdimensional Cable and claims faster-than-playback generation. Timing, uptime and long-form consistency were not independently reproduced.
+- **Model documentation** - https://fal.ai/models/minimax/h3-max/text-to-video
+  Accessed: 2026-09-09. fal identifies H3 Max as its post-trained MiniMax H3 variant. Supports model identity and API availability, not the demo’s particular performance.
+
 ### Google's fly-brain map meets Beat Saber and Doom
 
 - **Source** - https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/

@@ -2,6 +2,11 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-09-09] curate | H3 Max continuous-video demo
+
+- Added Rehan Sheikh’s Interdimensional Cable stream under Models & Research, with his original post and fal documentation. Kept performance attributed to the creator and distinguished the demo from the August 26 model launch coverage.
+- Updated the earlier exclusion, Presenter Notes and MiniMax references.
+
 ## [2026-09-09] curate | Fruit-fly connectome and game demos
 
 - Added one Models & Research Topic with Google’s announcement, MaleCNS release history, original Beat Saber and Doom posts, and Doomfly’s reported negative results. Recorded the limited access to the Beat Saber clarification.

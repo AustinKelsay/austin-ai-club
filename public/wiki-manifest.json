@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T21:43:06.733Z",
+  "generatedAt": "2026-09-09T22:33:27.756Z",
   "pages": [
     {
       "id": "abliterlitics",
@@ -43418,6 +43418,7 @@
         "multimodal"
       ],
       "sources": [
+        "raw/articles/2026-09-09-link-records.md",
         "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
@@ -43425,11 +43426,11 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 6,
+      "sourceCount": 7,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-23",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "excerpt": "MiniMax is a recurring Sovereign AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates. August 26 coverage is fal's post-trained H3 Max on Artificial Analysis's with-audio video boards; the August 5 H3 weights remain the open-weight baseline until Max ships files.",
       "rawHref": "/topics/entities/minimax.md",
       "relativePath": "entities/minimax.md",
@@ -43441,6 +43442,7 @@
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
+        "austin-ai-club-september-9-2026",
         "coding-agents",
         "minimax-m3",
         "model-distillation",
@@ -43456,6 +43458,7 @@
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
+        "austin-ai-club-september-9-2026",
         "coding-agents",
         "deepseek",
         "minimax-m3",
@@ -44578,6 +44581,20 @@
           "sourcePageTitle": "Sovereign AI Club - March 18, 2026"
         },
         {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://x.com/rehan_shei/status/2093528415576211819",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
           "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
           "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure",
@@ -44711,7 +44728,7 @@
           "sourcePageTitle": "Sovereign AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# MiniMax\n\nMiniMax is a recurring Sovereign AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates. August 26 coverage is fal's post-trained H3 Max on Artificial Analysis's with-audio video boards; the August 5 H3 weights remain the open-weight baseline until Max ships files.\n\n## Mentioned In\n\n- [[Sovereign AI Club - August 26, 2026]]: **fal's H3 Max leads AA's with-audio video boards**.\n- [[Sovereign AI Club - August 5, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.\n- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.\n- [[Sovereign AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Sovereign AI Club - March 18, 2026]]: **Claude distillation claims** and **Closed model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Model Distillation]]\n- [[vLLM]]\n- [[AI Benchmarks & Evals]]\n- [[MiniMax M3]]"
+      "bodyMarkdown": "# MiniMax\n\nMiniMax is a recurring Sovereign AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates. August 26 coverage is fal's post-trained H3 Max on Artificial Analysis's with-audio video boards; the August 5 H3 weights remain the open-weight baseline until Max ships files.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **H3 Max powers an endless Interdimensional Cable stream**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **fal's H3 Max leads AA's with-audio video boards**.\n- [[Sovereign AI Club - August 5, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.\n- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.\n- [[Sovereign AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Sovereign AI Club - March 18, 2026]]: **Claude distillation claims** and **Closed model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Model Distillation]]\n- [[vLLM]]\n- [[AI Benchmarks & Evals]]\n- [[MiniMax M3]]"
     },
     {
       "id": "minimax-m3",
@@ -50826,6 +50843,20 @@
           "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
         },
         {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://x.com/rehan_shei/status/2093528415576211819",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
           "href": "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
           "title": "Google's fly-brain map meets Beat Saber and Doom",
           "section": "Models & Research",
@@ -50966,7 +50997,7 @@
           "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Sovereign AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **Google's fly-brain map meets Beat Saber and Doom**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Desert Ant builds small models for on-device tasks**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**, **Open model releases**, **GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support**, **WikiSkill turns agent experience into reusable skills**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, and **fal's H3 Max leads AA's with-audio video boards**.\n- [[Sovereign AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Sovereign AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Sovereign AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Sovereign AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Sovereign AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Sovereign AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Sovereign AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Sovereign AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Sovereign AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Sovereign AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **H3 Max powers an endless Interdimensional Cable stream**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Google's fly-brain map meets Beat Saber and Doom**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Desert Ant builds small models for on-device tasks**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**, **Open model releases**, **GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support**, **WikiSkill turns agent experience into reusable skills**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, and **fal's H3 Max leads AA's with-audio video boards**.\n- [[Sovereign AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Sovereign AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Sovereign AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Sovereign AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Sovereign AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Sovereign AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Sovereign AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Sovereign AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Sovereign AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     {
       "id": "moonshot-ai",
@@ -68430,6 +68461,8 @@
         "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
         "https://huggingface.co/XHToken/Spark-X2.5-4B",
         "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
+        "https://x.com/rehan_shei/status/2093528415576211819",
+        "https://fal.ai/models/minimax/h3-max/text-to-video",
         "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
         "https://doi.org/10.1016/j.cell.2026.08.015",
         "https://male-cns.janelia.org/",
@@ -68951,6 +68984,16 @@
         {
           "href": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
           "title": "Spark-X2.5-1.7B",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rehan_shei/status/2093528415576211819",
+          "title": "Creator demo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "Model documentation",
           "section": "Models & Research"
         },
         {
@@ -81880,6 +81923,8 @@
         "https://x.com/AntLingAGI/status/2097359640233439299",
         "https://x.com/TheInclusionAI/status/2095696902004293744",
         "https://x.com/kwindla/status/2093014818647339026",
+        "https://fal.ai/models/minimax/h3-max/text-to-video",
+        "https://x.com/rehan_shei/status/2093528415576211819",
         "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
         "https://doi.org/10.1016/j.cell.2026.08.015",
         "https://male-cns.janelia.org/",
@@ -82403,6 +82448,16 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rehan_shei/status/2093528415576211819",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
           "title": "Google's fly-brain map meets Beat Saber and Doom",
           "section": "Models & Research"
@@ -82746,6 +82801,7 @@
         "meta-muse",
         "microsoft",
         "minicpm5",
+        "minimax",
         "mistral",
         "models-research",
         "mythos",
@@ -82807,6 +82863,7 @@
         "meta-muse",
         "microsoft",
         "minicpm5",
+        "minimax",
         "mistral",
         "models-research",
         "mythos",
@@ -132624,6 +132681,7 @@
         "multimodal"
       ],
       "sources": [
+        "raw/articles/2026-09-09-link-records.md",
         "raw/articles/2026-08-26-link-records.md",
         "raw/articles/2026-08-05-link-records.md",
         "raw/articles/2026-06-24-link-records.md",
@@ -132631,11 +132689,11 @@
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 6,
+      "sourceCount": 7,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-06-23",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "excerpt": "MiniMax is a recurring Sovereign AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates. August 26 coverage is fal's post-trained H3 Max on Artificial Analysis's with-audio video boards; the August 5 H3 weights remain the open-weight baseline until Max ships files.",
       "rawHref": "/topics/entities/minimax.md",
       "relativePath": "entities/minimax.md",
@@ -132647,6 +132705,7 @@
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
+        "austin-ai-club-september-9-2026",
         "coding-agents",
         "minimax-m3",
         "model-distillation",
@@ -132662,6 +132721,7 @@
         "austin-ai-club-june-10-2026",
         "austin-ai-club-june-24-2026",
         "austin-ai-club-march-18-2026",
+        "austin-ai-club-september-9-2026",
         "coding-agents",
         "deepseek",
         "minimax-m3",
@@ -133784,6 +133844,20 @@
           "sourcePageTitle": "Sovereign AI Club - March 18, 2026"
         },
         {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://x.com/rehan_shei/status/2093528415576211819",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
           "href": "https://vllm-project.github.io/2026/06/12/minimax-m3-vllm.html",
           "title": "vLLM turns weird open models into runnable systems",
           "section": "Agent Infrastructure",
@@ -133917,7 +133991,7 @@
           "sourcePageTitle": "Sovereign AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# MiniMax\n\nMiniMax is a recurring Sovereign AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates. August 26 coverage is fal's post-trained H3 Max on Artificial Analysis's with-audio video boards; the August 5 H3 weights remain the open-weight baseline until Max ships files.\n\n## Mentioned In\n\n- [[Sovereign AI Club - August 26, 2026]]: **fal's H3 Max leads AA's with-audio video boards**.\n- [[Sovereign AI Club - August 5, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.\n- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.\n- [[Sovereign AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Sovereign AI Club - March 18, 2026]]: **Claude distillation claims** and **Closed model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Model Distillation]]\n- [[vLLM]]\n- [[AI Benchmarks & Evals]]\n- [[MiniMax M3]]"
+      "bodyMarkdown": "# MiniMax\n\nMiniMax is a recurring Sovereign AI Club entity for open-weight coding and agent models, long-context sparse-attention work, multimodal video generation, and frontier-model distillation debates. August 26 coverage is fal's post-trained H3 Max on Artificial Analysis's with-audio video boards; the August 5 H3 weights remain the open-weight baseline until Max ships files.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **H3 Max powers an endless Interdimensional Cable stream**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **fal's H3 Max leads AA's with-audio video boards**.\n- [[Sovereign AI Club - August 5, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.\n- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.\n- [[Sovereign AI Club - April 1, 2026]]: **Closed model releases** and **Distillation hesitation**.\n- [[Sovereign AI Club - March 18, 2026]]: **Claude distillation claims** and **Closed model releases**.\n\n## Related\n\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Model Distillation]]\n- [[vLLM]]\n- [[AI Benchmarks & Evals]]\n- [[MiniMax M3]]"
     },
     "minimax-m3": {
       "id": "minimax-m3",
@@ -140032,6 +140106,20 @@
           "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
         },
         {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
+          "href": "https://x.com/rehan_shei/status/2093528415576211819",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research",
+          "sourcePageId": "austin-ai-club-september-9-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
+        },
+        {
           "href": "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
           "title": "Google's fly-brain map meets Beat Saber and Doom",
           "section": "Models & Research",
@@ -140172,7 +140260,7 @@
           "sourcePageTitle": "Sovereign AI Club - September 9, 2026"
         }
       ],
-      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Sovereign AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **Google's fly-brain map meets Beat Saber and Doom**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Desert Ant builds small models for on-device tasks**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**, **Open model releases**, **GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support**, **WikiSkill turns agent experience into reusable skills**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, and **fal's H3 Max leads AA's with-audio video boards**.\n- [[Sovereign AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Sovereign AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Sovereign AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Sovereign AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Sovereign AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Sovereign AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Sovereign AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Sovereign AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Sovereign AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
+      "bodyMarkdown": "# Models & Research\n\nModels & Research is the Sovereign AI Club track for model releases, benchmark shifts, research papers, architecture changes, capability comparisons, and deployment-relevant model mechanics.\n\nBiweekly model launches live under two official Release Roundup Topics titled exactly **Closed model releases** and **Open model releases**. Those Topics hold the launch posts and source catalogs; research, evals, and non-release papers stay as separate Topics after them.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **H3 Max powers an endless Interdimensional Cable stream**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Google's fly-brain map meets Beat Saber and Doom**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Desert Ant builds small models for on-device tasks**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**, **Open model releases**, **GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support**, **WikiSkill turns agent experience into reusable skills**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Closed model releases**, **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, **Open-model hype and adoption barely overlap**, and **fal's H3 Max leads AA's with-audio video boards**.\n- [[Sovereign AI Club - August 5, 2026]]: **Closed model releases**, **Open model releases**, **Pokee-Isaac claims 10M context on a 28B single-GPU agent**, **DeepSeek V4 Flash 0731 is absurd for 13B active**, **AirLLM streams giant MoEs onto hobbyist VRAM**, **TurboFieldfare runs Gemma 4 26B-A4B in ~2 GB on Apple Silicon**, **Astra turns open math problems into Lean certificates for about $2K**, **Karpathy replaces pelican-SVG with a $10 Middle-earth world**, **Liquid IFStruct makes structured output a learnable 350M skill**, and **Fish Audio raises $52M and ships S2.1 Pro voice**.\n- [[Sovereign AI Club - July 22, 2026]]: **Closed model releases**, **Open model releases**, **Frontier local inference becomes an expert-cache problem**, **llama.garden makes model distribution a protocol**, **AI math crosses from medals into new proofs**, **AI 2040 writes the optimistic branch on purpose**, and **Models learn to please the grader, not the user**.\n- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**, **Open model releases**, **Brain2Qwerty v2 gets non-invasive decoding to 61% word accuracy**, **Should chat route local by default?**, and **Claude gets a consciousness-adjacent workspace**.\n- [[Sovereign AI Club - June 24, 2026]]: **Closed model releases**, **Open model releases**, **AI Twitter's model-release calendar slips**, and **Research behind the open model wave**.\n- [[Sovereign AI Club - June 10, 2026]]: **Closed model releases**, **Open model releases**, **Fable's refusals go too far**, and **World models need a taxonomy, not another demo**.\n- [[Sovereign AI Club - May 27, 2026]]: **Open model releases**, **Multi-token prediction goes mainstream**, **DFlash beats autoregressive drafting ceiling**, and **DeepSWE exposes the real coding model hierarchy**.\n- [[Sovereign AI Club - May 13, 2026]]: **Closed model releases**, **Open model releases**, **12 models in 37 days**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Talkie tests vintage-model generalization**, and **Red/blue button model behavior**.\n- [[Sovereign AI Club - April 15, 2026]]: **Closed model releases** and **Open model releases**.\n- [[Sovereign AI Club - April 1, 2026]]: **Closed model releases**, **Open model releases**, **Composer 2 / Kimi K2.5 drama**, **Distillation hesitation**, **ARC AGI benchmark #3**, **Google TurboQuant**, **LLM neuroanatomy / RYS layer repetition**, and **Local models getting glazed**.\n- [[Sovereign AI Club - March 18, 2026]]: **Closed model releases**, **Open model releases**, **LMfit**, and **Frontier check**.\n\n## Related\n\n- [[Open Models]]\n- [[Local AI]]\n- [[xAI]]\n- [[Grok]]\n- [[GLM]]\n- [[Ornith]]\n- [[AI Signal Discovery]]\n- [[AI Benchmarks & Evals]]\n- [[Inference Optimization]]\n- [[Speculative Decoding]]\n- [[Physical AI]]\n- [[Model Distillation]]\n- [[World Models]]\n- [[Compute Strategy]]\n- [[Coding Agents]]\n- [[AI Mathematics]]\n- [[AlphaEvolve]]\n- [[FLUX 3]]\n- [[Ling-3.0-flash]]\n- [[Laguna S 2.1]]\n- [[Pokee-Isaac]]\n- [[Astra]]\n- [[AirLLM]]\n- [[TurboFieldfare]]\n- [[DeepSeek]]\n- [[BTL-3]]\n- [[Inkling]]\n- [[Brain2Qwerty]]\n- [[GPT-5.6]]\n- [[Claude Sonnet 5]]\n- [[SWE-1.7]]\n- [[Gemini Omni Flash]]\n- [[Meta Muse]]\n- [[MiniMax M3]]\n- [[Qwen-AgentWorld]]\n- [[Leanstral]]\n- [[Cohere Transcribe Arabic]]\n- [[HARC]]\n- [[DiffusionGemma]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Liquid AI]]\n- [[MiniMax]]\n- [[AMD]]\n- [[Fish Audio]]\n- [[Mistral]]\n- [[TMax]]\n- [[Cognition]]"
     },
     "moonshot-ai": {
       "id": "moonshot-ai",
@@ -157636,6 +157724,8 @@
         "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
         "https://huggingface.co/XHToken/Spark-X2.5-4B",
         "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
+        "https://x.com/rehan_shei/status/2093528415576211819",
+        "https://fal.ai/models/minimax/h3-max/text-to-video",
         "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
         "https://doi.org/10.1016/j.cell.2026.08.015",
         "https://male-cns.janelia.org/",
@@ -158157,6 +158247,16 @@
         {
           "href": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
           "title": "Spark-X2.5-1.7B",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rehan_shei/status/2093528415576211819",
+          "title": "Creator demo",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "Model documentation",
           "section": "Models & Research"
         },
         {
@@ -171086,6 +171186,8 @@
         "https://x.com/AntLingAGI/status/2097359640233439299",
         "https://x.com/TheInclusionAI/status/2095696902004293744",
         "https://x.com/kwindla/status/2093014818647339026",
+        "https://fal.ai/models/minimax/h3-max/text-to-video",
+        "https://x.com/rehan_shei/status/2093528415576211819",
         "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
         "https://doi.org/10.1016/j.cell.2026.08.015",
         "https://male-cns.janelia.org/",
@@ -171609,6 +171711,16 @@
           "section": "Models & Research"
         },
         {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rehan_shei/status/2093528415576211819",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research"
+        },
+        {
           "href": "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
           "title": "Google's fly-brain map meets Beat Saber and Doom",
           "section": "Models & Research"
@@ -171952,6 +172064,7 @@
         "meta-muse",
         "microsoft",
         "minicpm5",
+        "minimax",
         "mistral",
         "models-research",
         "mythos",
@@ -172013,6 +172126,7 @@
         "meta-muse",
         "microsoft",
         "minicpm5",
+        "minimax",
         "mistral",
         "models-research",
         "mythos",
@@ -179347,6 +179461,43 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Google's fly-brain map meets Beat Saber and Doom Models & Research Sovereign AI Club - September 9, 2026 2026-09-09 https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/ https://doi.org/10.1016/j.cell.2026.08.015 https://male-cns.janelia.org/ https://male-cns.janelia.org/release/ https://male-cns.janelia.org/download/ https://github.com/nftechie/doomfly https://github.com/nftechie/doomfly/blob/71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33/README.md https://www.sotwe.com/_lyraaaa_?lang=en https://x.com/NewsFromGoogle/status/2095553014715093022 https://x.com/_lyraaaa_/status/2097527368919470162 https://x.com/nftechie_/status/2096409780961059119 Google MaleCNS Models & Research"
+    },
+    {
+      "id": "austin-ai-club-september-9-2026-models-research-h3-max-powers-an-endless-interdimensional-cable-stream",
+      "title": "H3 Max powers an endless Interdimensional Cable stream",
+      "rawTitle": "H3 Max powers an endless Interdimensional Cable stream",
+      "normalizedTitle": "h3 max powers an endless interdimensional cable stream",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-september-9-2026",
+      "meetupTitle": "Sovereign AI Club - September 9, 2026",
+      "meetupSlug": "2026-09-09",
+      "meetupHref": "/topics/2026-09-09.md",
+      "sourceLinks": [
+        "https://fal.ai/models/minimax/h3-max/text-to-video",
+        "https://x.com/rehan_shei/status/2093528415576211819"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rehan_shei/status/2093528415576211819",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [
+        "minimax",
+        "models-research"
+      ],
+      "wikiTitles": [
+        "MiniMax",
+        "Models & Research"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "H3 Max powers an endless Interdimensional Cable stream Models & Research Sovereign AI Club - September 9, 2026 2026-09-09 https://fal.ai/models/minimax/h3-max/text-to-video https://x.com/rehan_shei/status/2093528415576211819 MiniMax Models & Research"
     },
     {
       "id": "austin-ai-club-september-9-2026-models-research-open-model-releases",
@@ -194385,6 +194536,43 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Google's fly-brain map meets Beat Saber and Doom Models & Research Sovereign AI Club - September 9, 2026 2026-09-09 https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/ https://doi.org/10.1016/j.cell.2026.08.015 https://male-cns.janelia.org/ https://male-cns.janelia.org/release/ https://male-cns.janelia.org/download/ https://github.com/nftechie/doomfly https://github.com/nftechie/doomfly/blob/71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33/README.md https://www.sotwe.com/_lyraaaa_?lang=en https://x.com/NewsFromGoogle/status/2095553014715093022 https://x.com/_lyraaaa_/status/2097527368919470162 https://x.com/nftechie_/status/2096409780961059119 Google MaleCNS Models & Research"
+    },
+    "austin-ai-club-september-9-2026-models-research-h3-max-powers-an-endless-interdimensional-cable-stream": {
+      "id": "austin-ai-club-september-9-2026-models-research-h3-max-powers-an-endless-interdimensional-cable-stream",
+      "title": "H3 Max powers an endless Interdimensional Cable stream",
+      "rawTitle": "H3 Max powers an endless Interdimensional Cable stream",
+      "normalizedTitle": "h3 max powers an endless interdimensional cable stream",
+      "section": "Models & Research",
+      "meetupId": "austin-ai-club-september-9-2026",
+      "meetupTitle": "Sovereign AI Club - September 9, 2026",
+      "meetupSlug": "2026-09-09",
+      "meetupHref": "/topics/2026-09-09.md",
+      "sourceLinks": [
+        "https://fal.ai/models/minimax/h3-max/text-to-video",
+        "https://x.com/rehan_shei/status/2093528415576211819"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://fal.ai/models/minimax/h3-max/text-to-video",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research"
+        },
+        {
+          "href": "https://x.com/rehan_shei/status/2093528415576211819",
+          "title": "H3 Max powers an endless Interdimensional Cable stream",
+          "section": "Models & Research"
+        }
+      ],
+      "wikiIds": [
+        "minimax",
+        "models-research"
+      ],
+      "wikiTitles": [
+        "MiniMax",
+        "Models & Research"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "H3 Max powers an endless Interdimensional Cable stream Models & Research Sovereign AI Club - September 9, 2026 2026-09-09 https://fal.ai/models/minimax/h3-max/text-to-video https://x.com/rehan_shei/status/2093528415576211819 MiniMax Models & Research"
     },
     "austin-ai-club-september-9-2026-models-research-open-model-releases": {
       "id": "austin-ai-club-september-9-2026-models-research-open-model-releases",
@@ -212092,6 +212280,10 @@
     },
     {
       "source": "minimax",
+      "target": "austin-ai-club-september-9-2026"
+    },
+    {
+      "source": "minimax",
       "target": "austin-ai-club-august-26-2026"
     },
     {
@@ -215728,6 +215920,10 @@
     },
     {
       "source": "austin-ai-club-september-9-2026",
+      "target": "minimax"
+    },
+    {
+      "source": "austin-ai-club-september-9-2026",
       "target": "malecns"
     },
     {
@@ -217733,8 +217929,8 @@
           "open-source",
           "multimodal"
         ],
-        "degree": 25,
-        "updated": "2026-09-08"
+        "degree": 27,
+        "updated": "2026-09-09"
       },
       {
         "id": "minimax-m3",
@@ -218492,7 +218688,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 117,
+        "degree": 119,
         "updated": "2026-09-09"
       },
       {
@@ -223274,6 +223470,11 @@
       },
       {
         "source": "minimax",
+        "target": "austin-ai-club-september-9-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "minimax",
         "target": "austin-ai-club-august-26-2026",
         "kind": "topic"
       },
@@ -227819,6 +228020,11 @@
       },
       {
         "source": "austin-ai-club-september-9-2026",
+        "target": "minimax",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-september-9-2026",
         "target": "malecns",
         "kind": "topic"
       },
@@ -228776,11 +228982,11 @@
   },
   "stats": {
     "pageCount": 181,
-    "topicCount": 260,
+    "topicCount": 261,
     "rawPageCount": 0,
-    "linkCount": 2000,
+    "linkCount": 2002,
     "sourceRecordCount": 12,
-    "sourceLinkCount": 1206,
+    "sourceLinkCount": 1207,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-09-09"
   }
