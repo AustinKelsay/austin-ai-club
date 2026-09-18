@@ -702,4 +702,4 @@
 
 ## 2026-09-18
 
-Registered September 30 as the first public meetup, with confirmed event details and live Meetup and Luma links. Topic curation is pending.
+Registered September 30 as the first public meetup, with confirmed event details and live Meetup and Luma links. Added the published Austin Computer Club listing alongside Bitcoin Park Meetup and Luma. Topic curation is pending.

@@ -62,6 +62,10 @@ export const meetups = [
         {
           "label": "Bitcoin Park Meetup",
           "href": "https://www.meetup.com/bitcoin-park-austin/events/316616278/"
+        },
+        {
+          "label": "Austin Computer Club Meetup",
+          "href": "https://www.meetup.com/austin-computer-club/events/316617086/"
         }
       ]
     },

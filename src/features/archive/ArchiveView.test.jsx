@@ -11,6 +11,7 @@ describe("ArchiveView", () => {
     );
     expect(html).toContain('href="https://luma.com/g3o10lht"');
     expect(html).toContain('href="https://www.meetup.com/bitcoin-park-austin/events/316616278/"');
+    expect(html).toContain('href="https://www.meetup.com/austin-computer-club/events/316617086/"');
     expect(html).not.toContain('href="https://www.meetup.com/austin-computer-club/"');
     expect(html).toContain('href="/meetups/2026-09-30"');
   });

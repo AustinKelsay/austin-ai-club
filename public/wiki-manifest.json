@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T21:59:37.107Z",
+  "generatedAt": "2026-09-18T22:23:20.203Z",
   "pages": [
     {
       "id": "abliterlitics",
@@ -68370,7 +68370,8 @@
       "sourceCount": 0,
       "sourceLinks": [
         "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
-        "https://luma.com/g3o10lht"
+        "https://luma.com/g3o10lht",
+        "https://www.meetup.com/austin-computer-club/events/316617086/"
       ],
       "sourceReferences": [
         {
@@ -68381,6 +68382,11 @@
         {
           "href": "https://luma.com/g3o10lht",
           "title": "luma.com/g3o10lht",
+          "section": ""
+        },
+        {
+          "href": "https://www.meetup.com/austin-computer-club/events/316617086/",
+          "title": "www.meetup.com/austin-computer-club/events/316617086/",
           "section": ""
         }
       ],
@@ -81869,7 +81875,8 @@
       "sourceCount": 1,
       "sourceLinks": [
         "https://luma.com/g3o10lht",
-        "https://www.meetup.com/bitcoin-park-austin/events/316616278/"
+        "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
+        "https://www.meetup.com/austin-computer-club/events/316617086/"
       ],
       "sourceReferences": [
         {
@@ -81880,6 +81887,11 @@
         {
           "href": "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
           "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "section": ""
+        },
+        {
+          "href": "https://www.meetup.com/austin-computer-club/events/316617086/",
+          "title": "www.meetup.com/austin-computer-club/events/316617086/",
           "section": ""
         }
       ],
@@ -157710,7 +157722,8 @@
       "sourceCount": 0,
       "sourceLinks": [
         "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
-        "https://luma.com/g3o10lht"
+        "https://luma.com/g3o10lht",
+        "https://www.meetup.com/austin-computer-club/events/316617086/"
       ],
       "sourceReferences": [
         {
@@ -157721,6 +157734,11 @@
         {
           "href": "https://luma.com/g3o10lht",
           "title": "luma.com/g3o10lht",
+          "section": ""
+        },
+        {
+          "href": "https://www.meetup.com/austin-computer-club/events/316617086/",
+          "title": "www.meetup.com/austin-computer-club/events/316617086/",
           "section": ""
         }
       ],
@@ -171209,7 +171227,8 @@
       "sourceCount": 1,
       "sourceLinks": [
         "https://luma.com/g3o10lht",
-        "https://www.meetup.com/bitcoin-park-austin/events/316616278/"
+        "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
+        "https://www.meetup.com/austin-computer-club/events/316617086/"
       ],
       "sourceReferences": [
         {
@@ -171220,6 +171239,11 @@
         {
           "href": "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
           "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "section": ""
+        },
+        {
+          "href": "https://www.meetup.com/austin-computer-club/events/316617086/",
+          "title": "www.meetup.com/austin-computer-club/events/316617086/",
           "section": ""
         }
       ],
@@ -178707,7 +178731,32 @@
       "searchText": "luma.com/g3o10lht Sovereign AI Club - September 30, 2026 2026-09-30 https://luma.com/g3o10lht"
     },
     {
-      "id": "austin-ai-club-september-30-2026-topic",
+      "id": "austin-ai-club-september-30-2026-topic-186gv0z",
+      "title": "www.meetup.com/austin-computer-club/events/316617086/",
+      "rawTitle": "www.meetup.com/austin-computer-club/events/316617086/",
+      "normalizedTitle": "www.meetup.com/austin-computer-club/events/316617086/",
+      "section": "",
+      "meetupId": "austin-ai-club-september-30-2026",
+      "meetupTitle": "Sovereign AI Club - September 30, 2026",
+      "meetupSlug": "2026-09-30",
+      "meetupHref": "/topics/2026-09-30.md",
+      "sourceLinks": [
+        "https://www.meetup.com/austin-computer-club/events/316617086/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://www.meetup.com/austin-computer-club/events/316617086/",
+          "title": "www.meetup.com/austin-computer-club/events/316617086/",
+          "section": ""
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "www.meetup.com/austin-computer-club/events/316617086/ Sovereign AI Club - September 30, 2026 2026-09-30 https://www.meetup.com/austin-computer-club/events/316617086/"
+    },
+    {
+      "id": "austin-ai-club-september-30-2026-topic-5c83ky",
       "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
       "rawTitle": "www.meetup.com/bitcoin-park-austin/events/316616278/",
       "normalizedTitle": "www.meetup.com/bitcoin-park-austin/events/316616278/",
@@ -193831,8 +193880,33 @@
       "unresolvedWikiLinks": [],
       "searchText": "luma.com/g3o10lht Sovereign AI Club - September 30, 2026 2026-09-30 https://luma.com/g3o10lht"
     },
-    "austin-ai-club-september-30-2026-topic": {
-      "id": "austin-ai-club-september-30-2026-topic",
+    "austin-ai-club-september-30-2026-topic-186gv0z": {
+      "id": "austin-ai-club-september-30-2026-topic-186gv0z",
+      "title": "www.meetup.com/austin-computer-club/events/316617086/",
+      "rawTitle": "www.meetup.com/austin-computer-club/events/316617086/",
+      "normalizedTitle": "www.meetup.com/austin-computer-club/events/316617086/",
+      "section": "",
+      "meetupId": "austin-ai-club-september-30-2026",
+      "meetupTitle": "Sovereign AI Club - September 30, 2026",
+      "meetupSlug": "2026-09-30",
+      "meetupHref": "/topics/2026-09-30.md",
+      "sourceLinks": [
+        "https://www.meetup.com/austin-computer-club/events/316617086/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://www.meetup.com/austin-computer-club/events/316617086/",
+          "title": "www.meetup.com/austin-computer-club/events/316617086/",
+          "section": ""
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "www.meetup.com/austin-computer-club/events/316617086/ Sovereign AI Club - September 30, 2026 2026-09-30 https://www.meetup.com/austin-computer-club/events/316617086/"
+    },
+    "austin-ai-club-september-30-2026-topic-5c83ky": {
+      "id": "austin-ai-club-september-30-2026-topic-5c83ky",
       "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
       "rawTitle": "www.meetup.com/bitcoin-park-austin/events/316616278/",
       "normalizedTitle": "www.meetup.com/bitcoin-park-austin/events/316616278/",
@@ -229266,11 +229340,11 @@
   },
   "stats": {
     "pageCount": 183,
-    "topicCount": 263,
+    "topicCount": 264,
     "rawPageCount": 0,
     "linkCount": 2003,
     "sourceRecordCount": 13,
-    "sourceLinkCount": 1209,
+    "sourceLinkCount": 1210,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-09-18"
   }

@@ -160,7 +160,7 @@ describe("authored Sovereign AI Club event metadata", () => {
     vi.setSystemTime(new Date("2026-09-18T12:00:00-05:00"));
     const entries = buildCalendarEntries(meetups, 2);
     expect(entries[0]).toMatchObject({ kind: "authored", slug: "2026-09-30" });
-    expect(entries[0].event.listings).toHaveLength(2);
+    expect(entries[0].event.listings).toHaveLength(3);
     expect(getNextSubmissionTarget(meetups).slug).toBe("2026-09-30");
     expect(entries[1]).toMatchObject({
       kind: "generated", slug: "2026-10-14",
