@@ -107,6 +107,8 @@ export default function MeetupDetailView({
 
           <div className="meetup-body meetup-body--detail">
             <MeetupEventBar meetup={meetup} />
+            {meetup.event?.listings?.length ? <p>{meetup.event.summary}</p> : null}
+            {isUpcoming && meetup.tracks.length === 0 ? <p>Topics will be added closer to the meetup.</p> : null}
             {meetup.tracks.map((track, index) => (
               <StaticTrackSection
                 key={track.id}

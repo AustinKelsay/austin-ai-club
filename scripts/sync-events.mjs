@@ -150,6 +150,7 @@ function collectEvents() {
         locationName: event.locationName,
         locationAddress: event.locationAddress,
         reminderSendHour: event.reminderSendHour,
+        ...(event.listings ? { listings: event.listings } : {}),
         detailsUrl,
         googleCalendarUrl: buildGoogleCalendarUrl({
           ...event,

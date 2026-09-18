@@ -12,6 +12,8 @@ Start with:
 
 ## Meetups
 
+- [2026-09-30](./2026-09-30.md) - First public meetup; topic board in preparation
+
 - [2026-09-09](./2026-09-09.md) - Sovereign AI Club meetup notes
 - [2026-08-26](./2026-08-26.md) - Sovereign AI Club meetup notes
 - [2026-08-05](./2026-08-05.md) - Sovereign AI Club meetup notes

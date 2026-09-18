@@ -98,6 +98,7 @@ function createCalendarEntry(meetup) {
 }
 
 function createGeneratedEntry(templateEvent, slotStartAt, index) {
+  const { listings: _listings, ...slotTemplate } = templateEvent;
   const startAt = createGeneratedStartDate(templateEvent, slotStartAt);
   const durationMs = new Date(templateEvent.endAt).getTime() - new Date(templateEvent.startAt).getTime();
   const endAt = new Date(startAt.getTime() + durationMs);
@@ -110,10 +111,8 @@ function createGeneratedEntry(templateEvent, slotStartAt, index) {
     date: formatEventDate({ ...templateEvent, startAt: startAt.toISOString() }),
     detailsHref: null,
     event: {
-      ...templateEvent,
-      summary: index === 0
-        ? templateEvent.summary
-        : "Biweekly Sovereign AI Club meetup. Full topic board and notes will land closer to the event.",
+      ...slotTemplate,
+      summary: "Tentative Sovereign AI Club meetup. Date and details are not confirmed.",
       startAt: startAt.toISOString(),
       endAt: endAt.toISOString(),
     },

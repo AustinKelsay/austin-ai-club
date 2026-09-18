@@ -62,6 +62,19 @@ export function getTopicId(sectionId, item, itemIndex) {
   return `${sectionId}-${slugify(item.title)}-${itemIndex}`;
 }
 
+export function MeetupListingLinks({ event }) {
+  if (!event?.listings?.length) return null;
+  return (
+    <div className="meetup-event-actions" aria-label="Event registration and listings">
+      {event.listings.map((listing) => (
+        <a key={listing.href} href={listing.href} target="_blank" rel="noreferrer">
+          {listing.label}
+        </a>
+      ))}
+    </div>
+  );
+}
+
 export function MeetupEventBar({ meetup }) {
   if (!meetup.event) {
     return null;
@@ -77,6 +90,7 @@ export function MeetupEventBar({ meetup }) {
         </span>
         <span>{getLocationLabel(event)}</span>
       </div>
+      <MeetupListingLinks event={event} />
       <div className="meetup-event-actions">
         <a href={buildGoogleCalendarUrl(meetup)} target="_blank" rel="noreferrer">
           add to Google Calendar

@@ -7,7 +7,7 @@ import {
   isUpcomingMeetup,
 } from "../../lib/meetup-ui.js";
 import ArchiveShell from "./ArchiveShell.jsx";
-import { formatMeetupCounts, getMeetupCounts } from "./meetupSections.jsx";
+import { formatMeetupCounts, getMeetupCounts, MeetupListingLinks } from "./meetupSections.jsx";
 
 /**
  * One meetup on the index. The whole card is the link; the heading carries the
@@ -44,6 +44,7 @@ function MeetupCard({ meetup, nextMeetupId, onOpenRoute }) {
           ) : null}
         </div>
       </RouteLink>
+      <MeetupListingLinks event={meetup.event} />
     </article>
   );
 }

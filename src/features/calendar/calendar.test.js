@@ -54,10 +54,10 @@ describe("buildCalendarEntries", () => {
     vi.setSystemTime(new Date("2026-09-07T12:00:00-05:00"));
     const entries = buildCalendarEntries(meetups, 6);
     expect(entries.map((entry) => entry.slug)).toEqual([
-      "2026-09-09", "2026-09-23", "2026-10-07", "2026-10-21", "2026-11-04", "2026-11-18",
+      "2026-09-09", "2026-09-30", "2026-10-14", "2026-10-28", "2026-11-11", "2026-11-25",
     ]);
     expect(entries[0].kind).toBe("authored");
-    expect(entries[4].event.startAt).toBe("2026-11-04T23:30:00.000Z");
+    expect(entries[4].event.startAt).toBe("2026-11-11T23:30:00.000Z");
   });
 
 });
@@ -155,27 +155,18 @@ describe("authored Sovereign AI Club event metadata", () => {
     });
   });
 
-  it("lets later Meetup Slots inherit the 2026-09-09 venue and start time", () => {
+  it("uses the public meetup and keeps its registration links off tentative slots", () => {
     vi.useFakeTimers();
-    vi.setSystemTime(new Date("2026-09-10T12:00:00-05:00"));
-
+    vi.setSystemTime(new Date("2026-09-18T12:00:00-05:00"));
     const entries = buildCalendarEntries(meetups, 2);
-
-    expect(entries[0]).toMatchObject({
-      kind: "generated",
-      slug: "2026-09-23",
-      event: {
-        title: "Sovereign AI Club",
-        locationName: "AI Freedom Lab",
-        startAt: "2026-09-23T22:30:00.000Z",
-        endAt: "2026-09-24T00:30:00.000Z",
-        summary: "Quick AI news rundown, demos, and open discussion.",
-      },
+    expect(entries[0]).toMatchObject({ kind: "authored", slug: "2026-09-30" });
+    expect(entries[0].event.listings).toHaveLength(2);
+    expect(getNextSubmissionTarget(meetups).slug).toBe("2026-09-30");
+    expect(entries[1]).toMatchObject({
+      kind: "generated", slug: "2026-10-14",
+      event: { locationName: "Bitcoin Park Austin", startAt: "2026-10-14T22:30:00.000Z" },
     });
-    expect(entries[1].slug).toBe("2026-10-07");
-    expect(entries[1].event.summary).toBe(
-      "Biweekly Sovereign AI Club meetup. Full topic board and notes will land closer to the event.",
-    );
-    expect(entries[1].event.locationName).toBe("AI Freedom Lab");
+    expect(entries[1].event.listings).toBeUndefined();
+    expect(entries[1].event.summary).toContain("not confirmed");
   });
 });

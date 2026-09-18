@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T22:33:27.756Z",
+  "generatedAt": "2026-09-18T21:59:37.107Z",
   "pages": [
     {
       "id": "abliterlitics",
@@ -68360,6 +68360,43 @@
       "bodyMarkdown": "# Security\n\nSecurity is the Sovereign AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **Mini Shai-Hulud targets coding-agent settings**.\n- [[Sovereign AI Club - September 9, 2026]]: **AWS Postgres MCP exceeded its read-only scope**.\n- [[Sovereign AI Club - September 9, 2026]]: **DeepSeek Harness could bypass its own sandbox controls**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Anthropic deliberately trains a reward-hacking Opus**, **OpenAI’s wiki incident forces a disclosure question**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, **V12 breaks Signal's SGX contact-discovery enclave**, **Google ships a runnable zero-trust agent failure lab**, and **Abliterlitics measures what abliteration actually changed**.\n- [[Sovereign AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Sovereign AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Sovereign AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Sovereign AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Sovereign AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Sovereign AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Sovereign AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Sovereign AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Sovereign AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Sovereign AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Microsoft]]\n- [[Cloudflare OS]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[Signal]]\n- [[GLM]]"
     },
     {
+      "id": "september-30-2026-event-sources",
+      "title": "September 30, 2026 event sources",
+      "type": "summary",
+      "tags": [
+        "source-record"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "sourceLinks": [
+        "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
+        "https://luma.com/g3o10lht"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "section": ""
+        },
+        {
+          "href": "https://luma.com/g3o10lht",
+          "title": "luma.com/g3o10lht",
+          "section": ""
+        }
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "excerpt": "Event listings for Sovereign AI Club - September 30, 2026, checked September 18. Topic research has not started.",
+      "rawHref": "/topics/raw/articles/2026-09-30-link-records.md",
+      "relativePath": "raw/articles/2026-09-30-link-records.md",
+      "outgoingIds": [
+        "austin-ai-club-september-30-2026"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "referencedTopicSources": []
+    },
+    {
       "id": "september-9-2026-source-links",
       "title": "September 9, 2026 source links",
       "type": "summary",
@@ -81816,6 +81853,46 @@
       "outgoingIds": [],
       "unresolvedLinks": [],
       "backlinkIds": [],
+      "referencedTopicSources": []
+    },
+    {
+      "id": "austin-ai-club-september-30-2026",
+      "title": "Sovereign AI Club - September 30, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board"
+      ],
+      "sources": [
+        "raw/articles/2026-09-30-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [
+        "https://luma.com/g3o10lht",
+        "https://www.meetup.com/bitcoin-park-austin/events/316616278/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://luma.com/g3o10lht",
+          "title": "luma.com/g3o10lht",
+          "section": ""
+        },
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "section": ""
+        }
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "excerpt": "Our first public meetup. Wednesday, 5:30 to 7:30 PM Central (America/Chicago). Free admission.",
+      "rawHref": "/topics/2026-09-30.md",
+      "relativePath": "2026-09-30.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "september-30-2026-event-sources"
+      ],
       "referencedTopicSources": []
     },
     {
@@ -157622,6 +157699,43 @@
       ],
       "bodyMarkdown": "# Security\n\nSecurity is the Sovereign AI Club track for attacks, abuse patterns, prompt injection, supply-chain failures, model misuse, defensive tooling, operational risk, and AI trust boundaries.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **Mini Shai-Hulud targets coding-agent settings**.\n- [[Sovereign AI Club - September 9, 2026]]: **AWS Postgres MCP exceeded its read-only scope**.\n- [[Sovereign AI Club - September 9, 2026]]: **DeepSeek Harness could bypass its own sandbox controls**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Anthropic deliberately trains a reward-hacking Opus**, **OpenAI’s wiki incident forces a disclosure question**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, **V12 breaks Signal's SGX contact-discovery enclave**, **Google ships a runnable zero-trust agent failure lab**, and **Abliterlitics measures what abliteration actually changed**.\n- [[Sovereign AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **Shai-Hulud hits keyv and 2B monthly npm installs**.\n- [[Sovereign AI Club - July 22, 2026]]: **Grok Build uploaded the repo, not just the context**, **OpenAI's cyber eval breached Hugging Face**, **Antares makes vulnerability localization small and local**, and **The AI safety leaderboard tops out at C+**.\n- [[Sovereign AI Club - July 8, 2026]]: **Claude Code quietly fingerprinted its own users**.\n- [[Sovereign AI Club - June 24, 2026]]: **Who reported the Fable jailbreak?**.\n- [[Sovereign AI Club - June 10, 2026]]: **Frontier model review gets a federal lane**.\n- [[Sovereign AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Sovereign AI Club - May 13, 2026]]: **Vercel's Context.ai breach**, **Mini Shai-Hulud hits the AI dev supply chain**, **PII filters are becoming local model infrastructure**, **HRF funds AI for individual rights**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, **Anthropic opens the bounty door**, **AI resume screeners prefer AI-polished resumes**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Sovereign AI Club - April 15, 2026]]: **Anthropic launches Project Glasswing with Claude Mythos Preview**, **Anthropic's fake-tool anti-distillation path**, **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, and **AI Trust Commons governance framework**.\n- [[Sovereign AI Club - April 1, 2026]]: **Claude Code source leaked via npm sourcemap**, **LiteLLM supply-chain attack**, **Axios supply-chain attack**, and **Black-hat LLMs**.\n- [[Sovereign AI Club - March 18, 2026]]: **KeepAI**, **SEO Injection**, and **Security nightmare thread**.\n\n## Related\n\n- [[Agent Security]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Privacy Tooling]]\n- [[AI Governance]]\n- [[Coding Agents]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Microsoft]]\n- [[Cloudflare OS]]\n- [[HARC]]\n- [[Abliterlitics]]\n- [[Signal]]\n- [[GLM]]"
     },
+    "september-30-2026-event-sources": {
+      "id": "september-30-2026-event-sources",
+      "title": "September 30, 2026 event sources",
+      "type": "summary",
+      "tags": [
+        "source-record"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "sourceLinks": [
+        "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
+        "https://luma.com/g3o10lht"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "section": ""
+        },
+        {
+          "href": "https://luma.com/g3o10lht",
+          "title": "luma.com/g3o10lht",
+          "section": ""
+        }
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "excerpt": "Event listings for Sovereign AI Club - September 30, 2026, checked September 18. Topic research has not started.",
+      "rawHref": "/topics/raw/articles/2026-09-30-link-records.md",
+      "relativePath": "raw/articles/2026-09-30-link-records.md",
+      "outgoingIds": [
+        "austin-ai-club-september-30-2026"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "referencedTopicSources": []
+    },
     "september-9-2026-source-links": {
       "id": "september-9-2026-source-links",
       "title": "September 9, 2026 source links",
@@ -171081,6 +171195,46 @@
       "backlinkIds": [],
       "referencedTopicSources": []
     },
+    "austin-ai-club-september-30-2026": {
+      "id": "austin-ai-club-september-30-2026",
+      "title": "Sovereign AI Club - September 30, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board"
+      ],
+      "sources": [
+        "raw/articles/2026-09-30-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [
+        "https://luma.com/g3o10lht",
+        "https://www.meetup.com/bitcoin-park-austin/events/316616278/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://luma.com/g3o10lht",
+          "title": "luma.com/g3o10lht",
+          "section": ""
+        },
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "section": ""
+        }
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "excerpt": "Our first public meetup. Wednesday, 5:30 to 7:30 PM Central (America/Chicago). Free admission.",
+      "rawHref": "/topics/2026-09-30.md",
+      "relativePath": "2026-09-30.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "september-30-2026-event-sources"
+      ],
+      "referencedTopicSources": []
+    },
     "austin-ai-club-september-9-2026": {
       "id": "austin-ai-club-september-9-2026",
       "title": "Sovereign AI Club - September 9, 2026",
@@ -178527,6 +178681,56 @@
     }
   },
   "topics": [
+    {
+      "id": "austin-ai-club-september-30-2026-topic-g3o10lht",
+      "title": "luma.com/g3o10lht",
+      "rawTitle": "luma.com/g3o10lht",
+      "normalizedTitle": "luma.com/g3o10lht",
+      "section": "",
+      "meetupId": "austin-ai-club-september-30-2026",
+      "meetupTitle": "Sovereign AI Club - September 30, 2026",
+      "meetupSlug": "2026-09-30",
+      "meetupHref": "/topics/2026-09-30.md",
+      "sourceLinks": [
+        "https://luma.com/g3o10lht"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://luma.com/g3o10lht",
+          "title": "luma.com/g3o10lht",
+          "section": ""
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "luma.com/g3o10lht Sovereign AI Club - September 30, 2026 2026-09-30 https://luma.com/g3o10lht"
+    },
+    {
+      "id": "austin-ai-club-september-30-2026-topic",
+      "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+      "rawTitle": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+      "normalizedTitle": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+      "section": "",
+      "meetupId": "austin-ai-club-september-30-2026",
+      "meetupTitle": "Sovereign AI Club - September 30, 2026",
+      "meetupSlug": "2026-09-30",
+      "meetupHref": "/topics/2026-09-30.md",
+      "sourceLinks": [
+        "https://www.meetup.com/bitcoin-park-austin/events/316616278/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "section": ""
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "www.meetup.com/bitcoin-park-austin/events/316616278/ Sovereign AI Club - September 30, 2026 2026-09-30 https://www.meetup.com/bitcoin-park-austin/events/316616278/"
+    },
     {
       "id": "austin-ai-club-september-9-2026-agent-infrastructure-nvidia-pair-routes-inference-across-your-local-pcs",
       "title": "NVIDIA PAIR routes inference across your local PCs",
@@ -193602,6 +193806,56 @@
     }
   ],
   "topicsById": {
+    "austin-ai-club-september-30-2026-topic-g3o10lht": {
+      "id": "austin-ai-club-september-30-2026-topic-g3o10lht",
+      "title": "luma.com/g3o10lht",
+      "rawTitle": "luma.com/g3o10lht",
+      "normalizedTitle": "luma.com/g3o10lht",
+      "section": "",
+      "meetupId": "austin-ai-club-september-30-2026",
+      "meetupTitle": "Sovereign AI Club - September 30, 2026",
+      "meetupSlug": "2026-09-30",
+      "meetupHref": "/topics/2026-09-30.md",
+      "sourceLinks": [
+        "https://luma.com/g3o10lht"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://luma.com/g3o10lht",
+          "title": "luma.com/g3o10lht",
+          "section": ""
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "luma.com/g3o10lht Sovereign AI Club - September 30, 2026 2026-09-30 https://luma.com/g3o10lht"
+    },
+    "austin-ai-club-september-30-2026-topic": {
+      "id": "austin-ai-club-september-30-2026-topic",
+      "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+      "rawTitle": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+      "normalizedTitle": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+      "section": "",
+      "meetupId": "austin-ai-club-september-30-2026",
+      "meetupTitle": "Sovereign AI Club - September 30, 2026",
+      "meetupSlug": "2026-09-30",
+      "meetupHref": "/topics/2026-09-30.md",
+      "sourceLinks": [
+        "https://www.meetup.com/bitcoin-park-austin/events/316616278/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316616278/",
+          "section": ""
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "www.meetup.com/bitcoin-park-austin/events/316616278/ Sovereign AI Club - September 30, 2026 2026-09-30 https://www.meetup.com/bitcoin-park-austin/events/316616278/"
+    },
     "austin-ai-club-september-9-2026-agent-infrastructure-nvidia-pair-routes-inference-across-your-local-pcs": {
       "id": "austin-ai-club-september-9-2026-agent-infrastructure-nvidia-pair-routes-inference-across-your-local-pcs",
       "title": "NVIDIA PAIR routes inference across your local PCs",
@@ -214083,6 +214337,10 @@
       "target": "glm"
     },
     {
+      "source": "september-30-2026-event-sources",
+      "target": "austin-ai-club-september-30-2026"
+    },
+    {
       "source": "september-9-2026-source-links",
       "target": "austin-ai-club-september-9-2026"
     },
@@ -218431,6 +218689,16 @@
         "updated": "2026-09-09"
       },
       {
+        "id": "september-30-2026-event-sources",
+        "label": "September 30, 2026 event sources",
+        "type": "summary",
+        "tags": [
+          "source-record"
+        ],
+        "degree": 1,
+        "updated": "2026-09-18"
+      },
+      {
         "id": "september-9-2026-source-links",
         "label": "September 9, 2026 source links",
         "type": "summary",
@@ -218679,6 +218947,17 @@
         ],
         "degree": 0,
         "updated": "2026-06-24"
+      },
+      {
+        "id": "austin-ai-club-september-30-2026",
+        "label": "Sovereign AI Club - September 30, 2026",
+        "type": "meetup",
+        "tags": [
+          "meetup",
+          "topic-board"
+        ],
+        "degree": 1,
+        "updated": "2026-09-18"
       },
       {
         "id": "austin-ai-club-september-9-2026",
@@ -225724,6 +226003,11 @@
         "kind": "wiki"
       },
       {
+        "source": "september-30-2026-event-sources",
+        "target": "austin-ai-club-september-30-2026",
+        "kind": "topic"
+      },
+      {
         "source": "september-9-2026-source-links",
         "target": "austin-ai-club-september-9-2026",
         "kind": "topic"
@@ -228981,13 +229265,13 @@
     ]
   },
   "stats": {
-    "pageCount": 181,
-    "topicCount": 261,
+    "pageCount": 183,
+    "topicCount": 263,
     "rawPageCount": 0,
-    "linkCount": 2002,
-    "sourceRecordCount": 12,
-    "sourceLinkCount": 1207,
+    "linkCount": 2003,
+    "sourceRecordCount": 13,
+    "sourceLinkCount": 1209,
     "unresolvedLinkCount": 0,
-    "lastUpdatedAt": "2026-09-09"
+    "lastUpdatedAt": "2026-09-18"
   }
 }

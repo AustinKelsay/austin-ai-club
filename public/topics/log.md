@@ -699,3 +699,7 @@
 - Linked the July 22 Showcase directly to the standalone Realtime Voice Arena BenchPack repository.
 - Added the public BenchLocal repository as the platform link while retaining NVIDIA PersonaPlex and its Hugging Face model card as upstream sources.
 - Synchronized the links across Meetup Data, the Markdown Archive, dated source records, and the generated wiki manifest without changing the slide copy or screenshot.
+
+## 2026-09-18
+
+Registered September 30 as the first public meetup, with confirmed event details and live Meetup and Luma links. Topic curation is pending.
