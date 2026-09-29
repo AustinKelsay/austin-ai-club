@@ -1,10 +1,10 @@
 ---
 title: GLM
 created: 2026-07-08
-updated: 2026-09-08
+updated: 2026-09-29
 type: entity
 tags: [entity, model, open-source, coding-agents]
-sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # GLM
@@ -15,6 +15,7 @@ GLM-5.3 full weights became available after the August API announcement. The ful
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - September 9, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - September 9, 2026]]: **GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support**.
 

@@ -1,10 +1,10 @@
 ---
 title: PrismML
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-09-29
 type: entity
 tags: [entity, company, models-research, local-ai, open-source]
-sources: [raw/articles/2026-05-27-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-05-27-link-records.md]
 ---
 
 # PrismML
@@ -13,6 +13,7 @@ PrismML is a recurring Sovereign AI Club entity for extreme model compression, o
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - May 27, 2026]]: **Open model releases**.
 
 ## Related

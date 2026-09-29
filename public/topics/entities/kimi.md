@@ -1,10 +1,10 @@
 ---
 title: Kimi
 created: 2026-07-08
-updated: 2026-08-26
+updated: 2026-09-29
 type: entity
 tags: [entity, model, open-source, coding-agents]
-sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Kimi
@@ -13,6 +13,7 @@ Kimi is Moonshot AI's model family, recurring in Sovereign AI Club through open 
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Anthropic says DeepSeek and Kimi quietly served Claude**.
 - [[Sovereign AI Club - August 26, 2026]]: **Chinese frontier models converged on linear and sparse attention**.
 - [[Sovereign AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.
 - [[Sovereign AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.

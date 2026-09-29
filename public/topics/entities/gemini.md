@@ -1,10 +1,10 @@
 ---
 title: Gemini
 created: 2026-07-08
-updated: 2026-08-25
+updated: 2026-09-29
 type: entity
 tags: [entity, model, big-tech-moves]
-sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
 ---
 
 # Gemini
@@ -13,6 +13,7 @@ Gemini is Google's frontier model family and an upstream technology reference fo
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**.
 - [[Sovereign AI Club - August 26, 2026]]: **Closed model releases**.
 - [[Sovereign AI Club - July 22, 2026]]: **Closed model releases**.
 - [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.

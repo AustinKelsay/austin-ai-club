@@ -1,10 +1,10 @@
 ---
 title: Meta Muse
 created: 2026-07-08
-updated: 2026-09-08
+updated: 2026-09-29
 type: entity
 tags: [entity, model, models-research, coding-agents]
-sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-04-15-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-04-15-link-records.md]
 ---
 
 # Meta Muse
@@ -17,6 +17,7 @@ September 2026 model updates include Muse Spark 1.3 with a subsequent max-reason
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**.
 - [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**.
 - [[Sovereign AI Club - September 9, 2026]]: **Meta Muse puts a personal agent in a cloud VM**.
 

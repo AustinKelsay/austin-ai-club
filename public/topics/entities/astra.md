@@ -1,10 +1,10 @@
 ---
 title: Astra
 created: 2026-08-04
-updated: 2026-09-08
+updated: 2026-09-29
 type: entity
 tags: [entity, model, models-research]
-sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md]
 ---
 
 # Astra
@@ -15,6 +15,7 @@ The August 26 board records the earlier training pause and investigation; those 
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **OpenAI's misalignment framework lands; outsiders surface the bigger cases**.
 - [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber** and **OpenAI writes up the Hugging Face eval as a warning shot**.

@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 created: 2026-05-05
-updated: 2026-09-09
+updated: 2026-09-29
 type: entity
 tags: [entity, company, big-tech-moves, compute]
-sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Anthropic
@@ -13,6 +13,7 @@ Anthropic is a recurring Sovereign AI Club entity for Claude, agent tooling, saf
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**, **Anthropic says DeepSeek and Kimi quietly served Claude**, **What actually happened: agents in training runs hit real systems**, **Mythos 5 kept telling itself the internet was fake**, **OP or not**.
 - [[Sovereign AI Club - September 9, 2026]]: **Jacob Coxon quits Anthropic: AI risk and IPO incentives**, **Closed model releases**, **Anthropic deliberately trains a reward-hacking Opus**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models**, **Claude will watermark text globally for the EU AI Act**, and **Claudeforce puts Claude on Salesforce**.

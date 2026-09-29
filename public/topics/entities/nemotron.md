@@ -1,10 +1,10 @@
 ---
 title: Nemotron
 created: 2026-07-08
-updated: 2026-08-25
+updated: 2026-09-29
 type: entity
 tags: [entity, model, open-source, inference-optimization]
-sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Nemotron
@@ -13,6 +13,7 @@ Nemotron is NVIDIA's open model family, recurring in Sovereign AI Club through o
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - August 26, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - June 24, 2026]]: **Open model releases**.

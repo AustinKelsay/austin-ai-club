@@ -1,10 +1,10 @@
 ---
 title: Inference Optimization
 created: 2026-06-24
-updated: 2026-09-08
+updated: 2026-09-29
 type: concept
 tags: [concept, models-research, agent-infrastructure, local-ai]
-sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Inference Optimization
@@ -13,6 +13,7 @@ Inference Optimization covers the practical work of making AI systems cheaper, f
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Splash vs mlx-serve: rival benchmarks, real fixes**, **Models hand off KV cache instead of text**.
 - [[Sovereign AI Club - September 9, 2026]]: **GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, **Chinese frontier models converged on linear and sparse attention**, and **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**.

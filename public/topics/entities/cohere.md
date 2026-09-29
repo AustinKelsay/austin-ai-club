@@ -1,10 +1,10 @@
 ---
 title: Cohere
 created: 2026-06-09
-updated: 2026-09-08
+updated: 2026-09-29
 type: entity
 tags: [entity, company, open-models, local-ai, agent-infrastructure]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-09-09-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-09-09-link-records.md]
 ---
 
 # Cohere
@@ -15,6 +15,7 @@ Cohere Parse (parse-v5.0) is an August 27, 2026 document-parsing release for str
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**.
 - [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.

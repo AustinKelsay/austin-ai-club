@@ -1,10 +1,10 @@
 ---
 title: Model Distillation
 created: 2026-05-05
-updated: 2026-08-26
+updated: 2026-09-29
 type: concept
 tags: [concept, models-research, security, open-source]
-sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Model Distillation
@@ -13,6 +13,7 @@ Model Distillation is the recurring theme of using one model's outputs, traces, 
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Anthropic says DeepSeek and Kimi quietly served Claude**.
 - [[Sovereign AI Club - August 26, 2026]]: **Encrypted reasoning blobs decrypt via weaker sibling models**.
 - [[Sovereign AI Club - April 15, 2026]]: **Anthropic's fake-tool anti-distillation path**.
 - [[Sovereign AI Club - April 1, 2026]]: **Open model releases** and **Distillation hesitation**.

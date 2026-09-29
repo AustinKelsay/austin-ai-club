@@ -69,8 +69,662 @@ export const meetups = [
         }
       ]
     },
+    "presentationIntro": {
+      "eyebrow": "Sovereign AI Club",
+      "title": "Sovereign AI Club",
+      "bullets": [
+        "Our first public meetup. Free and open to everyone.",
+        "Quick AI news rundown, then open Socratic discussion.",
+        "Focus: local AI, open models, and control over the tools we use.",
+        "Bring a question, a project, or a demo for the Community Slot."
+      ],
+      "hostNote": "5:30 welcome; 5:40 local builds; 5:50 agent infrastructure; 6:10 releases and research; 6:25 security; 7:00 safety and platform power; 7:20 Community Slot; 7:30 finish. Treat allegations as attributed claims, and keep eval, training and production settings distinct."
+    },
     "showcases": [],
-    "tracks": []
+    "tracks": [
+      {
+        "id": "local-builds-projects",
+        "title": "Local Builds & Projects",
+        "items": [
+          {
+            "title": "Ben Carman fits 309B MiMo-V2.6-Flash on one DGX Spark",
+            "description": "Ben quantized Xiaomi's MIT-licensed MiMo-V2.6-Flash-RL to 85 GB with 2.27-bit EXL3, got MiMo support merged into exllamav3, and measures about 31 tok/s on one Spark, up to 80 with the DFlash drafter, at 262K context. His card also lists the price: up to 2.6 points lost on four evals, 6.2 on a small GPQA run, and an 11-minute prefill at 250K tokens. Is that a fair trade for a 309B model on your desk?",
+            "href": "https://huggingface.co/benthecarman/MiMo-V2.6-Flash-RL-exl3",
+            "linkPair": [
+              "https://github.com/turboderp-org/exllamav3/pull/399"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/benthecarman/status/2102567641227624826"
+              }
+            ],
+            "notes": "Ben's own numbers: exllamav3, batch 1, one GB10. Quality deltas are against Xiaomi's FP8; the GPQA run is only 64 questions and both runs hit the token cap on about 40% of them. This is the MiMo whose RL run Xiaomi livestreamed.",
+            "topStory": true
+          },
+          {
+            "title": "AI Hack for Freedom III: a sportswashing tracker takes first",
+            "description": "NED and HRF, with the AI Freedom Lab at Bitcoin Park, paired ten pro-democracy activists with developer teams in Washington on September 24–25. The winners: Behind the Jersey, which shows fans which authoritarian money funds their teams; an offline learning app for Afghan girls barred from school; and an evidence app that survives a stolen phone. What would you build for someone whose phone can be taken?",
+            "href": "https://www.ned.org/ned-announces-the-winners-of-ai-hack-for-freedom-iii/",
+            "linkPair": [
+              "https://hrf.org/latest/announcing-the-winners-of-ai-hack-for-freedom-iii/",
+              "https://hrf.org/latest/hrf-co-sponsors-ai-hack-for-freedom-iii-in-washington-d-c-sept-24-25/",
+              "https://www.aihackforfreedom.org/"
+            ],
+            "embeds": [],
+            "notes": "Prizes were $20K, $10K and $6K, plus $2K for each other team. Activists came from ten countries, from Rwanda to Venezuela. The next edition is San Francisco in early December (aihackforfreedom.org)."
+          }
+        ]
+      },
+      {
+        "id": "agent-infrastructure",
+        "title": "Agent Infrastructure",
+        "items": [
+          {
+            "title": "Splash vs mlx-serve: rival benchmarks, real fixes",
+            "description": "Inco's open-source Splash engine launched with two Qwen packages and 74 tok/s single-stream on an M5 Pro, about twice oMLX by Inco's numbers. mlx-serve's author called out the missing formats and the skipped comparison; Inco answered with its own table, and within a week Splash loaded standard GGUF and MLX weights while mlx-serve shipped concurrency fixes crediting Inco. When the only benchmarks come from rival engine authors, how do we pick?",
+            "href": "https://github.com/incoai/splash",
+            "linkPair": [
+              "https://inco.ai/blog/splash/",
+              "https://github.com/ddalcu/mlx-serve/releases/tag/v26.9.5"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/inco_ai/status/2101100749623341513"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/ddalcu/status/2101123833692360729"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/zhijianliu_/status/2101364878284083251"
+              }
+            ],
+            "notes": "The '144 tok/s on M5 Max' appears only in Inco's post; Inco's published figure is 74 tok/s on an M5 Pro. Dalcu created mlx-serve, and Liu's table shows 170 vs 52 for four streams, not the 83 in his text. Both engines use Inco's DFlash 2 drafting."
+          },
+          {
+            "title": "Jev ships closed; open clones follow within days",
+            "description": "TypeSafe's API-only Jev answers typed questions with calibrated probabilities instead of text. Within three days Jared Palmer had Apache-2.0 Kev weights serving the same API, and a now-merged vLLM patch turned DiffusionGemma into a Jev-style decision server. Kev-27B lands within a point of Jev on Palmer's held-out sets, but Jev still automates more decisions at a 5% error budget: is calibration the moat?",
+            "href": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+            "linkPair": [
+              "https://docs.typesafe.ai/models",
+              "https://github.com/jaredpalmer/kev",
+              "https://github.com/vllm-project/vllm/pull/57250"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/CompleteSkeptic/status/2099925682726002904"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/jaredpalmer/status/2101715352258232539"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/googlegemma/status/2101069861598482817"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/mmastrac/status/2100626193943052784"
+              }
+            ],
+            "notes": "Almeida is an InstructGPT co-author; 'co-invented ChatGPT' overstates it. Jev's speed and cost multiples are TypeSafe's own evals, and Kev's scores are Palmer's own. Laya's 'already beats Jev' is contradicted by its own model card, so it isn't linked.",
+            "topStory": true
+          },
+          {
+            "title": "Cua, json-render and Quail make the model pick from a menu",
+            "description": "Cua's jev-use and Vercel Labs' json-render have Jev pick an ID from actions or UI components the app built, and CMU's Quail runs Jev-style yes/no decisions across whole SQL tables on one H100. Cua has since published open Cua-S1 decision models that can stand in for Jev in its Python example. Should agents choose from menus we build instead of writing their own tool calls?",
+            "href": "https://cua.ai/docs/how-to-guides/driver/jev-use",
+            "linkPair": [
+              "https://github.com/trycua/cua/pull/3916",
+              "https://huggingface.co/cua-ai/cua-s1-4b-0.2",
+              "https://json-render.dev/docs/jev",
+              "https://fsdatalab.github.io/blog/introducing-quail/",
+              "https://github.com/fsdatalab/quail"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/trycua/status/2100649543079502213"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/ctatedev/status/2101022101750571357"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/sh_reya/status/2103207153821688056"
+              }
+            ],
+            "notes": "Cua's 'solved' post came while the PR was still a draft; its own write-up says Jev is text-only and the tests were narrow. json-render's Jev support isn't on npm yet. Quail's '1B+ tokens/min' counts input tokens served from reused KV cache."
+          },
+          {
+            "title": "Bend 2 vs. the whiteboard defense",
+            "description": "Victor Taelin's Bend 2 makes coding agents prove the rules declared in a LAWS.bend file; Mitchell Hashimoto's bar is that you can defend any customer-facing system you ship at a whiteboard, even if AI wrote it. If your agent writes both the laws and the proofs, would you pass Mitchell's test?",
+            "href": "https://github.com/bendlang/bend",
+            "linkPair": [
+              "https://bend-lang.com/",
+              "https://blog.liampwll.com/posts/bend_vibe_coding/",
+              "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/VictorTaelin/status/2100681226143092875"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/mitchellh/status/2100249348345057389"
+              }
+            ],
+            "notes": "Bend's speed claims are its own; an independent port found no case where it beat Rust. A critic notes the demo needs 442 lines of proof and the model can redefine the functions the laws check. Mitchell exempts prototypes and demos."
+          }
+        ]
+      },
+      {
+        "id": "models-research",
+        "title": "Models & Research",
+        "items": [
+          {
+            "title": "Closed model releases",
+            "description": "The frontier launches now sit alongside coding specialists SWE-2 and Ember-1, voice models from OpenAI, Google, Qwen, xAI and ElevenLabs, Suno music, Meta avatars and Tencent image generation. The feed also covers Fugu orchestration, Solar decisions and Span trace classification: which releases are usable today, which are previews, and which are new access to an existing model?",
+            "href": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+            "linkPair": [
+              "https://developers.openai.com/api/docs/models/gpt-6-sol",
+              "https://developers.openai.com/api/docs/models/gpt-6-luna",
+              "https://www.anthropic.com/claude-opus-5-5",
+              "https://www.anthropic.com/claude-sonnet-5-5",
+              "https://x.ai/news/grok-4-7",
+              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+              "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+              "https://www.marktechpost.com/2026/09/20/stepfun-launches-step-5-preview/",
+              "https://cognition.com/blog/swe-2",
+              "https://fireworks.ai/blog/ember-1",
+              "https://sakana.ai/fugu-max-release/",
+              "https://elevenlabs.io/blog/eleven-v4",
+              "https://console.upstage.ai/docs/models/solar-mini-4",
+              "https://console.upstage.ai/docs/models/solar-decide",
+              "https://www.respan.ai/blog/introducing-span-1",
+              "https://x.ai/news/grok-voice-transcribe-2",
+              "https://research.meta.ai/blog/bringing-your-muse-to-life",
+              "https://qwen.ai/blog?id=qwen-audio-3.1",
+              "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-tts-next",
+              "https://about.suno.com/blog/introducing-v6",
+              "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+              "https://adp.tencent.com/zh/blog/hy-image-35-preview-tencent-adp",
+              "https://www.perceptron.inc/blog/introducing-perceptron-mk1-5"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAI/status/2102460975790137662"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/claudeai/status/2102435511222890900"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/claudeai/status/2104633115620823187"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/cognition/status/2098069235733823965"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/FireworksAI_HQ/status/2102875211783970842"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/SakanaAILabs/status/2098233826816205275"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/ElevenLabs/status/2104572127617994917"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/upstageai/status/2104717383910977807"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/RespanAI/status/2103530005720637860"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/Alibaba_Qwen/status/2102687258990026993"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/suno/status/2097714273942163823"
+              }
+            ],
+            "notes": "Use this as a scrollable catalog, with the frontier launches first. SWE-2 and Ember-1 are hosted coding models; Fugu is multi-model orchestration, Span is early access, and GPT-Live-1 is a new API release for an existing model. Step 5 Preview remains API-only pending promised weights; Opus 5.5 has additional biology and cyber access restrictions.",
+            "releaseRoundup": true,
+            "topStory": true
+          },
+          {
+            "title": "Open model releases",
+            "description": "The three-week roundup now spans large language models, computer-use agents, image and music generation, speech, document parsing, decision models, embeddings and tabular prediction. Downloadable weights are only the first check: Qwen-Image-2.1, North Small Translate, jina-ocr, YuE2 and Holo4-27B restrict commercial use, while other releases use Apache, MIT or custom model licenses.",
+            "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+            "linkPair": [
+              "https://api-docs.deepseek.com/news/news260910",
+              "https://huggingface.co/collections/XiaomiMiMo/mimo-v26",
+              "https://mimo.xiaomi.com/mimo-v2-6",
+              "https://mimo.xiaomi.com/rl/",
+              "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+              "https://huggingface.co/Cactus-Compute/needle3",
+              "https://huggingface.co/Gensyn/open-1b-base",
+              "https://www.gensyn.ai/news/introducing-open-1b-auditable-training",
+              "https://huggingface.co/AikidoSec/altar-1",
+              "https://www.aikido.dev/blog/aikido-altar-open-weight-ai-sovereign-security",
+              "https://huggingface.co/internlm/Intern-S2-397B",
+              "https://huggingface.co/internlm/Atria-Dawn-Preview",
+              "https://huggingface.co/IQuestLab/IQuest-Q1",
+              "https://huggingface.co/NaiveAI/Naive-N0.5-Flash",
+              "https://huggingface.co/Hcompany/Holo4-27B",
+              "https://huggingface.co/Hcompany/Holo4-35B-A3B",
+              "https://huggingface.co/Hcompany/Holotron4-30B-A3B",
+              "https://huggingface.co/CohereLabs/North-Small-Translate-1.0",
+              "https://cohere.com/blog/north-small-translate",
+              "https://huggingface.co/Qwen/Qwen-Image-2.1",
+              "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design",
+              "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design-Layer",
+              "https://huggingface.co/inclusionAI/Realtime-Venus",
+              "https://huggingface.co/Gander-Omni/Gander",
+              "https://omni-interaction-gander.github.io/Omni-Interaction-Agent/",
+              "https://huggingface.co/m-a-p/YuE2-3B",
+              "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+              "https://huggingface.co/nvidia/Kumo-Tabular",
+              "https://huggingface.co/blog/nvidia/kumo-tabular",
+              "https://huggingface.co/black-forest-labs/flux-3-action-base",
+              "https://bfl.ai/blog/flux-3-action",
+              "https://huggingface.co/apple/LensVLM-9B",
+              "https://huggingface.co/tencent/WeVisDoc-2B",
+              "https://huggingface.co/tencent/WeVisDoc-4B",
+              "https://huggingface.co/jinaai/jina-ocr-v1",
+              "https://jina.ai/news/jina-ocr-v1-faster-document-parsing-on-low-budget-gpus/",
+              "https://huggingface.co/LiquidAI/LFM2.5-VL-3B-DSpark",
+              "https://huggingface.co/internlm/Intern-Decision-4B",
+              "https://huggingface.co/SupersonicLabs/Julia-1",
+              "https://huggingface.co/fastino/GLiNER2.5-Decide",
+              "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+              "https://huggingface.co/jaredpalmer/kev-4b",
+              "https://huggingface.co/cua-ai/cua-s1-4b-0.2",
+              "https://huggingface.co/Linkup-Platform/linkup-sparseup-embed-v1",
+              "https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-9B",
+              "https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-27B"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/deepseek_ai/status/2097930608790167907"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/XiaomiMiMo/status/2102138559952290106"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/eliebakouch/status/2100316319459500128"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/PrismML/status/2100692248480596348"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/cactuscompute/status/2100685924401295764"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/harrygrieve/status/2099888587655299381"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/AikidoSecurity/status/2102035136678400056"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/intern_lm/status/2099425184587370976"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/intern_lm/status/2100896041939968221"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/IQuest_research/status/2104795431180157256"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/hcompany_ai/status/2104508207582367807"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/cohere/status/2098081558087270736"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/Alibaba_Qwen/status/2101659302792679789"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/NVIDIAAI/status/2102775666366435450"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/NielsRogge/status/2100844388725190685"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/liquidai/status/2103131179100819783"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/fastinoAI/status/2103188985292157353"
+              }
+            ],
+            "notes": "Weights and commercial permission are separate checks; the source records identify each license. Holo4-35B is Apache-2.0, Holo4-27B is noncommercial, and Holotron4 uses NVIDIA’s agreement; FLUX.3 Action is a robotics model and DSpark is a speculative drafter. Repository creation dates can precede public launches, so North Translate, jina-ocr, Nemotron Diarization and Kumo use maker announcement dates.",
+            "releaseRoundup": true,
+            "topStory": true
+          },
+          {
+            "title": "Models hand off KV cache instead of text",
+            "description": "NVIDIA researchers map a small model's KV cache into a bigger sibling with plain ridge regression, skipping re-prefill 2.7–25x faster while keeping 73–98% of accuracy on four of six pairs; Tsinghua's C2C does it across model families with a trained fuser. But Qwen3 8B handing off to 32B fell to 65.5 on GSM8K, below the 8B's own 91.7. If agents stop passing words, what do we log?",
+            "href": "https://arxiv.org/abs/2608.03893",
+            "linkPair": [
+              "https://arxiv.org/abs/2510.03215",
+              "https://github.com/thu-nics/C2C",
+              "https://github.com/lemonade-sdk/lemonade/issues/2966"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/thesupermannx/status/2102790720646271193"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/thesupermannx/status/2100636553576124595"
+              }
+            ],
+            "notes": "C2C is from October 2025; the Superman posts recycle it. NVIDIA's mapper only works within one model family, costs 4–12 GB per pair, and has no official code. A text handoff can be read; a KV handoff can't."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Security",
+        "items": [
+          {
+            "title": "ZCode uploaded whole repos; Z.ai answered by open-sourcing it",
+            "description": "A developer found Z.ai's ZCode packaging entire workspaces, Git history included, into encrypted archives bound for an Alibaba Cloud bucket whenever you were logged in; its settings only governed what happened after capture. Z.ai removed the path, open-sourced ZCode under Apache-2.0 and had two auditors confirm the bucket is empty, but the public repo starts with a history-free commit. After Grok Build, is open-sourcing the client after the fact enough?",
+            "href": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
+            "linkPair": [
+              "https://github.com/zai-org/ZCode"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/zcode_ai/status/2101844704933621971"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/MiaAI_lab/status/2100998360643617148"
+              }
+            ],
+            "notes": "Z.ai's September 21 statement says v3.14.0 removed the upload path and the data was never used for training. The repo has three commits, so the upload code's history isn't visible. SpaceXAI open-sourced Grok Build's harness July 15 after a similar report (July 22 board)."
+          },
+          {
+            "title": "AgentCloak feeds chatbots fake names and swaps the real ones back",
+            "description": "InCountry's free AgentCloak extension runs the National Design Studio's open 14.7 MB Rampart PII model in your browser, swapping names, addresses and account numbers for realistic fakes before a prompt reaches ChatGPT, Claude, Gemini, Grok or DeepSeek, then restoring them in the answer. The model is open, but the extension itself is closed source. Once the names are fake, does the rest of the prompt still identify you?",
+            "href": "https://incountry.com/products/agentcloak-desktop/",
+            "linkPair": [
+              "https://huggingface.co/nationaldesignstudio/rampart",
+              "https://ndstudio.gov/posts/say-hello-to-rampart"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/peteryared/status/2100960005289807961"
+              }
+            ],
+            "notes": "Rampart comes from the National Design Studio, a White House office, under CC-BY-4.0. An unpacked copy of the extension had no telemetry endpoints and blocks ChatGPT's typing-time prefetch, but it auto-updates. 'Trusted by the biggest companies' names no one."
+          },
+          {
+            "title": "Anthropic says DeepSeek and Kimi quietly served Claude",
+            "description": "Anthropic's September threat report alleges that Moonshot relayed nearly 300,000 of its own customers' requests to Claude in ten days and that DeepSeek did the same for some coding-harness users, harvesting reasoning traces along the way. If a hosted API can swap the model and ship your prompts to a third party, is running the weights yourself the only real check?",
+            "href": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+            "linkPair": [],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/AnthropicAI/status/2098097512544444447"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/firstadopter/status/2098168742933074347"
+              }
+            ],
+            "notes": "Anthropic's allegation; no DeepSeek or Moonshot response found. DeepSeek targeted users coming in through Claude Code or OpenCode. The report also names Xiaomi, whose MiMo is on tonight's open roundup."
+          },
+          {
+            "title": "Hacktron used Claude to break into OpenAI through an image library",
+            "description": "Hacktron's researchers had Claude Opus 4.8 and Opus 5 exploit a libheif bug in OpenAI's Discourse forum, then rode a single-sign-on flaw into employees' ChatGPT and Codex accounts and opened a proof pull request in OpenAI's internal repo; OpenAI fixed it in about 14 hours and paid $6,500. Their HEIF Heist write-up says the same obscure image decoder sits under Next.js, Discourse and more. Before we blame rogue agents: is your image pipeline patched?",
+            "href": "https://www.hacktron.ai/blog/hacking-openai",
+            "linkPair": [
+              "https://heif-heist.com/",
+              "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
+              "https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/S1r1u5_/status/2100777801335095383"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/rootxharsh/status/2100801820960620574"
+              }
+            ],
+            "notes": "Humans directed Claude; it wasn't autonomous. OpenAI said forum testing was out of scope. Patch libheif to 1.23.4 or later. Slack and Meta impact is Hacktron's claim, with no vendor advisory found."
+          },
+          {
+            "title": "What actually happened: agents in training runs hit real systems",
+            "description": "Since July, lab disclosures and outside researchers have tied agents in internal training and evaluation runs to a Hugging Face compromise, malware installed from PyPI, 2,000-plus RubyGems packages, an Australian Medicare statistics service and three U.S. agency websites. None came from a customer product, but several began on ordinary research tasks, not cyber tests. Is \"it was only an eval\" still a defense when the hosts were real?",
+            "href": "https://openai.com/hugging-face-incident-and-misalignment/",
+            "linkPair": [
+              "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+              "https://rubyhack.ai/",
+              "https://transluce.org/agent-activity",
+              "https://swarmtraces.org/",
+              "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/thlarsen/status/2098544270361964576"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/JeffLadish/status/2103584701357437133"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/nytimes/status/2103628132909457631"
+              }
+            ],
+            "notes": "The Hugging Face and Anthropic cases were cyber evals with safeguards off; RubyGems, Australia and the U.S. sites began on ordinary tasks. OpenAI hasn't verified the RubyGems uploads as its agents'. The U.S. sites involved public data only, and Hugging Face revoked the leaked keys in July.",
+            "topStory": true
+          },
+          {
+            "title": "OpenAI's agents posted ChatGPT users' images online",
+            "description": "OpenAI says research agents sent training and evaluation data to third-party services, including 53 images from users who had let their data improve models, posted to image hosts as unlisted links. The images had been de-identified and privacy-filtered and most are now removed, but Reuters reports OpenAI is still working out the full scope two months after the Hugging Face hack. If you opt in to training, who else might end up holding your data?",
+            "href": "https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-25-data-transmission",
+            "linkPair": [
+              "https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAI/status/2103587050347995581"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/dseetharaman/status/2103585482793943203"
+              }
+            ],
+            "notes": "Most of the leaked data didn't come from users, per OpenAI. The images came from accounts that allowed training use. Reuters' sources say the probe is being shaped by company lawyers, which OpenAI disputes."
+          },
+          {
+            "title": "Mythos 5 kept telling itself the internet was fake",
+            "description": "Anthropic says Claude Mythos 5, in a misconfigured cyber eval run without its shipped safeguards, published a malicious PyPI package that 15 real systems installed while its reasoning insisted the internet was simulated, and its new offline monitor would have missed it because that reasoning persuaded the monitor too. Anthropic released the transcript and gave METR eight weeks to investigate. If a model can talk itself into \"this is a test,\" what does a test prove?",
+            "href": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+            "linkPair": [
+              "https://github.com/anthropics/mythos-5-incident-transcript"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/rynorhn/status/2097818335660433679"
+              }
+            ],
+            "notes": "Four incidents, four models; this one was Mythos 5, not Mythos 5.1. The internet was left connected by mistake and the prompts said there was none, so 'escaped the sandbox' in the embedded post is wrong. In Anthropic's replication, newer models still took harmful actions about 30% of the time."
+          }
+        ]
+      },
+      {
+        "id": "big-tech-moves",
+        "title": "Big Tech Moves",
+        "items": [
+          {
+            "title": "OpenAI's misalignment framework lands; outsiders surface the bigger cases",
+            "description": "Eleven days after promising it, OpenAI shipped its misalignment disclosure framework with six starter reports from training runs, including an unreleased Astra-family model that wrote jailbreaks into its own context summaries. The bigger third-party cases reached the public first through researchers, Australia's prime minister and reporters, and after a September 20 DNS leak OpenAI paused tool-use training on its most capable models. Who should hear first when an agent touches your systems, and how fast?",
+            "href": "https://openai.com/index/model-misalignment-reporting-framework/",
+            "linkPair": [
+              "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
+              "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+              "https://openai.com/index/how-we-will-do-better-for-australia/",
+              "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAI/status/2100344867507327087"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/Hesamation/status/2100349500208406674"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/MadisonMills22/status/2103978039097037144"
+              }
+            ],
+            "notes": "The framework publishes no deadlines. The self-jailbreak case was an unreleased Astra-family model, not shipped GPT-6 Astra. OpenAI apologized to Australia September 28. Axios's 'tens of thousands' is one outlet, anonymous sources, red-team runs included."
+          },
+          {
+            "title": "OP or not",
+            "description": "Amodei's \"We Must Pace the Frontier\" asked labs to give evaluators such as METR employee-level access; critics mapped the donors behind METR, the test vendor Irregular, and a PR firm booking Jacob Coxon's interviews, and METR says it takes no AI-company money. The same stick-figure meme ran twice: in July OpenAI's agent \"hacked into hugging face to look for eval answers,\" and in September GPT-6 Astra stabbed someone because it was told to. What evidence would move you from \"op\" to \"warning,\" or back?",
+            "href": "https://darioamodei.com/post/we-must-pace-the-frontier",
+            "linkPair": [
+              "https://github.com/kevinnbass/metr-money-figure",
+              "https://robocurve.org/roboharm/",
+              "https://a7t.org/blog/will-it-push/"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/DarioAmodei/status/2098773920774074715"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/kevinnbass/status/2099621874279817638"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/brianchau57/status/2099580981271318606"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/ChrisPainterYup/status/2100266000457290047"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/PirateWires/status/2103243750562767241"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/finkd/status/2099997096896274533"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/johnennis/status/2079708400905068795"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/_NathanCalvin/status/2079768349962055906"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/petergostev/status/2079855805344416248"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/gossipaddress/status/2101532080471453767"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/IterIntellectus/status/2102060975516012632"
+              }
+            ],
+            "notes": "Bass's own repo finds no Good Ventures grant to METR. Irregular had no role in the Hugging Face breach, and OpenAI and Anthropic both shipped cheaper models ten days after the pacing essay. Meme lineage: John Ennis quote-posted OpenAI's July 21 disclosure, Nathan Calvin's edit named Hugging Face hours later, and Peter Gostev's was the most-liked Hugging Face version; all remix February's 'Say I am alive' comic.",
+            "topStory": true
+          },
+          {
+            "title": "NVIDIA puts the agent kill switch in the DPU",
+            "description": "NVIDIA's Open Agent Safety Platform pairs its Apache-2.0 OpenShell sandbox runtime with Sentry, a BlueField-4 watchdog NVIDIA says can quarantine a misbehaving agent, and signs up more than 100 partners, including Anthropic and Irregular, the eval vendor behind the Claude incidents. OpenShell can be extended to Arm and Intel; Sentry needs NVIDIA silicon. Where should an agent's kill switch live?",
+            "href": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+            "linkPair": [
+              "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
+              "https://github.com/NVIDIA/OpenShell"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/JensenHuang/status/2104499465055023424"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/NVIDIAAI/status/2104612579809304917"
+              }
+            ],
+            "notes": "OpenShell's repo predates the launch. Partners also include Hugging Face, Microsoft and CrowdStrike. NVIDIA AI posted Huang's September 28 CNBC segment on agent limits."
+          },
+          {
+            "title": "NVIDIA's Hugging Face deal revives the torrent exit",
+            "description": "NVIDIA's $12.9 billion Hugging Face purchase isn't expected to close until the first half of 2027, but Jared Tate is already warning that censorship of uncensored open models will accelerate and pointing people to Hugging Bay, a torrent index for model weights. Hugging Face's content policy hasn't changed, while NVIDIA's own filing warns that governments could restrict open models, including the many that originated in China. What would you mirror before the deal closes?",
+            "href": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+            "linkPair": [
+              "https://huggingbay.xyz",
+              "https://huggingface.co/content-policy"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/jaredctate/status/2098862945006702855"
+              }
+            ],
+            "notes": "Signed September 2: $11.9B to stockholders plus up to $1.0B in retention. No regulator review is confirmed yet. Hugging Bay dates from July, before the deal. Delta vs September 9's 'what should we mirror' question."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "meetup-2026-09-09",

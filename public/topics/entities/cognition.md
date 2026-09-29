@@ -1,10 +1,10 @@
 ---
 title: Cognition
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-09-29
 type: entity
 tags: [entity, company, coding-agents, models-research]
-sources: [raw/articles/2026-07-08-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-07-08-link-records.md]
 ---
 
 # Cognition
@@ -13,6 +13,7 @@ Cognition is a coding-agent company tracked here for Devin and SWE model release
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**.
 - [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.
 
 ## Related

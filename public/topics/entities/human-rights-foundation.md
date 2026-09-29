@@ -1,10 +1,10 @@
 ---
 title: Human Rights Foundation
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-09-29
 type: entity
 tags: [entity, privacy, agent-infrastructure]
-sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-13-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-13-link-records.md]
 ---
 
 # Human Rights Foundation
@@ -13,6 +13,7 @@ Human Rights Foundation is a recurring Sovereign AI Club entity for AI-for-right
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **AI Hack for Freedom III: a sportswashing tracker takes first**.
 - [[Sovereign AI Club - June 24, 2026]]: **HRF turns AI hackathons into an activist training pipeline**.
 - [[Sovereign AI Club - May 13, 2026]]: **HRF funds AI for individual rights**.
 

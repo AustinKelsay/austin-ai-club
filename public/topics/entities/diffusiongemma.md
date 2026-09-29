@@ -1,10 +1,10 @@
 ---
 title: DiffusionGemma
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-09-29
 type: entity
 tags: [entity, model, open-source, inference-optimization]
-sources: [raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md]
 ---
 
 # DiffusionGemma
@@ -13,6 +13,7 @@ DiffusionGemma is Google's diffusion-language-model member of the Gemma ecosyste
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.
 - [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems** and **Open model releases**.
 - [[Sovereign AI Club - June 10, 2026]]: **Open model releases**.
 

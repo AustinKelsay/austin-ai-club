@@ -1,10 +1,10 @@
 ---
 title: Qwen
 created: 2026-05-05
-updated: 2026-09-08
+updated: 2026-09-29
 type: entity
 tags: [entity, model, models-research, open-source]
-sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md, raw/articles/2026-09-09-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md, raw/articles/2026-09-09-link-records.md]
 ---
 
 # Qwen
@@ -15,6 +15,7 @@ Qwen-Drive-1.0-4B supplies Apache-2.0 research artifacts for driving perception 
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**, **Open model releases**.
 - [[Sovereign AI Club - September 9, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - August 26, 2026]]: **Open model releases**, **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**, **Flash-Next 125B does 250k context on a 24GB 4090**, and **Open-model hype and adoption barely overlap**.
 - [[Sovereign AI Club - July 22, 2026]]: **Open model releases**.

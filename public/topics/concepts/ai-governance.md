@@ -1,10 +1,10 @@
 ---
 title: AI Governance
 created: 2026-06-08
-updated: 2026-09-09
+updated: 2026-09-29
 type: concept
 tags: [concept, security, big-tech-moves]
-sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
 ---
 
 # AI Governance
@@ -13,6 +13,7 @@ AI Governance covers policy, evaluation, regulatory, and institutional control p
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **OpenAI's misalignment framework lands; outsiders surface the bigger cases**, **OP or not**.
 - [[Sovereign AI Club - September 9, 2026]]: **Jacob Coxon quits Anthropic: AI risk and IPO incentives**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Claude will watermark text globally for the EU AI Act**, and **Archiving open-source models**.

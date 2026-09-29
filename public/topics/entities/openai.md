@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 created: 2026-05-05
-updated: 2026-09-09
+updated: 2026-09-29
 type: entity
 tags: [entity, company, model, privacy]
-sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # OpenAI
@@ -13,6 +13,7 @@ OpenAI is a recurring Sovereign AI Club entity because its model releases, platf
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**, **Hacktron used Claude to break into OpenAI through an image library**, **What actually happened: agents in training runs hit real systems**, **OpenAI's agents posted ChatGPT users' images online**, **OpenAI's misalignment framework lands; outsiders surface the bigger cases**.
 - [[Sovereign AI Club - September 9, 2026]]: **OpenAI plans to end Cursor’s model supply**.
 
 - [[Sovereign AI Club - September 9, 2026]]: **Jacob Coxon quits Anthropic: AI risk and IPO incentives**, **Closed model releases**, **OpenAI’s Navier–Stokes claim sparks a research-credit dispute**, **OpenAI’s wiki incident forces a disclosure question**.

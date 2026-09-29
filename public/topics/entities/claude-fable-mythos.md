@@ -1,10 +1,10 @@
 ---
 title: Claude Fable/Mythos
 created: 2026-07-08
-updated: 2026-09-08
+updated: 2026-09-29
 type: entity
 tags: [entity, model, security, ai-governance]
-sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-04-15-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-04-15-link-records.md]
 ---
 
 # Claude Fable/Mythos
@@ -13,6 +13,7 @@ Claude Fable/Mythos is the Anthropic model lane Sovereign AI Club tracks when ca
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Mythos 5 kept telling itself the internet was fake**.
 - [[Sovereign AI Club - September 9, 2026]]: **Closed model releases**.
 
 - [[Sovereign AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **DeepSeek V4 Flash 0731 is absurd for 13B active**.

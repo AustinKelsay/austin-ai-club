@@ -2,6 +2,20 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-09-29] curate | September 30 Topics separated
+
+- Split combined Topics back into 20: Jev and the menu-picking integrations, ZCode and AgentCloak, the agent-incident ledger, the user-image leak and Mythos 5, and NVIDIA's safety platform and Hugging Face deal. Kept the expanded release feeds and their source records; updated reciprocal references.
+
+## [2026-09-29] curate | September 30 release roundup expansion
+
+- Expanded both scrollable release feeds with coding, voice, music, image, computer-use, document-parsing, decision, embedding and tabular releases. Added maker posts, exact checkpoint links, availability and license notes; kept GPT-Live-1 labeled as an API release and Fugu as orchestration.
+- Checked public announcement dates against repository histories; excluded older releases and future launches. Refreshed source records and reciprocal references while retaining the 15-Topic board.
+
+## [2026-09-29] curate | September 30 first public meetup board
+
+- Curated about 66 submitted Links into 15 Topics across all five Tracks, with verified source chains, X embeds and short Presenter Notes. Combined the agent-incident, disclosure and "OP or not" material into one safety arc; dropped hype, paywalled and contradicted posts, and qualified vendor and poster claims to the evidence.
+- Added the September 30 source link records, reciprocal Mentioned In entries on 31 entity and concept pages, and the Hugging Face–era lineage of the stick-figure agent meme.
+
 ## [2026-09-09] curate | H3 Max continuous-video demo
 
 - Added Rehan Sheikh’s Interdimensional Cable stream under Models & Research, with his original post and fal documentation. Kept performance attributed to the creator and distinguished the demo from the August 26 model launch coverage.

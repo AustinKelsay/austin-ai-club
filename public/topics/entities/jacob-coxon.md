@@ -1,10 +1,10 @@
 ---
 title: Jacob Coxon
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-29
 type: entity
 tags: [entity, big-tech-moves]
-sources: [raw/articles/2026-09-09-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md]
 ---
 
 # Jacob Coxon
@@ -13,6 +13,7 @@ Jacob Coxon is an AI researcher and co-author of the 2025 paper “Weight-sparse
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **OP or not**.
 - [[Sovereign AI Club - September 9, 2026]]: **Jacob Coxon quits Anthropic: AI risk and IPO incentives**.
 
 ## Related

@@ -1,10 +1,10 @@
 ---
 title: Sakana AI
 created: 2026-06-24
-updated: 2026-07-08
+updated: 2026-09-29
 type: entity
 tags: [entity, company, model, agent-infrastructure]
-sources: [raw/articles/2026-06-24-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-06-24-link-records.md]
 ---
 
 # Sakana AI
@@ -13,6 +13,7 @@ Sakana AI is a Japanese AI research company whose Fugu product frames learned mu
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**.
 - [[Sovereign AI Club - June 24, 2026]]: **One API, many models becomes the frontier wrapper**.
 
 ## Related

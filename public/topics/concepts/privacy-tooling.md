@@ -1,10 +1,10 @@
 ---
 title: Privacy Tooling
 created: 2026-05-05
-updated: 2026-09-08
+updated: 2026-09-29
 type: concept
 tags: [concept, privacy, security]
-sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Privacy Tooling
@@ -13,6 +13,7 @@ Privacy Tooling covers systems that help detect, remove, protect, or reason abou
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **ZCode uploaded whole repos; Z.ai answered by open-sourcing it**, **AgentCloak feeds chatbots fake names and swaps the real ones back**, **OpenAI's agents posted ChatGPT users' images online**.
 - [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **Meta Muse puts a personal agent in a cloud VM**.
 
 - [[Sovereign AI Club - August 26, 2026]]: **V12 breaks Signal's SGX contact-discovery enclave**.

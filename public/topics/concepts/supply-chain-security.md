@@ -1,10 +1,10 @@
 ---
 title: Supply Chain Security
 created: 2026-05-05
-updated: 2026-08-05
+updated: 2026-09-29
 type: concept
 tags: [concept, security, agent-infrastructure]
-sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md]
 ---
 
 # Supply Chain Security
@@ -13,6 +13,7 @@ Supply Chain Security covers dependency compromise, leaked build artifacts, mali
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Hacktron used Claude to break into OpenAI through an image library**.
 - [[Sovereign AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing** and **Shai-Hulud hits keyv and 2B monthly npm installs**.
 - [[Sovereign AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.
 - [[Sovereign AI Club - May 13, 2026]]: **Vercel's Context.ai breach** and **Mini Shai-Hulud hits the AI dev supply chain**.

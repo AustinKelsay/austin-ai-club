@@ -1,10 +1,10 @@
 ---
 title: Moonshot AI
 created: 2026-06-23
-updated: 2026-08-05
+updated: 2026-09-29
 type: entity
 tags: [entity, company, model, coding-agents]
-sources: [raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Moonshot AI
@@ -13,6 +13,7 @@ Moonshot AI is a recurring Sovereign AI Club entity for Kimi model releases, cod
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Anthropic says DeepSeek and Kimi quietly served Claude**.
 - [[Sovereign AI Club - August 5, 2026]]: **Bitcoin red team runs on Kimi K3 while OpenAI sits out** and **AirLLM streams giant MoEs onto hobbyist VRAM**.
 - [[Sovereign AI Club - July 22, 2026]]: **Open model releases** and **White House says Kimi K3 distilled Fable**.
 - [[Sovereign AI Club - June 24, 2026]]: **Open model releases**.

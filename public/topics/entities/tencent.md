@@ -1,10 +1,10 @@
 ---
 title: Tencent
 created: 2026-07-08
-updated: 2026-09-08
+updated: 2026-09-29
 type: entity
 tags: [entity, company, model, open-source]
-sources: [raw/articles/2026-07-08-link-records.md, raw/articles/2026-09-09-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-09-09-link-records.md]
 ---
 
 # Tencent
@@ -15,6 +15,7 @@ September’s roundup includes Apache-2.0 Hy4 preview weights, EVIE visual-docum
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**, **Open model releases**.
 - [[Sovereign AI Club - September 9, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 

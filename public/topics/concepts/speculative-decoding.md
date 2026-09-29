@@ -1,10 +1,10 @@
 ---
 title: Speculative Decoding
 created: 2026-05-27
-updated: 2026-08-26
+updated: 2026-09-29
 type: concept
 tags: [concept, models-research, performance]
-sources: [raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-05-27-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-05-27-link-records.md]
 ---
 
 # Speculative Decoding
@@ -13,6 +13,7 @@ Speculative decoding is a recurring Sovereign AI Club concept for accelerating L
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Splash vs mlx-serve: rival benchmarks, real fixes**.
 - [[Sovereign AI Club - August 26, 2026]]: **Adaptive DFlash hits 65.6 tps on Qwen3.8-27B Strix Halo**.
 - [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.
 - [[Sovereign AI Club - May 27, 2026]]: **Multi-token prediction goes mainstream** and **DFlash beats autoregressive drafting ceiling**.
