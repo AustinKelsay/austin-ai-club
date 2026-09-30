@@ -1,7 +1,7 @@
 ---
 title: Gemini
 created: 2026-07-08
-updated: 2026-09-29
+updated: 2026-09-30
 type: entity
 tags: [entity, model, big-tech-moves]
 sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md]
@@ -10,6 +10,8 @@ sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-08-26-link-
 # Gemini
 
 Gemini is Google's frontier model family and an upstream technology reference for Gemma, Google media models, benchmark comparisons, and release-cadence rumors.
+
+On September 30, Google announced Gemini 4 Argon with initial access for trusted cyber defenders through Fairwind. Broad API and consumer access is planned; introductory input/output prices are $2/$10 per million tokens, rising to $4/$20 after the introductory period.
 
 ## Mentioned In
 

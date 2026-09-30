@@ -2,6 +2,11 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-09-30] curate | Argon, Phonon-2 and SGLang decisions
+
+- Added the submitted Gemini 4 Argon and Phonon-2 posts to the Closed/Open release feeds, with official rollout, pricing, weight, license and benchmark sources. Kept restricted access, precise Whisper baseline and M5 hardware explicit.
+- Added SGLang's Pokémon demo, decision docs and merged System One route to Jev, distinguishing nightly availability from the planned stable release and API compatibility from calibration. Added Phonon-2 and SGLang wiki pages and reciprocal references.
+
 ## [2026-09-30] curate | Pirate Face joins the model-mirroring story
 
 - Added the submitted Pirate Face post and exact GLM-5.3 profile alongside Hugging Bay in the existing Hugging Face deal Topic. Distinguished the disabled offensive-cyber repository in its quoted screenshot from the current gated source, and a catalog listing from an available torrent; mirrored copy, embeds and Presenter Notes.

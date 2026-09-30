@@ -58,6 +58,14 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
 
 ### Jev ships closed; open clones follow within days
 
+- **SGLang decision models documentation** — https://docs.sglang.io/docs/supported-models/decision_models
+  Type: official documentation. Accessed: 2026-09-30. Typed /v1/decisions and TypeSafe-compatible /v1/systemone; label scores are not automatically calibrated correctness probabilities.
+- **SGLang PR #41208: System One compatible route** — https://github.com/sgl-project/sglang/pull/41208
+  Type: merged pull request. Accessed: 2026-09-30. Merged September 25; verifies the TypeSafe-compatible /v1/systemone route.
+- **Scaling JEV-like Decision Models with SGLang** — https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/
+  Type: official technical blog. Accessed: 2026-09-30. September 25 serving study; workload-dependent latency gains do not establish equivalent decisions or calibration.
+- **SGLang: Qwen3.8-27B Pokémon decision demo** — https://x.com/sgl_project/status/2105095379272515603
+  Type: official X post. Accessed: 2026-09-30. Submitted September 30 UTC / September 29 CDT post. Pokémon completion and sub-100 ms decision claims are attributed to SGLang; its reply says nightly now and v0.5.21 Thursday.
 - **Introducing System One Models & Jev - TypeSafe AI Blog** — https://typesafe.ai/blog/introducing-system-one-models-and-jev
   Type: blog post. Accessed: 2026-09-28. Author or maker write-up behind the Topic.
 - **Models - TypeSafe AI** — https://docs.typesafe.ai/models
@@ -115,6 +123,10 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
 
 ### Closed model releases
 
+- **Gemini 4 Argon: our next era of frontier intelligence** — https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
+  Type: official launch. Accessed: 2026-09-30. September 30 launch, restricted Fairwind rollout, introductory and later token prices; broad availability remains planned.
+- **Logan Kilpatrick: Gemini 4 Argon launch** — https://x.com/OfficialLoganK/status/2105388054274080946
+  Type: official builder X post. Accessed: 2026-09-30. Submitted post; author and September 30 date checked through FxTwitter. Initial cyber-defender access is not general API availability.
 - **OpenAI: Introducing GPT-6 Sol and Luna** — https://openai.com/index/introducing-gpt-6-sol-and-luna/
   Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
 - **GPT-6 Sol Model | OpenAI API** — https://developers.openai.com/api/docs/models/gpt-6-sol
@@ -190,6 +202,14 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
 
 ### Open model releases
 
+- **Phonon-2: downloadable weights and model card** — https://huggingface.co/FermionResearch/Phonon-2
+  Type: model repository. Accessed: 2026-09-30. Public, ungated repository with packed weights; CC-BY-4.0, English, Parakeet TDT 0.6B v3 derivative. Seven-set WER 5.21%; comparison is Whisper large-v3-turbo, not every Whisper large variant.
+- **Introducing Phonon-2** — https://www.fermionresearch.com/research/phonon-2/
+  Type: official research post. Accessed: 2026-09-30. Maker-reported 164 MB download and roughly 20 seconds per hour of audio on an M5 MacBook Air. Speed and accuracy were not rerun locally.
+- **Fermion Phonon inference engines** — https://github.com/fermionresearch/phonon
+  Type: repository. Accessed: 2026-09-30. Official runtime linked from the model card; model-card code is Apache-2.0 while weights are CC-BY-4.0.
+- **Manan Gupta: Phonon-2 launch** — https://x.com/yoitsmanan/status/2104990913886031993
+  Type: builder X post. Accessed: 2026-09-30. Submitted September 29 launch; full text and author checked through FxTwitter. Keep the precise model-card baseline and hardware in Presenter Notes.
 - **deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face** — https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash
   Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
 - **DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient | DeepSeek API Docs** — https://api-docs.deepseek.com/news/news260910

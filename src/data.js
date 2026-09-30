@@ -146,14 +146,21 @@ export const meetups = [
           },
           {
             "title": "Jev ships closed; open clones follow within days",
-            "description": "TypeSafe's API-only Jev answers typed questions with calibrated probabilities instead of text. Within three days Jared Palmer had Apache-2.0 Kev weights serving the same API, and a now-merged vLLM patch turned DiffusionGemma into a Jev-style decision server. Kev-27B lands within a point of Jev on Palmer's held-out sets, but Jev still automates more decisions at a 5% error budget: is calibration the moat?",
+            "description": "TypeSafe's API-only Jev answers typed questions with calibrated probabilities instead of text; Jared Palmer's Apache-2.0 Kev and vLLM's DiffusionGemma server followed. SGLang now serves Jev-style decisions from open models with TypeSafe SDK compatibility and a Qwen3.8-27B Pokémon demo: if the interface is easy to copy, is calibration the moat?",
             "href": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
             "linkPair": [
+              "https://docs.sglang.io/docs/supported-models/decision_models",
+              "https://github.com/sgl-project/sglang/pull/41208",
+              "https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/",
               "https://docs.typesafe.ai/models",
               "https://github.com/jaredpalmer/kev",
               "https://github.com/vllm-project/vllm/pull/57250"
             ],
             "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/sgl_project/status/2105095379272515603"
+              },
               {
                 "type": "tweet",
                 "href": "https://x.com/CompleteSkeptic/status/2099925682726002904"
@@ -171,7 +178,7 @@ export const meetups = [
                 "href": "https://x.com/mmastrac/status/2100626193943052784"
               }
             ],
-            "notes": "Almeida is an InstructGPT co-author; 'co-invented ChatGPT' overstates it. Jev's speed and cost multiples are TypeSafe's own evals, and Kev's scores are Palmer's own. Laya's 'already beats Jev' is contradicted by its own model card, so it isn't linked.",
+            "notes": "Almeida is an InstructGPT co-author; 'co-invented ChatGPT' overstates it. Jev's speed and cost multiples are TypeSafe's own evals, and Kev's scores are Palmer's own. Laya's 'already beats Jev' is contradicted by its own model card, so it isn't linked. SGLang's /v1/decisions and TypeSafe-compatible /v1/systemone are available in the nightly image; the maker says v0.5.21 is planned for Thursday, October 1. The System One route is merged in PR #41208. Pokémon completion and sub-100 ms decisions are SGLang's demo claims. API compatibility does not establish Jev-equivalent calibration.",
             "topStory": true
           },
           {
@@ -230,9 +237,10 @@ export const meetups = [
         "items": [
           {
             "title": "Closed model releases",
-            "description": "The frontier launches now sit alongside coding specialists SWE-2 and Ember-1, voice models from OpenAI, Google, Qwen, xAI and ElevenLabs, Suno music, Meta avatars and Tencent image generation. The feed also covers Fugu orchestration, Solar decisions and Span trace classification: which releases are usable today, which are previews, and which are new access to an existing model?",
+            "description": "Gemini 4 Argon arrives first for trusted cyber defenders, alongside the other frontier launches, coding specialists SWE-2 and Ember-1, and voice, music, avatar and image models. The feed also covers Fugu orchestration, Solar decisions and Span trace classification: which releases are usable today, which are previews, and which are new access to an existing model?",
             "href": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
             "linkPair": [
+              "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
               "https://developers.openai.com/api/docs/models/gpt-6-sol",
               "https://developers.openai.com/api/docs/models/gpt-6-luna",
               "https://www.anthropic.com/claude-opus-5-5",
@@ -259,6 +267,10 @@ export const meetups = [
               "https://www.perceptron.inc/blog/introducing-perceptron-mk1-5"
             ],
             "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/OfficialLoganK/status/2105388054274080946"
+              },
               {
                 "type": "tweet",
                 "href": "https://x.com/OpenAI/status/2102460975790137662"
@@ -304,15 +316,18 @@ export const meetups = [
                 "href": "https://x.com/suno/status/2097714273942163823"
               }
             ],
-            "notes": "Use this as a scrollable catalog, with the frontier launches first. SWE-2 and Ember-1 are hosted coding models; Fugu is multi-model orchestration, Span is early access, and GPT-Live-1 is a new API release for an existing model. Step 5 Preview remains API-only pending promised weights; Opus 5.5 has additional biology and cyber access restrictions.",
+            "notes": "Use this as a scrollable catalog, with the frontier launches first. SWE-2 and Ember-1 are hosted coding models; Fugu is multi-model orchestration, Span is early access, and GPT-Live-1 is a new API release for an existing model. Step 5 Preview remains API-only pending promised weights; Opus 5.5 has additional biology and cyber access restrictions. Gemini 4 Argon is initially limited to trusted cyber defenders through Fairwind; broad developer and consumer access has no firm date. Introductory prices per million tokens: $2 input, $0.10 cached input, $10 output; announced post-intro prices are $4/$20 input/output. Its 1M-token figure is the output limit, not a context-window claim.",
             "releaseRoundup": true,
             "topStory": true
           },
           {
             "title": "Open model releases",
-            "description": "The three-week roundup now spans large language models, computer-use agents, image and music generation, speech, document parsing, decision models, embeddings and tabular prediction. Downloadable weights are only the first check: Qwen-Image-2.1, North Small Translate, jina-ocr, YuE2 and Holo4-27B restrict commercial use, while other releases use Apache, MIT or custom model licenses.",
+            "description": "Phonon-2 adds 164 MB English speech recognition to a roundup spanning language models, computer-use agents, image and music generation, document parsing, decision models, embeddings and tabular prediction. Downloadable weights are only the first check: Qwen-Image-2.1, North Small Translate, jina-ocr, YuE2 and Holo4-27B restrict commercial use, while other releases use Apache, MIT or custom model licenses.",
             "href": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
             "linkPair": [
+              "https://huggingface.co/FermionResearch/Phonon-2",
+              "https://www.fermionresearch.com/research/phonon-2/",
+              "https://github.com/fermionresearch/phonon",
               "https://api-docs.deepseek.com/news/news260910",
               "https://huggingface.co/collections/XiaomiMiMo/mimo-v26",
               "https://mimo.xiaomi.com/mimo-v2-6",
@@ -361,6 +376,10 @@ export const meetups = [
               "https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-27B"
             ],
             "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/yoitsmanan/status/2104990913886031993"
+              },
               {
                 "type": "tweet",
                 "href": "https://x.com/deepseek_ai/status/2097930608790167907"
@@ -430,7 +449,7 @@ export const meetups = [
                 "href": "https://x.com/fastinoAI/status/2103188985292157353"
               }
             ],
-            "notes": "Weights and commercial permission are separate checks; the source records identify each license. Holo4-35B is Apache-2.0, Holo4-27B is noncommercial, and Holotron4 uses NVIDIA’s agreement; FLUX.3 Action is a robotics model and DSpark is a speculative drafter. Repository creation dates can precede public launches, so North Translate, jina-ocr, Nemotron Diarization and Kumo use maker announcement dates.",
+            "notes": "Weights and commercial permission are separate checks; the source records identify each license. Holo4-35B is Apache-2.0, Holo4-27B is noncommercial, and Holotron4 uses NVIDIA’s agreement; FLUX.3 Action is a robotics model and DSpark is a speculative drafter. Repository creation dates can precede public launches, so North Translate, jina-ocr, Nemotron Diarization and Kumo use maker announcement dates. Phonon-2 is English-only, derived from NVIDIA Parakeet TDT 0.6B v3: CC-BY-4.0 weights, Apache-2.0 code. Fermion reports 5.21% average WER across seven English sets versus 6.58% for Whisper large-v3-turbo; its roughly 20-second hour-of-audio result is on an M5 MacBook Air, not every Air. These are maker measurements.",
             "releaseRoundup": true,
             "topStory": true
           },

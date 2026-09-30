@@ -1,7 +1,7 @@
 ---
 title: Local AI
 created: 2026-05-05
-updated: 2026-09-29
+updated: 2026-09-30
 type: concept
 tags: [concept, local-builds, open-source, privacy]
 sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -13,6 +13,7 @@ Local AI covers models, tools, laptops, desktop apps, and privacy-preserving wor
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Open model releases** (Phonon-2).
 - [[Sovereign AI Club - September 30, 2026]]: **Ben Carman fits 309B MiMo-V2.6-Flash on one DGX Spark**, **Splash vs mlx-serve: rival benchmarks, real fixes**.
 - [[Sovereign AI Club - September 9, 2026]]: **GLM-5.3 Flash gets a four-Spark recipe and DwarfStar support**, **NVIDIA PAIR routes inference across your local PCs**.
 
