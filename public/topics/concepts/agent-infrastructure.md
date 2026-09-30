@@ -31,6 +31,8 @@ Agent Infrastructure is the Sovereign AI Club track for runtimes, protocols, int
 
 ## Related
 
+- [[Jev]]
+
 - [[AlphaEvolve]]
 - [[OpenAI Presence]]
 - [[Cloudflare OS]]

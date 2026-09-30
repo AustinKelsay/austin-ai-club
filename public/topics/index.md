@@ -22,6 +22,8 @@
 
 ## Entities
 
+- [[Jev]]
+
 - [[Phonon-2]]
 - [[SGLang]]
 

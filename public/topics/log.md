@@ -2,6 +2,11 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-09-30] curate | Popular Jev builder demos
+
+- Used Cursor Grok to find original demo posts, then checked canonical posts, video frames and available repositories. Added Minecraft, JevPilot, voice-browser, receptionist forecasting and ElevenLabs sentiment videos ahead of the launch/clone posts, with September 30 engagement snapshots and model-role caveats.
+- Added a Jev wiki page and reciprocal references; mirrored the existing slide without changing its title or URL.
+
 ## [2026-09-30] curate | OpenClaw Enterprise gets its own Topic
 
 - Added the submitted launch post as a standalone Agent Infrastructure Topic, backed by the MIT repository and exact quickstart. Kept the pre-1.0 pilot status and the distinction between self-hosted orchestration and model inference explicit; mirrored the slide and reciprocal wiki references.

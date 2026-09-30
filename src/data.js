@@ -162,9 +162,12 @@ export const meetups = [
           },
           {
             "title": "Jev ships closed; open clones follow within days",
-            "description": "TypeSafe's API-only Jev answers typed questions with calibrated probabilities instead of text; Jared Palmer's Apache-2.0 Kev and vLLM's DiffusionGemma server followed. SGLang now serves Jev-style decisions from open models with TypeSafe SDK compatibility and a Qwen3.8-27B Pokémon demo: if the interface is easy to copy, is calibration the moat?",
+            "description": "TypeSafe's API-only Jev picks typed decisions instead of writing text, with demos ranging from Minecraft and a driving simulator to voice-controlled browsing and call analysis. Kev, DiffusionGemma and SGLang offer open implementations of the decision interface; if that interface is easy to copy, is calibration the moat?",
             "href": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
             "linkPair": [
+              "https://github.com/rmalde/minecraft-agent",
+              "https://github.com/standardagents/jevpilot",
+              "https://github.com/moritzkremb/jev-voice-browser",
               "https://docs.sglang.io/docs/supported-models/decision_models",
               "https://github.com/sgl-project/sglang/pull/41208",
               "https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/",
@@ -173,6 +176,26 @@ export const meetups = [
               "https://github.com/vllm-project/vllm/pull/57250"
             ],
             "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/rronak_/status/2101544156757950697"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/jpschroeder/status/2100347770867458384"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/moritzkremb/status/2100577979021832365"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/muratcan/status/2104959648482701686"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484"
+              },
               {
                 "type": "tweet",
                 "href": "https://x.com/sgl_project/status/2105095379272515603"
@@ -194,7 +217,7 @@ export const meetups = [
                 "href": "https://x.com/mmastrac/status/2100626193943052784"
               }
             ],
-            "notes": "Almeida is an InstructGPT co-author; 'co-invented ChatGPT' overstates it. Jev's speed and cost multiples are TypeSafe's own evals, and Kev's scores are Palmer's own. Laya's 'already beats Jev' is contradicted by its own model card, so it isn't linked. SGLang's /v1/decisions and TypeSafe-compatible /v1/systemone are available in the nightly image; the maker says v0.5.21 is planned for Thursday, October 1. The System One route is merged in PR #41208. Pokémon completion and sub-100 ms decisions are SGLang's demo claims. API compatibility does not establish Jev-equivalent calibration.",
+            "notes": "Demo order: Minecraft, JevPilot, voice browser, receptionist forecasts, live sentiment, then SGLang Pokémon. Minecraft pairs Astra planning with Jev action selection on a surveyed Peaceful seed; JevPilot is a browser simulator. Voice demos transcribe speech before Jev; the receptionist experiment feeds only call structure, without audio or transcripts. Demo results, latency and costs are maker-reported. Almeida is an InstructGPT co-author; 'co-invented ChatGPT' overstates it. SGLang's TypeSafe-compatible route is merged and available nightly, with v0.5.21 planned for October 1; API compatibility does not establish Jev-equivalent calibration.",
             "topStory": true
           },
           {

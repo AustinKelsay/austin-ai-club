@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T21:11:44.401Z",
+  "generatedAt": "2026-09-30T21:28:27.830Z",
   "pages": [
     {
       "id": "abliterlitics",
@@ -545,6 +545,7 @@
         "fish-audio",
         "hermes-agent",
         "human-rights-foundation",
+        "jev",
         "local-ai",
         "meta-muse",
         "microsoft",
@@ -608,6 +609,7 @@
         "hermes-agent",
         "human-rights-foundation",
         "humanoid-robotics",
+        "jev",
         "ling-30-flash",
         "local-builds-projects",
         "meta-muse",
@@ -2124,6 +2126,62 @@
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
           "href": "https://docs.sglang.io/docs/supported-models/decision_models",
           "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure",
@@ -2516,7 +2574,7 @@
           "sourcePageTitle": "Sovereign AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[Jev]]\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     {
       "id": "agent-payments",
@@ -11548,6 +11606,7 @@
         "austin-ai-club-september-9-2026",
         "dots",
         "gpt-56",
+        "jev",
         "models-research",
         "openai"
       ],
@@ -25328,6 +25387,7 @@
         "gemma",
         "google",
         "inference-optimization",
+        "jev",
         "local-ai",
         "models-research",
         "open-models",
@@ -26167,6 +26227,62 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Sovereign AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://docs.sglang.io/docs/supported-models/decision_models",
@@ -38849,6 +38965,247 @@
         }
       ],
       "bodyMarkdown": "# Jalapeno\n\nJalapeno is OpenAI's first custom inference accelerator, first announced with Broadcom involvement and later shown as working silicon through vendor-run InferenceX results.\n\n## Mentioned In\n\n- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.\n\n## Related\n\n- [[OpenAI]]\n- [[Broadcom]]\n- [[Compute Strategy]]\n- [[Inference Optimization]]"
+    },
+    {
+      "id": "jev",
+      "title": "Jev",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "model",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-09-30-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-09-30",
+      "updated": "2026-09-30",
+      "excerpt": "Jev is TypeSafe AI's hosted System One decision model. Applications supply state and typed questions; it returns choices, scores and probabilities rather than generated prose. TypeSafe presents calibration as a core feature. Schema validity does not guarantee a correct decision, and the published speed and cost comparisons are vendor evaluations.",
+      "rawHref": "/topics/entities/jev.md",
+      "relativePath": "entities/jev.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "astra",
+        "austin-ai-club-september-30-2026",
+        "diffusiongemma",
+        "open-models",
+        "sglang"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-september-30-2026",
+        "sglang"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://docs.sglang.io/docs/supported-models/decision_models",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/sgl-project/sglang/pull/41208",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/sgl_project/status/2105095379272515603",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://docs.typesafe.ai/models",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/jaredpalmer/kev",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/vllm-project/vllm/pull/57250",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/CompleteSkeptic/status/2099925682726002904",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jaredpalmer/status/2101715352258232539",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2101069861598482817",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/mmastrac/status/2100626193943052784",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://cua.ai/docs/how-to-guides/driver/jev-use",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/trycua/cua/pull/3916",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://huggingface.co/cua-ai/cua-s1-4b-0.2",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://json-render.dev/docs/jev",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://fsdatalab.github.io/blog/introducing-quail/",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/fsdatalab/quail",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/trycua/status/2100649543079502213",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ctatedev/status/2101022101750571357",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/sh_reya/status/2103207153821688056",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Jev\n\nJev is TypeSafe AI's hosted System One decision model. Applications supply state and typed questions; it returns choices, scores and probabilities rather than generated prose. TypeSafe presents calibration as a core feature. Schema validity does not guarantee a correct decision, and the published speed and cost comparisons are vendor evaluations.\n\nBuilder demos use Jev for bounded game actions, steering choices in a browser driving simulator, browser actions from partial speech transcripts, call-outcome forecasting and live sentiment scoring. Their surrounding software supplies candidate actions and executes them. The Minecraft demo also uses Astra for planning; the receptionist experiment uses call structure without audio or transcripts.\n\nKev, DiffusionGemma serving and SGLang demonstrate open implementations of a similar decision interface. API compatibility alone does not establish equivalent calibration or quality.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days** and **Cua, json-render and Quail make the model pick from a menu**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[SGLang]]\n- [[Astra]]\n- [[DiffusionGemma]]\n- [[Open Models]]"
     },
     {
       "id": "k2-horizon",
@@ -63813,6 +64170,7 @@
         "hy3",
         "inference-optimization",
         "inkling",
+        "jev",
         "k2-horizon",
         "kimi",
         "laguna-s-21",
@@ -80097,6 +80455,14 @@
         "https://x.com/inco_ai/status/2101100749623341513",
         "https://x.com/ddalcu/status/2101123833692360729",
         "https://x.com/zhijianliu_/status/2101364878284083251",
+        "https://x.com/rronak_/status/2101544156757950697",
+        "https://x.com/jpschroeder/status/2100347770867458384",
+        "https://x.com/moritzkremb/status/2100577979021832365",
+        "https://x.com/muratcan/status/2104959648482701686",
+        "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+        "https://github.com/rmalde/minecraft-agent",
+        "https://github.com/standardagents/jevpilot",
+        "https://github.com/moritzkremb/jev-voice-browser",
         "https://docs.sglang.io/docs/supported-models/decision_models",
         "https://github.com/sgl-project/sglang/pull/41208",
         "https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/",
@@ -80417,6 +80783,46 @@
         {
           "href": "https://x.com/zhijianliu_/status/2101364878284083251",
           "title": "@zhijianliu_ post: mlx-serve wasn't in our launch post. So we ran it: same M5 Pro, same…",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Minecraft: Astra plans, Jev chooses actions",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "JevPilot: browser driving simulator",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Voice-controlled browser with Jev",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Sully: Jev forecasts outcomes from call structure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "ElevenLabs: live call sentiment with Jev",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Astra and Jev Minecraft harness",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "JevPilot driving simulator",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev voice-browser",
           "section": "Agent Infrastructure"
         },
         {
@@ -82517,14 +82923,72 @@
         "agent-infrastructure",
         "austin-ai-club-september-30-2026",
         "inference-optimization",
+        "jev",
         "open-models",
         "qwen"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
-        "austin-ai-club-september-30-2026"
+        "austin-ai-club-september-30-2026",
+        "jev"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
         {
           "href": "https://docs.sglang.io/docs/supported-models/decision_models",
           "title": "Jev ships closed; open clones follow within days",
@@ -82610,7 +83074,7 @@
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         }
       ],
-      "bodyMarkdown": "# SGLang\n\nSGLang is an open-source model-serving runtime maintained by the SGLang/LMSYS community. Its decision APIs let applications request typed choices and scores from open models rather than parse generated prose; a System One-compatible route supports TypeSafe SDK clients.\n\nThe September 30 announcement demonstrates Qwen3.8-27B playing Pokémon and identifies the nightly image as the currently available build, with v0.5.21 planned for October 1. Interface compatibility and normalized label scores do not establish Jev-equivalent calibration.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Inference Optimization]]\n- [[Qwen]]\n- [[Open Models]]"
+      "bodyMarkdown": "# SGLang\n\nSGLang is an open-source model-serving runtime maintained by the SGLang/LMSYS community. Its decision APIs let applications request typed choices and scores from open models rather than parse generated prose; a System One-compatible route supports TypeSafe SDK clients.\n\nThe September 30 announcement demonstrates Qwen3.8-27B playing Pokémon and identifies the nightly image as the currently available build, with v0.5.21 planned for October 1. Interface compatibility and normalized label scores do not establish Jev-equivalent calibration.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n\n## Related\n\n- [[Jev]]\n\n- [[Agent Infrastructure]]\n- [[Inference Optimization]]\n- [[Qwen]]\n- [[Open Models]]"
     },
     {
       "id": "signal",
@@ -95149,6 +95613,14 @@
         "https://x.com/inco_ai/status/2101100749623341513",
         "https://x.com/ddalcu/status/2101123833692360729",
         "https://x.com/zhijianliu_/status/2101364878284083251",
+        "https://x.com/rronak_/status/2101544156757950697",
+        "https://x.com/jpschroeder/status/2100347770867458384",
+        "https://x.com/moritzkremb/status/2100577979021832365",
+        "https://x.com/muratcan/status/2104959648482701686",
+        "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+        "https://github.com/rmalde/minecraft-agent",
+        "https://github.com/standardagents/jevpilot",
+        "https://github.com/moritzkremb/jev-voice-browser",
         "https://docs.sglang.io/docs/supported-models/decision_models",
         "https://github.com/sgl-project/sglang/pull/41208",
         "https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/",
@@ -95468,6 +95940,46 @@
         {
           "href": "https://x.com/zhijianliu_/status/2101364878284083251",
           "title": "Splash vs mlx-serve: rival benchmarks, real fixes",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure"
         },
         {
@@ -96597,6 +97109,7 @@
         "human-rights-foundation",
         "inference-optimization",
         "jacob-coxon",
+        "jev",
         "kimi",
         "liquid-ai",
         "local-ai",
@@ -96647,6 +97160,7 @@
         "human-rights-foundation",
         "inference-optimization",
         "jacob-coxon",
+        "jev",
         "kimi",
         "liquid-ai",
         "local-ai",
@@ -102574,6 +103088,62 @@
           "sourcePageTitle": "Sovereign AI Club - June 24, 2026"
         },
         {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
           "href": "https://docs.sglang.io/docs/supported-models/decision_models",
           "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure",
@@ -105956,6 +106526,7 @@
         "fish-audio",
         "hermes-agent",
         "human-rights-foundation",
+        "jev",
         "local-ai",
         "meta-muse",
         "microsoft",
@@ -106019,6 +106590,7 @@
         "hermes-agent",
         "human-rights-foundation",
         "humanoid-robotics",
+        "jev",
         "ling-30-flash",
         "local-builds-projects",
         "meta-muse",
@@ -107535,6 +108107,62 @@
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
           "href": "https://docs.sglang.io/docs/supported-models/decision_models",
           "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure",
@@ -107927,7 +108555,7 @@
           "sourcePageTitle": "Sovereign AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[Jev]]\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     "agent-payments": {
       "id": "agent-payments",
@@ -116959,6 +117587,7 @@
         "austin-ai-club-september-9-2026",
         "dots",
         "gpt-56",
+        "jev",
         "models-research",
         "openai"
       ],
@@ -130739,6 +131368,7 @@
         "gemma",
         "google",
         "inference-optimization",
+        "jev",
         "local-ai",
         "models-research",
         "open-models",
@@ -131578,6 +132208,62 @@
           "section": "Models & Research",
           "sourcePageId": "austin-ai-club-june-24-2026",
           "sourcePageTitle": "Sovereign AI Club - June 24, 2026"
+        },
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://docs.sglang.io/docs/supported-models/decision_models",
@@ -144260,6 +144946,247 @@
         }
       ],
       "bodyMarkdown": "# Jalapeno\n\nJalapeno is OpenAI's first custom inference accelerator, first announced with Broadcom involvement and later shown as working silicon through vendor-run InferenceX results.\n\n## Mentioned In\n\n- [[Sovereign AI Club - August 26, 2026]]: **Jalapeño posts its first silicon results**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAI gets its own inference chip**.\n\n## Related\n\n- [[OpenAI]]\n- [[Broadcom]]\n- [[Compute Strategy]]\n- [[Inference Optimization]]"
+    },
+    "jev": {
+      "id": "jev",
+      "title": "Jev",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "model",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-09-30-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-09-30",
+      "updated": "2026-09-30",
+      "excerpt": "Jev is TypeSafe AI's hosted System One decision model. Applications supply state and typed questions; it returns choices, scores and probabilities rather than generated prose. TypeSafe presents calibration as a core feature. Schema validity does not guarantee a correct decision, and the published speed and cost comparisons are vendor evaluations.",
+      "rawHref": "/topics/entities/jev.md",
+      "relativePath": "entities/jev.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "astra",
+        "austin-ai-club-september-30-2026",
+        "diffusiongemma",
+        "open-models",
+        "sglang"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-september-30-2026",
+        "sglang"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://docs.sglang.io/docs/supported-models/decision_models",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/sgl-project/sglang/pull/41208",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/sgl_project/status/2105095379272515603",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://docs.typesafe.ai/models",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/jaredpalmer/kev",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/vllm-project/vllm/pull/57250",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/CompleteSkeptic/status/2099925682726002904",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jaredpalmer/status/2101715352258232539",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/googlegemma/status/2101069861598482817",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/mmastrac/status/2100626193943052784",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://cua.ai/docs/how-to-guides/driver/jev-use",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/trycua/cua/pull/3916",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://huggingface.co/cua-ai/cua-s1-4b-0.2",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://json-render.dev/docs/jev",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://fsdatalab.github.io/blog/introducing-quail/",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/fsdatalab/quail",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/trycua/status/2100649543079502213",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ctatedev/status/2101022101750571357",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/sh_reya/status/2103207153821688056",
+          "title": "Cua, json-render and Quail make the model pick from a menu",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Jev\n\nJev is TypeSafe AI's hosted System One decision model. Applications supply state and typed questions; it returns choices, scores and probabilities rather than generated prose. TypeSafe presents calibration as a core feature. Schema validity does not guarantee a correct decision, and the published speed and cost comparisons are vendor evaluations.\n\nBuilder demos use Jev for bounded game actions, steering choices in a browser driving simulator, browser actions from partial speech transcripts, call-outcome forecasting and live sentiment scoring. Their surrounding software supplies candidate actions and executes them. The Minecraft demo also uses Astra for planning; the receptionist experiment uses call structure without audio or transcripts.\n\nKev, DiffusionGemma serving and SGLang demonstrate open implementations of a similar decision interface. API compatibility alone does not establish equivalent calibration or quality.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days** and **Cua, json-render and Quail make the model pick from a menu**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[SGLang]]\n- [[Astra]]\n- [[DiffusionGemma]]\n- [[Open Models]]"
     },
     "k2-horizon": {
       "id": "k2-horizon",
@@ -169224,6 +170151,7 @@
         "hy3",
         "inference-optimization",
         "inkling",
+        "jev",
         "k2-horizon",
         "kimi",
         "laguna-s-21",
@@ -185508,6 +186436,14 @@
         "https://x.com/inco_ai/status/2101100749623341513",
         "https://x.com/ddalcu/status/2101123833692360729",
         "https://x.com/zhijianliu_/status/2101364878284083251",
+        "https://x.com/rronak_/status/2101544156757950697",
+        "https://x.com/jpschroeder/status/2100347770867458384",
+        "https://x.com/moritzkremb/status/2100577979021832365",
+        "https://x.com/muratcan/status/2104959648482701686",
+        "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+        "https://github.com/rmalde/minecraft-agent",
+        "https://github.com/standardagents/jevpilot",
+        "https://github.com/moritzkremb/jev-voice-browser",
         "https://docs.sglang.io/docs/supported-models/decision_models",
         "https://github.com/sgl-project/sglang/pull/41208",
         "https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/",
@@ -185828,6 +186764,46 @@
         {
           "href": "https://x.com/zhijianliu_/status/2101364878284083251",
           "title": "@zhijianliu_ post: mlx-serve wasn't in our launch post. So we ran it: same M5 Pro, same…",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Minecraft: Astra plans, Jev chooses actions",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "JevPilot: browser driving simulator",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Voice-controlled browser with Jev",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Sully: Jev forecasts outcomes from call structure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "ElevenLabs: live call sentiment with Jev",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Astra and Jev Minecraft harness",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "JevPilot driving simulator",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev voice-browser",
           "section": "Agent Infrastructure"
         },
         {
@@ -187928,14 +188904,72 @@
         "agent-infrastructure",
         "austin-ai-club-september-30-2026",
         "inference-optimization",
+        "jev",
         "open-models",
         "qwen"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
-        "austin-ai-club-september-30-2026"
+        "austin-ai-club-september-30-2026",
+        "jev"
       ],
       "referencedTopicSources": [
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
         {
           "href": "https://docs.sglang.io/docs/supported-models/decision_models",
           "title": "Jev ships closed; open clones follow within days",
@@ -188021,7 +189055,7 @@
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         }
       ],
-      "bodyMarkdown": "# SGLang\n\nSGLang is an open-source model-serving runtime maintained by the SGLang/LMSYS community. Its decision APIs let applications request typed choices and scores from open models rather than parse generated prose; a System One-compatible route supports TypeSafe SDK clients.\n\nThe September 30 announcement demonstrates Qwen3.8-27B playing Pokémon and identifies the nightly image as the currently available build, with v0.5.21 planned for October 1. Interface compatibility and normalized label scores do not establish Jev-equivalent calibration.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Inference Optimization]]\n- [[Qwen]]\n- [[Open Models]]"
+      "bodyMarkdown": "# SGLang\n\nSGLang is an open-source model-serving runtime maintained by the SGLang/LMSYS community. Its decision APIs let applications request typed choices and scores from open models rather than parse generated prose; a System One-compatible route supports TypeSafe SDK clients.\n\nThe September 30 announcement demonstrates Qwen3.8-27B playing Pokémon and identifies the nightly image as the currently available build, with v0.5.21 planned for October 1. Interface compatibility and normalized label scores do not establish Jev-equivalent calibration.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n\n## Related\n\n- [[Jev]]\n\n- [[Agent Infrastructure]]\n- [[Inference Optimization]]\n- [[Qwen]]\n- [[Open Models]]"
     },
     "signal": {
       "id": "signal",
@@ -200560,6 +201594,14 @@
         "https://x.com/inco_ai/status/2101100749623341513",
         "https://x.com/ddalcu/status/2101123833692360729",
         "https://x.com/zhijianliu_/status/2101364878284083251",
+        "https://x.com/rronak_/status/2101544156757950697",
+        "https://x.com/jpschroeder/status/2100347770867458384",
+        "https://x.com/moritzkremb/status/2100577979021832365",
+        "https://x.com/muratcan/status/2104959648482701686",
+        "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+        "https://github.com/rmalde/minecraft-agent",
+        "https://github.com/standardagents/jevpilot",
+        "https://github.com/moritzkremb/jev-voice-browser",
         "https://docs.sglang.io/docs/supported-models/decision_models",
         "https://github.com/sgl-project/sglang/pull/41208",
         "https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/",
@@ -200879,6 +201921,46 @@
         {
           "href": "https://x.com/zhijianliu_/status/2101364878284083251",
           "title": "Splash vs mlx-serve: rival benchmarks, real fixes",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure"
         },
         {
@@ -202008,6 +203090,7 @@
         "human-rights-foundation",
         "inference-optimization",
         "jacob-coxon",
+        "jev",
         "kimi",
         "liquid-ai",
         "local-ai",
@@ -202058,6 +203141,7 @@
         "human-rights-foundation",
         "inference-optimization",
         "jacob-coxon",
+        "jev",
         "kimi",
         "liquid-ai",
         "local-ai",
@@ -207985,6 +209069,62 @@
           "sourcePageTitle": "Sovereign AI Club - June 24, 2026"
         },
         {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
           "href": "https://docs.sglang.io/docs/supported-models/decision_models",
           "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure",
@@ -211029,14 +212169,16 @@
       ],
       "wikiIds": [
         "agent-infrastructure",
+        "jev",
         "vercel"
       ],
       "wikiTitles": [
         "Agent Infrastructure",
+        "Jev",
         "Vercel"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Cua, json-render and Quail make the model pick from a menu Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://cua.ai/docs/how-to-guides/driver/jev-use https://github.com/trycua/cua/pull/3916 https://huggingface.co/cua-ai/cua-s1-4b-0.2 https://json-render.dev/docs/jev https://fsdatalab.github.io/blog/introducing-quail/ https://github.com/fsdatalab/quail https://x.com/trycua/status/2100649543079502213 https://x.com/ctatedev/status/2101022101750571357 https://x.com/sh_reya/status/2103207153821688056 Agent Infrastructure Vercel"
+      "searchText": "Cua, json-render and Quail make the model pick from a menu Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://cua.ai/docs/how-to-guides/driver/jev-use https://github.com/trycua/cua/pull/3916 https://huggingface.co/cua-ai/cua-s1-4b-0.2 https://json-render.dev/docs/jev https://fsdatalab.github.io/blog/introducing-quail/ https://github.com/fsdatalab/quail https://x.com/trycua/status/2100649543079502213 https://x.com/ctatedev/status/2101022101750571357 https://x.com/sh_reya/status/2103207153821688056 Agent Infrastructure Jev Vercel"
     },
     {
       "id": "austin-ai-club-september-30-2026-agent-infrastructure-jev-ships-closed-open-clones-follow-within-days",
@@ -211049,6 +212191,14 @@
       "meetupSlug": "2026-09-30",
       "meetupHref": "/topics/2026-09-30.md",
       "sourceLinks": [
+        "https://x.com/rronak_/status/2101544156757950697",
+        "https://x.com/jpschroeder/status/2100347770867458384",
+        "https://x.com/moritzkremb/status/2100577979021832365",
+        "https://x.com/muratcan/status/2104959648482701686",
+        "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+        "https://github.com/rmalde/minecraft-agent",
+        "https://github.com/standardagents/jevpilot",
+        "https://github.com/moritzkremb/jev-voice-browser",
         "https://docs.sglang.io/docs/supported-models/decision_models",
         "https://github.com/sgl-project/sglang/pull/41208",
         "https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/",
@@ -211079,7 +212229,22 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://github.com/sgl-project/sglang/pull/41208",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
           "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure"
         },
@@ -211104,6 +212269,11 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://x.com/googlegemma/status/2101069861598482817",
           "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure"
@@ -211114,7 +212284,27 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://x.com/mmastrac/status/2100626193943052784",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
           "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure"
         },
@@ -211127,17 +212317,19 @@
       "wikiIds": [
         "agent-infrastructure",
         "diffusiongemma",
+        "jev",
         "sglang",
         "vllm"
       ],
       "wikiTitles": [
         "Agent Infrastructure",
         "DiffusionGemma",
+        "Jev",
         "SGLang",
         "vLLM"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Jev ships closed; open clones follow within days Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://docs.sglang.io/docs/supported-models/decision_models https://github.com/sgl-project/sglang/pull/41208 https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/ https://x.com/sgl_project/status/2105095379272515603 https://typesafe.ai/blog/introducing-system-one-models-and-jev https://docs.typesafe.ai/models https://github.com/jaredpalmer/kev https://github.com/vllm-project/vllm/pull/57250 https://x.com/CompleteSkeptic/status/2099925682726002904 https://x.com/jaredpalmer/status/2101715352258232539 https://x.com/googlegemma/status/2101069861598482817 https://x.com/mmastrac/status/2100626193943052784 Agent Infrastructure DiffusionGemma SGLang vLLM"
+      "searchText": "Jev ships closed; open clones follow within days Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://x.com/rronak_/status/2101544156757950697 https://x.com/jpschroeder/status/2100347770867458384 https://x.com/moritzkremb/status/2100577979021832365 https://x.com/muratcan/status/2104959648482701686 https://x.com/ElevenLabsDevs/status/2102884507078791484 https://github.com/rmalde/minecraft-agent https://github.com/standardagents/jevpilot https://github.com/moritzkremb/jev-voice-browser https://docs.sglang.io/docs/supported-models/decision_models https://github.com/sgl-project/sglang/pull/41208 https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/ https://x.com/sgl_project/status/2105095379272515603 https://typesafe.ai/blog/introducing-system-one-models-and-jev https://docs.typesafe.ai/models https://github.com/jaredpalmer/kev https://github.com/vllm-project/vllm/pull/57250 https://x.com/CompleteSkeptic/status/2099925682726002904 https://x.com/jaredpalmer/status/2101715352258232539 https://x.com/googlegemma/status/2101069861598482817 https://x.com/mmastrac/status/2100626193943052784 Agent Infrastructure DiffusionGemma Jev SGLang vLLM"
     },
     {
       "id": "austin-ai-club-september-30-2026-agent-infrastructure-openclaw-enterprise-puts-persistent-agents-on-your-own-infrastructure",
@@ -228203,14 +229395,16 @@
       ],
       "wikiIds": [
         "agent-infrastructure",
+        "jev",
         "vercel"
       ],
       "wikiTitles": [
         "Agent Infrastructure",
+        "Jev",
         "Vercel"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Cua, json-render and Quail make the model pick from a menu Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://cua.ai/docs/how-to-guides/driver/jev-use https://github.com/trycua/cua/pull/3916 https://huggingface.co/cua-ai/cua-s1-4b-0.2 https://json-render.dev/docs/jev https://fsdatalab.github.io/blog/introducing-quail/ https://github.com/fsdatalab/quail https://x.com/trycua/status/2100649543079502213 https://x.com/ctatedev/status/2101022101750571357 https://x.com/sh_reya/status/2103207153821688056 Agent Infrastructure Vercel"
+      "searchText": "Cua, json-render and Quail make the model pick from a menu Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://cua.ai/docs/how-to-guides/driver/jev-use https://github.com/trycua/cua/pull/3916 https://huggingface.co/cua-ai/cua-s1-4b-0.2 https://json-render.dev/docs/jev https://fsdatalab.github.io/blog/introducing-quail/ https://github.com/fsdatalab/quail https://x.com/trycua/status/2100649543079502213 https://x.com/ctatedev/status/2101022101750571357 https://x.com/sh_reya/status/2103207153821688056 Agent Infrastructure Jev Vercel"
     },
     "austin-ai-club-september-30-2026-agent-infrastructure-jev-ships-closed-open-clones-follow-within-days": {
       "id": "austin-ai-club-september-30-2026-agent-infrastructure-jev-ships-closed-open-clones-follow-within-days",
@@ -228223,6 +229417,14 @@
       "meetupSlug": "2026-09-30",
       "meetupHref": "/topics/2026-09-30.md",
       "sourceLinks": [
+        "https://x.com/rronak_/status/2101544156757950697",
+        "https://x.com/jpschroeder/status/2100347770867458384",
+        "https://x.com/moritzkremb/status/2100577979021832365",
+        "https://x.com/muratcan/status/2104959648482701686",
+        "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+        "https://github.com/rmalde/minecraft-agent",
+        "https://github.com/standardagents/jevpilot",
+        "https://github.com/moritzkremb/jev-voice-browser",
         "https://docs.sglang.io/docs/supported-models/decision_models",
         "https://github.com/sgl-project/sglang/pull/41208",
         "https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/",
@@ -228253,7 +229455,22 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://github.com/moritzkremb/jev-voice-browser",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/rmalde/minecraft-agent",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://github.com/sgl-project/sglang/pull/41208",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/standardagents/jevpilot",
           "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure"
         },
@@ -228278,6 +229495,11 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/ElevenLabsDevs/status/2102884507078791484",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://x.com/googlegemma/status/2101069861598482817",
           "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure"
@@ -228288,7 +229510,27 @@
           "section": "Agent Infrastructure"
         },
         {
+          "href": "https://x.com/jpschroeder/status/2100347770867458384",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
           "href": "https://x.com/mmastrac/status/2100626193943052784",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/moritzkremb/status/2100577979021832365",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/muratcan/status/2104959648482701686",
+          "title": "Jev ships closed; open clones follow within days",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/rronak_/status/2101544156757950697",
           "title": "Jev ships closed; open clones follow within days",
           "section": "Agent Infrastructure"
         },
@@ -228301,17 +229543,19 @@
       "wikiIds": [
         "agent-infrastructure",
         "diffusiongemma",
+        "jev",
         "sglang",
         "vllm"
       ],
       "wikiTitles": [
         "Agent Infrastructure",
         "DiffusionGemma",
+        "Jev",
         "SGLang",
         "vLLM"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Jev ships closed; open clones follow within days Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://docs.sglang.io/docs/supported-models/decision_models https://github.com/sgl-project/sglang/pull/41208 https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/ https://x.com/sgl_project/status/2105095379272515603 https://typesafe.ai/blog/introducing-system-one-models-and-jev https://docs.typesafe.ai/models https://github.com/jaredpalmer/kev https://github.com/vllm-project/vllm/pull/57250 https://x.com/CompleteSkeptic/status/2099925682726002904 https://x.com/jaredpalmer/status/2101715352258232539 https://x.com/googlegemma/status/2101069861598482817 https://x.com/mmastrac/status/2100626193943052784 Agent Infrastructure DiffusionGemma SGLang vLLM"
+      "searchText": "Jev ships closed; open clones follow within days Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://x.com/rronak_/status/2101544156757950697 https://x.com/jpschroeder/status/2100347770867458384 https://x.com/moritzkremb/status/2100577979021832365 https://x.com/muratcan/status/2104959648482701686 https://x.com/ElevenLabsDevs/status/2102884507078791484 https://github.com/rmalde/minecraft-agent https://github.com/standardagents/jevpilot https://github.com/moritzkremb/jev-voice-browser https://docs.sglang.io/docs/supported-models/decision_models https://github.com/sgl-project/sglang/pull/41208 https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/ https://x.com/sgl_project/status/2105095379272515603 https://typesafe.ai/blog/introducing-system-one-models-and-jev https://docs.typesafe.ai/models https://github.com/jaredpalmer/kev https://github.com/vllm-project/vllm/pull/57250 https://x.com/CompleteSkeptic/status/2099925682726002904 https://x.com/jaredpalmer/status/2101715352258232539 https://x.com/googlegemma/status/2101069861598482817 https://x.com/mmastrac/status/2100626193943052784 Agent Infrastructure DiffusionGemma Jev SGLang vLLM"
     },
     "austin-ai-club-september-30-2026-agent-infrastructure-openclaw-enterprise-puts-persistent-agents-on-your-own-infrastructure": {
       "id": "austin-ai-club-september-30-2026-agent-infrastructure-openclaw-enterprise-puts-persistent-agents-on-your-own-infrastructure",
@@ -245310,6 +246554,10 @@
     },
     {
       "source": "agent-infrastructure",
+      "target": "jev"
+    },
+    {
+      "source": "agent-infrastructure",
       "target": "alphaevolve"
     },
     {
@@ -248329,6 +249577,30 @@
       "target": "inference-optimization"
     },
     {
+      "source": "jev",
+      "target": "austin-ai-club-september-30-2026"
+    },
+    {
+      "source": "jev",
+      "target": "agent-infrastructure"
+    },
+    {
+      "source": "jev",
+      "target": "sglang"
+    },
+    {
+      "source": "jev",
+      "target": "astra"
+    },
+    {
+      "source": "jev",
+      "target": "diffusiongemma"
+    },
+    {
+      "source": "jev",
+      "target": "open-models"
+    },
+    {
       "source": "k2-horizon",
       "target": "austin-ai-club-september-9-2026"
     },
@@ -250786,6 +252058,10 @@
     },
     {
       "source": "sglang",
+      "target": "jev"
+    },
+    {
+      "source": "sglang",
       "target": "agent-infrastructure"
     },
     {
@@ -252710,6 +253986,10 @@
     },
     {
       "source": "austin-ai-club-september-30-2026",
+      "target": "jev"
+    },
+    {
+      "source": "austin-ai-club-september-30-2026",
       "target": "qwen"
     },
     {
@@ -253655,7 +254935,7 @@
           "track",
           "agent-infrastructure"
         ],
-        "degree": 118,
+        "degree": 120,
         "updated": "2026-09-30"
       },
       {
@@ -253890,7 +255170,7 @@
           "model",
           "models-research"
         ],
-        "degree": 18,
+        "degree": 19,
         "updated": "2026-09-30"
       },
       {
@@ -254272,7 +255552,7 @@
           "open-source",
           "inference-optimization"
         ],
-        "degree": 19,
+        "degree": 20,
         "updated": "2026-09-29"
       },
       {
@@ -254635,6 +255915,18 @@
         ],
         "degree": 13,
         "updated": "2026-08-25"
+      },
+      {
+        "id": "jev",
+        "label": "Jev",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "model",
+          "agent-infrastructure"
+        ],
+        "degree": 9,
+        "updated": "2026-09-30"
       },
       {
         "id": "k2-horizon",
@@ -255044,7 +256336,7 @@
           "models-research",
           "open-source"
         ],
-        "degree": 138,
+        "degree": 139,
         "updated": "2026-09-29"
       },
       {
@@ -255417,7 +256709,7 @@
           "agent-infrastructure",
           "inference-optimization"
         ],
-        "degree": 6,
+        "degree": 8,
         "updated": "2026-09-30"
       },
       {
@@ -255668,7 +256960,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 95,
+        "degree": 97,
         "updated": "2026-09-30"
       },
       {
@@ -256128,6 +257420,11 @@
         "source": "agent-infrastructure",
         "target": "austin-ai-club-march-18-2026",
         "kind": "topic"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "jev",
+        "kind": "wiki"
       },
       {
         "source": "agent-infrastructure",
@@ -259905,6 +261202,36 @@
         "kind": "wiki"
       },
       {
+        "source": "jev",
+        "target": "austin-ai-club-september-30-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "jev",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
+        "source": "jev",
+        "target": "sglang",
+        "kind": "wiki"
+      },
+      {
+        "source": "jev",
+        "target": "astra",
+        "kind": "wiki"
+      },
+      {
+        "source": "jev",
+        "target": "diffusiongemma",
+        "kind": "wiki"
+      },
+      {
+        "source": "jev",
+        "target": "open-models",
+        "kind": "wiki"
+      },
+      {
         "source": "k2-horizon",
         "target": "austin-ai-club-september-9-2026",
         "kind": "topic"
@@ -262976,6 +264303,11 @@
       },
       {
         "source": "sglang",
+        "target": "jev",
+        "kind": "wiki"
+      },
+      {
+        "source": "sglang",
         "target": "agent-infrastructure",
         "kind": "wiki"
       },
@@ -265381,6 +266713,11 @@
       },
       {
         "source": "austin-ai-club-september-30-2026",
+        "target": "jev",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-september-30-2026",
         "target": "qwen",
         "kind": "topic"
       },
@@ -266517,12 +267854,12 @@
     ]
   },
   "stats": {
-    "pageCount": 186,
+    "pageCount": 187,
     "topicCount": 284,
     "rawPageCount": 0,
-    "linkCount": 2111,
+    "linkCount": 2120,
     "sourceRecordCount": 13,
-    "sourceLinkCount": 1447,
+    "sourceLinkCount": 1455,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-09-30"
   }

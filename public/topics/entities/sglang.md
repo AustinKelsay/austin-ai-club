@@ -19,6 +19,8 @@ The September 30 announcement demonstrates Qwen3.8-27B playing Pokémon and iden
 
 ## Related
 
+- [[Jev]]
+
 - [[Agent Infrastructure]]
 - [[Inference Optimization]]
 - [[Qwen]]

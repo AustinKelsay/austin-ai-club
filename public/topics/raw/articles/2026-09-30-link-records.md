@@ -70,6 +70,30 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
 
 ### Jev ships closed; open clones follow within days
 
+- **Minecraft: Astra plans, Jev chooses actions** — https://x.com/rronak_/status/2101544156757950697
+  Type: original X video post. Posted: Sun Sep 20 05:29:06 +0000 2026. Accessed: 2026-09-30. Engagement snapshot: 7,945 likes / 2,091,735 views. Astra handles planning and Jev selects structured actions. The repository documents Peaceful difficulty, a surveyed seed with known coordinates and Mineflayer pathfinding; this is not screenshot-only gameplay.
+
+- **JevPilot: browser driving simulator** — https://x.com/jpschroeder/status/2100347770867458384
+  Type: original X video post. Posted: Wed Sep 16 22:15:05 +0000 2026. Accessed: 2026-09-30. Engagement snapshot: 4,864 likes / 739,289 views. Jev selects steering/speed candidates in a Three.js simulator, not a physical Tesla or a replacement for real vehicle autonomy.
+
+- **Voice-controlled browser with Jev** — https://x.com/moritzkremb/status/2100577979021832365
+  Type: original X video post. Posted: Thu Sep 17 13:29:51 +0000 2026. Accessed: 2026-09-30. Engagement snapshot: 3,823 likes / 371,316 views. Web Speech API transcribes speech; Jev chooses intent and target; Playwright executes. The maker reports roughly 300 ms decisions and $0.0002 per call.
+
+- **Sully: Jev forecasts outcomes from call structure** — https://x.com/muratcan/status/2104959648482701686
+  Type: original X video post. Posted: Tue Sep 29 15:41:03 +0000 2026. Accessed: 2026-09-30. Engagement snapshot: 1,981 likes / 314,755 views. Dashboard video of 2,029 real receptionist calls reduced to turns, tool calls, stages and timing. Jev receives no audio or transcripts; the experiment forecasts booking outcomes rather than handling the calls itself.
+
+- **ElevenLabs: live call sentiment with Jev** — https://x.com/ElevenLabsDevs/status/2102884507078791484
+  Type: original X video post. Posted: Wed Sep 23 22:15:10 +0000 2026. Accessed: 2026-09-30. Engagement snapshot: 585 likes / 174,951 views. Visible transcript phrases change color and six sentiment meters update during speech. This is a partner demo; Jev scores transcribed content rather than generating speech.
+
+- **Astra and Jev Minecraft harness** — https://github.com/rmalde/minecraft-agent
+  Type: repository. Accessed: 2026-09-30. Repository documents planner/controller roles, prepared route and Peaceful difficulty; a maker demo, not a general Minecraft benchmark.
+
+- **JevPilot driving simulator** — https://github.com/standardagents/jevpilot
+  Type: repository. Accessed: 2026-09-30. Inspectable simulator with Jev selecting steering/speed candidates and local code handling control calculations; no physical car.
+
+- **Jev voice-browser** — https://github.com/moritzkremb/jev-voice-browser
+  Type: repository. Accessed: 2026-09-30. MIT browser-control harness: Web Speech API transcripts, TypeSafe decisions and Playwright actions. Speech recognition and Jev inference are remote services.
+
 - **SGLang decision models documentation** — https://docs.sglang.io/docs/supported-models/decision_models
   Type: official documentation. Accessed: 2026-09-30. Typed /v1/decisions and TypeSafe-compatible /v1/systemone; label scores are not automatically calibrated correctness probabilities.
 - **SGLang PR #41208: System One compatible route** — https://github.com/sgl-project/sglang/pull/41208
