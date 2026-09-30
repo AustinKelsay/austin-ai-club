@@ -51,7 +51,8 @@
   content: "";
 }
 
-.meetup-header::before {
+.meetup-header::before,
+.meetup-card > .meetup-event-actions::before {
   content: "";
   position: absolute;
   left: 0;
@@ -76,7 +77,8 @@
   background: linear-gradient(155deg, color-mix(in srgb, var(--accent) 2%, transparent), transparent 40%);
 }
 
-.meetup--past .meetup-header::before {
+.meetup--past .meetup-header::before,
+.meetup--past.meetup-card > .meetup-event-actions::before {
   background: color-mix(in srgb, var(--accent) 62%, transparent);
   box-shadow: none;
 }
@@ -160,6 +162,13 @@
 
 .meetup-card-event {
   margin-top: 0.75rem;
+}
+
+/* Listing links sit outside the card link (links can't nest), so they carry
+   the header's inset and accent bar themselves. */
+.meetup-card > .meetup-event-actions {
+  position: relative;
+  padding: 0 1.25rem 1rem;
 }
 
 .meetup-detail-header {
@@ -873,6 +882,15 @@
 
   .meetup-event {
     align-items: flex-start;
+  }
+
+  .meetup-event-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .meetup-card > .meetup-event-actions {
+    padding: 0 0.8rem 0.8rem;
   }
 
   .calendar-screen-header,

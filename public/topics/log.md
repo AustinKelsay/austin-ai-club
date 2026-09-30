@@ -2,6 +2,15 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-09-30] curate | Pirate Face joins the model-mirroring story
+
+- Added the submitted Pirate Face post and exact GLM-5.3 profile alongside Hugging Bay in the existing Hugging Face deal Topic. Distinguished the disabled offensive-cyber repository in its quoted screenshot from the current gated source, and a catalog listing from an available torrent; mirrored copy, embeds and Presenter Notes.
+
+## [2026-09-30] curate | OpenAI DevDay gets its own Topic
+
+- Added **OpenAI DevDay: dots, Codex Cloud and a bigger platform** under Big Tech Moves with the September 29 official recap, product and documentation sources, and seven verified official launch-post embeds selected for substance and engagement.
+- Recorded changing X engagement counts as September 30 snapshots, distinguished limited previews and future releases, added Dots and reciprocal wiki references, and mirrored the new Topic without rewriting existing release catalogs or source notes.
+
 ## [2026-09-29] curate | September 30 Topics separated
 
 - Split combined Topics back into 20: Jev and the menu-picking integrations, ZCode and AgentCloak, the agent-incident ledger, the user-image leak and Mythos 5, and NVIDIA's safety platform and Hugging Face deal. Kept the expanded release feeds and their source records; updated reciprocal references.

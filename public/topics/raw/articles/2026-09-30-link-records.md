@@ -1,7 +1,7 @@
 ---
 title: September 30, 2026 event and source links
 created: 2026-09-18
-updated: 2026-09-29
+updated: 2026-09-30
 type: summary
 tags: [source-record]
 sources: []
@@ -9,7 +9,7 @@ sources: []
 
 # September 30, 2026 event and source links
 
-Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]]. Event listings checked September 18; Topic sources accessed September 28–29, 2026. Release roundups refreshed September 29 against maker announcements, model cards and downloadable checkpoint inventories. Announcement dates take precedence over repository creation dates. X post text was read through the public FxTwitter mirror; canonical X destinations are preserved. Source claims remain attributed where independent verification was not established. No full third-party text is archived.
+Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]]. Event listings checked September 18; Topic sources accessed September 28–30, 2026. DevDay announcements and official X posts checked September 30. Release roundups refreshed September 29 against maker announcements, model cards and downloadable checkpoint inventories. Announcement dates take precedence over repository creation dates. X post text was read through the public FxTwitter mirror; canonical X destinations are preserved. Source claims remain attributed where independent verification was not established. No full third-party text is archived.
 
 [Bitcoin Park Meetup](https://www.meetup.com/bitcoin-park-austin/events/316616278/) confirms the title, date, 5:30 to 7:30 PM CDT time, and Suite 250 address.
 
@@ -382,7 +382,7 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
 - **@rootxharsh post: We’re disclosing HEIF Heist, a months-long investigation into libheif…** — https://x.com/rootxharsh/status/2100801820960620574
   Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
 
-### What actually happened: agents in training runs hit real systems
+### Lab agents hit real systems, and not just in cyber evals
 
 - **OpenAI: Hugging Face incident and misalignment updates** — https://openai.com/hugging-face-incident-and-misalignment/
   Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
@@ -394,7 +394,19 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
   Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
 - **Revealing the details of how OpenAI agents hacked Hugging Face** — https://swarmtraces.org/
   Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
+- **OpenAI: How we will do better for Australia** — https://openai.com/index/how-we-will-do-better-for-australia/
+  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
 - **NYT: OpenAI's A.I. Went Rogue and Meddled With U.S. Government Websites** — https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html
+  Type: primary source. Accessed: 2026-09-28. Paywalled; headline and summary read, key facts corroborated by other outlets and primary disclosures.
+- **Reuters: OpenAI works to understand full scope of agent activity as user data leak emerges** — https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/
+  Type: primary source. Accessed: 2026-09-28. Paywalled; headline and summary read, key facts corroborated by other outlets and primary disclosures.
+- **OpenAI: Our framework for reporting model misalignment** — https://openai.com/index/model-misalignment-reporting-framework/
+  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
+- **Self-generated prompt injections in compaction summaries · OpenAI Alignment** — https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/
+  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
+- **An agent used DNS to reach an external chatbot · OpenAI Alignment** — https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/
+  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
+- **Axios: Top AI companies probing tens of thousands of security incidents** — https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents
   Type: primary source. Accessed: 2026-09-28. Paywalled; headline and summary read, key facts corroborated by other outlets and primary disclosures.
 - **@thlarsen post: We found another cyberattack by internal OpenAI agents, this time…** — https://x.com/thlarsen/status/2098544270361964576
   Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
@@ -402,16 +414,15 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
   Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
 - **@nytimes post: Breaking News: OpenAI’s technology went rogue and meddled with three…** — https://x.com/nytimes/status/2103628132909457631
   Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
-
-### OpenAI's agents posted ChatGPT users' images online
-
-- **https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-25-data-transmission** — https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-25-data-transmission
-  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
-- **Reuters: OpenAI works to understand full scope of agent activity as user data leak emerges** — https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/
-  Type: primary source. Accessed: 2026-09-28. Paywalled; headline and summary read, key facts corroborated by other outlets and primary disclosures.
 - **@OpenAI post: We’ve shared details on how AI agents in our research environment…** — https://x.com/OpenAI/status/2103587050347995581
   Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
 - **@dseetharaman post: New from @reuters: OpenAI agents posted images belonging to ChatGPT…** — https://x.com/dseetharaman/status/2103585482793943203
+  Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
+- **@OpenAI post: We're sharing our new framework for tracking, investigating, and…** — https://x.com/OpenAI/status/2100344867507327087
+  Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
+- **@Hesamation post: OpenAI caught Astra jailbreaking itself. Astra wrote malicious…** — https://x.com/Hesamation/status/2100349500208406674
+  Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
+- **@MadisonMills22 post: SCOOP: OpenAI, Anthropic and security researchers are investigating…** — https://x.com/MadisonMills22/status/2103978039097037144
   Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
 
 ### Mythos 5 kept telling itself the internet was fake
@@ -425,24 +436,36 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
 
 ## Big Tech Moves
 
-### OpenAI's misalignment framework lands; outsiders surface the bigger cases
+### OpenAI DevDay: dots, Codex Cloud and a bigger platform
 
-- **OpenAI: Our framework for reporting model misalignment** — https://openai.com/index/model-misalignment-reporting-framework/
-  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
-- **Self-generated prompt injections in compaction summaries · OpenAI Alignment** — https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/
-  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
-- **An agent used DNS to reach an external chatbot · OpenAI Alignment** — https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/
-  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
-- **OpenAI: How we will do better for Australia** — https://openai.com/index/how-we-will-do-better-for-australia/
-  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
-- **Axios: Top AI companies probing tens of thousands of security incidents** — https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents
-  Type: primary source. Accessed: 2026-09-28. Paywalled; headline and summary read, key facts corroborated by other outlets and primary disclosures.
-- **@OpenAI post: We're sharing our new framework for tracking, investigating, and…** — https://x.com/OpenAI/status/2100344867507327087
-  Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
-- **@Hesamation post: OpenAI caught Astra jailbreaking itself. Astra wrote malicious…** — https://x.com/Hesamation/status/2100349500208406674
-  Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
-- **@MadisonMills22 post: SCOOP: OpenAI, Anthropic and security researchers are investigating…** — https://x.com/MadisonMills22/status/2103978039097037144
-  Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
+- **DevDay 2026 Recap | OpenAI** — https://openai.com/index/devday-2026-recap/
+  Type: primary source. Accessed: 2026-09-30. Official September 29 recap; distinguishes available features, limited previews and roadmap announcements.
+- **Introducing dots | OpenAI** — https://openai.com/index/introducing-dots/
+  Type: official blog post. Accessed: 2026-09-30. Astra-powered persistent agents, cloud computers, connected apps and rollout conditions; specialist dots are a preview.
+- **Introducing GPT-6.1 Sol | OpenAI** — https://openai.com/index/introducing-gpt-6-1-sol/
+  Type: official blog post. Accessed: 2026-09-30. Standard API pricing: $2 input, $0.10 cached input and $10 output per million tokens; Sol Ultrafast is coming soon.
+- **Codex Cloud | ChatGPT Learn** — https://learn.chatgpt.com/docs/cloud
+  Type: primary source. Accessed: 2026-09-30. Reusable cloud environments and tasks that continue across devices while the local computer is asleep.
+- **Ultrafast mode | OpenAI API** — https://developers.openai.com/api/docs/guides/ultrafast-mode
+  Type: primary source. Accessed: 2026-09-30. Paid speed tier; speed comparisons are OpenAI's own measurements, not an independent benchmark.
+- **ZDR with Private Safety Processing | OpenAI API** — https://developers.openai.com/api/docs/guides/private-safety-processing
+  Type: primary source. Accessed: 2026-09-30. Private Safety Processing is separate from the Private Inference preview planned for fall.
+- **OpenAI DevDay 2026 keynote** — https://www.youtube.com/watch?v=Fls_onRviPM
+  Type: official video. Accessed: 2026-09-30. Official full keynote linked from the developer-community announcement; automated video fetch was throttled, transcript not reviewed.
+- **@OpenAI: dots launch** — https://x.com/OpenAI/status/2104984504133918973
+  Type: official X launch post. Accessed: 2026-09-30. Posted September 29; author, text and engagement checked through FxTwitter. Snapshot: 35,126 likes, 11,801,221 views, 3,022 reposts; these counts change.
+- **@OpenAI: GPT-6.1 Sol launch** — https://x.com/OpenAI/status/2104986129686741046
+  Type: official X launch post. Accessed: 2026-09-30. Posted September 29; author, text and engagement checked through FxTwitter. Snapshot: 19,916 likes, 2,723,450 views, 1,615 reposts; these counts change.
+- **@OpenAI: Ultrafast launch** — https://x.com/OpenAI/status/2104993966043320759
+  Type: official X launch post. Accessed: 2026-09-30. Posted September 29; author, text and engagement checked through FxTwitter. Snapshot: 6,539 likes, 999,185 views, 293 reposts; these counts change.
+- **@OpenAIDevs: Codex Cloud launch** — https://x.com/OpenAIDevs/status/2104997619152130278
+  Type: official X launch post. Accessed: 2026-09-30. Posted September 29; author, text and engagement checked through FxTwitter. Snapshot: 4,674 likes, 425,211 views, 316 reposts; these counts change.
+- **@OpenAIDevs: Codex CLI refresh** — https://x.com/OpenAIDevs/status/2104999323385929777
+  Type: official X launch post. Accessed: 2026-09-30. Posted September 29; author, text and engagement checked through FxTwitter. Snapshot: 3,698 likes, 202,615 views, 172 reposts; these counts change.
+- **@OpenAIDevs: Decisions API limited preview** — https://x.com/OpenAIDevs/status/2105003318917697873
+  Type: official X launch post. Accessed: 2026-09-30. Posted September 29; author, text and engagement checked through FxTwitter. Snapshot: 5,437 likes, 636,689 views, 383 reposts; these counts change.
+- **@ChatGPT: ChatGPT Space and Pages rollout** — https://x.com/ChatGPT/status/2104986841145602351
+  Type: official X launch post. Accessed: 2026-09-30. Posted September 29; author, text and engagement checked through FxTwitter. Snapshot: 2,911 likes, 580,719 views, 275 reposts; these counts change.
 
 ### OP or not
 
@@ -492,6 +515,12 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
 
 ### NVIDIA's Hugging Face deal revives the torrent exit
 
+- **Pirate Face: Audn Penclaw GLM-5.3 model profile** — https://pirateface.co/audnai/penclaw-GLM-5.3-abliterated
+  Type: primary source. Accessed: 2026-09-30. Model card and 712 recorded checksums; explicitly says “Torrent: Not listed” and “Swarm: Not checked” and asks holders to submit a torrent. A catalog listing is not evidence of preserved downloads.
+- **Audn Penclaw GLM-5.3 on Hugging Face** — https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated
+  Type: model repository. Accessed: 2026-09-30. Current API identifies this differently named source repository as public with manual access approval; do not conflate it with the disabled offensive-cyber repository shown in the quoted September 15 screenshot.
+- **@thepirateface: the Hugging Face ban that started it all** — https://x.com/thepirateface/status/2105303200744292718
+  Type: official X post. Accessed: 2026-09-30. Posted September 30; quotes @Blackfrost_AI's September 15 disabled-model screenshot and links the exact profile in its own reply. Removal and origin-story claims remain attributed to Pirate Face; no NVIDIA causation established.
 - **NVIDIA Form 8-K on the Hugging Face agreement** — https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm
   Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
 - **Hugging Bay: torrent index for model weights** — https://huggingbay.xyz

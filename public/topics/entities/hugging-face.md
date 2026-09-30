@@ -1,7 +1,7 @@
 ---
 title: Hugging Face
 created: 2026-09-08
-updated: 2026-09-29
+updated: 2026-09-30
 type: entity
 tags: [entity, big-tech-moves]
 sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md]
@@ -13,7 +13,7 @@ Hugging Face hosts models, datasets, and applications and supports model discove
 
 ## Mentioned In
 
-- [[Sovereign AI Club - September 30, 2026]]: **What actually happened: agents in training runs hit real systems**, **NVIDIA's Hugging Face deal revives the torrent exit**.
+- [[Sovereign AI Club - September 30, 2026]]: **Lab agents hit real systems, and not just in cyber evals**, **NVIDIA's Hugging Face deal revives the torrent exit**.
 - [[Sovereign AI Club - September 9, 2026]]: **NVIDIA agrees to acquire Hugging Face**.
 
 ## Related

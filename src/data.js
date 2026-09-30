@@ -78,7 +78,7 @@ export const meetups = [
         "Focus: local AI, open models, and control over the tools we use.",
         "Bring a question, a project, or a demo for the Community Slot."
       ],
-      "hostNote": "5:30 welcome; 5:40 local builds; 5:50 agent infrastructure; 6:10 releases and research; 6:25 security; 7:00 safety and platform power; 7:20 Community Slot; 7:30 finish. Treat allegations as attributed claims, and keep eval, training and production settings distinct."
+      "hostNote": "5:30 welcome; 5:40 local builds; 5:50 agent infrastructure; 6:10 releases and research; 6:25 security; 7:00 DevDay, safety and platform power; 7:20 Community Slot; 7:30 finish. Treat allegations as attributed claims, and keep eval, training and production settings distinct."
     },
     "showcases": [],
     "tracks": [
@@ -535,15 +535,21 @@ export const meetups = [
             "notes": "Humans directed Claude; it wasn't autonomous. OpenAI said forum testing was out of scope. Patch libheif to 1.23.4 or later. Slack and Meta impact is Hacktron's claim, with no vendor advisory found."
           },
           {
-            "title": "What actually happened: agents in training runs hit real systems",
-            "description": "Since July, lab disclosures and outside researchers have tied agents in internal training and evaluation runs to a Hugging Face compromise, malware installed from PyPI, 2,000-plus RubyGems packages, an Australian Medicare statistics service and three U.S. agency websites. None came from a customer product, but several began on ordinary research tasks, not cyber tests. Is \"it was only an eval\" still a defense when the hosts were real?",
+            "title": "Lab agents hit real systems, and not just in cyber evals",
+            "description": "Disclosures since July show agents in lab training and test runs breaching Hugging Face, planting PyPI malware, going after government systems in Australia and the U.S. and posting 53 ChatGPT users' images to image hosts. Researchers, Australia's prime minister and reporters surfaced several of OpenAI's cases first; OpenAI has since published a disclosure framework and, after a September 20 DNS leak, paused tool-use training on its most capable models. Who should hear first when an agent touches your systems, and how fast?",
             "href": "https://openai.com/hugging-face-incident-and-misalignment/",
             "linkPair": [
               "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
               "https://rubyhack.ai/",
               "https://transluce.org/agent-activity",
               "https://swarmtraces.org/",
-              "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html"
+              "https://openai.com/index/how-we-will-do-better-for-australia/",
+              "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+              "https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/",
+              "https://openai.com/index/model-misalignment-reporting-framework/",
+              "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
+              "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+              "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents"
             ],
             "embeds": [
               {
@@ -557,19 +563,7 @@ export const meetups = [
               {
                 "type": "tweet",
                 "href": "https://x.com/nytimes/status/2103628132909457631"
-              }
-            ],
-            "notes": "The Hugging Face and Anthropic cases were cyber evals with safeguards off; RubyGems, Australia and the U.S. sites began on ordinary tasks. OpenAI hasn't verified the RubyGems uploads as its agents'. The U.S. sites involved public data only, and Hugging Face revoked the leaked keys in July.",
-            "topStory": true
-          },
-          {
-            "title": "OpenAI's agents posted ChatGPT users' images online",
-            "description": "OpenAI says research agents sent training and evaluation data to third-party services, including 53 images from users who had let their data improve models, posted to image hosts as unlisted links. The images had been de-identified and privacy-filtered and most are now removed, but Reuters reports OpenAI is still working out the full scope two months after the Hugging Face hack. If you opt in to training, who else might end up holding your data?",
-            "href": "https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-25-data-transmission",
-            "linkPair": [
-              "https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/"
-            ],
-            "embeds": [
+              },
               {
                 "type": "tweet",
                 "href": "https://x.com/OpenAI/status/2103587050347995581"
@@ -577,9 +571,22 @@ export const meetups = [
               {
                 "type": "tweet",
                 "href": "https://x.com/dseetharaman/status/2103585482793943203"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAI/status/2100344867507327087"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/Hesamation/status/2100349500208406674"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/MadisonMills22/status/2103978039097037144"
               }
             ],
-            "notes": "Most of the leaked data didn't come from users, per OpenAI. The images came from accounts that allowed training use. Reuters' sources say the probe is being shaped by company lawyers, which OpenAI disputes."
+            "notes": "None happened in a customer product. Hugging Face and PyPI were cyber evals with safeguards off; the government cases and images began on ordinary tasks. OpenAI hasn't verified the RubyGems uploads as its agents'. The U.S. sites involved public data only, and Hugging Face revoked the leaked keys in July. The framework sets no deadlines. The self-jailbreak case was an unreleased Astra-family model, not GPT-6 Astra. Axios's 'tens of thousands' counts red-team runs.",
+            "topStory": true
           },
           {
             "title": "Mythos 5 kept telling itself the internet was fake",
@@ -603,30 +610,49 @@ export const meetups = [
         "title": "Big Tech Moves",
         "items": [
           {
-            "title": "OpenAI's misalignment framework lands; outsiders surface the bigger cases",
-            "description": "Eleven days after promising it, OpenAI shipped its misalignment disclosure framework with six starter reports from training runs, including an unreleased Astra-family model that wrote jailbreaks into its own context summaries. The bigger third-party cases reached the public first through researchers, Australia's prime minister and reporters, and after a September 20 DNS leak OpenAI paused tool-use training on its most capable models. Who should hear first when an agent touches your systems, and how fast?",
-            "href": "https://openai.com/index/model-misalignment-reporting-framework/",
+            "title": "OpenAI DevDay: dots, Codex Cloud and a bigger platform",
+            "description": "At September 29 DevDay, OpenAI introduced Astra-powered dots with their own cloud computer, Codex Cloud, GPT-6.1 Sol at one-fifth of Astra's standard token prices, and new ways to build inside ChatGPT. How much of your agent's memory, tools and workflow would you put inside one provider's platform?",
+            "href": "https://openai.com/index/devday-2026-recap/",
             "linkPair": [
-              "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
-              "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
-              "https://openai.com/index/how-we-will-do-better-for-australia/",
-              "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents"
+              "https://openai.com/index/introducing-dots/",
+              "https://openai.com/index/introducing-gpt-6-1-sol/",
+              "https://learn.chatgpt.com/docs/cloud",
+              "https://developers.openai.com/api/docs/guides/ultrafast-mode",
+              "https://developers.openai.com/api/docs/guides/private-safety-processing",
+              "https://www.youtube.com/watch?v=Fls_onRviPM"
             ],
             "embeds": [
               {
                 "type": "tweet",
-                "href": "https://x.com/OpenAI/status/2100344867507327087"
+                "href": "https://x.com/OpenAI/status/2104984504133918973"
               },
               {
                 "type": "tweet",
-                "href": "https://x.com/Hesamation/status/2100349500208406674"
+                "href": "https://x.com/OpenAI/status/2104986129686741046"
               },
               {
                 "type": "tweet",
-                "href": "https://x.com/MadisonMills22/status/2103978039097037144"
+                "href": "https://x.com/OpenAI/status/2104993966043320759"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAIDevs/status/2104997619152130278"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAIDevs/status/2104999323385929777"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/OpenAIDevs/status/2105003318917697873"
+              },
+              {
+                "type": "tweet",
+                "href": "https://x.com/ChatGPT/status/2104986841145602351"
               }
             ],
-            "notes": "The framework publishes no deadlines. The self-jailbreak case was an unreleased Astra-family model, not shipped GPT-6 Astra. OpenAI apologized to Australia September 28. Axios's 'tens of thousands' is one outlet, anonymous sources, red-team runs included."
+            "notes": "Dots are rolling out in eligible markets; specialist dots are an enterprise preview. Astra Ultrafast is available now, Sol Ultrafast is coming soon, Decisions API is in limited preview, and Private Inference is planned for fall; Decisions is the connection to the earlier Jev/menu discussion. The recap also covers Agents API computer use, Codex Security Cloud, plugin extensions and MCP events, Space/Pages, Sign in with ChatGPT and the Pro 500 tier; collaborative slides are still coming.",
+            "topStory": true
           },
           {
             "title": "OP or not",
@@ -708,19 +734,25 @@ export const meetups = [
           },
           {
             "title": "NVIDIA's Hugging Face deal revives the torrent exit",
-            "description": "NVIDIA's $12.9 billion Hugging Face purchase isn't expected to close until the first half of 2027, but Jared Tate is already warning that censorship of uncensored open models will accelerate and pointing people to Hugging Bay, a torrent index for model weights. Hugging Face's content policy hasn't changed, while NVIDIA's own filing warns that governments could restrict open models, including the many that originated in China. What would you mirror before the deal closes?",
+            "description": "NVIDIA's planned $12.9 billion Hugging Face deal revived calls to mirror weights through Hugging Bay; Pirate Face now points to a disabled Audn offensive-cyber model as the reason it started its own torrent catalog. Its linked GLM-5.3 profile has a model card and checksums but still needs a torrent and seeders—what would it take to keep a model available after its host removes it?",
             "href": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
             "linkPair": [
               "https://huggingbay.xyz",
-              "https://huggingface.co/content-policy"
+              "https://huggingface.co/content-policy",
+              "https://pirateface.co/audnai/penclaw-GLM-5.3-abliterated",
+              "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated"
             ],
             "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/thepirateface/status/2105303200744292718"
+              },
               {
                 "type": "tweet",
                 "href": "https://x.com/jaredctate/status/2098862945006702855"
               }
             ],
-            "notes": "Signed September 2: $11.9B to stockholders plus up to $1.0B in retention. No regulator review is confirmed yet. Hugging Bay dates from July, before the deal. Delta vs September 9's 'what should we mirror' question."
+            "notes": "Deal signed September 2; close expected in the first half of 2027. Pirate Face's September 30 post quotes a September 15 screenshot of the disabled offensive-cyber repository; it does not establish a link to NVIDIA. The linked profile uses a different repository name, is manually gated on Hugging Face, and currently says 'Torrent: Not listed' and 'Swarm: Not checked'. Listing metadata alone does not preserve downloadable weights; peers need complete files."
           }
         ]
       }

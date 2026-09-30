@@ -1,10 +1,10 @@
 ---
 title: Big Tech Moves
 created: 2026-06-24
-updated: 2026-09-09
+updated: 2026-09-30
 type: concept
 tags: [concept, track, big-tech-moves]
-sources: [raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
+sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-08-05-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-27-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
 ---
 
 # Big Tech Moves
@@ -13,6 +13,7 @@ Big Tech Moves is the Sovereign AI Club track for major company strategy, comput
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.
 - [[Sovereign AI Club - September 9, 2026]]: **OpenAI plans to end Cursor’s model supply**.
 - [[Sovereign AI Club - September 9, 2026]]: **Mistral raises €3B for sovereign AI**.
 - [[Sovereign AI Club - September 9, 2026]]: **Apple brings on-device assessments to Health**.
