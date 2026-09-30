@@ -121,6 +121,22 @@ export const meetups = [
         "title": "Agent Infrastructure",
         "items": [
           {
+            "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+            "description": "OpenClaw Enterprise is an MIT-licensed control plane you can self-host, with tenant isolation, permissions and audit trails for persistent agents; it began at OpenAI and was donated to the OpenClaw Foundation. It's still for internal pilots ahead of 1.0—what would you need to trust an agent with your company's code and credentials?",
+            "href": "https://openclaw.ai/blog/openclaw-enterprise",
+            "linkPair": [
+              "https://github.com/openclaw/openclaw-enterprise",
+              "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md"
+            ],
+            "embeds": [
+              {
+                "type": "tweet",
+                "href": "https://x.com/openclaw/status/2105023990607786313"
+              }
+            ],
+            "notes": "Red Hat and NVIDIA collaborated on the donated project; OpenAI and Red Hat are piloting it. The launch promises free organizational use and a 1.0 release later this year. Self-hosting the control plane does not imply local model inference: the current first-agent guide requires an OpenAI API key. The README says the default Compose preview cannot deploy agents; its runnable agent path uses Kubernetes. Security controls are project claims, not an independent audit."
+          },
+          {
             "title": "Splash vs mlx-serve: rival benchmarks, real fixes",
             "description": "Inco's open-source Splash engine launched with two Qwen packages and 74 tok/s single-stream on an M5 Pro, about twice oMLX by Inco's numbers. mlx-serve's author called out the missing formats and the skipped comparison; Inco answered with its own table, and within a week Splash loaded standard GGUF and MLX weights while mlx-serve shipped concurrency fixes crediting Inco. When the only benchmarks come from rival engine authors, how do we pick?",
             "href": "https://github.com/incoai/splash",

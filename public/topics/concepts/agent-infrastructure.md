@@ -13,6 +13,7 @@ Agent Infrastructure is the Sovereign AI Club track for runtimes, protocols, int
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.
 - [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.
 - [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.
 - [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.

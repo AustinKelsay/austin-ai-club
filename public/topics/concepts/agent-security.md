@@ -13,6 +13,7 @@ Agent Security covers the security controls, trust boundaries, governance toolin
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.
 - [[Sovereign AI Club - September 30, 2026]]: **Lab agents hit real systems, and not just in cyber evals**, **Mythos 5 kept telling itself the internet was fake**, **NVIDIA puts the agent kill switch in the DPU**.
 - [[Sovereign AI Club - September 9, 2026]]: **Anthropic deliberately trains a reward-hacking Opus**, **OpenAI’s wiki incident forces a disclosure question**.
 

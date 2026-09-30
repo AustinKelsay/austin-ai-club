@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T20:37:26.115Z",
+  "generatedAt": "2026-09-30T21:11:44.401Z",
   "pages": [
     {
       "id": "abliterlitics",
@@ -2054,6 +2054,34 @@
           "sourcePageTitle": "Sovereign AI Club - May 27, 2026"
         },
         {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
           "href": "https://github.com/incoai/splash",
           "title": "Splash vs mlx-serve: rival benchmarks, real fixes",
           "section": "Agent Infrastructure",
@@ -2488,7 +2516,7 @@
           "sourcePageTitle": "Sovereign AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     {
       "id": "agent-payments",
@@ -2918,6 +2946,34 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Sovereign AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://openai.com/hugging-face-incident-and-misalignment/",
@@ -3487,7 +3543,7 @@
           "sourcePageTitle": "Sovereign AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Lab agents hit real systems, and not just in cyber evals**, **Mythos 5 kept telling itself the internet was fake**, **NVIDIA puts the agent kill switch in the DPU**.\n- [[Sovereign AI Club - September 9, 2026]]: **Anthropic deliberately trains a reward-hacking Opus**, **OpenAI’s wiki incident forces a disclosure question**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.\n- [[Sovereign AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Sovereign AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Sovereign AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Sovereign AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Sovereign AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Sovereign AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Cloudflare OS]]\n- [[Codex]]\n- [[Claude Code]]\n- [[Microsoft]]\n- [[Security]]"
+      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Lab agents hit real systems, and not just in cyber evals**, **Mythos 5 kept telling itself the internet was fake**, **NVIDIA puts the agent kill switch in the DPU**.\n- [[Sovereign AI Club - September 9, 2026]]: **Anthropic deliberately trains a reward-hacking Opus**, **OpenAI’s wiki incident forces a disclosure question**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.\n- [[Sovereign AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Sovereign AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Sovereign AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Sovereign AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Sovereign AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Sovereign AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Cloudflare OS]]\n- [[Codex]]\n- [[Claude Code]]\n- [[Microsoft]]\n- [[Security]]"
     },
     {
       "id": "ai-benchmarks-evals",
@@ -61133,7 +61189,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "excerpt": "NVIDIA is a recurring Sovereign AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion. On August 26 it reported Q2 FY27 revenue of $96.2B and guided Q3 to $108.0B ±2% with no China Data Center compute in the outlook.",
       "rawHref": "/topics/entities/nvidia.md",
       "relativePath": "entities/nvidia.md",
@@ -62023,6 +62079,34 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Sovereign AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://arxiv.org/abs/2608.03893",
@@ -63278,7 +63362,7 @@
           "sourcePageTitle": "Sovereign AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# NVIDIA\n\nNVIDIA is a recurring Sovereign AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion. On August 26 it reported Q2 FY27 revenue of $96.2B and guided Q3 to $108.0B ±2% with no China Data Center compute in the outlook.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Models hand off KV cache instead of text**, **NVIDIA puts the agent kill switch in the DPU**, **NVIDIA's Hugging Face deal revives the torrent exit**.\n- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA PAIR routes inference across your local PCs**, **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Open model releases**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.\n- [[Sovereign AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.\n- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 13, 2026]]: **Isaac Sim for beginners**, **PII filters are becoming local model infrastructure**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **OpenAI pauses Stargate UK**.\n- [[Sovereign AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **NVIDIA wants a place in the agent stack too**, **Physical AI got pulled into the same pitch**, and **Open model releases**.\n- [[Sovereign AI Club - March 18, 2026]]: **Open model releases** and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Privacy Tooling]]\n- [[vLLM]]\n- [[Nemotron]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Vera Rubin]]"
+      "bodyMarkdown": "# NVIDIA\n\nNVIDIA is a recurring Sovereign AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion. On August 26 it reported Q2 FY27 revenue of $96.2B and guided Q3 to $108.0B ±2% with no China Data Center compute in the outlook.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Models hand off KV cache instead of text**, **NVIDIA puts the agent kill switch in the DPU**, **NVIDIA's Hugging Face deal revives the torrent exit**.\n- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA PAIR routes inference across your local PCs**, **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Open model releases**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.\n- [[Sovereign AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.\n- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 13, 2026]]: **Isaac Sim for beginners**, **PII filters are becoming local model infrastructure**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **OpenAI pauses Stargate UK**.\n- [[Sovereign AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **NVIDIA wants a place in the agent stack too**, **Physical AI got pulled into the same pitch**, and **Open model releases**.\n- [[Sovereign AI Club - March 18, 2026]]: **Open model releases** and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Privacy Tooling]]\n- [[vLLM]]\n- [[Nemotron]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Vera Rubin]]"
     },
     {
       "id": "nvidia-pair",
@@ -68539,6 +68623,34 @@
           "sourcePageTitle": "Sovereign AI Club - May 27, 2026"
         },
         {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
           "href": "https://openai.com/index/devday-2026-recap/",
           "title": "OpenAI DevDay: dots, Codex Cloud and a bigger platform",
           "section": "Big Tech Moves",
@@ -69533,7 +69645,7 @@
           "sourcePageTitle": "Sovereign AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# OpenAI\n\nOpenAI is a recurring Sovereign AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next. On August 26 it published the promised Hugging Face eval investigation: an internal Sol-scale research model (IM1) and GPT-5.6 Sol used hosted Artifactory as an unauthorized message board during ExploitGym, then compromised Hugging Face. OpenAI calls that a warning shot and says the Astra RL pause remains in force.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**, **Hacktron used Claude to break into OpenAI through an image library**, **Lab agents hit real systems, and not just in cyber evals**.\n- [[Sovereign AI Club - September 9, 2026]]: **OpenAI plans to end Cursor’s model supply**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Jacob Coxon quits Anthropic: AI risk and IPO incentives**, **Closed model releases**, **OpenAI’s Navier–Stokes claim sparks a research-credit dispute**, **OpenAI’s wiki incident forces a disclosure question**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Closed model releases**, **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, and **Jalapeño posts its first silicon results**.\n- [[Sovereign AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Sovereign AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model releases**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.\n- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.\n- [[Sovereign AI Club - June 10, 2026]]: **OpenAI says AI research automation is the race**.\n- [[Sovereign AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.\n- [[Sovereign AI Club - May 13, 2026]]: **Closed model releases**, **PII filters are becoming local model infrastructure**, **GPT-5.5-Cyber opens the trust gate**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **OpenAI acquires TBPN**, **OpenAI pauses Stargate UK**, **Two attacks on Sam Altman's home in one week**, and **Microsoft ships in-house MAI models**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **Closed model releases**, and **OpenAI to acquire Astral**.\n- [[Sovereign AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Closed model releases**, and **Claude Kill?**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[AI Governance]]\n- [[Compute Strategy]]\n- [[Codex]]\n- [[GPT-5.6]]\n- [[Astra]]\n- [[Jalapeno]]"
+      "bodyMarkdown": "# OpenAI\n\nOpenAI is a recurring Sovereign AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next. On August 26 it published the promised Hugging Face eval investigation: an internal Sol-scale research model (IM1) and GPT-5.6 Sol used hosted Artifactory as an unauthorized message board during ExploitGym, then compromised Hugging Face. OpenAI calls that a warning shot and says the Astra RL pause remains in force.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**, **Hacktron used Claude to break into OpenAI through an image library**, **Lab agents hit real systems, and not just in cyber evals**.\n- [[Sovereign AI Club - September 9, 2026]]: **OpenAI plans to end Cursor’s model supply**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Jacob Coxon quits Anthropic: AI risk and IPO incentives**, **Closed model releases**, **OpenAI’s Navier–Stokes claim sparks a research-credit dispute**, **OpenAI’s wiki incident forces a disclosure question**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Closed model releases**, **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, and **Jalapeño posts its first silicon results**.\n- [[Sovereign AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Sovereign AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model releases**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.\n- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.\n- [[Sovereign AI Club - June 10, 2026]]: **OpenAI says AI research automation is the race**.\n- [[Sovereign AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.\n- [[Sovereign AI Club - May 13, 2026]]: **Closed model releases**, **PII filters are becoming local model infrastructure**, **GPT-5.5-Cyber opens the trust gate**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **OpenAI acquires TBPN**, **OpenAI pauses Stargate UK**, **Two attacks on Sam Altman's home in one week**, and **Microsoft ships in-house MAI models**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **Closed model releases**, and **OpenAI to acquire Astral**.\n- [[Sovereign AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Closed model releases**, and **Claude Kill?**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[AI Governance]]\n- [[Compute Strategy]]\n- [[Codex]]\n- [[GPT-5.6]]\n- [[Astra]]\n- [[Jalapeno]]"
     },
     {
       "id": "openai-presence",
@@ -69588,16 +69700,17 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-09-30-link-records.md",
         "raw/articles/2026-05-27-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-24",
+      "updated": "2026-09-30",
       "excerpt": "OpenClaw is a recurring Sovereign AI Club entity because it anchors several coding-agent, local-agent, ecosystem-drama, and customization threads.",
       "rawHref": "/topics/entities/openclaw.md",
       "relativePath": "entities/openclaw.md",
@@ -69607,6 +69720,7 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-30-2026",
         "coding-agents",
         "model-distillation"
       ],
@@ -69618,6 +69732,7 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-30-2026",
         "coding-agents",
         "grok",
         "zai"
@@ -69734,6 +69849,34 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Sovereign AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
@@ -70135,7 +70278,7 @@
           "sourcePageTitle": "Sovereign AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# OpenClaw\n\nOpenClaw is a recurring Sovereign AI Club entity because it anchors several coding-agent, local-agent, ecosystem-drama, and customization threads.\n\n## Mentioned In\n\n- [[Sovereign AI Club - May 27, 2026]]: **Grok API gets X Premium OAuth integration**.\n- [[Sovereign AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAgents Autopilot**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Closed model releases**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **OpenClaw pairing bench**, **NemoClaw launch + OpenClaw reaction**, and **Pimping your OpenClaw**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Model Distillation]]"
+      "bodyMarkdown": "# OpenClaw\n\nOpenClaw is a recurring Sovereign AI Club entity because it anchors several coding-agent, local-agent, ecosystem-drama, and customization threads.\n\nOpenClaw Enterprise was announced September 29, 2026 as an MIT-licensed control plane for persistent agents on an organization's own infrastructure. Originating at OpenAI and donated to the OpenClaw Foundation, it was developed with Red Hat and NVIDIA. The project is intended for internal pilots before its planned 1.0 release; self-hosted orchestration does not by itself mean local model inference.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - May 27, 2026]]: **Grok API gets X Premium OAuth integration**.\n- [[Sovereign AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAgents Autopilot**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Closed model releases**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **OpenClaw pairing bench**, **NemoClaw launch + OpenClaw reaction**, and **Pimping your OpenClaw**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Model Distillation]]"
     },
     {
       "id": "openrouter",
@@ -79944,6 +80087,10 @@
         "https://hrf.org/latest/announcing-the-winners-of-ai-hack-for-freedom-iii/",
         "https://hrf.org/latest/hrf-co-sponsors-ai-hack-for-freedom-iii-in-washington-d-c-sept-24-25/",
         "https://www.aihackforfreedom.org/",
+        "https://openclaw.ai/blog/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+        "https://x.com/openclaw/status/2105023990607786313",
         "https://github.com/incoai/splash",
         "https://inco.ai/blog/splash/",
         "https://github.com/ddalcu/mlx-serve/releases/tag/v26.9.5",
@@ -80221,6 +80368,26 @@
           "href": "https://www.aihackforfreedom.org/",
           "title": "AI Hack for Freedom IV - San Francisco, CA",
           "section": "Local Builds & Projects"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise: the open agent platform",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise repository",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise local setup",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw: Enterprise launch",
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://github.com/incoai/splash",
@@ -94972,6 +95139,10 @@
         "https://hrf.org/latest/announcing-the-winners-of-ai-hack-for-freedom-iii/",
         "https://hrf.org/latest/hrf-co-sponsors-ai-hack-for-freedom-iii-in-washington-d-c-sept-24-25/",
         "https://www.aihackforfreedom.org/",
+        "https://openclaw.ai/blog/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+        "https://x.com/openclaw/status/2105023990607786313",
         "https://github.com/incoai/splash",
         "https://inco.ai/blog/splash/",
         "https://github.com/ddalcu/mlx-serve/releases/tag/v26.9.5",
@@ -95248,6 +95419,26 @@
           "href": "https://www.aihackforfreedom.org/",
           "title": "AI Hack for Freedom III: a sportswashing tracker takes first",
           "section": "Local Builds & Projects"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://github.com/incoai/splash",
@@ -96418,6 +96609,7 @@
         "nvidia",
         "open-models",
         "openai",
+        "openclaw",
         "phonon-2",
         "prismml",
         "privacy-tooling",
@@ -96467,6 +96659,7 @@
         "nvidia",
         "open-models",
         "openai",
+        "openclaw",
         "phonon-2",
         "prismml",
         "privacy-tooling",
@@ -107272,6 +107465,34 @@
           "sourcePageTitle": "Sovereign AI Club - May 27, 2026"
         },
         {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
           "href": "https://github.com/incoai/splash",
           "title": "Splash vs mlx-serve: rival benchmarks, real fixes",
           "section": "Agent Infrastructure",
@@ -107706,7 +107927,7 @@
           "sourcePageTitle": "Sovereign AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     "agent-payments": {
       "id": "agent-payments",
@@ -108136,6 +108357,34 @@
           "section": "Security",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Sovereign AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://openai.com/hugging-face-incident-and-misalignment/",
@@ -108705,7 +108954,7 @@
           "sourcePageTitle": "Sovereign AI Club - April 15, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Lab agents hit real systems, and not just in cyber evals**, **Mythos 5 kept telling itself the internet was fake**, **NVIDIA puts the agent kill switch in the DPU**.\n- [[Sovereign AI Club - September 9, 2026]]: **Anthropic deliberately trains a reward-hacking Opus**, **OpenAI’s wiki incident forces a disclosure question**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.\n- [[Sovereign AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Sovereign AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Sovereign AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Sovereign AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Sovereign AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Sovereign AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Cloudflare OS]]\n- [[Codex]]\n- [[Claude Code]]\n- [[Microsoft]]\n- [[Security]]"
+      "bodyMarkdown": "# Agent Security\n\nAgent Security covers the security controls, trust boundaries, governance tooling, and attack surfaces created when AI agents use tools, credentials, browsers, codebases, and enterprise systems.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Lab agents hit real systems, and not just in cyber evals**, **Mythos 5 kept telling itself the internet was fake**, **NVIDIA puts the agent kill switch in the DPU**.\n- [[Sovereign AI Club - September 9, 2026]]: **Anthropic deliberately trains a reward-hacking Opus**, **OpenAI’s wiki incident forces a disclosure question**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, **CoSnitch turns Copilot memory into persistent attacker state**, and **Google ships a runnable zero-trust agent failure lab**.\n- [[Sovereign AI Club - August 5, 2026]]: **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Microsoft pitches MAI-Cyber-1-Flash as half-cost cyber agents**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, and **Hugging Face turns the July agent intrusion into a playable timeline**.\n- [[Sovereign AI Club - May 27, 2026]]: **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Sovereign AI Club - May 13, 2026]]: **Dumb AI loops die in production**, **GPT-5.5-Cyber opens the trust gate**, **Loupe scans Bitcoin open source before attackers do**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Sovereign AI Club - April 15, 2026]]: **Microsoft Agent Governance Toolkit**, **OWASP Secure Agent Playbook**, **AI Trust Commons governance framework**, and **Anthropic launches Project Glasswing with Claude Mythos Preview**.\n- [[Sovereign AI Club - April 1, 2026]]: **Black-hat LLMs**.\n- [[Sovereign AI Club - March 18, 2026]]: **Security nightmare thread**, **SEO Injection**, **KeepAI**, and **plebdev's adversarial AI course**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Supply Chain Security]]\n- [[AI SaaS Supply Chain]]\n- [[Cloudflare OS]]\n- [[Codex]]\n- [[Claude Code]]\n- [[Microsoft]]\n- [[Security]]"
     },
     "ai-benchmarks-evals": {
       "id": "ai-benchmarks-evals",
@@ -166351,7 +166600,7 @@
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "excerpt": "NVIDIA is a recurring Sovereign AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion. On August 26 it reported Q2 FY27 revenue of $96.2B and guided Q3 to $108.0B ±2% with no China Data Center compute in the outlook.",
       "rawHref": "/topics/entities/nvidia.md",
       "relativePath": "entities/nvidia.md",
@@ -167241,6 +167490,34 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-13-2026",
           "sourcePageTitle": "Sovereign AI Club - May 13, 2026"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://arxiv.org/abs/2608.03893",
@@ -168496,7 +168773,7 @@
           "sourcePageTitle": "Sovereign AI Club - March 18, 2026"
         }
       ],
-      "bodyMarkdown": "# NVIDIA\n\nNVIDIA is a recurring Sovereign AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion. On August 26 it reported Q2 FY27 revenue of $96.2B and guided Q3 to $108.0B ±2% with no China Data Center compute in the outlook.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Models hand off KV cache instead of text**, **NVIDIA puts the agent kill switch in the DPU**, **NVIDIA's Hugging Face deal revives the torrent exit**.\n- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA PAIR routes inference across your local PCs**, **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Open model releases**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.\n- [[Sovereign AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.\n- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 13, 2026]]: **Isaac Sim for beginners**, **PII filters are becoming local model infrastructure**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **OpenAI pauses Stargate UK**.\n- [[Sovereign AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **NVIDIA wants a place in the agent stack too**, **Physical AI got pulled into the same pitch**, and **Open model releases**.\n- [[Sovereign AI Club - March 18, 2026]]: **Open model releases** and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Privacy Tooling]]\n- [[vLLM]]\n- [[Nemotron]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Vera Rubin]]"
+      "bodyMarkdown": "# NVIDIA\n\nNVIDIA is a recurring Sovereign AI Club entity for compute strategy, AI factory infrastructure, open model releases, robotics tooling, and agent-stack expansion. On August 26 it reported Q2 FY27 revenue of $96.2B and guided Q3 to $108.0B ±2% with no China Data Center compute in the outlook.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Models hand off KV cache instead of text**, **NVIDIA puts the agent kill switch in the DPU**, **NVIDIA's Hugging Face deal revives the torrent exit**.\n- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA PAIR routes inference across your local PCs**, **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **Open model releases**, **Gemma 4 31B hits 3,431 tok/s on Groq 3 LPX**, and **NVIDIA prints $96.2B and guides $108B**.\n- [[Sovereign AI Club - July 22, 2026]]: **Open model releases** and **Vera Rubin racks move into production**.\n- [[Sovereign AI Club - July 8, 2026]]: **Open model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **vLLM turns weird open models into runnable systems**.\n- [[Sovereign AI Club - June 10, 2026]]: **Open model releases**, **Apple stretches PCC onto Google/NVIDIA**, and **Google rents SpaceX's GPU bridge**.\n- [[Sovereign AI Club - May 13, 2026]]: **Isaac Sim for beginners**, **PII filters are becoming local model infrastructure**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **OpenAI pauses Stargate UK**.\n- [[Sovereign AI Club - April 1, 2026]]: **GTC 2026 was an AI factory pitch**, **NVIDIA wants a place in the agent stack too**, **Physical AI got pulled into the same pitch**, and **Open model releases**.\n- [[Sovereign AI Club - March 18, 2026]]: **Open model releases** and **NemoClaw launch + OpenClaw reaction**.\n\n## Related\n\n- [[Compute Strategy]]\n- [[Agent Infrastructure]]\n- [[Open Models]]\n- [[Privacy Tooling]]\n- [[vLLM]]\n- [[Nemotron]]\n- [[Nemotron Puzzle]]\n- [[CWIP]]\n- [[Gemma]]\n- [[Vera Rubin]]"
     },
     "nvidia-pair": {
       "id": "nvidia-pair",
@@ -173757,6 +174034,34 @@
           "sourcePageTitle": "Sovereign AI Club - May 27, 2026"
         },
         {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
           "href": "https://openai.com/index/devday-2026-recap/",
           "title": "OpenAI DevDay: dots, Codex Cloud and a bigger platform",
           "section": "Big Tech Moves",
@@ -174751,7 +175056,7 @@
           "sourcePageTitle": "Sovereign AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# OpenAI\n\nOpenAI is a recurring Sovereign AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next. On August 26 it published the promised Hugging Face eval investigation: an internal Sol-scale research model (IM1) and GPT-5.6 Sol used hosted Artifactory as an unauthorized message board during ExploitGym, then compromised Hugging Face. OpenAI calls that a warning shot and says the Astra RL pause remains in force.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**, **Hacktron used Claude to break into OpenAI through an image library**, **Lab agents hit real systems, and not just in cyber evals**.\n- [[Sovereign AI Club - September 9, 2026]]: **OpenAI plans to end Cursor’s model supply**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Jacob Coxon quits Anthropic: AI risk and IPO incentives**, **Closed model releases**, **OpenAI’s Navier–Stokes claim sparks a research-credit dispute**, **OpenAI’s wiki incident forces a disclosure question**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Closed model releases**, **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, and **Jalapeño posts its first silicon results**.\n- [[Sovereign AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Sovereign AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model releases**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.\n- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.\n- [[Sovereign AI Club - June 10, 2026]]: **OpenAI says AI research automation is the race**.\n- [[Sovereign AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.\n- [[Sovereign AI Club - May 13, 2026]]: **Closed model releases**, **PII filters are becoming local model infrastructure**, **GPT-5.5-Cyber opens the trust gate**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **OpenAI acquires TBPN**, **OpenAI pauses Stargate UK**, **Two attacks on Sam Altman's home in one week**, and **Microsoft ships in-house MAI models**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **Closed model releases**, and **OpenAI to acquire Astral**.\n- [[Sovereign AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Closed model releases**, and **Claude Kill?**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[AI Governance]]\n- [[Compute Strategy]]\n- [[Codex]]\n- [[GPT-5.6]]\n- [[Astra]]\n- [[Jalapeno]]"
+      "bodyMarkdown": "# OpenAI\n\nOpenAI is a recurring Sovereign AI Club entity because its model releases, platform docs, policy choices, and safety tooling often shape what builders can test next. On August 26 it published the promised Hugging Face eval investigation: an internal Sol-scale research model (IM1) and GPT-5.6 Sol used hosted Artifactory as an unauthorized message board during ExploitGym, then compromised Hugging Face. OpenAI calls that a warning shot and says the Astra RL pause remains in force.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**, **Hacktron used Claude to break into OpenAI through an image library**, **Lab agents hit real systems, and not just in cyber evals**.\n- [[Sovereign AI Club - September 9, 2026]]: **OpenAI plans to end Cursor’s model supply**.\n\n- [[Sovereign AI Club - September 9, 2026]]: **Jacob Coxon quits Anthropic: AI risk and IPO incentives**, **Closed model releases**, **OpenAI’s Navier–Stokes claim sparks a research-credit dispute**, **OpenAI’s wiki incident forces a disclosure question**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Closed model releases**, **OpenAI pauses frontier training after Astra approaches critical cyber**, **OpenAI writes up the Hugging Face eval as a warning shot**, **Encrypted reasoning blobs decrypt via weaker sibling models**, and **Jalapeño posts its first silicon results**.\n- [[Sovereign AI Club - August 5, 2026]]: **Astra turns open math problems into Lean certificates for about $2K**, **AISI: Mythos 5 tried a live supply-chain attack in cyber testing**, **Hugging Face turns the July agent intrusion into a playable timeline**, **Bitcoin red team runs on Kimi K3 while OpenAI sits out**, and **OpenAI cuts GPT-5.6 Luna 80% and Terra 20%**.\n- [[Sovereign AI Club - July 22, 2026]]: **GPT-5.6 ships the multi-agent runtime, not just the model**, **OpenAI Presence productizes the agent contact center**, **Closed model releases**, **Models learn to please the grader, not the user**, **OpenAI's cyber eval breached Hugging Face**, **Apple says OpenAI's hardware team took trade secrets**, and **The AI safety leaderboard tops out at C+**.\n- [[Sovereign AI Club - July 8, 2026]]: **Closed model releases**.\n- [[Sovereign AI Club - June 24, 2026]]: **Closed model releases**, **AI Twitter's model-release calendar slips**, **One API, many models becomes the frontier wrapper**, and **OpenAI gets its own inference chip**.\n- [[Sovereign AI Club - June 10, 2026]]: **OpenAI says AI research automation is the race**.\n- [[Sovereign AI Club - May 27, 2026]]: **Karpathy joins Anthropic for recursive AI research**.\n- [[Sovereign AI Club - May 13, 2026]]: **Closed model releases**, **PII filters are becoming local model infrastructure**, **GPT-5.5-Cyber opens the trust gate**, and **Pentagon picks a classified AI stack**.\n- [[Sovereign AI Club - April 15, 2026]]: **OpenAI acquires TBPN**, **OpenAI pauses Stargate UK**, **Two attacks on Sam Altman's home in one week**, and **Microsoft ships in-house MAI models**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAI closes new funding round**, **Sora app shutdown**, **Closed model releases**, and **OpenAI to acquire Astral**.\n- [[Sovereign AI Club - March 18, 2026]]: **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, **Closed model releases**, and **Claude Kill?**.\n\n## Related\n\n- [[Privacy Tooling]]\n- [[Agent Infrastructure]]\n- [[Agent Security]]\n- [[AI Governance]]\n- [[Compute Strategy]]\n- [[Codex]]\n- [[GPT-5.6]]\n- [[Astra]]\n- [[Jalapeno]]"
     },
     "openai-presence": {
       "id": "openai-presence",
@@ -174806,16 +175111,17 @@
         "agent-infrastructure"
       ],
       "sources": [
+        "raw/articles/2026-09-30-link-records.md",
         "raw/articles/2026-05-27-link-records.md",
         "raw/articles/2026-04-15-link-records.md",
         "raw/articles/2026-04-01-link-records.md",
         "raw/articles/2026-03-18-link-records.md"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceLinks": [],
       "sourceReferences": [],
       "created": "2026-05-05",
-      "updated": "2026-06-24",
+      "updated": "2026-09-30",
       "excerpt": "OpenClaw is a recurring Sovereign AI Club entity because it anchors several coding-agent, local-agent, ecosystem-drama, and customization threads.",
       "rawHref": "/topics/entities/openclaw.md",
       "relativePath": "entities/openclaw.md",
@@ -174825,6 +175131,7 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-30-2026",
         "coding-agents",
         "model-distillation"
       ],
@@ -174836,6 +175143,7 @@
         "austin-ai-club-april-15-2026",
         "austin-ai-club-march-18-2026",
         "austin-ai-club-may-27-2026",
+        "austin-ai-club-september-30-2026",
         "coding-agents",
         "grok",
         "zai"
@@ -174952,6 +175260,34 @@
           "section": "Big Tech Moves",
           "sourcePageId": "austin-ai-club-may-27-2026",
           "sourcePageTitle": "Sovereign AI Club - May 27, 2026"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
@@ -175353,7 +175689,7 @@
           "sourcePageTitle": "Sovereign AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# OpenClaw\n\nOpenClaw is a recurring Sovereign AI Club entity because it anchors several coding-agent, local-agent, ecosystem-drama, and customization threads.\n\n## Mentioned In\n\n- [[Sovereign AI Club - May 27, 2026]]: **Grok API gets X Premium OAuth integration**.\n- [[Sovereign AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAgents Autopilot**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Closed model releases**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **OpenClaw pairing bench**, **NemoClaw launch + OpenClaw reaction**, and **Pimping your OpenClaw**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Model Distillation]]"
+      "bodyMarkdown": "# OpenClaw\n\nOpenClaw is a recurring Sovereign AI Club entity because it anchors several coding-agent, local-agent, ecosystem-drama, and customization threads.\n\nOpenClaw Enterprise was announced September 29, 2026 as an MIT-licensed control plane for persistent agents on an organization's own infrastructure. Originating at OpenAI and donated to the OpenClaw Foundation, it was developed with Red Hat and NVIDIA. The project is intended for internal pilots before its planned 1.0 release; self-hosted orchestration does not by itself mean local model inference.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - May 27, 2026]]: **Grok API gets X Premium OAuth integration**.\n- [[Sovereign AI Club - April 15, 2026]]: **Anthropic vs OpenClaw keeps escalating**.\n- [[Sovereign AI Club - April 1, 2026]]: **OpenAgents Autopilot**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Closed model releases**, **Open model releases**, and **Claude Code source leaked via npm sourcemap**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **OpenClaw pairing bench**, **NemoClaw launch + OpenClaw reaction**, and **Pimping your OpenClaw**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Agent Infrastructure]]\n- [[Model Distillation]]"
     },
     "openrouter": {
       "id": "openrouter",
@@ -185162,6 +185498,10 @@
         "https://hrf.org/latest/announcing-the-winners-of-ai-hack-for-freedom-iii/",
         "https://hrf.org/latest/hrf-co-sponsors-ai-hack-for-freedom-iii-in-washington-d-c-sept-24-25/",
         "https://www.aihackforfreedom.org/",
+        "https://openclaw.ai/blog/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+        "https://x.com/openclaw/status/2105023990607786313",
         "https://github.com/incoai/splash",
         "https://inco.ai/blog/splash/",
         "https://github.com/ddalcu/mlx-serve/releases/tag/v26.9.5",
@@ -185439,6 +185779,26 @@
           "href": "https://www.aihackforfreedom.org/",
           "title": "AI Hack for Freedom IV - San Francisco, CA",
           "section": "Local Builds & Projects"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise: the open agent platform",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise repository",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise local setup",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw: Enterprise launch",
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://github.com/incoai/splash",
@@ -200190,6 +200550,10 @@
         "https://hrf.org/latest/announcing-the-winners-of-ai-hack-for-freedom-iii/",
         "https://hrf.org/latest/hrf-co-sponsors-ai-hack-for-freedom-iii-in-washington-d-c-sept-24-25/",
         "https://www.aihackforfreedom.org/",
+        "https://openclaw.ai/blog/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+        "https://x.com/openclaw/status/2105023990607786313",
         "https://github.com/incoai/splash",
         "https://inco.ai/blog/splash/",
         "https://github.com/ddalcu/mlx-serve/releases/tag/v26.9.5",
@@ -200466,6 +200830,26 @@
           "href": "https://www.aihackforfreedom.org/",
           "title": "AI Hack for Freedom III: a sportswashing tracker takes first",
           "section": "Local Builds & Projects"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
         },
         {
           "href": "https://github.com/incoai/splash",
@@ -201636,6 +202020,7 @@
         "nvidia",
         "open-models",
         "openai",
+        "openclaw",
         "phonon-2",
         "prismml",
         "privacy-tooling",
@@ -201685,6 +202070,7 @@
         "nvidia",
         "open-models",
         "openai",
+        "openclaw",
         "phonon-2",
         "prismml",
         "privacy-tooling",
@@ -210752,6 +211138,61 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Jev ships closed; open clones follow within days Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://docs.sglang.io/docs/supported-models/decision_models https://github.com/sgl-project/sglang/pull/41208 https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/ https://x.com/sgl_project/status/2105095379272515603 https://typesafe.ai/blog/introducing-system-one-models-and-jev https://docs.typesafe.ai/models https://github.com/jaredpalmer/kev https://github.com/vllm-project/vllm/pull/57250 https://x.com/CompleteSkeptic/status/2099925682726002904 https://x.com/jaredpalmer/status/2101715352258232539 https://x.com/googlegemma/status/2101069861598482817 https://x.com/mmastrac/status/2100626193943052784 Agent Infrastructure DiffusionGemma SGLang vLLM"
+    },
+    {
+      "id": "austin-ai-club-september-30-2026-agent-infrastructure-openclaw-enterprise-puts-persistent-agents-on-your-own-infrastructure",
+      "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+      "rawTitle": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+      "normalizedTitle": "openclaw enterprise puts persistent agents on your own infrastructure",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-september-30-2026",
+      "meetupTitle": "Sovereign AI Club - September 30, 2026",
+      "meetupSlug": "2026-09-30",
+      "meetupHref": "/topics/2026-09-30.md",
+      "sourceLinks": [
+        "https://openclaw.ai/blog/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+        "https://x.com/openclaw/status/2105023990607786313"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "nvidia",
+        "openai",
+        "openclaw"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Agent Security",
+        "NVIDIA",
+        "OpenAI",
+        "OpenClaw"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "OpenClaw Enterprise puts persistent agents on your own infrastructure Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://openclaw.ai/blog/openclaw-enterprise https://github.com/openclaw/openclaw-enterprise https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md https://x.com/openclaw/status/2105023990607786313 Agent Infrastructure Agent Security NVIDIA OpenAI OpenClaw"
     },
     {
       "id": "austin-ai-club-september-30-2026-agent-infrastructure-splash-vs-mlx-serve-rival-benchmarks-real-fixes",
@@ -227871,6 +228312,61 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Jev ships closed; open clones follow within days Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://docs.sglang.io/docs/supported-models/decision_models https://github.com/sgl-project/sglang/pull/41208 https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/ https://x.com/sgl_project/status/2105095379272515603 https://typesafe.ai/blog/introducing-system-one-models-and-jev https://docs.typesafe.ai/models https://github.com/jaredpalmer/kev https://github.com/vllm-project/vllm/pull/57250 https://x.com/CompleteSkeptic/status/2099925682726002904 https://x.com/jaredpalmer/status/2101715352258232539 https://x.com/googlegemma/status/2101069861598482817 https://x.com/mmastrac/status/2100626193943052784 Agent Infrastructure DiffusionGemma SGLang vLLM"
+    },
+    "austin-ai-club-september-30-2026-agent-infrastructure-openclaw-enterprise-puts-persistent-agents-on-your-own-infrastructure": {
+      "id": "austin-ai-club-september-30-2026-agent-infrastructure-openclaw-enterprise-puts-persistent-agents-on-your-own-infrastructure",
+      "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+      "rawTitle": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+      "normalizedTitle": "openclaw enterprise puts persistent agents on your own infrastructure",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-september-30-2026",
+      "meetupTitle": "Sovereign AI Club - September 30, 2026",
+      "meetupSlug": "2026-09-30",
+      "meetupHref": "/topics/2026-09-30.md",
+      "sourceLinks": [
+        "https://openclaw.ai/blog/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise",
+        "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+        "https://x.com/openclaw/status/2105023990607786313"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://openclaw.ai/blog/openclaw-enterprise",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/openclaw/status/2105023990607786313",
+          "title": "OpenClaw Enterprise puts persistent agents on your own infrastructure",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "agent-security",
+        "nvidia",
+        "openai",
+        "openclaw"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Agent Security",
+        "NVIDIA",
+        "OpenAI",
+        "OpenClaw"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "OpenClaw Enterprise puts persistent agents on your own infrastructure Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://openclaw.ai/blog/openclaw-enterprise https://github.com/openclaw/openclaw-enterprise https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md https://x.com/openclaw/status/2105023990607786313 Agent Infrastructure Agent Security NVIDIA OpenAI OpenClaw"
     },
     "austin-ai-club-september-30-2026-agent-infrastructure-splash-vs-mlx-serve-rival-benchmarks-real-fixes": {
       "id": "austin-ai-club-september-30-2026-agent-infrastructure-splash-vs-mlx-serve-rival-benchmarks-real-fixes",
@@ -249490,6 +249986,10 @@
     },
     {
       "source": "openclaw",
+      "target": "austin-ai-club-september-30-2026"
+    },
+    {
+      "source": "openclaw",
       "target": "austin-ai-club-may-27-2026"
     },
     {
@@ -252146,6 +252646,10 @@
     },
     {
       "source": "austin-ai-club-september-30-2026",
+      "target": "openclaw"
+    },
+    {
+      "source": "austin-ai-club-september-30-2026",
       "target": "codex"
     },
     {
@@ -254488,7 +254992,7 @@
           "agent-infrastructure"
         ],
         "degree": 48,
-        "updated": "2026-09-29"
+        "updated": "2026-09-30"
       },
       {
         "id": "nvidia-pair",
@@ -254591,8 +255095,8 @@
           "coding-agents",
           "agent-infrastructure"
         ],
-        "degree": 16,
-        "updated": "2026-06-24"
+        "degree": 18,
+        "updated": "2026-09-30"
       },
       {
         "id": "openrouter",
@@ -255164,7 +255668,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 93,
+        "degree": 95,
         "updated": "2026-09-30"
       },
       {
@@ -261472,6 +261976,11 @@
       },
       {
         "source": "openclaw",
+        "target": "austin-ai-club-september-30-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "openclaw",
         "target": "austin-ai-club-may-27-2026",
         "kind": "topic"
       },
@@ -264792,6 +265301,11 @@
       },
       {
         "source": "austin-ai-club-september-30-2026",
+        "target": "openclaw",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-september-30-2026",
         "target": "codex",
         "kind": "topic"
       },
@@ -266004,11 +266518,11 @@
   },
   "stats": {
     "pageCount": 186,
-    "topicCount": 283,
+    "topicCount": 284,
     "rawPageCount": 0,
-    "linkCount": 2109,
+    "linkCount": 2111,
     "sourceRecordCount": 13,
-    "sourceLinkCount": 1443,
+    "sourceLinkCount": 1447,
     "unresolvedLinkCount": 0,
     "lastUpdatedAt": "2026-09-30"
   }

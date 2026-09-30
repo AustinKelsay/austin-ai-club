@@ -2,6 +2,10 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-09-30] curate | OpenClaw Enterprise gets its own Topic
+
+- Added the submitted launch post as a standalone Agent Infrastructure Topic, backed by the MIT repository and exact quickstart. Kept the pre-1.0 pilot status and the distinction between self-hosted orchestration and model inference explicit; mirrored the slide and reciprocal wiki references.
+
 ## [2026-09-30] curate | Argon, Phonon-2 and SGLang decisions
 
 - Added the submitted Gemini 4 Argon and Phonon-2 posts to the Closed/Open release feeds, with official rollout, pricing, weight, license and benchmark sources. Kept restricted access, precise Whisper baseline and M5 hardware explicit.

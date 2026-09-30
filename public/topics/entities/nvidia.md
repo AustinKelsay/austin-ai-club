@@ -1,7 +1,7 @@
 ---
 title: NVIDIA
 created: 2026-05-05
-updated: 2026-09-29
+updated: 2026-09-30
 type: entity
 tags: [entity, company, compute, model, agent-infrastructure]
 sources: [raw/articles/2026-09-30-link-records.md, raw/articles/2026-09-09-link-records.md, raw/articles/2026-08-26-link-records.md, raw/articles/2026-07-22-link-records.md, raw/articles/2026-07-08-link-records.md, raw/articles/2026-06-24-link-records.md, raw/articles/2026-06-10-link-records.md, raw/articles/2026-05-13-link-records.md, raw/articles/2026-04-15-link-records.md, raw/articles/2026-04-01-link-records.md, raw/articles/2026-03-18-link-records.md]
@@ -13,6 +13,7 @@ NVIDIA is a recurring Sovereign AI Club entity for compute strategy, AI factory 
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.
 - [[Sovereign AI Club - September 30, 2026]]: **Models hand off KV cache instead of text**, **NVIDIA puts the agent kill switch in the DPU**, **NVIDIA's Hugging Face deal revives the torrent exit**.
 - [[Sovereign AI Club - September 9, 2026]]: **NVIDIA PAIR routes inference across your local PCs**, **NVIDIA agrees to acquire Hugging Face**, **Rubin and Groq LPUs split the inference workload**.
 

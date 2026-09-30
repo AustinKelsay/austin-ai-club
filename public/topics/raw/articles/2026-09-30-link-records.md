@@ -41,6 +41,18 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
 
 ## Agent Infrastructure
 
+### OpenClaw Enterprise puts persistent agents on your own infrastructure
+
+- **OpenClaw Enterprise: the open agent platform** — https://openclaw.ai/blog/openclaw-enterprise
+  Type: official launch. Accessed: 2026-09-30. September 29 announcement: OpenAI-originated project donated to the foundation, developed with Red Hat and NVIDIA. Suitable for internal pilots before 1.0; security claims attributed to the project.
+- **OpenClaw Enterprise repository** — https://github.com/openclaw/openclaw-enterprise
+  Type: repository. Accessed: 2026-09-30. Inspectable MIT-licensed control plane. Current README distinguishes the Compose preview from the Kubernetes path that deploys agents.
+- **OpenClaw Enterprise local setup** — https://github.com/openclaw/openclaw-enterprise/blob/main/docs/guides/quickstart.md
+  Type: official documentation. Accessed: 2026-09-30. Exact quickstart linked from the README. Hosting the control plane on your own infrastructure does not establish local inference; the first-agent workflow uses an OpenAI API key.
+- **OpenClaw: Enterprise launch** — https://x.com/openclaw/status/2105023990607786313
+  Type: official X post. Accessed: 2026-09-30. Submitted September 29 post; author and text verified through FxTwitter. Free organizational use is the foundation’s stated commitment.
+
+
 ### Splash vs mlx-serve: rival benchmarks, real fixes
 
 - **incoai/splash: A local inference engine for Apple silicon, built around the model.** — https://github.com/incoai/splash

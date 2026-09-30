@@ -13,6 +13,7 @@ OpenAI is a recurring Sovereign AI Club entity because its model releases, platf
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.
 - [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.
 - [[Sovereign AI Club - September 30, 2026]]: **Closed model releases**, **Hacktron used Claude to break into OpenAI through an image library**, **Lab agents hit real systems, and not just in cyber evals**.
 - [[Sovereign AI Club - September 9, 2026]]: **OpenAI plans to end Cursor’s model supply**.
