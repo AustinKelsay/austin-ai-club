@@ -47,7 +47,7 @@ export const meetups = [
     "markdownHref": "./topics/2026-09-30.md",
     "event": {
       "title": "Sovereign AI Club Austin: Local AI & Open Models",
-      "summary": "Our first public meetup. A Socratic discussion of recent AI news and research, with a focus on local AI, open models, and control over the tools we use. Free admission.",
+      "summary": "Our first public meetup. A Socratic discussion of recent AI news and research, with a focus on local AI, open models, and control over the tools we use. Free admission. Need help getting upstairs? Message Austin on Signal: bitcoinplebdev.98.",
       "startAt": "2026-09-30T17:30:00-05:00",
       "endAt": "2026-09-30T19:30:00-05:00",
       "timezone": "America/Chicago",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T22:23:44.565Z",
+  "generatedAt": "2026-09-30T21:39:15.301Z",
   "siteUrl": "https://sovereignai.club",
   "events": [
     {
@@ -9,7 +9,7 @@
       "dateLabel": "September 30, 2026",
       "markdownHref": "./topics/2026-09-30.md",
       "title": "Sovereign AI Club Austin: Local AI & Open Models",
-      "summary": "Our first public meetup. A Socratic discussion of recent AI news and research, with a focus on local AI, open models, and control over the tools we use. Free admission.",
+      "summary": "Our first public meetup. A Socratic discussion of recent AI news and research, with a focus on local AI, open models, and control over the tools we use. Free admission. Need help getting upstairs? Message Austin on Signal: bitcoinplebdev.98.",
       "startAt": "2026-09-30T17:30:00-05:00",
       "endAt": "2026-09-30T19:30:00-05:00",
       "timezone": "America/Chicago",
@@ -31,7 +31,7 @@
         }
       ],
       "detailsUrl": "https://sovereignai.club/meetups/2026-09-30",
-      "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sovereign+AI+Club+Austin%3A+Local+AI+%26+Open+Models&dates=20260930T223000Z%2F20261001T003000Z&details=Our+first+public+meetup.+A+Socratic+discussion+of+recent+AI+news+and+research%2C+with+a+focus+on+local+AI%2C+open+models%2C+and+control+over+the+tools+we+use.+Free+admission.&location=Bitcoin+Park+Austin%2C+601+Congress+Avenue%2C+Suite+250%2C+Austin%2C+TX+78701&ctz=America%2FChicago",
+      "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sovereign+AI+Club+Austin%3A+Local+AI+%26+Open+Models&dates=20260930T223000Z%2F20261001T003000Z&details=Our+first+public+meetup.+A+Socratic+discussion+of+recent+AI+news+and+research%2C+with+a+focus+on+local+AI%2C+open+models%2C+and+control+over+the+tools+we+use.+Free+admission.+Need+help+getting+upstairs%3F+Message+Austin+on+Signal%3A+bitcoinplebdev.98.&location=Bitcoin+Park+Austin%2C+601+Congress+Avenue%2C+Suite+250%2C+Austin%2C+TX+78701&ctz=America%2FChicago",
       "icsUrl": "https://sovereignai.club/calendar/2026-09-30.ics"
     },
     {
