@@ -248,25 +248,35 @@ export const meetups = [
             "notes": "Cua's 'solved' post came while the PR was still a draft; its own write-up says Jev is text-only and the tests were narrow. json-render's Jev support isn't on npm yet. Quail's '1B+ tokens/min' counts input tokens served from reused KV cache."
           },
           {
-            "title": "Bend 2 vs. the whiteboard defense",
-            "description": "Victor Taelin's Bend 2 makes coding agents prove the rules declared in a LAWS.bend file; Mitchell Hashimoto's bar is that you can defend any customer-facing system you ship at a whiteboard, even if AI wrote it. If your agent writes both the laws and the proofs, would you pass Mitchell's test?",
+            "title": "Bend 2 makes coding agents prove their rules",
+            "description": "Victor Taelin's Bend 2 checks proofs against rules declared in LAWS.bend, turning requirements into something a compiler can verify. Who checks that those laws describe what you actually wanted?",
             "href": "https://github.com/bendlang/bend",
             "linkPair": [
               "https://bend-lang.com/",
-              "https://blog.liampwll.com/posts/bend_vibe_coding/",
-              "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md"
+              "https://blog.liampwll.com/posts/bend_vibe_coding/"
             ],
             "embeds": [
               {
                 "type": "tweet",
                 "href": "https://x.com/VictorTaelin/status/2100681226143092875"
-              },
+              }
+            ],
+            "notes": "Proofs verify stated properties, so the specification still needs review. Liam Powell's critique cites 58 lines of laws and 442 lines of proof in the launch demo and warns that an agent can redefine functions the laws check; these are his observations about that example. Bend's performance claims are maker claims."
+          },
+          {
+            "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+            "description": "Mitchell Hashimoto says you should be able to explain how a customer-facing system works, defend its design choices and identify where it fails, even if AI wrote the code. How much understanding should shipping with AI require?",
+            "href": "https://x.com/mitchellh/status/2100249348345057389",
+            "linkPair": [
+              "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md"
+            ],
+            "embeds": [
               {
                 "type": "tweet",
                 "href": "https://x.com/mitchellh/status/2100249348345057389"
               }
             ],
-            "notes": "Bend's speed claims are its own; an independent port found no case where it beat Rust. A critic notes the demo needs 442 lines of proof and the model can redefine the functions the laws check. Mitchell exempts prototypes and demos."
+            "notes": "Hashimoto asks for high-level understanding, not recall of every line or function name; he explicitly exempts prototypes, demos and experiments. Ghostty's contribution policy is separate and stricter: outside contributors must disclose AI assistance and understand all submitted code, while maintainers are exempt."
           }
         ]
       },

@@ -22,6 +22,8 @@
 
 ## Entities
 
+- [[Bend 2]]
+
 - [[Jev]]
 
 - [[Phonon-2]]
@@ -167,6 +169,8 @@
 - [[Z.ai]]
 
 ## Concepts
+
+- [[Whiteboard Defense]]
 
 - [[Agent Infrastructure]]
 - [[Agent Payments]]

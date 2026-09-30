@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T21:28:27.830Z",
+  "generatedAt": "2026-09-30T21:35:00.937Z",
   "pages": [
     {
       "id": "abliterlitics",
@@ -533,6 +533,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-september-30-2026",
         "austin-ai-club-september-9-2026",
+        "bend-2",
         "berd",
         "block",
         "buzz",
@@ -563,7 +564,8 @@
         "sakana-ai",
         "sakana-fugu",
         "vercel",
-        "vllm"
+        "vllm",
+        "whiteboard-defense"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -588,6 +590,7 @@
         "austin-ai-club-may-27-2026",
         "austin-ai-club-september-30-2026",
         "austin-ai-club-september-9-2026",
+        "bend-2",
         "berd",
         "block",
         "buzz",
@@ -638,6 +641,7 @@
         "tailcat",
         "vercel",
         "vllm",
+        "whiteboard-defense",
         "world-models"
       ],
       "referencedTopicSources": [
@@ -2330,42 +2334,42 @@
         },
         {
           "href": "https://github.com/bendlang/bend",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://bend-lang.com/",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-          "title": "Bend 2 vs. the whiteboard defense",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-september-30-2026",
-          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
-        },
-        {
-          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://x.com/VictorTaelin/status/2100681226143092875",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://x.com/mitchellh/status/2100249348345057389",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
@@ -2574,7 +2578,7 @@
           "sourcePageTitle": "Sovereign AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[Jev]]\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 makes coding agents prove their rules** and **Mitchell Hashimoto's whiteboard defense for AI-written code**.\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[Bend 2]]\n- [[Whiteboard Defense]]\n\n- [[Jev]]\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     {
       "id": "agent-payments",
@@ -12158,6 +12162,69 @@
       "bodyMarkdown": "# Ben Carman\n\nBen Carman is a recurring Sovereign AI Club local-builder source for tweet-archive tooling, personal-model experiments, and local AI workflows.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Ben Carman fits 309B MiMo-V2.6-Flash on one DGX Spark**.\n- [[Sovereign AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus**.\n- [[Sovereign AI Club - June 10, 2026]]: **Ben's twitter export to dataset**.\n\n## Related\n\n- [[Local AI]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Qwenstradamus]]"
     },
     {
+      "id": "bend-2",
+      "title": "Bend 2",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "tool",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-09-30-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-09-30",
+      "updated": "2026-09-30",
+      "excerpt": "Bend 2 is Victor Taelin's programming language for CPU/GPU execution and proof-checked program properties. Its workflow places requirements in `LAWS.bend`, with implementations and proofs checked by the compiler. A proof concerns the stated property; it does not establish that the specification captures the intended behavior.",
+      "rawHref": "/topics/entities/bend-2.md",
+      "relativePath": "entities/bend-2.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-september-30-2026",
+        "coding-agents"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-september-30-2026",
+        "coding-agents"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/bendlang/bend",
+          "title": "Bend 2 makes coding agents prove their rules",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://bend-lang.com/",
+          "title": "Bend 2 makes coding agents prove their rules",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://blog.liampwll.com/posts/bend_vibe_coding/",
+          "title": "Bend 2 makes coding agents prove their rules",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/VictorTaelin/status/2100681226143092875",
+          "title": "Bend 2 makes coding agents prove their rules",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Bend 2\n\nBend 2 is Victor Taelin's programming language for CPU/GPU execution and proof-checked program properties. Its workflow places requirements in `LAWS.bend`, with implementations and proofs checked by the compiler. A proof concerns the stated property; it does not establish that the specification captures the intended behavior.\n\nLiam Powell's September 18 critique questions the verbosity of the launch demonstration and the ability to redefine functions referenced by laws. Those observations concern that example rather than a benchmark of every Bend program.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 makes coding agents prove their rules**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Agent Infrastructure]]"
+    },
+    {
       "id": "berd",
       "title": "Berd",
       "type": "entity",
@@ -16885,6 +16952,7 @@
         "austin-ai-club-may-27-2026",
         "austin-ai-club-september-30-2026",
         "ben-carman",
+        "bend-2",
         "berd",
         "claude-code",
         "claude-sonnet-5",
@@ -16903,7 +16971,8 @@
         "react-native-executorch",
         "recursive-language-models",
         "swe-17",
-        "tmax"
+        "tmax",
+        "whiteboard-defense"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -16925,6 +16994,7 @@
         "austin-ai-club-may-27-2026",
         "austin-ai-club-september-30-2026",
         "ben-carman",
+        "bend-2",
         "berd",
         "btl-3",
         "claude-code",
@@ -16960,6 +17030,7 @@
         "supply-chain-security",
         "swe-17",
         "tmax",
+        "whiteboard-defense",
         "wikiskill",
         "zai"
       ],
@@ -17729,42 +17800,42 @@
         },
         {
           "href": "https://github.com/bendlang/bend",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://bend-lang.com/",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-          "title": "Bend 2 vs. the whiteboard defense",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-september-30-2026",
-          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
-        },
-        {
-          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://x.com/VictorTaelin/status/2100681226143092875",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://x.com/mitchellh/status/2100249348345057389",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
@@ -18813,7 +18884,7 @@
           "sourcePageTitle": "Sovereign AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 vs. the whiteboard defense**.\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, **Open model releases**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.\n- [[Sovereign AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Sovereign AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Sovereign AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Sovereign AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Ornith]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
+      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 makes coding agents prove their rules** and **Mitchell Hashimoto's whiteboard defense for AI-written code**.\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, **Open model releases**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.\n- [[Sovereign AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Sovereign AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Sovereign AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Sovereign AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Bend 2]]\n- [[Whiteboard Defense]]\n\n- [[Agent Infrastructure]]\n- [[Ornith]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
     },
     {
       "id": "cognition",
@@ -80488,8 +80559,8 @@
         "https://github.com/bendlang/bend",
         "https://bend-lang.com/",
         "https://blog.liampwll.com/posts/bend_vibe_coding/",
-        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
         "https://x.com/VictorTaelin/status/2100681226143092875",
+        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
         "https://x.com/mitchellh/status/2100249348345057389",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
         "https://x.com/OfficialLoganK/status/2105388054274080946",
@@ -80951,13 +81022,13 @@
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-          "title": "ghostty/AI_POLICY.md at main · ghostty-org/ghostty",
+          "href": "https://x.com/VictorTaelin/status/2100681226143092875",
+          "title": "@VictorTaelin post: Bend 2 is here! It is a new programming language that blocks AI…",
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://x.com/VictorTaelin/status/2100681226143092875",
-          "title": "@VictorTaelin post: Bend 2 is here! It is a new programming language that blocks AI…",
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "ghostty/AI_POLICY.md at main · ghostty-org/ghostty",
           "section": "Agent Infrastructure"
         },
         {
@@ -95645,9 +95716,9 @@
         "https://github.com/bendlang/bend",
         "https://bend-lang.com/",
         "https://blog.liampwll.com/posts/bend_vibe_coding/",
-        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
         "https://x.com/VictorTaelin/status/2100681226143092875",
         "https://x.com/mitchellh/status/2100249348345057389",
+        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
         "https://x.com/OfficialLoganK/status/2105388054274080946",
         "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
@@ -96089,32 +96160,32 @@
         },
         {
           "href": "https://github.com/bendlang/bend",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://bend-lang.com/",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-          "title": "Bend 2 vs. the whiteboard defense",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/VictorTaelin/status/2100681226143092875",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/mitchellh/status/2100249348345057389",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
           "section": "Agent Infrastructure"
         },
         {
@@ -97095,6 +97166,7 @@
         "anthropic",
         "astra",
         "ben-carman",
+        "bend-2",
         "big-tech-moves",
         "codex",
         "coding-agents",
@@ -97135,6 +97207,7 @@
         "tencent",
         "vercel",
         "vllm",
+        "whiteboard-defense",
         "xai",
         "zai"
       ],
@@ -97146,6 +97219,7 @@
         "anthropic",
         "astra",
         "ben-carman",
+        "bend-2",
         "big-tech-moves",
         "codex",
         "coding-agents",
@@ -97187,6 +97261,7 @@
         "tencent",
         "vercel",
         "vllm",
+        "whiteboard-defense",
         "xai",
         "zai"
       ],
@@ -103960,6 +104035,54 @@
       "bodyMarkdown": "# WAICO\n\nThe World Artificial Intelligence Cooperation Organization is a Shanghai-headquartered intergovernmental AI organization established around international coordination, standards, open-source cooperation, and Global South capacity-building.\n\n## Mentioned In\n\n- [[Sovereign AI Club - July 22, 2026]]: **WAICO opens a China-centered lane for global AI governance**.\n\n## Related\n\n- [[AI Governance]]\n- [[Open Models]]\n- [[Big Tech Moves]]"
     },
     {
+      "id": "whiteboard-defense",
+      "title": "Whiteboard Defense",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-09-30-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-09-30",
+      "updated": "2026-09-30",
+      "excerpt": "Mitchell Hashimoto's whiteboard defense is a standard for responsible use of AI in customer-facing software: the person shipping a system should be able to explain its behavior, justify design choices and identify failure modes. It requires architectural understanding rather than recall of every implementation detail. His September 16 post exempts prototypes, demos and experiments.",
+      "rawHref": "/topics/concepts/whiteboard-defense.md",
+      "relativePath": "concepts/whiteboard-defense.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-september-30-2026",
+        "coding-agents"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-september-30-2026",
+        "coding-agents"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/mitchellh/status/2100249348345057389",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Whiteboard Defense\n\nMitchell Hashimoto's whiteboard defense is a standard for responsible use of AI in customer-facing software: the person shipping a system should be able to explain its behavior, justify design choices and identify failure modes. It requires architectural understanding rather than recall of every implementation detail. His September 16 post exempts prototypes, demos and experiments.\n\nGhostty's AI contribution policy is related context, with a different scope: outside contributors must disclose AI use and understand their submitted code; maintainers are exempt.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Mitchell Hashimoto's whiteboard defense for AI-written code**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Agent Infrastructure]]"
+    },
+    {
       "id": "wikiskill",
       "title": "WikiSkill",
       "type": "entity",
@@ -106514,6 +106637,7 @@
         "austin-ai-club-may-13-2026",
         "austin-ai-club-september-30-2026",
         "austin-ai-club-september-9-2026",
+        "bend-2",
         "berd",
         "block",
         "buzz",
@@ -106544,7 +106668,8 @@
         "sakana-ai",
         "sakana-fugu",
         "vercel",
-        "vllm"
+        "vllm",
+        "whiteboard-defense"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -106569,6 +106694,7 @@
         "austin-ai-club-may-27-2026",
         "austin-ai-club-september-30-2026",
         "austin-ai-club-september-9-2026",
+        "bend-2",
         "berd",
         "block",
         "buzz",
@@ -106619,6 +106745,7 @@
         "tailcat",
         "vercel",
         "vllm",
+        "whiteboard-defense",
         "world-models"
       ],
       "referencedTopicSources": [
@@ -108311,42 +108438,42 @@
         },
         {
           "href": "https://github.com/bendlang/bend",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://bend-lang.com/",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-          "title": "Bend 2 vs. the whiteboard defense",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-september-30-2026",
-          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
-        },
-        {
-          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://x.com/VictorTaelin/status/2100681226143092875",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://x.com/mitchellh/status/2100249348345057389",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
@@ -108555,7 +108682,7 @@
           "sourcePageTitle": "Sovereign AI Club - June 24, 2026"
         }
       ],
-      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[Jev]]\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
+      "bodyMarkdown": "# Agent Infrastructure\n\nAgent Infrastructure is the Sovereign AI Club track for runtimes, protocols, interfaces, orchestration layers, tool-calling systems, and deployment plumbing.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 makes coding agents prove their rules** and **Mitchell Hashimoto's whiteboard defense for AI-written code**.\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.\n- [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 9, 2026]]: **Tailcat connects agent sandboxes without a Tailscale account**, **NVIDIA PAIR routes inference across your local PCs**.\n\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, and **Berd sits above goose, Claude Code, and Codex**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, and **Meta ships Muse Code with co-trained Muse Spark 1.2**.\n- [[Sovereign AI Club - July 22, 2026]]: **Bun's Rust rewrite makes agent cost impossible to ignore**, **GPT-5.6 ships the multi-agent runtime, not just the model**, **AlphaEvolve turns algorithm discovery into a cloud product**, **OpenAI Presence productizes the agent contact center**, **Gigatoken pushes tokenization into GB/s**, and **Buzz puts humans and agents on one signed event log**.\n- [[Sovereign AI Club - July 8, 2026]]: **Hermes Agent gets model panels as a provider**, **Gemma 4 gives React Native an offline agent loop**, and **Fable 5 becomes the advisor, not the worker**.\n- [[Sovereign AI Club - June 24, 2026]]: **OpenAgents pays the training run in sats**, **HRF turns AI hackathons into an activist training pipeline**, **Hermes Agent gets a Stripe wallet**, **Apple makes Mac agent sandboxes native**, **vLLM turns weird open models into runnable systems**, and **One API, many models becomes the frontier wrapper**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, **Stop prompting agents, start designing loops**, **Local AI becomes bandwidth math**, and **Vector compression hits 10x without the quality tax**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Dumb AI loops die in production**, **Amnesic personal OS**, **Agents as fields**, **YC wants a company brain**, **Isaac Sim for beginners**, **Attune patches the open-model tool-call boundary**, and **Claude Managed Agents learn between runs**.\n- [[Sovereign AI Club - April 15, 2026]]: **mesh-llm pools compute for open models**, **Karpathy's LLM wiki idea**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **NVIDIA wants a place in the agent stack too**, **Chrome DevTools MCP**, **402 Index paid API loop demo**, **Zai launches AutoClaw**, **Ollama launches Pi**, and **Claude Code gets computer use**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.\n\n## Related\n\n- [[Bend 2]]\n- [[Whiteboard Defense]]\n\n- [[Jev]]\n\n- [[AlphaEvolve]]\n- [[OpenAI Presence]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Block]]\n- [[Buzz]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[OpenAI]]\n- [[Microsoft]]\n- [[Fish Audio]]\n- [[Agent Payments]]\n- [[OpenAgents]]\n- [[OpenRouter]]\n- [[OpenRouter Fusion]]\n- [[Sakana AI]]\n- [[Sakana Fugu]]\n- [[Apple]]\n- [[Human Rights Foundation]]\n- [[Agent Cost Controls]]\n- [[Local AI]]\n- [[vLLM]]\n- [[Vercel]]\n- [[Company Brain]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[React Native ExecuTorch]]\n- [[Hermes Agent]]\n- [[Qwen-AgentWorld]]\n- [[Cursor Origin]]\n- [[Pylon]]\n- [[Apple Container]]"
     },
     "agent-payments": {
       "id": "agent-payments",
@@ -118138,6 +118265,69 @@
       ],
       "bodyMarkdown": "# Ben Carman\n\nBen Carman is a recurring Sovereign AI Club local-builder source for tweet-archive tooling, personal-model experiments, and local AI workflows.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Ben Carman fits 309B MiMo-V2.6-Flash on one DGX Spark**.\n- [[Sovereign AI Club - June 24, 2026]]: **Ben turns Bwen into Qwenstradamus**.\n- [[Sovereign AI Club - June 10, 2026]]: **Ben's twitter export to dataset**.\n\n## Related\n\n- [[Local AI]]\n- [[Open Models]]\n- [[Coding Agents]]\n- [[Qwenstradamus]]"
     },
+    "bend-2": {
+      "id": "bend-2",
+      "title": "Bend 2",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "tool",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-09-30-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-09-30",
+      "updated": "2026-09-30",
+      "excerpt": "Bend 2 is Victor Taelin's programming language for CPU/GPU execution and proof-checked program properties. Its workflow places requirements in `LAWS.bend`, with implementations and proofs checked by the compiler. A proof concerns the stated property; it does not establish that the specification captures the intended behavior.",
+      "rawHref": "/topics/entities/bend-2.md",
+      "relativePath": "entities/bend-2.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-september-30-2026",
+        "coding-agents"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-september-30-2026",
+        "coding-agents"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://github.com/bendlang/bend",
+          "title": "Bend 2 makes coding agents prove their rules",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://bend-lang.com/",
+          "title": "Bend 2 makes coding agents prove their rules",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://blog.liampwll.com/posts/bend_vibe_coding/",
+          "title": "Bend 2 makes coding agents prove their rules",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://x.com/VictorTaelin/status/2100681226143092875",
+          "title": "Bend 2 makes coding agents prove their rules",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Bend 2\n\nBend 2 is Victor Taelin's programming language for CPU/GPU execution and proof-checked program properties. Its workflow places requirements in `LAWS.bend`, with implementations and proofs checked by the compiler. A proof concerns the stated property; it does not establish that the specification captures the intended behavior.\n\nLiam Powell's September 18 critique questions the verbosity of the launch demonstration and the ability to redefine functions referenced by laws. Those observations concern that example rather than a benchmark of every Bend program.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 makes coding agents prove their rules**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Agent Infrastructure]]"
+    },
     "berd": {
       "id": "berd",
       "title": "Berd",
@@ -122866,6 +123056,7 @@
         "austin-ai-club-may-27-2026",
         "austin-ai-club-september-30-2026",
         "ben-carman",
+        "bend-2",
         "berd",
         "claude-code",
         "claude-sonnet-5",
@@ -122884,7 +123075,8 @@
         "react-native-executorch",
         "recursive-language-models",
         "swe-17",
-        "tmax"
+        "tmax",
+        "whiteboard-defense"
       ],
       "unresolvedLinks": [],
       "backlinkIds": [
@@ -122906,6 +123098,7 @@
         "austin-ai-club-may-27-2026",
         "austin-ai-club-september-30-2026",
         "ben-carman",
+        "bend-2",
         "berd",
         "btl-3",
         "claude-code",
@@ -122941,6 +123134,7 @@
         "supply-chain-security",
         "swe-17",
         "tmax",
+        "whiteboard-defense",
         "wikiskill",
         "zai"
       ],
@@ -123710,42 +123904,42 @@
         },
         {
           "href": "https://github.com/bendlang/bend",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://bend-lang.com/",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-          "title": "Bend 2 vs. the whiteboard defense",
-          "section": "Agent Infrastructure",
-          "sourcePageId": "austin-ai-club-september-30-2026",
-          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
-        },
-        {
-          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://x.com/VictorTaelin/status/2100681226143092875",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
         },
         {
           "href": "https://x.com/mitchellh/status/2100249348345057389",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
           "section": "Agent Infrastructure",
           "sourcePageId": "austin-ai-club-september-30-2026",
           "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
@@ -124794,7 +124988,7 @@
           "sourcePageTitle": "Sovereign AI Club - April 1, 2026"
         }
       ],
-      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 vs. the whiteboard defense**.\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, **Open model releases**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.\n- [[Sovereign AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Sovereign AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Sovereign AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Sovereign AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Agent Infrastructure]]\n- [[Ornith]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
+      "bodyMarkdown": "# Coding Agents\n\nCoding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agent benchmarks, and tools that let models read, modify, test, or reason about codebases.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.\n- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 makes coding agents prove their rules** and **Mitchell Hashimoto's whiteboard defense for AI-written code**.\n- [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, **Open model releases**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.\n- [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.\n- [[Sovereign AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.\n- [[Sovereign AI Club - June 24, 2026]]: **Apple makes Mac agent sandboxes native** and **Open model releases**.\n- [[Sovereign AI Club - June 10, 2026]]: **Microsoft wants the whole agent stack**, **Claude gets its cloud-bill moment**, **AI Twitter advice has a six-month half-life**, and **Stop prompting agents, start designing loops**.\n- [[Sovereign AI Club - May 27, 2026]]: **Composer 2.5 = Opus at one tenth the cost??**, **DeepSWE exposes the real coding model hierarchy**, and **TrapDoor supply chain attack hijacks AI coding assistants**.\n- [[Sovereign AI Club - May 13, 2026]]: **Claude as bitcoin wallet forensics**, **Matt Pocock, prompts better than me.**, **Sandcastle**, **The agent harness belongs outside the sandbox**, **Attune patches the open-model tool-call boundary**, **ProgramBench says agents still cannot rebuild software**, **Closed model releases**, and **Cursor + Claude deletes PocketOS production data**.\n- [[Sovereign AI Club - April 15, 2026]]: **Open model releases**, **Anthropic vs OpenClaw keeps escalating**, and **Everybody wants an agent story now**.\n- [[Sovereign AI Club - April 1, 2026]]: **Free coding agent with ad model**, **Chrome DevTools MCP**, **Zai launches AutoClaw**, **Ollama launches Pi**, **Claude Code gets computer use**, **Claude Code source leaked via npm sourcemap**, and **Open model releases**.\n- [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.\n\n## Related\n\n- [[Bend 2]]\n- [[Whiteboard Defense]]\n\n- [[Agent Infrastructure]]\n- [[Ornith]]\n- [[Prime Agent]]\n- [[Recursive Language Models]]\n- [[Meta Muse]]\n- [[Cloudflare OS]]\n- [[Omarchy]]\n- [[Berd]]\n- [[Agent Cost Controls]]\n- [[AI Benchmarks & Evals]]\n- [[OpenClaw]]\n- [[OpenAI]]\n- [[Anthropic]]\n- [[Apple]]\n- [[Ben Carman]]\n- [[MiniMax]]\n- [[Moonshot AI]]\n- [[Claude Code]]\n- [[Codex]]\n- [[Cognition]]\n- [[SWE-1.7]]\n- [[Claude Sonnet 5]]\n- [[Cursor Origin]]\n- [[React Native ExecuTorch]]\n- [[TMax]]"
     },
     "cognition": {
       "id": "cognition",
@@ -186469,8 +186663,8 @@
         "https://github.com/bendlang/bend",
         "https://bend-lang.com/",
         "https://blog.liampwll.com/posts/bend_vibe_coding/",
-        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
         "https://x.com/VictorTaelin/status/2100681226143092875",
+        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
         "https://x.com/mitchellh/status/2100249348345057389",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
         "https://x.com/OfficialLoganK/status/2105388054274080946",
@@ -186932,13 +187126,13 @@
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-          "title": "ghostty/AI_POLICY.md at main · ghostty-org/ghostty",
+          "href": "https://x.com/VictorTaelin/status/2100681226143092875",
+          "title": "@VictorTaelin post: Bend 2 is here! It is a new programming language that blocks AI…",
           "section": "Agent Infrastructure"
         },
         {
-          "href": "https://x.com/VictorTaelin/status/2100681226143092875",
-          "title": "@VictorTaelin post: Bend 2 is here! It is a new programming language that blocks AI…",
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "ghostty/AI_POLICY.md at main · ghostty-org/ghostty",
           "section": "Agent Infrastructure"
         },
         {
@@ -201626,9 +201820,9 @@
         "https://github.com/bendlang/bend",
         "https://bend-lang.com/",
         "https://blog.liampwll.com/posts/bend_vibe_coding/",
-        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
         "https://x.com/VictorTaelin/status/2100681226143092875",
         "https://x.com/mitchellh/status/2100249348345057389",
+        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
         "https://x.com/OfficialLoganK/status/2105388054274080946",
         "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
@@ -202070,32 +202264,32 @@
         },
         {
           "href": "https://github.com/bendlang/bend",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://bend-lang.com/",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-          "title": "Bend 2 vs. the whiteboard defense",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/VictorTaelin/status/2100681226143092875",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/mitchellh/status/2100249348345057389",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
           "section": "Agent Infrastructure"
         },
         {
@@ -203076,6 +203270,7 @@
         "anthropic",
         "astra",
         "ben-carman",
+        "bend-2",
         "big-tech-moves",
         "codex",
         "coding-agents",
@@ -203116,6 +203311,7 @@
         "tencent",
         "vercel",
         "vllm",
+        "whiteboard-defense",
         "xai",
         "zai"
       ],
@@ -203127,6 +203323,7 @@
         "anthropic",
         "astra",
         "ben-carman",
+        "bend-2",
         "big-tech-moves",
         "codex",
         "coding-agents",
@@ -203168,6 +203365,7 @@
         "tencent",
         "vercel",
         "vllm",
+        "whiteboard-defense",
         "xai",
         "zai"
       ],
@@ -209940,6 +210138,54 @@
       ],
       "bodyMarkdown": "# WAICO\n\nThe World Artificial Intelligence Cooperation Organization is a Shanghai-headquartered intergovernmental AI organization established around international coordination, standards, open-source cooperation, and Global South capacity-building.\n\n## Mentioned In\n\n- [[Sovereign AI Club - July 22, 2026]]: **WAICO opens a China-centered lane for global AI governance**.\n\n## Related\n\n- [[AI Governance]]\n- [[Open Models]]\n- [[Big Tech Moves]]"
     },
+    "whiteboard-defense": {
+      "id": "whiteboard-defense",
+      "title": "Whiteboard Defense",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent-infrastructure"
+      ],
+      "sources": [
+        "raw/articles/2026-09-30-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [],
+      "sourceReferences": [],
+      "created": "2026-09-30",
+      "updated": "2026-09-30",
+      "excerpt": "Mitchell Hashimoto's whiteboard defense is a standard for responsible use of AI in customer-facing software: the person shipping a system should be able to explain its behavior, justify design choices and identify failure modes. It requires architectural understanding rather than recall of every implementation detail. His September 16 post exempts prototypes, demos and experiments.",
+      "rawHref": "/topics/concepts/whiteboard-defense.md",
+      "relativePath": "concepts/whiteboard-defense.md",
+      "outgoingIds": [
+        "agent-infrastructure",
+        "austin-ai-club-september-30-2026",
+        "coding-agents"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "agent-infrastructure",
+        "austin-ai-club-september-30-2026",
+        "coding-agents"
+      ],
+      "referencedTopicSources": [
+        {
+          "href": "https://x.com/mitchellh/status/2100249348345057389",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        },
+        {
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure",
+          "sourcePageId": "austin-ai-club-september-30-2026",
+          "sourcePageTitle": "Sovereign AI Club - September 30, 2026"
+        }
+      ],
+      "bodyMarkdown": "# Whiteboard Defense\n\nMitchell Hashimoto's whiteboard defense is a standard for responsible use of AI in customer-facing software: the person shipping a system should be able to explain its behavior, justify design choices and identify failure modes. It requires architectural understanding rather than recall of every implementation detail. His September 16 post exempts prototypes, demos and experiments.\n\nGhostty's AI contribution policy is related context, with a different scope: outside contributors must disclose AI use and understand their submitted code; maintainers are exempt.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 30, 2026]]: **Mitchell Hashimoto's whiteboard defense for AI-written code**.\n\n## Related\n\n- [[Coding Agents]]\n- [[Agent Infrastructure]]"
+    },
     "wikiskill": {
       "id": "wikiskill",
       "title": "WikiSkill",
@@ -212039,10 +212285,10 @@
       "searchText": "www.meetup.com/bitcoin-park-austin/events/316616278/ Sovereign AI Club - September 30, 2026 2026-09-30 https://www.meetup.com/bitcoin-park-austin/events/316616278/"
     },
     {
-      "id": "austin-ai-club-september-30-2026-agent-infrastructure-bend-2-vs-the-whiteboard-defense",
-      "title": "Bend 2 vs. the whiteboard defense",
-      "rawTitle": "Bend 2 vs. the whiteboard defense",
-      "normalizedTitle": "bend 2 vs. the whiteboard defense",
+      "id": "austin-ai-club-september-30-2026-agent-infrastructure-bend-2-makes-coding-agents-prove-their-rules",
+      "title": "Bend 2 makes coding agents prove their rules",
+      "rawTitle": "Bend 2 makes coding agents prove their rules",
+      "normalizedTitle": "bend 2 makes coding agents prove their rules",
       "section": "Agent Infrastructure",
       "meetupId": "austin-ai-club-september-30-2026",
       "meetupTitle": "Sovereign AI Club - September 30, 2026",
@@ -212052,52 +212298,42 @@
         "https://github.com/bendlang/bend",
         "https://bend-lang.com/",
         "https://blog.liampwll.com/posts/bend_vibe_coding/",
-        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-        "https://x.com/VictorTaelin/status/2100681226143092875",
-        "https://x.com/mitchellh/status/2100249348345057389"
+        "https://x.com/VictorTaelin/status/2100681226143092875"
       ],
       "sourceReferences": [
         {
           "href": "https://bend-lang.com/",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://github.com/bendlang/bend",
-          "title": "Bend 2 vs. the whiteboard defense",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-          "title": "Bend 2 vs. the whiteboard defense",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/mitchellh/status/2100249348345057389",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/VictorTaelin/status/2100681226143092875",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         }
       ],
       "wikiIds": [
         "agent-infrastructure",
+        "bend-2",
         "coding-agents"
       ],
       "wikiTitles": [
         "Agent Infrastructure",
+        "Bend 2",
         "Coding Agents"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Bend 2 vs. the whiteboard defense Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://github.com/bendlang/bend https://bend-lang.com/ https://blog.liampwll.com/posts/bend_vibe_coding/ https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md https://x.com/VictorTaelin/status/2100681226143092875 https://x.com/mitchellh/status/2100249348345057389 Agent Infrastructure Coding Agents"
+      "searchText": "Bend 2 makes coding agents prove their rules Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://github.com/bendlang/bend https://bend-lang.com/ https://blog.liampwll.com/posts/bend_vibe_coding/ https://x.com/VictorTaelin/status/2100681226143092875 Agent Infrastructure Bend 2 Coding Agents"
     },
     {
       "id": "austin-ai-club-september-30-2026-agent-infrastructure-cua-json-render-and-quail-make-the-model-pick-from-a-menu",
@@ -212330,6 +212566,45 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Jev ships closed; open clones follow within days Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://x.com/rronak_/status/2101544156757950697 https://x.com/jpschroeder/status/2100347770867458384 https://x.com/moritzkremb/status/2100577979021832365 https://x.com/muratcan/status/2104959648482701686 https://x.com/ElevenLabsDevs/status/2102884507078791484 https://github.com/rmalde/minecraft-agent https://github.com/standardagents/jevpilot https://github.com/moritzkremb/jev-voice-browser https://docs.sglang.io/docs/supported-models/decision_models https://github.com/sgl-project/sglang/pull/41208 https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/ https://x.com/sgl_project/status/2105095379272515603 https://typesafe.ai/blog/introducing-system-one-models-and-jev https://docs.typesafe.ai/models https://github.com/jaredpalmer/kev https://github.com/vllm-project/vllm/pull/57250 https://x.com/CompleteSkeptic/status/2099925682726002904 https://x.com/jaredpalmer/status/2101715352258232539 https://x.com/googlegemma/status/2101069861598482817 https://x.com/mmastrac/status/2100626193943052784 Agent Infrastructure DiffusionGemma Jev SGLang vLLM"
+    },
+    {
+      "id": "austin-ai-club-september-30-2026-agent-infrastructure-mitchell-hashimotos-whiteboard-defense-for-ai-written-code",
+      "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+      "rawTitle": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+      "normalizedTitle": "mitchell hashimoto's whiteboard defense for ai-written code",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-september-30-2026",
+      "meetupTitle": "Sovereign AI Club - September 30, 2026",
+      "meetupSlug": "2026-09-30",
+      "meetupHref": "/topics/2026-09-30.md",
+      "sourceLinks": [
+        "https://x.com/mitchellh/status/2100249348345057389",
+        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/mitchellh/status/2100249348345057389",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "coding-agents",
+        "whiteboard-defense"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Coding Agents",
+        "Whiteboard Defense"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Mitchell Hashimoto's whiteboard defense for AI-written code Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://x.com/mitchellh/status/2100249348345057389 https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md Agent Infrastructure Coding Agents Whiteboard Defense"
     },
     {
       "id": "austin-ai-club-september-30-2026-agent-infrastructure-openclaw-enterprise-puts-persistent-agents-on-your-own-infrastructure",
@@ -229264,11 +229539,11 @@
       "unresolvedWikiLinks": [],
       "searchText": "www.meetup.com/bitcoin-park-austin/events/316616278/ Sovereign AI Club - September 30, 2026 2026-09-30 https://www.meetup.com/bitcoin-park-austin/events/316616278/"
     },
-    "austin-ai-club-september-30-2026-agent-infrastructure-bend-2-vs-the-whiteboard-defense": {
-      "id": "austin-ai-club-september-30-2026-agent-infrastructure-bend-2-vs-the-whiteboard-defense",
-      "title": "Bend 2 vs. the whiteboard defense",
-      "rawTitle": "Bend 2 vs. the whiteboard defense",
-      "normalizedTitle": "bend 2 vs. the whiteboard defense",
+    "austin-ai-club-september-30-2026-agent-infrastructure-bend-2-makes-coding-agents-prove-their-rules": {
+      "id": "austin-ai-club-september-30-2026-agent-infrastructure-bend-2-makes-coding-agents-prove-their-rules",
+      "title": "Bend 2 makes coding agents prove their rules",
+      "rawTitle": "Bend 2 makes coding agents prove their rules",
+      "normalizedTitle": "bend 2 makes coding agents prove their rules",
       "section": "Agent Infrastructure",
       "meetupId": "austin-ai-club-september-30-2026",
       "meetupTitle": "Sovereign AI Club - September 30, 2026",
@@ -229278,52 +229553,42 @@
         "https://github.com/bendlang/bend",
         "https://bend-lang.com/",
         "https://blog.liampwll.com/posts/bend_vibe_coding/",
-        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-        "https://x.com/VictorTaelin/status/2100681226143092875",
-        "https://x.com/mitchellh/status/2100249348345057389"
+        "https://x.com/VictorTaelin/status/2100681226143092875"
       ],
       "sourceReferences": [
         {
           "href": "https://bend-lang.com/",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://github.com/bendlang/bend",
-          "title": "Bend 2 vs. the whiteboard defense",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
-          "title": "Bend 2 vs. the whiteboard defense",
-          "section": "Agent Infrastructure"
-        },
-        {
-          "href": "https://x.com/mitchellh/status/2100249348345057389",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         },
         {
           "href": "https://x.com/VictorTaelin/status/2100681226143092875",
-          "title": "Bend 2 vs. the whiteboard defense",
+          "title": "Bend 2 makes coding agents prove their rules",
           "section": "Agent Infrastructure"
         }
       ],
       "wikiIds": [
         "agent-infrastructure",
+        "bend-2",
         "coding-agents"
       ],
       "wikiTitles": [
         "Agent Infrastructure",
+        "Bend 2",
         "Coding Agents"
       ],
       "unresolvedWikiLinks": [],
-      "searchText": "Bend 2 vs. the whiteboard defense Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://github.com/bendlang/bend https://bend-lang.com/ https://blog.liampwll.com/posts/bend_vibe_coding/ https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md https://x.com/VictorTaelin/status/2100681226143092875 https://x.com/mitchellh/status/2100249348345057389 Agent Infrastructure Coding Agents"
+      "searchText": "Bend 2 makes coding agents prove their rules Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://github.com/bendlang/bend https://bend-lang.com/ https://blog.liampwll.com/posts/bend_vibe_coding/ https://x.com/VictorTaelin/status/2100681226143092875 Agent Infrastructure Bend 2 Coding Agents"
     },
     "austin-ai-club-september-30-2026-agent-infrastructure-cua-json-render-and-quail-make-the-model-pick-from-a-menu": {
       "id": "austin-ai-club-september-30-2026-agent-infrastructure-cua-json-render-and-quail-make-the-model-pick-from-a-menu",
@@ -229556,6 +229821,45 @@
       ],
       "unresolvedWikiLinks": [],
       "searchText": "Jev ships closed; open clones follow within days Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://x.com/rronak_/status/2101544156757950697 https://x.com/jpschroeder/status/2100347770867458384 https://x.com/moritzkremb/status/2100577979021832365 https://x.com/muratcan/status/2104959648482701686 https://x.com/ElevenLabsDevs/status/2102884507078791484 https://github.com/rmalde/minecraft-agent https://github.com/standardagents/jevpilot https://github.com/moritzkremb/jev-voice-browser https://docs.sglang.io/docs/supported-models/decision_models https://github.com/sgl-project/sglang/pull/41208 https://www.lmsys.org/blog/2026-09-25-sglang-decision-models/ https://x.com/sgl_project/status/2105095379272515603 https://typesafe.ai/blog/introducing-system-one-models-and-jev https://docs.typesafe.ai/models https://github.com/jaredpalmer/kev https://github.com/vllm-project/vllm/pull/57250 https://x.com/CompleteSkeptic/status/2099925682726002904 https://x.com/jaredpalmer/status/2101715352258232539 https://x.com/googlegemma/status/2101069861598482817 https://x.com/mmastrac/status/2100626193943052784 Agent Infrastructure DiffusionGemma Jev SGLang vLLM"
+    },
+    "austin-ai-club-september-30-2026-agent-infrastructure-mitchell-hashimotos-whiteboard-defense-for-ai-written-code": {
+      "id": "austin-ai-club-september-30-2026-agent-infrastructure-mitchell-hashimotos-whiteboard-defense-for-ai-written-code",
+      "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+      "rawTitle": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+      "normalizedTitle": "mitchell hashimoto's whiteboard defense for ai-written code",
+      "section": "Agent Infrastructure",
+      "meetupId": "austin-ai-club-september-30-2026",
+      "meetupTitle": "Sovereign AI Club - September 30, 2026",
+      "meetupSlug": "2026-09-30",
+      "meetupHref": "/topics/2026-09-30.md",
+      "sourceLinks": [
+        "https://x.com/mitchellh/status/2100249348345057389",
+        "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure"
+        },
+        {
+          "href": "https://x.com/mitchellh/status/2100249348345057389",
+          "title": "Mitchell Hashimoto's whiteboard defense for AI-written code",
+          "section": "Agent Infrastructure"
+        }
+      ],
+      "wikiIds": [
+        "agent-infrastructure",
+        "coding-agents",
+        "whiteboard-defense"
+      ],
+      "wikiTitles": [
+        "Agent Infrastructure",
+        "Coding Agents",
+        "Whiteboard Defense"
+      ],
+      "unresolvedWikiLinks": [],
+      "searchText": "Mitchell Hashimoto's whiteboard defense for AI-written code Agent Infrastructure Sovereign AI Club - September 30, 2026 2026-09-30 https://x.com/mitchellh/status/2100249348345057389 https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md Agent Infrastructure Coding Agents Whiteboard Defense"
     },
     "austin-ai-club-september-30-2026-agent-infrastructure-openclaw-enterprise-puts-persistent-agents-on-your-own-infrastructure": {
       "id": "austin-ai-club-september-30-2026-agent-infrastructure-openclaw-enterprise-puts-persistent-agents-on-your-own-infrastructure",
@@ -246554,6 +246858,14 @@
     },
     {
       "source": "agent-infrastructure",
+      "target": "bend-2"
+    },
+    {
+      "source": "agent-infrastructure",
+      "target": "whiteboard-defense"
+    },
+    {
+      "source": "agent-infrastructure",
       "target": "jev"
     },
     {
@@ -247481,6 +247793,18 @@
       "target": "qwenstradamus"
     },
     {
+      "source": "bend-2",
+      "target": "austin-ai-club-september-30-2026"
+    },
+    {
+      "source": "bend-2",
+      "target": "coding-agents"
+    },
+    {
+      "source": "bend-2",
+      "target": "agent-infrastructure"
+    },
+    {
       "source": "berd",
       "target": "austin-ai-club-august-26-2026"
     },
@@ -248055,6 +248379,14 @@
     {
       "source": "coding-agents",
       "target": "austin-ai-club-march-18-2026"
+    },
+    {
+      "source": "coding-agents",
+      "target": "bend-2"
+    },
+    {
+      "source": "coding-agents",
+      "target": "whiteboard-defense"
     },
     {
       "source": "coding-agents",
@@ -254038,6 +254370,14 @@
     },
     {
       "source": "austin-ai-club-september-30-2026",
+      "target": "bend-2"
+    },
+    {
+      "source": "austin-ai-club-september-30-2026",
+      "target": "whiteboard-defense"
+    },
+    {
+      "source": "austin-ai-club-september-30-2026",
       "target": "privacy-tooling"
     },
     {
@@ -254725,6 +255065,18 @@
       "target": "big-tech-moves"
     },
     {
+      "source": "whiteboard-defense",
+      "target": "austin-ai-club-september-30-2026"
+    },
+    {
+      "source": "whiteboard-defense",
+      "target": "coding-agents"
+    },
+    {
+      "source": "whiteboard-defense",
+      "target": "agent-infrastructure"
+    },
+    {
       "source": "wikiskill",
       "target": "austin-ai-club-september-9-2026"
     },
@@ -254935,7 +255287,7 @@
           "track",
           "agent-infrastructure"
         ],
-        "degree": 120,
+        "degree": 124,
         "updated": "2026-09-30"
       },
       {
@@ -255186,6 +255538,18 @@
         "updated": "2026-09-29"
       },
       {
+        "id": "bend-2",
+        "label": "Bend 2",
+        "type": "entity",
+        "tags": [
+          "entity",
+          "tool",
+          "agent-infrastructure"
+        ],
+        "degree": 6,
+        "updated": "2026-09-30"
+      },
+      {
         "id": "berd",
         "label": "Berd",
         "type": "entity",
@@ -255388,7 +255752,7 @@
           "agent-infrastructure",
           "local-builds"
         ],
-        "degree": 91,
+        "degree": 95,
         "updated": "2026-09-30"
       },
       {
@@ -256960,7 +257324,7 @@
           "meetup",
           "topic-board"
         ],
-        "degree": 97,
+        "degree": 101,
         "updated": "2026-09-30"
       },
       {
@@ -257187,6 +257551,17 @@
         ],
         "degree": 6,
         "updated": "2026-07-22"
+      },
+      {
+        "id": "whiteboard-defense",
+        "label": "Whiteboard Defense",
+        "type": "concept",
+        "tags": [
+          "concept",
+          "agent-infrastructure"
+        ],
+        "degree": 6,
+        "updated": "2026-09-30"
       },
       {
         "id": "wikiskill",
@@ -257420,6 +257795,16 @@
         "source": "agent-infrastructure",
         "target": "austin-ai-club-march-18-2026",
         "kind": "topic"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "bend-2",
+        "kind": "wiki"
+      },
+      {
+        "source": "agent-infrastructure",
+        "target": "whiteboard-defense",
+        "kind": "wiki"
       },
       {
         "source": "agent-infrastructure",
@@ -258582,6 +258967,21 @@
         "kind": "wiki"
       },
       {
+        "source": "bend-2",
+        "target": "austin-ai-club-september-30-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "bend-2",
+        "target": "coding-agents",
+        "kind": "wiki"
+      },
+      {
+        "source": "bend-2",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
         "source": "berd",
         "target": "austin-ai-club-august-26-2026",
         "kind": "topic"
@@ -259300,6 +259700,16 @@
         "source": "coding-agents",
         "target": "austin-ai-club-march-18-2026",
         "kind": "topic"
+      },
+      {
+        "source": "coding-agents",
+        "target": "bend-2",
+        "kind": "wiki"
+      },
+      {
+        "source": "coding-agents",
+        "target": "whiteboard-defense",
+        "kind": "wiki"
       },
       {
         "source": "coding-agents",
@@ -266778,6 +267188,16 @@
       },
       {
         "source": "austin-ai-club-september-30-2026",
+        "target": "bend-2",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-september-30-2026",
+        "target": "whiteboard-defense",
+        "kind": "topic"
+      },
+      {
+        "source": "austin-ai-club-september-30-2026",
         "target": "privacy-tooling",
         "kind": "topic"
       },
@@ -267637,6 +268057,21 @@
         "kind": "wiki"
       },
       {
+        "source": "whiteboard-defense",
+        "target": "austin-ai-club-september-30-2026",
+        "kind": "topic"
+      },
+      {
+        "source": "whiteboard-defense",
+        "target": "coding-agents",
+        "kind": "wiki"
+      },
+      {
+        "source": "whiteboard-defense",
+        "target": "agent-infrastructure",
+        "kind": "wiki"
+      },
+      {
         "source": "wikiskill",
         "target": "austin-ai-club-september-9-2026",
         "kind": "topic"
@@ -267854,10 +268289,10 @@
     ]
   },
   "stats": {
-    "pageCount": 187,
-    "topicCount": 284,
+    "pageCount": 189,
+    "topicCount": 285,
     "rawPageCount": 0,
-    "linkCount": 2120,
+    "linkCount": 2132,
     "sourceRecordCount": 13,
     "sourceLinkCount": 1455,
     "unresolvedLinkCount": 0,

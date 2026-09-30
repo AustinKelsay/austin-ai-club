@@ -14,7 +14,7 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 ## Mentioned In
 
 - [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.
-- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 vs. the whiteboard defense**.
+- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 makes coding agents prove their rules** and **Mitchell Hashimoto's whiteboard defense for AI-written code**.
 - [[Sovereign AI Club - August 26, 2026]]: **OpenAI opens the Codex harness as a product platform**, **Omarchy Quattro makes coding agents an OS default**, **Berd sits above goose, Claude Code, and Codex**, **Open model releases**, and **Encrypted reasoning blobs decrypt via weaker sibling models**.
 - [[Sovereign AI Club - August 5, 2026]]: **Uncle Bob's senior job is constraints, not reading agent code**, **Cloudflare OS turns Sandstorm's grain model into agent-safe Gadgets**, **Prime Agent is an open RLM coding harness that can rewrite itself**, **Meta ships Muse Code with co-trained Muse Spark 1.2**, and **Open model releases**.
 - [[Sovereign AI Club - July 8, 2026]]: **Local Codex patches with codex-app-modifier** and **Claude Code quietly fingerprinted its own users**.
@@ -27,6 +27,9 @@ Coding Agents covers CLI agents, IDE-adjacent agents, local agent runtimes, agen
 - [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **Claude Code + Codex updates roundup**, and **OpenClaw pairing bench**.
 
 ## Related
+
+- [[Bend 2]]
+- [[Whiteboard Defense]]
 
 - [[Agent Infrastructure]]
 - [[Ornith]]

@@ -140,7 +140,7 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
 - **@sh_reya post: Excited to share Quail, our new open source AI-SQL engine (a collab…** — https://x.com/sh_reya/status/2103207153821688056
   Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
 
-### Bend 2 vs. the whiteboard defense
+### Bend 2 makes coding agents prove their rules
 
 - **bendlang/bend: Bend 2: a fast language that blocks AI mistakes via proof. Install: curl -fsSL https://bend-lang.com/install.sh | sh** — https://github.com/bendlang/bend
   Type: repository. Accessed: 2026-09-28. Inspectable code, pull request or artifact behind the Topic.
@@ -148,10 +148,13 @@ Event listings and Topic sources for [[Sovereign AI Club - September 30, 2026]].
   Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
 - **Bend 2 and the Vibe-Coding Trap | Liam Powell's Blog** — https://blog.liampwll.com/posts/bend_vibe_coding/
   Type: blog post. Accessed: 2026-09-28. Author or maker write-up behind the Topic.
-- **ghostty/AI_POLICY.md at main · ghostty-org/ghostty** — https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md
-  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
 - **@VictorTaelin post: Bend 2 is here! It is a new programming language that blocks AI…** — https://x.com/VictorTaelin/status/2100681226143092875
   Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
+
+### Mitchell Hashimoto's whiteboard defense for AI-written code
+
+- **ghostty/AI_POLICY.md at main · ghostty-org/ghostty** — https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md
+  Type: primary source. Accessed: 2026-09-28. Primary or durable source for the Topic’s claims.
 - **@mitchellh post: The "whiteboard defense:" I should be able to pull you aside at any…** — https://x.com/mitchellh/status/2100249348345057389
   Type: X post. Accessed: 2026-09-28. Launch, disclosure or reaction post; claims stay attributed to the poster.
 

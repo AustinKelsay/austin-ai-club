@@ -13,6 +13,8 @@ Agent Infrastructure is the Sovereign AI Club track for runtimes, protocols, int
 
 ## Mentioned In
 
+- [[Sovereign AI Club - September 30, 2026]]: **Bend 2 makes coding agents prove their rules** and **Mitchell Hashimoto's whiteboard defense for AI-written code**.
+
 - [[Sovereign AI Club - September 30, 2026]]: **OpenClaw Enterprise puts persistent agents on your own infrastructure**.
 - [[Sovereign AI Club - September 30, 2026]]: **Jev ships closed; open clones follow within days**.
 - [[Sovereign AI Club - September 30, 2026]]: **OpenAI DevDay: dots, Codex Cloud and a bigger platform**.
@@ -30,6 +32,9 @@ Agent Infrastructure is the Sovereign AI Club track for runtimes, protocols, int
 - [[Sovereign AI Club - March 18, 2026]]: **Agent Overload**, **CLI vs MCP**, **OpenAI WebSockets**, **Frontier lab agent frameworks**, **Claude Code + Codex updates roundup**, and **sage**.
 
 ## Related
+
+- [[Bend 2]]
+- [[Whiteboard Defense]]
 
 - [[Jev]]
 
