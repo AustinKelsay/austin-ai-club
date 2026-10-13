@@ -2,6 +2,10 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-10-13] update | October 21 Computer Club listing published
+
+- Published the Austin Computer Club listing for the same October 21 gathering and verified its saved event details, Luma registration link, and arrival directions. Added its link to the Markdown Archive, Meetup Data, and source record; documented organizer access and the unsent optional member announcement.
+
 ## [2026-10-13] create | October 21 meetup registered
 
 - Registered October 21 as the second public meetup, with confirmed event details, arrival directions, and live Luma and Bitcoin Park Meetup links. Topic curation is pending.

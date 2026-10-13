@@ -14,3 +14,5 @@ Event listings for [[Sovereign AI Club - October 21, 2026]], checked October 13.
 [Luma](https://luma.com/4v6548j5) confirms the title, date, 5:30 to 7:30 PM Central time, Suite 250 address, arrival directions, and free admission. Jack Lesser is the listed host.
 
 [Bitcoin Park Meetup](https://www.meetup.com/bitcoin-park-austin/events/316963193/) confirms the same gathering and links to Luma as the registration destination.
+
+[Austin Computer Club Meetup](https://www.meetup.com/austin-computer-club/events/316965012/) was published October 13 through Austin's organizer account. The saved listing confirms October 21, 5:30 to 7:30 PM Central, the Bitcoin Park Austin venue and Suite 250 directions, free admission, and the same Luma registration link. The optional member announcement has not been sent.

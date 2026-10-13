@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T19:44:07.550Z",
+  "generatedAt": "2026-10-13T20:53:03.264Z",
   "siteUrl": "https://sovereignai.club",
   "events": [
     {
@@ -24,6 +24,10 @@
         {
           "label": "Bitcoin Park Meetup",
           "href": "https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+        },
+        {
+          "label": "Austin Computer Club Meetup",
+          "href": "https://www.meetup.com/austin-computer-club/events/316965012/"
         }
       ],
       "detailsUrl": "https://sovereignai.club/meetups/2026-10-21",
