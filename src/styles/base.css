@@ -209,7 +209,6 @@ li,
 .calendar-event-meta,
 .calendar-event-status,
 .reminder-next,
-.source-chip,
 .track-count,
 .track-num {
   font-variant-numeric: tabular-nums;
@@ -351,7 +350,7 @@ li,
 
 .brand-hero {
   display: grid;
-  grid-template-columns: 1fr minmax(0, 0.85fr);
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   margin: 0 0 1.5rem;
   border: 1px solid var(--line);
@@ -373,17 +372,18 @@ li,
 }
 
 .brand-hero-copy > p:last-child {
-  max-width: 34ch;
+  max-width: 42ch;
   color: var(--text-sub);
   font-size: 0.95rem;
   line-height: 1.7;
 }
 
+/* Size the poster by height so its column hugs it instead of letterboxing. */
 .brand-hero img {
   display: block;
-  width: 100%;
-  height: auto;
-  max-height: 34rem;
+  width: auto;
+  max-width: 100%;
+  height: clamp(22rem, 42vw, 34rem);
   object-fit: contain;
   outline: 1px solid var(--image-outline);
   outline-offset: -1px;
@@ -392,14 +392,13 @@ li,
 @media (max-width: 720px) {
   .brand-hero { grid-template-columns: 1fr; }
   .brand-hero-copy { padding: 1.5rem; }
-  .brand-hero img { max-height: none; }
+  .brand-hero img { width: 100%; height: auto; }
 }
 
 .eyebrow,
 .meetup-meta,
 .track-nav a,
-.video-caption,
-.source-chip {
+.video-caption {
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }

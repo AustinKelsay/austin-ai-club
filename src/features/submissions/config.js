@@ -26,7 +26,7 @@ export const submissionScreens = {
   showcase: {
     kind: "showcase",
     title: `Propose a ${COMMUNITY_SLOT_LABEL.toLowerCase()}`,
-    description: "A 3-5 minute demo, build, or discussion.",
+    description: "A 3–5 minute demo, build, or discussion.",
     fields: [
       {
         name: "title",

@@ -1,11 +1,12 @@
 import { renderToStaticMarkup } from "react-dom/server";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import CalendarView from "./CalendarView.jsx";
 
 const originalWindow = globalThis.window;
 
 afterEach(() => {
   globalThis.window = originalWindow;
+  vi.useRealTimers();
 });
 
 const event = {
@@ -18,35 +19,52 @@ const event = {
   locationAddress: "Austin, TX",
 };
 
+const entry = {
+  id: "meetup-2026-09-09",
+  kind: "authored",
+  slug: "2026-09-09",
+  date: "September 9, 2026",
+  detailsHref: "/meetups/2026-09-09",
+  event,
+};
+
+function renderCalendar() {
+  globalThis.window = {
+    location: { href: "https://austinai.club/calendar" },
+  };
+
+  return renderToStaticMarkup(
+    <CalendarView
+      calendarEntries={[entry]}
+      nextMeetup={{ event }}
+      onClose={() => {}}
+      onOpenRoute={() => {}}
+    />,
+  );
+}
+
 describe("CalendarView", () => {
-  it("names Sovereign AI Club and the biweekly cadence", () => {
-    globalThis.window = {
-      location: { href: "https://austinai.club/calendar" },
-    };
+  it("names Sovereign AI Club and marks scheduled meetups", () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-09-01T12:00:00-05:00"));
+    const html = renderCalendar();
 
-    const html = renderToStaticMarkup(
-      <CalendarView
-        calendarEntries={[
-          {
-            id: "meetup-2026-09-09",
-            kind: "authored",
-            slug: "2026-09-09",
-            date: "September 9, 2026",
-            detailsHref: "/meetups/2026-09-09",
-            event,
-          },
-        ]}
-        nextMeetup={{ event }}
-        onClose={() => {}}
-        onOpenRoute={() => {}}
-      />,
-    );
-
-    expect(html).toContain("Sovereign AI Club every two weeks");
+    expect(html).toContain("Sovereign AI Club calendar");
     expect(html).not.toContain("Austin AI Club");
     expect(html).toContain('role="group"');
     expect(html).toContain('aria-label="2026-09-09, scheduled meetup"');
     expect(html).toContain('aria-pressed="true"');
     expect(html).not.toContain('role="gridcell"');
+    expect(html).toContain("download ICS");
+  });
+
+  it("marks ended meetups as past and drops their calendar actions", () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-09-10T12:00:00-05:00"));
+    const html = renderCalendar();
+
+    expect(html).toContain('aria-label="2026-09-09, past meetup"');
+    expect(html).not.toContain("download ICS");
+    expect(html).toContain("open meetup page");
   });
 });

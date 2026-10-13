@@ -530,7 +530,6 @@ export function Topic({ item, id, onActivate, children }) {
         </h4>
         <p>{item.description}</p>
       </div>
-      <span className="source-chip">{item.chip}</span>
       {children ? (
         <div
           className="topic-extra"

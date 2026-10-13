@@ -12,6 +12,7 @@ import {
   formatEventTime,
   formatEventWeekday,
   getLocationLabel,
+  isUpcomingMeetup,
   slugify,
 } from "../../lib/meetup-ui.js";
 import { Topic } from "../presentation/content.jsx";
@@ -81,6 +82,7 @@ export function MeetupEventBar({ meetup }) {
   }
 
   const event = meetup.event;
+  const isUpcoming = isUpcomingMeetup(meetup);
 
   return (
     <div className="meetup-event">
@@ -90,13 +92,17 @@ export function MeetupEventBar({ meetup }) {
         </span>
         <span>{getLocationLabel(event)}</span>
       </div>
-      <MeetupListingLinks event={event} />
-      <div className="meetup-event-actions">
-        <a href={buildGoogleCalendarUrl(meetup)} target="_blank" rel="noreferrer">
-          add to Google Calendar
-        </a>
-        <a href={buildIcsHref(meetup)}>download ICS</a>
-      </div>
+      {isUpcoming ? (
+        <div className="meetup-event-ctas">
+          <MeetupListingLinks event={event} />
+          <div className="meetup-event-actions">
+            <a href={buildGoogleCalendarUrl(meetup)} target="_blank" rel="noreferrer">
+              add to Google Calendar
+            </a>
+            <a href={buildIcsHref(meetup)}>download ICS</a>
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -130,7 +136,7 @@ function TopicWikiEntryPoints({ topic, pagesById, onOpenRoute }) {
           onOpenRoute={onOpenRoute}
           className="topic-wiki-related-link"
         >
-          related Topics
+          related Topics &rarr;
         </RouteLink>
       ) : null}
     </div>

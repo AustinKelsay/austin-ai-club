@@ -23,19 +23,29 @@ import {
   getLocationLabel,
 } from "../../lib/meetup-ui.js";
 
+/** "tentative" for generated slots, "past" once an authored meetup has ended, else "scheduled". */
+function getEntryStatus(entry) {
+  if (entry.kind === "generated") {
+    return "tentative";
+  }
+
+  return new Date(entry.event.endAt).getTime() < Date.now() ? "past" : "scheduled";
+}
+
 function CalendarEventDetail({ entry, onOpenRoute }) {
   if (!entry) {
     return (
       <article className="calendar-event-card calendar-event-card--empty">
         <h3>Pick a marked day.</h3>
         <p className="calendar-event-summary">
-          Marked days are scheduled meetups or tentative biweekly slots.
+          Marked days are scheduled meetups or tentative slots.
         </p>
       </article>
     );
   }
 
   const { event } = entry;
+  const status = getEntryStatus(entry);
   const meetupAriaLabel = `Open meetup page for ${event.title} on ${formatEventDate(event)}`;
 
   return (
@@ -47,17 +57,21 @@ function CalendarEventDetail({ entry, onOpenRoute }) {
           <span>{formatEventTime(event)}</span>
           <span>{getLocationLabel(event)}</span>
         </div>
-        <span className={`calendar-event-status calendar-event-status--${entry.kind}`}>
-          {entry.kind === "generated" ? "tentative" : "scheduled"}
+        <span className={`calendar-event-status calendar-event-status--${status === "past" ? "past" : entry.kind}`}>
+          {status}
         </span>
       </div>
       <div className="calendar-event-actions">
-        <a href={buildGoogleCalendarUrl({ event })} target="_blank" rel="noreferrer">
-          add to Google Calendar
-        </a>
-        <a href={entry.kind === "authored" ? buildIcsHref({ slug: entry.slug }) : createInlineIcsHref(entry)}>
-          download ICS
-        </a>
+        {status === "past" ? null : (
+          <>
+            <a href={buildGoogleCalendarUrl({ event })} target="_blank" rel="noreferrer">
+              add to Google Calendar
+            </a>
+            <a href={entry.kind === "authored" ? buildIcsHref({ slug: entry.slug }) : createInlineIcsHref(entry)}>
+              download ICS
+            </a>
+          </>
+        )}
         {entry.detailsHref ? (
           <RouteLink to={entry.detailsHref} onOpenRoute={onOpenRoute} aria-label={meetupAriaLabel}>
             open meetup page
@@ -87,8 +101,8 @@ function CalendarGrid({ cells, selectedDateKey, visibleMonth, onSelectDate }) {
           hasEntries ? "calendar-day--has-event" : "",
           isSelected ? "calendar-day--selected" : "",
         ].filter(Boolean).join(" ");
-        const statusLabel = primaryEntry?.kind === "generated" ? "tentative" : "scheduled";
-        const statusAriaLabel = primaryEntry?.kind === "generated" ? "tentative meetup" : "scheduled meetup";
+        const statusLabel = primaryEntry ? getEntryStatus(primaryEntry) : "";
+        const statusAriaLabel = `${statusLabel} meetup`;
 
         return (
           <button
@@ -151,7 +165,7 @@ export default function CalendarView({ calendarEntries, nextMeetup, onClose, onO
     <section className="calendar-screen" aria-label="Calendar view">
       <header className="calendar-screen-header">
         <div className="calendar-screen-brand">
-          <h1>Sovereign AI Club every two weeks</h1>
+          <h1>Sovereign AI Club calendar</h1>
         </div>
         <div className="screen-header-actions">
           <button className="calendar-close-btn" onClick={onClose}>

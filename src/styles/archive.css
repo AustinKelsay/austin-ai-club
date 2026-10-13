@@ -262,6 +262,24 @@
   padding-top: 0.85rem;
 }
 
+/* Line the event bar and summary up with the header copy above them. */
+.meetup-body--detail > .meetup-event,
+.meetup-summary {
+  padding-inline: 0.5rem;
+}
+
+.meetup-summary {
+  max-width: 72ch;
+  margin: 0;
+  color: var(--text-sub);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.meetup-summary--pending {
+  color: var(--muted);
+}
+
 .meetup-event {
   display: flex;
   flex-wrap: wrap;
@@ -272,10 +290,17 @@
 }
 
 .meetup-event-meta,
-.meetup-event-actions {
+.meetup-event-actions,
+.meetup-event-ctas {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
+}
+
+/* Registration and calendar buttons read as one group under the event facts. */
+.meetup-body--detail > .meetup-event {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .meetup-event-meta span {
@@ -581,16 +606,6 @@
   font-size: 0.88rem;
 }
 
-.source-chip {
-  flex: 0 0 auto;
-  padding: 0.18rem 0.48rem;
-  border: 1px solid var(--t-line, var(--line));
-  border-radius: 999px;
-  background: var(--t-soft, var(--accent-soft));
-  color: var(--t-dim, var(--accent-dim));
-  font-size: 0.7rem;
-}
-
 .topic-extra {
   flex: 1 1 100%;
   width: 100%;
@@ -884,7 +899,8 @@
     align-items: flex-start;
   }
 
-  .meetup-event-actions {
+  .meetup-event-actions,
+  .meetup-event-ctas {
     flex-direction: column;
     width: 100%;
   }
@@ -928,6 +944,11 @@
     padding: 0.5rem;
   }
 
+  .meetup-body--detail > .meetup-event,
+  .meetup-summary {
+    padding-inline: 0.3rem;
+  }
+
   .track-header {
     padding: 0.55rem;
   }
@@ -955,9 +976,16 @@
     align-items: flex-start;
   }
 
-  .meetup-detail-toolbar .pres-enter-btn,
-  .meetup-back-link {
+  .meetup-detail-toolbar .pres-enter-btn {
     width: 100%;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  /* Keep the back link a left-aligned text link, not a full-width bar. */
+  .meetup-detail-toolbar .meetup-back-link {
+    flex: 0 0 auto;
+    width: fit-content;
   }
 }
 

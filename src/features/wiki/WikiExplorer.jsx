@@ -59,18 +59,30 @@ function getPageDegree(page) {
   return page.outgoingIds.length + page.backlinkIds.length;
 }
 
+const DATED_PAGE_PATH = /(\d{4}-\d{2}-\d{2})[^/]*\.md$/;
+
+/** The YYYY-MM-DD a meetup or source record file is named for, or "". */
+function getPageDateKey(page) {
+  return page.relativePath?.match(DATED_PAGE_PATH)?.[1] ?? "";
+}
+
 /**
- * Picks a sensible default wiki page for first load.
- * Prefers on-graph types (especially meetups) over source records, which are
- * hidden from the force-graph legend.
+ * Picks a sensible default wiki page for first load: the newest meetup that
+ * already links into the wiki, so the graph opens on a populated node.
+ * Prefers on-graph types over source records, which are hidden from the
+ * force-graph legend.
  * @param {Array<{ type: string }>} pages
  * @returns {object | null}
  */
 function getDefaultWikiPage(pages) {
   const graphTypes = new Set(WIKI_GRAPH_TYPE_LIST);
+  const meetups = pages
+    .filter((page) => page.type === "meetup")
+    .sort((a, b) => getPageDateKey(b).localeCompare(getPageDateKey(a)));
 
   return (
-    pages.find((page) => page.type === "meetup") ??
+    meetups.find((page) => page.outgoingIds?.length) ??
+    meetups[0] ??
     pages.find((page) => graphTypes.has(page.type)) ??
     pages[0] ??
     null
@@ -104,7 +116,15 @@ function sortPages(pages, sort) {
     return copy;
   }
 
-  copy.sort((a, b) => a.title.localeCompare(b.title));
+  // Dated pages (meetups, source records) read newest first; the rest by title.
+  copy.sort((a, b) => {
+    const aDate = getPageDateKey(a);
+    const bDate = getPageDateKey(b);
+    if (Boolean(aDate) !== Boolean(bDate)) {
+      return aDate ? -1 : 1;
+    }
+    return bDate.localeCompare(aDate) || a.title.localeCompare(b.title);
+  });
   return copy;
 }
 
@@ -437,7 +457,7 @@ export default function WikiExplorer({ manifest, error, onRetry, focusedWikiId, 
                 <label>
                   <span className="sr-only">Sort catalog</span>
                   <select value={sort} onChange={(event) => setSort(event.target.value)}>
-                    <option value="title">Title</option>
+                    <option value="title">Date &amp; title</option>
                     <option value="updated">Updated</option>
                     <option value="connections">Connections</option>
                     <option value="sources">Source links</option>

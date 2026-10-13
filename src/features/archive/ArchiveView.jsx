@@ -44,7 +44,7 @@ function MeetupCard({ meetup, nextMeetupId, onOpenRoute }) {
           ) : null}
         </div>
       </RouteLink>
-      <MeetupListingLinks event={meetup.event} />
+      {isUpcoming ? <MeetupListingLinks event={meetup.event} /> : null}
     </article>
   );
 }
