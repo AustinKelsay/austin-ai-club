@@ -41,6 +41,34 @@ function xArticle(article) {
 
 export const meetups = [
   {
+    "id": "meetup-2026-10-21",
+    "slug": "2026-10-21",
+    "date": "October 21, 2026",
+    "markdownHref": "./topics/2026-10-21.md",
+    "event": {
+      "title": "Sovereign AI Club Austin: Local AI & Open Models",
+      "summary": "A Socratic discussion of recent AI news and research, with a focus on local AI, open models, and control over the tools we use. Free admission. Someone will greet you at the main door; take the elevator to the second floor.",
+      "startAt": "2026-10-21T17:30:00-05:00",
+      "endAt": "2026-10-21T19:30:00-05:00",
+      "timezone": "America/Chicago",
+      "locationName": "Bitcoin Park Austin",
+      "locationAddress": "601 Congress Avenue, Suite 250, Austin, TX 78701",
+      "reminderSendHour": 10,
+      "listings": [
+        {
+          "label": "Register on Luma",
+          "href": "https://luma.com/4v6548j5"
+        },
+        {
+          "label": "Bitcoin Park Meetup",
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+        }
+      ]
+    },
+    "showcases": [],
+    "tracks": []
+  },
+  {
     "id": "meetup-2026-09-30",
     "slug": "2026-09-30",
     "date": "September 30, 2026",

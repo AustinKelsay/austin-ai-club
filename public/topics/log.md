@@ -2,6 +2,10 @@
 
 > Chronological record of Sovereign AI Club wiki actions.
 
+## [2026-10-13] create | October 21 meetup registered
+
+- Registered October 21 as the second public meetup, with confirmed event details, arrival directions, and live Luma and Bitcoin Park Meetup links. Topic curation is pending.
+
 ## [2026-09-30] curate | Bend 2 and whiteboard defense split
 
 - Separated proof-checked specifications from human understanding of shipped software into adjacent Agent Infrastructure Topics. Assigned each its own sources, embed, room question and Presenter Notes; added durable wiki pages and updated reciprocal references.

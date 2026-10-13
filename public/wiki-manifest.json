@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T21:35:00.937Z",
+  "generatedAt": "2026-10-13T19:44:07.798Z",
   "pages": [
     {
       "id": "abliterlitics",
@@ -63841,6 +63841,43 @@
       "bodyMarkdown": "# NVIDIA PAIR\n\nNVIDIA PAIR routes inference work across personal computers on a local network. The September 2026 announcement makes it a practical topic for discussing how to share local AI compute.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA PAIR routes inference across your local PCs**.\n\n## Related\n\n- [[NVIDIA]]\n- [[Local AI]]\n- [[Agent Infrastructure]]"
     },
     {
+      "id": "october-21-2026-event-sources",
+      "title": "October 21, 2026 event sources",
+      "type": "summary",
+      "tags": [
+        "source-record"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "sourceLinks": [
+        "https://luma.com/4v6548j5",
+        "https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://luma.com/4v6548j5",
+          "title": "luma.com/4v6548j5",
+          "section": ""
+        },
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "section": ""
+        }
+      ],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "excerpt": "Event listings for Sovereign AI Club - October 21, 2026, checked October 13. Topic research has not started.",
+      "rawHref": "/topics/raw/articles/2026-10-21-link-records.md",
+      "relativePath": "raw/articles/2026-10-21-link-records.md",
+      "outgoingIds": [
+        "austin-ai-club-october-21-2026"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "referencedTopicSources": []
+    },
+    {
       "id": "ollama",
       "title": "Ollama",
       "type": "entity",
@@ -95649,6 +95686,46 @@
       "outgoingIds": [],
       "unresolvedLinks": [],
       "backlinkIds": [],
+      "referencedTopicSources": []
+    },
+    {
+      "id": "austin-ai-club-october-21-2026",
+      "title": "Sovereign AI Club - October 21, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board"
+      ],
+      "sources": [
+        "raw/articles/2026-10-21-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [
+        "https://luma.com/4v6548j5",
+        "https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://luma.com/4v6548j5",
+          "title": "luma.com/4v6548j5",
+          "section": ""
+        },
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "section": ""
+        }
+      ],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "excerpt": "Wednesday, 5:30 to 7:30 PM Central (America/Chicago). Free admission.",
+      "rawHref": "/topics/2026-10-21.md",
+      "relativePath": "2026-10-21.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "october-21-2026-event-sources"
+      ],
       "referencedTopicSources": []
     },
     {
@@ -169944,6 +170021,43 @@
       ],
       "bodyMarkdown": "# NVIDIA PAIR\n\nNVIDIA PAIR routes inference work across personal computers on a local network. The September 2026 announcement makes it a practical topic for discussing how to share local AI compute.\n\n## Mentioned In\n\n- [[Sovereign AI Club - September 9, 2026]]: **NVIDIA PAIR routes inference across your local PCs**.\n\n## Related\n\n- [[NVIDIA]]\n- [[Local AI]]\n- [[Agent Infrastructure]]"
     },
+    "october-21-2026-event-sources": {
+      "id": "october-21-2026-event-sources",
+      "title": "October 21, 2026 event sources",
+      "type": "summary",
+      "tags": [
+        "source-record"
+      ],
+      "sources": [],
+      "sourceCount": 0,
+      "sourceLinks": [
+        "https://luma.com/4v6548j5",
+        "https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://luma.com/4v6548j5",
+          "title": "luma.com/4v6548j5",
+          "section": ""
+        },
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "section": ""
+        }
+      ],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "excerpt": "Event listings for Sovereign AI Club - October 21, 2026, checked October 13. Topic research has not started.",
+      "rawHref": "/topics/raw/articles/2026-10-21-link-records.md",
+      "relativePath": "raw/articles/2026-10-21-link-records.md",
+      "outgoingIds": [
+        "austin-ai-club-october-21-2026"
+      ],
+      "unresolvedLinks": [],
+      "backlinkIds": [],
+      "referencedTopicSources": []
+    },
     "ollama": {
       "id": "ollama",
       "title": "Ollama",
@@ -201755,6 +201869,46 @@
       "backlinkIds": [],
       "referencedTopicSources": []
     },
+    "austin-ai-club-october-21-2026": {
+      "id": "austin-ai-club-october-21-2026",
+      "title": "Sovereign AI Club - October 21, 2026",
+      "type": "meetup",
+      "tags": [
+        "meetup",
+        "topic-board"
+      ],
+      "sources": [
+        "raw/articles/2026-10-21-link-records.md"
+      ],
+      "sourceCount": 1,
+      "sourceLinks": [
+        "https://luma.com/4v6548j5",
+        "https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://luma.com/4v6548j5",
+          "title": "luma.com/4v6548j5",
+          "section": ""
+        },
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "section": ""
+        }
+      ],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "excerpt": "Wednesday, 5:30 to 7:30 PM Central (America/Chicago). Free admission.",
+      "rawHref": "/topics/2026-10-21.md",
+      "relativePath": "2026-10-21.md",
+      "outgoingIds": [],
+      "unresolvedLinks": [],
+      "backlinkIds": [
+        "october-21-2026-event-sources"
+      ],
+      "referencedTopicSources": []
+    },
     "austin-ai-club-september-30-2026": {
       "id": "austin-ai-club-september-30-2026",
       "title": "Sovereign AI Club - September 30, 2026",
@@ -212209,6 +212363,56 @@
     }
   },
   "topics": [
+    {
+      "id": "austin-ai-club-october-21-2026-topic-4v6548j5",
+      "title": "luma.com/4v6548j5",
+      "rawTitle": "luma.com/4v6548j5",
+      "normalizedTitle": "luma.com/4v6548j5",
+      "section": "",
+      "meetupId": "austin-ai-club-october-21-2026",
+      "meetupTitle": "Sovereign AI Club - October 21, 2026",
+      "meetupSlug": "2026-10-21",
+      "meetupHref": "/topics/2026-10-21.md",
+      "sourceLinks": [
+        "https://luma.com/4v6548j5"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://luma.com/4v6548j5",
+          "title": "luma.com/4v6548j5",
+          "section": ""
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "luma.com/4v6548j5 Sovereign AI Club - October 21, 2026 2026-10-21 https://luma.com/4v6548j5"
+    },
+    {
+      "id": "austin-ai-club-october-21-2026-topic",
+      "title": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+      "rawTitle": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+      "normalizedTitle": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+      "section": "",
+      "meetupId": "austin-ai-club-october-21-2026",
+      "meetupTitle": "Sovereign AI Club - October 21, 2026",
+      "meetupSlug": "2026-10-21",
+      "meetupHref": "/topics/2026-10-21.md",
+      "sourceLinks": [
+        "https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "section": ""
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "www.meetup.com/bitcoin-park-austin/events/316963193/ Sovereign AI Club - October 21, 2026 2026-10-21 https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+    },
     {
       "id": "austin-ai-club-september-30-2026-topic-g3o10lht",
       "title": "luma.com/g3o10lht",
@@ -229464,6 +229668,56 @@
     }
   ],
   "topicsById": {
+    "austin-ai-club-october-21-2026-topic-4v6548j5": {
+      "id": "austin-ai-club-october-21-2026-topic-4v6548j5",
+      "title": "luma.com/4v6548j5",
+      "rawTitle": "luma.com/4v6548j5",
+      "normalizedTitle": "luma.com/4v6548j5",
+      "section": "",
+      "meetupId": "austin-ai-club-october-21-2026",
+      "meetupTitle": "Sovereign AI Club - October 21, 2026",
+      "meetupSlug": "2026-10-21",
+      "meetupHref": "/topics/2026-10-21.md",
+      "sourceLinks": [
+        "https://luma.com/4v6548j5"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://luma.com/4v6548j5",
+          "title": "luma.com/4v6548j5",
+          "section": ""
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "luma.com/4v6548j5 Sovereign AI Club - October 21, 2026 2026-10-21 https://luma.com/4v6548j5"
+    },
+    "austin-ai-club-october-21-2026-topic": {
+      "id": "austin-ai-club-october-21-2026-topic",
+      "title": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+      "rawTitle": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+      "normalizedTitle": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+      "section": "",
+      "meetupId": "austin-ai-club-october-21-2026",
+      "meetupTitle": "Sovereign AI Club - October 21, 2026",
+      "meetupSlug": "2026-10-21",
+      "meetupHref": "/topics/2026-10-21.md",
+      "sourceLinks": [
+        "https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+      ],
+      "sourceReferences": [
+        {
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "title": "www.meetup.com/bitcoin-park-austin/events/316963193/",
+          "section": ""
+        }
+      ],
+      "wikiIds": [],
+      "wikiTitles": [],
+      "unresolvedWikiLinks": [],
+      "searchText": "www.meetup.com/bitcoin-park-austin/events/316963193/ Sovereign AI Club - October 21, 2026 2026-10-21 https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+    },
     "austin-ai-club-september-30-2026-topic-g3o10lht": {
       "id": "austin-ai-club-september-30-2026-topic-g3o10lht",
       "title": "luma.com/g3o10lht",
@@ -251157,6 +251411,10 @@
       "target": "agent-infrastructure"
     },
     {
+      "source": "october-21-2026-event-sources",
+      "target": "austin-ai-club-october-21-2026"
+    },
+    {
       "source": "ollama",
       "target": "austin-ai-club-july-8-2026"
     },
@@ -256663,6 +256921,16 @@
         "updated": "2026-09-08"
       },
       {
+        "id": "october-21-2026-event-sources",
+        "label": "October 21, 2026 event sources",
+        "type": "summary",
+        "tags": [
+          "source-record"
+        ],
+        "degree": 1,
+        "updated": "2026-10-13"
+      },
+      {
         "id": "ollama",
         "label": "Ollama",
         "type": "entity",
@@ -257315,6 +257583,17 @@
         ],
         "degree": 0,
         "updated": "2026-06-24"
+      },
+      {
+        "id": "austin-ai-club-october-21-2026",
+        "label": "Sovereign AI Club - October 21, 2026",
+        "type": "meetup",
+        "tags": [
+          "meetup",
+          "topic-board"
+        ],
+        "degree": 1,
+        "updated": "2026-10-13"
       },
       {
         "id": "austin-ai-club-september-30-2026",
@@ -263172,6 +263451,11 @@
         "kind": "wiki"
       },
       {
+        "source": "october-21-2026-event-sources",
+        "target": "austin-ai-club-october-21-2026",
+        "kind": "topic"
+      },
+      {
         "source": "ollama",
         "target": "austin-ai-club-july-8-2026",
         "kind": "topic"
@@ -268289,13 +268573,13 @@
     ]
   },
   "stats": {
-    "pageCount": 189,
-    "topicCount": 285,
+    "pageCount": 191,
+    "topicCount": 287,
     "rawPageCount": 0,
-    "linkCount": 2132,
-    "sourceRecordCount": 13,
-    "sourceLinkCount": 1455,
+    "linkCount": 2133,
+    "sourceRecordCount": 14,
+    "sourceLinkCount": 1457,
     "unresolvedLinkCount": 0,
-    "lastUpdatedAt": "2026-09-30"
+    "lastUpdatedAt": "2026-10-13"
   }
 }

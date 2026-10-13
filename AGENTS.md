@@ -14,4 +14,4 @@ This repo uses a single-context domain documentation layout. See `docs/agents/do
 
 ### Meetup operations
 
-When managing September 30 listings, registration counts, event changes, or website RSVP links, read `docs/meetup-prep/2026-09-30-operations.md` for live URLs, access status, and attendance reconciliation rules.
+When managing October 21 listings, registration counts, event changes, or website RSVP links, read `docs/meetup-prep/2026-10-21-operations.md` for live URLs, access status, and attendance reconciliation rules.

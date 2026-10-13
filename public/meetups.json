@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-09-30T21:39:15.301Z",
+  "generatedAt": "2026-10-13T19:44:07.550Z",
   "siteUrl": "https://sovereignai.club",
   "events": [
+    {
+      "id": "2026-10-21",
+      "meetupId": "meetup-2026-10-21",
+      "slug": "2026-10-21",
+      "dateLabel": "October 21, 2026",
+      "markdownHref": "./topics/2026-10-21.md",
+      "title": "Sovereign AI Club Austin: Local AI & Open Models",
+      "summary": "A Socratic discussion of recent AI news and research, with a focus on local AI, open models, and control over the tools we use. Free admission. Someone will greet you at the main door; take the elevator to the second floor.",
+      "startAt": "2026-10-21T17:30:00-05:00",
+      "endAt": "2026-10-21T19:30:00-05:00",
+      "timezone": "America/Chicago",
+      "locationName": "Bitcoin Park Austin",
+      "locationAddress": "601 Congress Avenue, Suite 250, Austin, TX 78701",
+      "reminderSendHour": 10,
+      "listings": [
+        {
+          "label": "Register on Luma",
+          "href": "https://luma.com/4v6548j5"
+        },
+        {
+          "label": "Bitcoin Park Meetup",
+          "href": "https://www.meetup.com/bitcoin-park-austin/events/316963193/"
+        }
+      ],
+      "detailsUrl": "https://sovereignai.club/meetups/2026-10-21",
+      "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sovereign+AI+Club+Austin%3A+Local+AI+%26+Open+Models&dates=20261021T223000Z%2F20261022T003000Z&details=A+Socratic+discussion+of+recent+AI+news+and+research%2C+with+a+focus+on+local+AI%2C+open+models%2C+and+control+over+the+tools+we+use.+Free+admission.+Someone+will+greet+you+at+the+main+door%3B+take+the+elevator+to+the+second+floor.&location=Bitcoin+Park+Austin%2C+601+Congress+Avenue%2C+Suite+250%2C+Austin%2C+TX+78701&ctz=America%2FChicago",
+      "icsUrl": "https://sovereignai.club/calendar/2026-10-21.ics"
+    },
     {
       "id": "2026-09-30",
       "meetupId": "meetup-2026-09-30",
